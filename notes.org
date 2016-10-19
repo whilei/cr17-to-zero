@@ -1,0 +1,25 @@
+* Hero to Zero, learning how to learn, teach and grow Clojure 
+** I intend to foster an interactive conversation with my audience about how we can create stronger and more creative mentor/apprentice relationships in our growing community. The jumping off point would be my personal learning path of going from Hero to Zero.
+** What are the wants, needs and aspirations of both apprentices and mentors?
+** How do we improve the lives of each group?
+*** How can learners facilitate mentor's needs and wants?
+*** How can mentors facilitate learner's needs and wants?
+*** What tools, platforms and communication strategies exist or could exist to support these objectives?
+** My story
+** My view of the essence of the web: Communication
+** Defining roles, eschewing roles: All people are communicators
+*** Mentors are learners too.
+*** Embracing the life-long learning mentality without being distracted by every shiny new thing.
+** Education: inspired from within
+*** The power of relationships to fan our internal flame.
+** New paradigms for collaboration?
+*** Open source & Commerce in Harmony
+**** Constructive Capitalism and the Long Wave
+*** Education/Marketing Co-ops
+**** nownetworking.com
+***** Please take my idea, I'm to busy to do all of them!
+****** Disclaimer: Okay, not all my ideas :)
+** Complex sugar obscuring simple Clojure fundamentals
+*** How do we best de-complect Clojure's complexities from its simple core?
+**** e.g. (Source: Russ Olsen) Russ helped me see that Namespaces were simply mappings of names to values but my learning of the subject was distracted by my instinct to tackle the complex aspects of Namespaces: symbols refer to vars, which refer to mutable storage locations, which contain values. These are too many incidental details to take on for a newcomer and distract from the fundamental simplicity of what Namespaces are about. It does, however, help to know that such incidental complexity has a purpose in Clojure, which is to keep unaware developers from shooting their toes off. This mentor related perspective helped me accept Clojure's complexity around Namespaces with more of an open mind, taking the sting out of it.
+
