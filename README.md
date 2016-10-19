@@ -12,7 +12,11 @@ Jay
 
 ## Usage
 
-Presently, this project only contains notes, not working software.
+Please submit any ideas, topics, questions or comments you may have by creating a topic folder within the [ideas](https://github.com/webappzero/cr17-to-zero/tree/master/ideas) folder in the root of this project, wherein you and I can discuss your ideas.
+
+If you prefer, we can discuss you idea face to face in an online meeting or over the phone, just [schedule a meeting with me](https://calendly.com/jaymartin) and I'll reply with a link to our meeting.
+
+Presently, this project only contains notes, not working software, but that might change soon.
 
 ## License for Software
 
