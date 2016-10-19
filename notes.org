@@ -1,5 +1,5 @@
 * Hero to Zero, learning how to learn, teach and grow Clojure 
-** I intend to foster an interactive conversation with my audience about how we can create stronger and more creative mentor/apprentice relationships in our growing community. The jumping off point would be my personal learning path of going from Hero to Zero.
+** /The Pitch/: I intend to foster an interactive conversation with my audience about how we can create stronger and more creative mentor/apprentice relationships in our growing community. The jumping off point would be my personal learning path of going from Hero to Zero.
 ** What are the wants, needs and aspirations of both apprentices and mentors?
 ** How do we improve the lives of each group?
 *** How can learners facilitate mentor's needs and wants?
