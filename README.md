@@ -7,7 +7,7 @@ The core topic is about how we can creatively strengthen mentor/apprentice relat
 If you're interested in learning more, please see the file [notes.org](https://github.com/webappzero/cr17-to-zero/blob/master/notes.org) in the root of this project. I'll be blogging about this topic frequently at [webappzero.com](http://webappzero.com).
 
 My best,
-Jay
+Jay  
 @webappzero
 
 ## Usage
