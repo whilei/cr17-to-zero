@@ -1,4 +1,6 @@
-# cr17-to-zero
+## cr17-to-zero
+
+# Hero to Zero, learning how to learn, teach and grow Clojure
 
 This project is place where we, the Clojure Community, can document our conversation and code relating to a 'conversation' I have proposed for [Clojure Remote 2017](https://clojureremote.com/).
 

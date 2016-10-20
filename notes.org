@@ -1,7 +1,14 @@
 * Hero to Zero, learning how to learn, teach and grow Clojure 
 ** /The Pitch/: I intend to foster an interactive conversation with my audience about how we can create stronger and more creative mentor/apprentice relationships in our growing community. The jumping off point would be my personal learning path of going from Hero to Zero.
 ** What are the wants, needs and aspirations of both apprentices and mentors?
-** How do we improve the lives of each group?
+*** Apprentices
+**** Structured Struggle vs Defeated Exasperation.
+**** (Source: [[https://www.farnamstreetblog.com/2013/01/how-people-learn/][How People Learn]]) Empathy/Understanding of Mentor that Learner doesn't possess rich mental model, or even capacity to organize rich mental model immediately. This is grown over time by ensuring that fundamental concepts are well understood. This should be the main objective, rather than conveying a deluge of facts, which have no meaningful place in the mind to be stored effectively.
+*** Mentors
+**** Support in achieving high impact community goals.
+***** Tutorials, Videos, Books, Lectures, Experiments
+***** Apprentice as Subject: One free of the 'Curse of Knowledge.'
+** How do we improve the lives of individuals in each group?
 *** How can learners facilitate mentor's needs and wants?
 *** How can mentors facilitate learner's needs and wants?
 *** What tools, platforms and communication strategies exist or could exist to support these objectives?
