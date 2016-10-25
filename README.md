@@ -1,10 +1,10 @@
 ## cr17-to-zero
 
-# Hero to Zero, learning how to learn, teach and grow Clojure
+# Optimal Remote Learning, learning how to learn, teach and grow Clojure
 
 This project is place where we, the Clojure Community, can document our conversation and code relating to a 'conversation' I have proposed for [Clojure Remote 2017](https://clojureremote.com/).
 
-The core topic is about how we can creatively strengthen mentor/apprentice relationships within programming circles at large, and more specifically, within Clojure.
+The core topic is Remote Learning.
 
 If you're interested in learning more, please see the file [notes.org](https://github.com/webappzero/cr17-to-zero/blob/master/notes.org) in the root of this project. I'll be blogging about this topic frequently at [webappzero.com](http://webappzero.com).
 
