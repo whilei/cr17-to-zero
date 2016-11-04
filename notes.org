@@ -1,25 +1,34 @@
-* Optimal Remote Learning: learning how learn, teach and grow Clojure from around the World
+* Optimal Remote Learning: learning how learn, teach and grow Clojure 
 ** (old title) Hero to Zero, learning how to learn, teach and grow Clojure 
 ** /The Pitch/: (Subheadings are presently alternative pitches)
-*** How can we best support the needs of Clojure learners? Imagine a future where a person interested in learning Clojure was presented with a menu of learning paths, each leading to well defined learning outcomes and offering various 'on-ramps' for learners of varying skill levels, even, and especially, for learners completely new to programming. Imagine a future where every learner feels welcome and supported through supportive human relationships, from participation in users groups, educational co-ops, and especially one-on-one apprentice/mentor pairings. How can we place the needs of the learner above all else and grow Clojure to the scale of its full potential? Much progress has already been made, but what more can we do, together, to reach this goal?
+*** How can we best support the needs of Clojure learners? Imagine a future where a person interested in learning Clojure was presented with a menu of learning paths, each leading to well defined learning outcomes and offering various 'on-ramps' for learners of varying skill levels, especially, for learners completely new to programming. Imagine a future where every learner feels welcome and supported through supportive human relationships, from participation in users groups, educational co-ops, and especially one-on-one apprentice/mentor pairings. How can we place the needs of the learner above all else and grow Clojure to the scale of its full potential? Much progress has already been made, but what more can we do, together, to reach this goal?
 *** A community-centered brainstorming session facilitated by vulnerably sharing my unconventional ideas about learning to program, and graciously inviting others to share their own. An experiment in group problem solving applied to the problem of learning 'Clojure'.
 **** 'Clojure' as used here is a heavily overloaded term, referring the body of knowledge encompassing Clojure(ish) technologies: ClojureScript, Datomic, React, React Native, bash/zshell, deployment technologies such as immutable infrastructure etc. etc. etc.
 *** I intend to foster an interactive conversation with my audience about how we can create stronger and more creative mentor/apprentice relationships in our growing community. The jumping off point would be my personal learning path of going from Hero to Zero. (Hero to Zero is a greatly overloaded term that is meaningful to me, but likely mysterious to others, so it will be a conversational thread wherein I can relay my personal experience of learning programming and Clojure.)
+** Problems We're Trying Solve:
+*** Richer, more personally customized learning paths (Agenda)
+**** Open Data Format - Community maintained.
+***** Machine Readable Curricula (aka Curriculums, Learning Paths, Paths) with well-defined learning outcomes
+***** Programming is like learning a tennis, highly technical takes years.
+****** 'Start serving' is not helpful advice, so why do we persist with this advice.
 ** Acknowledge existing culture of mentoring, learning, thinking, sharing, etc.
 *** (Hammock Time and Learning How to Learn)
 ** Education: inspired from within
 *** The power of relationships to fan our internal flame.
 ** Are we getting it? 
-*** How many objects are juggling in our learning?
+*** How many objects are we juggling in our learning?
 *** [[https://www.farnamstreetblog.com/2013/01/how-people-learn/][How People Learn]] Empathy/Understanding of Expert that Learner doesn't possess rich mental model, or even capacity to organize rich mental model immediately. This is grown over time by ensuring that fundamental concepts are well understood. This should be the main objective, rather than conveying a deluge of facts, which have no meaningful place in the mind to be stored effectively.
 *** Examining the "genius programmer" image to foster welcoming culture, while still valuing competency, ingenuity & creativity.
 **** If we're really that smart we can make it better for others.
+**** Courage of honestly saying, "I'm not getting it". (Liberation from the weight of the expert mask)
+***** Creates more accurate feedback loop.
 ** My story: Hero to Zero
 *** How I found Clojure, How I'd like others to find Clojure
 **** Clojure community leading the way technically- react
-**** Clojure could lead the way educationally too
+**** Clojure could lead the way educationally too! This means people are suffering less before they find us.
 *** My view of the essence of the web: Communication
 ** Defining roles, eschewing roles: All people are communicators
+*** Prosumption of Educational Materials, Mentorship etc.
 *** People are not machines! We are ...
 *** Mentors are learners too.
 *** Embracing the life-long learning mentality without being distracted by every shiny new thing.
@@ -39,7 +48,7 @@
 ** Apprenticeship/Mentor Relationships
 *** What are the wants, needs and aspirations of both apprentices and mentors?
 **** Apprentices
-***** Structured Struggle vs Defeated Exasperation.
+***** Structured Struggle vs Unstructured Struggle (Defeated Exasperation).
 ***** (Source: [[https://www.farnamstreetblog.com/2013/01/how-people-learn/][How People Learn]]) Empathy/Understanding of Mentor that Learner doesn't possess rich mental model, or even capacity to organize rich mental model immediately. This is grown over time by ensuring that fundamental concepts are well understood. This should be the main objective, rather than conveying a deluge of facts, which have no meaningful place in the mind to be stored effectively.
 **** Mentors
 ***** Support in achieving high impact community goals.
@@ -50,14 +59,24 @@
 **** How can mentors facilitate learner's needs and wants?
 **** What tools, platforms and communication strategies exist or could exist to support these objectives?
 ** New paradigms for collaboration?
-*** Open source & Commerce in Harmony
-**** Constructive Capitalism and the Long Wave
 *** Education/Marketing Co-ops
 **** nownetworking.com
 ***** Please take my idea, I'm to busy to do all of them!
 ****** Disclaimer: Okay, not all my ideas :)
-** Complex sugar obscuring simple Clojure fundamentals
+*** Open source & Commerce in Harmony (Not highly relevant: save for another talk)
+**** Constructive Capitalism and the Long Wave
+** Innovations
+*** Half-Screen Training
+**** Learning How to Learn
+***** Focus Mode, In the Zone, Flow State
+****** https://www.ted.com/talks/mihaly_csikszentmihalyi_on_flow?language=en
+*** Shell Steps
+*** Now Networking
+*** Learning Paths
+
+** Complex sugar obscuring simple Clojure fundamentals (Whole other talk)
 *** How do we best de-complect Clojure's complexities from its simple core?
 **** e.g. (Source: Russ Olsen) Russ helped me see that Namespaces were simply mappings of names to values but my learning of the subject was distracted by my instinct to tackle the complex aspects of Namespaces: symbols refer to vars, which refer to mutable storage locations, which contain values. These are too many incidental details to take on for a newcomer and distract from the fundamental simplicity of what Namespaces are about. It does, however, help to know that such incidental complexity has a purpose in Clojure, which is to keep unaware developers from shooting their toes off. This mentor related perspective helped me accept Clojure's complexity around Namespaces with more of an open mind, taking the sting out of it.
-** Prior Art 
-   
+** Prior Art
+*** http://lifehacker.com/top-10-ways-to-teach-yourself-to-code-1684250889
+*** https://hackpledge.org/
