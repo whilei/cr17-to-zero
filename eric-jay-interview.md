@@ -44,11 +44,11 @@ While we're talking about who's who, I want to say that I'm in awe of the progra
 
 ## What do you hope people will take away from the talk?
 
-A fresh awareness of the role learning plays in our daily lives, and a desire to get better at learning and teaching. What if every person who hears this talk is moved to dedicate one hour per week toward the sciences around learning and teaching? How much more productive would each person be in one year? Two? Ten? How much better would each of us be at teaching?
+A fresh awareness of the role learning plays in our daily lives, and a desire to get better at learning and teaching. What if every person who hears this talk is moved to dedicate one hour per week toward the sciences around learning and teaching? How much more productive will each person be in one year? Two? Ten? How much better will each of us be at teaching?
 
 How many innovations will be a direct result of this focused effort?
 
-How many extra people would be attracted into Clojure based primarily on these learning innovations?
+How many extra people will be attracted into Clojure based primarily on these learning innovations?
 
 ## What concepts do you recommend people be familiar with to maximize their experience with the talk?
 
