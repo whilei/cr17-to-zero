@@ -18,7 +18,7 @@ I began to suspect that DCI was an additional layer of complexity on top of MVC.
 
 Meanwhile, in my search for a better database, I found Datomic. Ironically, the blog article was quite negative, but after doing my own homework I was convinced that Datomic's universal data schema and separation of concerns was exactly what I was looking for.
 
-This led me to Clojure. Once I saw Rich Hickey's talk [Simple Made Easy](https://www.infoq.com/presentations/Simple-Made-Easy), I felt the unmanageable weight of complexity drop away. His ideas just made sense. Even though I didn't understand everything he was saying, I knew I was in the right place. Around that time, I made a solemn decision, "Clojure or bust!"
+This led me to Clojure. Once I saw Rich Hickey's talk [Simple Made Easy](https://www.infoq.com/presentations/Simple-Made-Easy), I felt the unmanageable weight of complex ideas drop away. His ideas just made sense. Even though I didn't understand everything he was saying, I knew I was in the right place. Around that time, I made a solemn decision, "Clojure or bust!"
 
 I mean Eric, really, I could be perfectly happy being a park ranger or a tennis coach, or whatever. Anything, but an unhappy programmer, or worse, a failed entrepreneur! I'm risking my own money which makes me very keen on Rich Hickey's near constant focus on the pragmatic business value of Clojure and Datomic.
 
