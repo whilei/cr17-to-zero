@@ -20,7 +20,7 @@ Meanwhile, in my search for a better database, I found Datomic. Ironically, the 
 
 This led me to Clojure. Once I saw Rich Hickey's talk [Simple Made Easy](https://www.infoq.com/presentations/Simple-Made-Easy), I felt the unmanageable weight of complex ideas drop away. His ideas just made sense. Even though I didn't understand everything he was saying, I knew I was in the right place. Around that time, I made a solemn decision, "Clojure or bust!"
 
-I mean Eric, really, I could be perfectly happy being a park ranger or a tennis coach, or whatever. Anything, but an unhappy programmer, or worse, a failed entrepreneur! I'm risking my own money which makes me very keen on Rich Hickey's near constant focus on the pragmatic business value of Clojure and Datomic.
+I mean Eric, really, I could be perfectly happy being a park ranger or a tennis coach, or whatever. Anything but an unhappy programmer, or worse, a failed entrepreneur! I'm risking my own money which makes me very keen on Rich Hickey's near constant focus on the pragmatic business value of Clojure and Datomic.
 
 I share all this to help you understand why I'm so excited about Clojure and Datomic, and to explain my lack of interest in the many new languages and frameworks which rightfully garner much attention among programmers these days, e.g. Elixir, Red, Tulip etc. I've made a commitment to myself to master the fundamentals of Clojure and Datomic. I intend to push these technologies to their absolute limit before introducing other technologies into the mix.
 
