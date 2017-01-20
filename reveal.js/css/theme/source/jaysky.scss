@@ -1,0 +1,96 @@
+/**
+ * Sky theme for reveal.js.
+ *
+ * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+
+// Include theme-specific fonts
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
+@import url(https://fonts.googleapis.com/css?family=Patrick+Hand);
+@import url(https://fonts.googleapis.com/css?family=Muli:400,400i,600,600i,700,700i);
+
+@font-face {
+    font-family: "bigjohn";
+    url:('/Users/jay/projects/cr17-to-zero/reveal.js/css/fonts/bigjohn.otf' format('opentype'));
+}
+
+@font-face {
+    font-family: "slimjoe";
+    url:('/Users/jay/projects/cr17-to-zero/reveal.js/css/fonts/slimjoe.otf' format('opentype'));
+}
+
+@font-face {
+    font-family: "lobster";
+    url:('/Users/jay/projects/cr17-to-zero/reveal.js/css/fonts/lobster.otf' format('opentype'));
+}
+// Override theme settings (see ../template/settings.scss)
+$mainFont: 'Open Sans', sans-serif;
+/* $mainFont: 'Quicksand', sans-serif; */
+/* $mainColor: #333; */
+$mainColor: #C1AE7C;
+$headingFont: 'bigjohn', sans-serif;
+/* $headingFont: 'Muli', sans-serif; */
+$headingColor: #C1AE7C;
+/* $headingLetterSpacing: -0.08em; */
+$headingTextShadow: none;
+/* $backgroundColor: #000000; */
+$backgroundColor: #545f66;
+$linkColor: #E3C567;
+$linkColorHover: lighten( $linkColor, 20% );
+$selectionBackgroundColor: #134674;
+$headingTextTransform: capitalize;
+
+/* // JRM edits */
+/* $navlinkColor: #C1AE7C; */
+/* $navlinkHover: lighten( $navlinkColor, 20% ); */
+/* $navlinkColorHover: lighten ($navlinkColor, 20% ); */
+
+.reveal .slides h1,
+.reveal .slides h2,
+.reveal .slides h3,
+.reveal .slides h4,
+.reveal .slides p {
+    text-align: left;
+}
+
+/* .reveal .slides h1, */
+/* .reveal .slides h2, */
+/* .reveal .slides h3, */
+/* .reveal .slides h4,{ */
+/*     position: absolute; */
+/*     top: 100px; */
+/* } */
+
+/* section > p { */
+/*   position: relative; */
+/*   top: 50%; */
+/*   transform: perspective(1px) translateY(-50%); */
+/* } */
+
+// Fix links so they are not cut off
+.reveal a {
+	line-height: 1.3em;
+}
+
+// Background generator
+/* @mixin bodyBackground() {
+/* 	@include radial-gradient( #add9e4, #f7fbfc ); */
+/* } */
+
+// Vanilla text override
+.vanilla {
+    text-transform: lowercase;
+}
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
