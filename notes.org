@@ -1,46 +1,214 @@
 #+Title: The Value of Learning
 #+Author: Jay Martin
-
 #+Twitter: @webappzero
-
 #+REVEAL_THEME: jaysky
+#+OPTIONS: num:nil
+#+mynotes: Use Big John / Little Joe for Headings, Quicksand for normal type and lobster for marking up pictures (or any combination of these.
+#+OPTIONS: reveal_center:t
+;; #+OPTIONS: reveal_width:1920 reveal_height:1080
+#+REVEAL_HLEVEL: 1
+;; note: function: org-toggle-inline-images   (toggles between showing images in buffer and showing text url of images file)
+#+REVEAL_TITLE_SLIDE_BACKGROUND: file:resources/images/title-screen_2017-01-16_16-18-34.png
 
-* Opening & Overview
-** What is this talk about?
-This talk focuses a spotlight on the subject of learning. Just how much do we value learning itself as a subject worthy of careful study?
+;; Table of Contents w/ time goals
+;; Intro 5 min
+;; question 10 min
+;; answer 15 min
+;; action 25 min
+;; Conclusion 5 min
 
-** What is the purpose of this talk?
- - To encourage the continuous improvement of our collective ability to learn.
- - To attract new programmers, open source authors and software entrepreneurs to the Clojure community.
- #+BEGIN_NOTES
- And besides all that, it's a great excuse to talk about two of my favorite things: Clojure & Learning!
+* TODO Introduction
+TODO Add why me?  bit about foot in mouth, followed by learning about learning for MCSE, but was still hungry to know how computer worked. 
+
+ #+BEGIN_NOTES 
+ Thank you Ryan for hosting another great Clojure Remote conference, and for inviting me to speak. And a big thank you to everyone whose with us today. Welcome to my talk, /The Value of Learning/.
+
+TODO (Insert drawing pictures here as a "hook'em")
+
+ My name is Jay, and this past year I've had two main learning pursuits: The Clojure programming language and the subject of learning itself.
+
+ This talk was written with two particular audiences in mind: Programmers & Aspiring Programmers, but anyone with an interest in learning should find the talk personally relevant.
+
+ I'm not an expert in Clojure or in Learning, so this talk simply aims to share a slice of my life experiences around learning to program and learning about learning. My hope is that you will find something herein to help you in your own learning journey. So,here we go! 
+
+ "The Value of Learning."
+
+ Just how much do I value learning? 
+
+ How can I determine how much value I place on something like learning?
+
+ If I discover that I value learning greatly, how can I live a life consistent with this core value?
  #+END_NOTES
 
-** Who is the target audience?
-- Existing Clojure programmers
-- Aspiring programmers
+** Talk Outline
+*** What is the question?
+ How much do I value learning?
+*** How can I know the answer?
+ How can I measure the value I place on learning?
+*** Now I know. What do I do?
+ What actions are consistent with this value?
+*** Simplest possible outline
+-Question
+-Answer
+-Action
 #+BEGIN_NOTES 
-Both of these groups include scientists, entrepreneurs, people that want to help solve the world's problems. It's hard to think of a greenfield project in any of these areas whose success won't be directly dependent on its use of software technology.
-
-I myself want to start a software company. My decade long experience as an IT professional taught me that I will either run my software company, or it will run me. That's why I've chosen Clojure and why I'm so enthusiastic about sharing it with programming newcomers.
-#+END_NOTES 
-
-** Why am I the person giving this talk?
-*** TODO Long and documented history of putting my foot in my mouth
-#+BEGIN_NOTES 
-Much of the talk is about the human brain, and almost anything I say about the brain that fits into an hour long talk will be grossly over-simplified. 
+That might still feel like a earful, so let's milk the outline down to its simplest possible form.
 #+END_NOTES
-*** TODO And thinking inside the box.
-#+BEGIN_NOTES 
-Learning is like breathing -- we're always doing it. My thoughts on learning are being articulated through a lifetime of inherited and accumulated personal biases, many, if not most of which, I am probably unaware. That's why I need your help to unlock the potential discoveries of this fledgling research.
-#+END_NOTES
-** What can attendees expect to get out of it?
- My hope is that you will walk away from this talk with a fresh awareness of the value of learning in your own life, in the Clojure community and in the world at large. You will be offered a specific new habit to employ in your weekly routine to elevate learning to its deserved rank, /exponentiating/ your productivity, not only in your studies, but in every project you touch.
 
-** What you won't get out of it
- This talk is not a comprehensive tutorial on the science of learning!
-* Acknowledge existing culture of mentoring, learning, thinking, sharing, etc.
-** (Hammock Time and Learning How to Learn)
+** Learning, the invisible value 
+ #+BEGIN_QUOTE
+ In all affairs it's a healthy thing now and then to hang a question mark on the things you have long taken for granted. -- Bertrand Russell
+ #+END_QUOTE
+
+ #+BEGIN_NOTES
+Before I jump in and try to answer the central question of this talk, I feel the need to justify the basic nature of the question, because /learning/ appears to be among the most universally accepted of human values. At first glance the answer to the question, "Do I value learning?" appears to be so obvious that the question seems silly or trite, maybe even a complete waste of time.
+
+Bertrand Russell said, "In all affairs it's a healthy thing now and then to hang a question mark on the things you have long taken for granted."
+
+I believe that we have a lot to gain and nothing to lose by putting Bertrand Russell's wisdom to work on the subject of learning.
+
+Invisible values risk being neglected values. My hope is that by thoughtfully assessing the value of learning for ourselves, we can mitigate this risk and reach our individual and collective learning potential.
+
+At the very least, attempting to answer this question is in accord with the age old wisdom, "know thyself."  (time 3:32)
+ #+END_NOTES
+
+** Brain, the invisible organ
+#+BEGIN_NOTES 
+While learning may be the invisible value, the brain is the invisible organ. At least that's the excuse I use to explain why, in my youth, I was *not* very interested in the brain, or how I could use it to improve my life.
+
+I mean, for all its potential power, surely there must be some explanation why the brain wasn't appreciated more deeply in my youth.
+
+A couple of reasons have come to mind:
+
+In my case, the brain science of the day led my teachers to inform me that I was given a fixed number of brain cells, and no new cells would ever be produced. What I heard was "You can't any smarter. You've either got it or you don't."
+
+And here's another simple observation -- the brain /cannot/ compete with a heartbeat. As a very young child, getting to know my own body, the heartbeat was a constant reminder, "I have a heart!"
+
+Maybe the brain just needs better PR. This talk hopes to remedy that. No let's proceed with body of the talk by starting with the question.  (time 4:38)
+#+END_NOTES
+
+* What is the question?
+How much do I value learning?
+** Understanding the question
+How much do I value learning?
+#+BEGIN_NOTES 
+Let's make sure we understand the question by looking at the meaning and history of the words /value/ & /learning/. 
+#+END_NOTES
+
+*** Value defined
+definition: 
+(merriam-webster.com)
+*relative worth, utility, or importance*
+
+etymology: 
+/valu/    Anglo-French    *worth, high quality*
+
+/valēre/  Latin           *to be well, have strength*
+
+Game of Thrones fans, please take note of the phonetic similarities to /Valyrian/ steel.
+
+#+BEGIN_NOTES 
+/Value/ as used in our central question means *relative worth, utility, or importance*.
+
+The history of the word value goes back through Middle English to the Anglo-French work /valu/, which means *worth* or *high quality*, and finally, all the way back to the Latin, /valēre/, which means *to be well* or *have strength*.
+
+If you're a Game of Thrones fan, you've likely noticed how similar /valēre/ sounds to Valyria, home to the forges of Valyrian steel, renowned for its quality and strength.
+#+END_NOTES
+
+*** Learning defined
+definition:
+(learnersdictionary.com)
+*the activity or process of gaining knowledge or skill by studying, practicing, being taught, or experiencing something*
+
+etymology:
+(merriam-webster.com)
+/lernen/    Middle English    *to learn*
+/leornian/  Old English       *to learn*
+/last/      Old English       *foot print*
+/lira/      Latin             *furrow, track*
+
+#+BEGIN_NOTES 
+/Learning/ means *the activity or process of gaining knowledge or skill by studying, practicing, being taught, or experiencing something*.
+
+The history of the word /learn/ goes back through the Middle English word /lernen/, which shares the meaning *to learn* with the Old English word /leornian/, and further back to the Old English word /last/ which means *foot print*, and finally, all the way back to the latin word /lira/ which means *furrow* or *track*.
+
+The meaning *track* ties in neatly with the *foot print* from the Old English /last/. 
+
+But the word furrow really stuck out to me. Firstly because I didn't know what it meant in this context, which is *a long trench*. But not just any trench! *a long narrow trench in the ground made by a plow, especially for planting seeds*.
+
+The latin meaning has become my favorite way to think about learning -- planting a trail of seeds, seeds of knowledge and skill, which will grow and flourish in time! How cool is that!?!
+#+END_NOTES
+
+**** Learn as synonym for Teach
+(merriam-webster.com)
+Master blacksmiths learned their apprentices in the craft of sword forging.
+#+BEGIN_NOTES 
+As far back as the 13th century, the word /learn/ was also used to mean "teach". As in "Master blacksmiths learned their apprentices in the craft of sword forging." 
+
+Today this alternative meaning is relegated to speech, because it's *not* considered ideal grammar.  
+#+END_NOTES
+
+*** The history of learning
+**** Evolution! We are the very best learners in all of history.
+***** TODO Rich Hicky quote - from my goodnotes 
+**** Socrates
+***** TODO Socratic dialogue: add quote about "make them think" --
+**** Small Gap (Picture of Grand Canyon)
+  [[file:resources/images/What is the history of SALT?/grand-canyon-filled with-fog-todd-diemer_2017-01-13_09-53-33.jpg]]
+
+  The 1926, pioneering paper by Eduard C. Lindeman's, /The Meaning of Adult Education/ reignited the subject of learning and established a scientific, research oriented approach  
+
+*** Two modes of learning
+
+**** Inside Out
+
+**** Outside In
+
+* How can I know the answer?
+How can I measure how much value I place on learning?
+** Answers aren't everything
+Questions are powerful on their own.
+
+I think this one is worth revisiting again and again.
+#+BEGIN_NOTES 
+This question could have been tackled any number of ways. I stumbled upon this one by following my nose and trying not to fall behind my deadline. Oh time! I would enjoy revisiting the question anew, perhaps from a purely mathematical perspective. The options are endless, but decisions must be made, which by definition means possibilities are temporarily killed off. Decide - /de/ *to cull away* - /cide/ *to kill*. Like insecticide for the pesky ideas that don't fit the narrative, needs or time constraints of a project.
+#+END_NOTES
+** How would you go about it?
+#+BEGIN_NOTES 
+Give the audience a chance to grapple with the question
+#+END_NOTES
+** The instrumental value of my learning
+*** Topsy turvy world view of my childhood - stars on the ceiling
+**** Sunset story
+*** Child like sense of curiosity, awe and wonder - Nature/Even from a magazine Wow!, Pepper/Insects/Thanksgiving
+**** Exceptions! https://www.theatlantic.com/health/archive/2016/09/is-awe-really-good-for-you/501086/
+*** Philosophy - Stoics (Tim Ferris calls ideal personal operating system)
+*** Time - First, Second aha!
+*** Long Wave - Not just investing, but timing things, like education
+**** Sold my house in July of 2007.
+*** Clojure
+**** Why Clojure - React Native holism etc.
+*** Family, friends and human relationships
+**** Vipassana Mediation - Understanding the mind/body commection
+***** Anger and emotional turmoil is no respecter of religion or philosophy
+*** Co-Intelligence & Futurism
+**** TODO https://www.brainpickings.org/2016/03/31/dostoyevsky-reason-emotion/ find quote
+*** Learning from failure yields long term success
+Therefore learning, not winning is the greater value.
+*** Learning is Adapting
+And adapting is human. (Tie in Clojure connection)
+* Now I know. What do I do?
+What actions are consistent with this value?
+** If we value learning, why not get better at it, instead of dribbling the ball incessantly. 
+  ** What if there was a subject you could study which would improve your ability to learn and master any other subject?
+ There just might be...
+ #+ATTR_REVEAL: :frag appear
+*** The science of learning.
+
+#+ATTR_REVEAL: :frag appear 
+[[file:resources/images/Opening & Overview/illustration-of-drawing-skill-improvement-in-5-days_2017-01-12_09-19-11.png]]
+*** Learning How to Learn
+*** Space Repetition etc.
 * What is the difference between Learning and Education
 ** Inside Out vs Outside In
 ** The power of relationships to fan our internal flame.
@@ -71,6 +239,35 @@ Learning is like breathing -- we're always doing it. My thoughts on learning are
 **** Programming is like learning a tennis, highly technical takes years.
 ***** 'Start serving' is not helpful advice, so why do we persist with this advice.
 *** Conceptual Support from Teachers without spoonfeeding.
+* Closing
+** 
+#+BEGIN_QUOTE
+Live as if you were to die tomorrow. Learn as if you were to live forever. -- Mahatma Gandhi
+#+END_QUOTE
+* Quotes
+#+begin_quote
+The work is quite feasible, and is the only thing in our power.…Let go of the past. We must only begin. Believe me and you will see. --Epictetus
+#+end_quote
+
+
+  #+BEGIN_QUOTE
+  ...Your values become your destiny.
+  #+END_QUOTE
+
+
+  #+BEGIN_QUOTE
+  Action expresses priorities. -- Mahatma Ghandi
+  #+END_QUOTE
+
+  #+BEGIN_QUOTE
+  In mathematics the art of proposing a question must be held of higher value than solving it. --Georg Cantor
+  #+END_QUOTE
+
+* TODO Acknowledge existing culture of mentoring, learning, thinking, sharing, etc.
+-Hammock Driven Development by Rich Hickey
+-Eloquent Explanations by Russ Olsen
+- and many, many more.
+
 * Defining roles, eschewing roles: All people are communicators
 ** Prosumption of Educational Materials, Mentorship etc.
 ** People are not machines! We are ...
@@ -131,8 +328,30 @@ Learning is like breathing -- we're always doing it. My thoughts on learning are
 ** Adult Education https://en.wikipedia.org/wiki/Adult_education
 *** Purpose: Vocational, Social, Recreational, Self-development: Ultimately to achieve human fulfillment
 ** Is knowledge good? Am I really helping? http://super-memory.com/articles/goodness.htm
+** https://www.brainpickings.org/2016/03/31/dostoyevsky-reason-emotion/
+
 * Old Pitches 
 ** How can we best support the needs of Clojure learners? Imagine a future where a person interested in learning Clojure was presented with a menu of learning paths, each leading to well defined learning outcomes and offering various 'on-ramps' for learners of varying skill levels, especially, for learners completely new to programming. Imagine a future where every learner feels welcome and supported through supportive human relationships, from participation in users groups, educational co-ops, and especially one-on-one apprentice/mentor pairings. How can we place the needs of the learner above all else and grow Clojure to the scale of its full potential? Much progress has already been made, but what more can we do, together, to reach this goal?
 ** A community-centered brainstorming session facilitated by vulnerably sharing my unconventional ideas about learning to program, and graciously inviting others to share their own. An experiment in group problem solving applied to the problem of learning 'Clojure'.
 *** 'Clojure' as used here is a heavily overloaded term, referring the body of knowledge encompassing Clojure(ish) technologies: ClojureScript, Datomic, React, React Native, bash/zshell, deployment technologies such as immutable infrastructure etc. etc. etc.
 ** I intend to foster an interactive conversation with my audience about how we can create stronger and more creative mentor/apprentice relationships in our growing community. The jumping off point would be my personal learning path of going from Hero to Zero. (Hero to Zero is a greatly overloaded term that is meaningful to me, but likely mysterious to others, so it will be a conversational thread wherein I can relay my personal experience of learning programming and Clojure.)
+
+* Why am I the person giving this talk?
+*** TODO Long and documented history of putting my foot in my mouth
+#+BEGIN_NOTES 
+Much of the talk is about the human brain, and almost anything I say about the brain that fits into an hour long talk will be grossly over-simplified. 
+#+END_NOTES
+*** TODO And thinking inside the box.
+#+BEGIN_NOTES 
+Learning is like breathing -- we're always doing it. My thoughts on learning are being articulated through a lifetime of inherited and accumulated personal biases, many, if not most of which, I am probably unaware. That's why I need your help to unlock the potential discoveries of this fledgling research.
+#+END_NOTES
+*** Seriously though!  
+#+BEGIN_NOTES
+All joking aside, I'm deeply interested in this topic because learning to program, for me, has been a joy, but also a painful and lonely struggle. My experience and instincts tell that by the time most people discover Clojure, they've suffered needlessly for too long. I hope this talk can reach out and find aspiring learners at the outset of their learning journey. What can we do together to make learning Clojure a fantastic experience for everyone?
+#+END_NOTES
+* Could the keys to unlocking our human potential be hidden in the mysteries of the human brain?
+*** Decide for yourself after we explore recent discoveries, including powerful new insights in motivation and procrastination.
+**** How can science's new understanding of the placebo effect dramatically increase our chances of successfully mastering highly technical skills?
+#+BEGIN_NOTES 
+That's just a taste of what we'll talk about in the next hour.
+#+END_NOTES
