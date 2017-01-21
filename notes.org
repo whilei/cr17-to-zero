@@ -20,7 +20,15 @@
 note that I used two SPACES after the * to make the invisible heading for the non-title title slide.
 #+END_NOTES
 
-*
+#+BEGIN_NOTES
+aha! about the `PROPERTIES` below setting _all_ slide backgrounds vs. just this one:
+if the extra space in the *_ title/header1 is removed (which annoyingly happens automatically (autoformat?)
+then the value is extended to ALL slides, but if the second space remains and the '  ' is treated as the header title,
+then the custom background applies only to the slide.
+check that there's a litte dot instead of an asterisk...
+- autoformat is the culprit!  use SPC - t - W to disable auto-whitespace stripping
+#+END_NOTES
+* 
 :PROPERTIES:
 :reveal_background: file:resources/images/title-screen_2017-01-16_16-18-34.png
 :reveal_background_size: 100%
