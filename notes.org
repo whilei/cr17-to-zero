@@ -29,7 +29,7 @@ TODO (Insert drawing pictures here as a "hook'em")
 
  This talk was written with two particular audiences in mind: Programmers & Aspiring Programmers, but anyone with an interest in learning should find the talk personally relevant.
 
- I'm not an expert in Clojure or in Learning, so this talk simply aims to share a slice of my life experiences around learning to program and learning about learning. My hope is that you will find something herein to help you in your own learning journey. So,here we go! 
+ I'm not an expert in programming or in the science of learning. This talk is a slice of my life experiences of learning and learning to program. My hope is that you will find something herein to help you in your own learning journey, whatever your goals may be. So,here we go! 
 
  "The Value of Learning."
 
@@ -321,14 +321,6 @@ The work is quite feasible, and is the only thing in our power.…Let go of the 
 * Prior Art
 ** http://lifehacker.com/top-10-ways-to-teach-yourself-to-code-1684250889A
 ** https://hackpledge.org/
-* Research
-** Education: https://educarenow.wordpress.com/
-*** educare (latin): To draw out that which lies within.
-*** Contrast ecurare definition to that of Education: The process of receiving or giving systematic instruction, especially at a school or university.
-** Adult Education https://en.wikipedia.org/wiki/Adult_education
-*** Purpose: Vocational, Social, Recreational, Self-development: Ultimately to achieve human fulfillment
-** Is knowledge good? Am I really helping? http://super-memory.com/articles/goodness.htm
-** https://www.brainpickings.org/2016/03/31/dostoyevsky-reason-emotion/
 
 * Old Pitches 
 ** How can we best support the needs of Clojure learners? Imagine a future where a person interested in learning Clojure was presented with a menu of learning paths, each leading to well defined learning outcomes and offering various 'on-ramps' for learners of varying skill levels, especially, for learners completely new to programming. Imagine a future where every learner feels welcome and supported through supportive human relationships, from participation in users groups, educational co-ops, and especially one-on-one apprentice/mentor pairings. How can we place the needs of the learner above all else and grow Clojure to the scale of its full potential? Much progress has already been made, but what more can we do, together, to reach this goal?
@@ -355,3 +347,20 @@ All joking aside, I'm deeply interested in this topic because learning to progra
 #+BEGIN_NOTES 
 That's just a taste of what we'll talk about in the next hour.
 #+END_NOTES
+* Research
+** Education: https://educarenow.wordpress.com/
+*** educare (latin): To draw out that which lies within.
+*** Contrast ecurare definition to that of Education: The process of receiving or giving systematic instruction, especially at a school or university.
+** Adult Education https://en.wikipedia.org/wiki/Adult_education
+*** Purpose: Vocational, Social, Recreational, Self-development: Ultimately to achieve human fulfillment
+** Is knowledge good? Am I really helping? http://super-memory.com/articles/goodness.htm
+** https://www.brainpickings.org/2016/03/31/dostoyevsky-reason-emotion/
+
+** Tweeting
+
+*** QR to Tweet http://qrickit.com/qrickit_apps/qrickit_qrcode_creator_tweet.php
+
+*** Click to tweet https://clicktotweet.com/
+
+*** TODO Talk, when viewed on video, will still allow people to tweet pre-defined statements or questions by scanning qr codes and submitting ideas.
+**** All data goes into open data system, as in open source for community benefit.
