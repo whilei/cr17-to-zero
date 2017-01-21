@@ -2,7 +2,7 @@
 #+Author: Jay Martin
 #+Twitter: @webappzero
 #+REVEAL_THEME: jaysky
-#+OPTIONS: reveal_center:t num:nil toc:nil reveal_title_slide:nil
+#+OPTIONS: reveal_center:t num:nil toc:nil reveal_title_slide:t
 #+mynotes: Use Big John / Little Joe for Headings, Quicksand for normal type and lobster for marking up pictures (or any combination of these.
 #+REVEAL_HLEVEL: 1
 #+REVEAL_TITLE_SLIDE_BACKGROUND: file:resources/images/title-screen_2017-01-16_16-18-34.png
@@ -20,11 +20,7 @@
 note that I used two SPACES after the * to make the invisible heading for the non-title title slide.
 #+END_NOTES
 
-*
-:PROPERTIES:
-:reveal_background: file:resources/images/title-screen_2017-01-16_16-18-34.png
-:reveal_background_size: 100%
-:END:
+
 * TODO Introduction
   TODO Add why me?  bit about foot in mouth, followed by learning about learning for MCSE, but was still hungry to know how computer worked.
 
