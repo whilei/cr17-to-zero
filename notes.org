@@ -385,4 +385,9 @@ That's just a taste of what we'll talk about in the next hour.
 ** Isaac Projects 
 *** Wrangle Reveal.js CSS
 **** TODO isaac10 Please study up on how to wrangle css for reveal.js so we can get page elements where we want them. (copied from above)
-***** TODO Page element most concerned about is title at top left, space for video top right, paragraph/bullets left aligned half way down from top for first line. 
+***** TODO Page element most concerned about is title at top left, space for video top right, paragraph/bullets left aligned half way down from top for first line.
+**** TODO isaac20 research then tinker with getting webcam image as part of web page. (This might be tricky with reveal.js. Not sure how to best do it?)
+***** I found this https://www.kirupa.com/html5/accessing_your_webcam_in_html5.htm
+***** In the mean time, you can just use a blank white rectangle to act as place holder. 
+***** On the title screen, the video would look better on the left. Not a high priority right now.
+***** reach out and let me know how things are going, if they are unclear, or to ask any questions :)
