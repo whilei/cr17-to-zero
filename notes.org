@@ -2,23 +2,31 @@
 #+Author: Jay Martin
 #+Twitter: @webappzero
 #+REVEAL_THEME: jaysky
-#+OPTIONS: num:nil
+#+OPTIONS: reveal_center:t num:nil toc:nil reveal_title_slide:nil
 #+mynotes: Use Big John / Little Joe for Headings, Quicksand for normal type and lobster for marking up pictures (or any combination of these.
-#+OPTIONS: reveal_center:t
-;; #+OPTIONS: reveal_width:1920 reveal_height:1080
 #+REVEAL_HLEVEL: 1
-;; note: function: org-toggle-inline-images   (toggles between showing images in buffer and showing text url of images file)
 #+REVEAL_TITLE_SLIDE_BACKGROUND: file:resources/images/title-screen_2017-01-16_16-18-34.png
+#+REVEAL_EXTRA_CSS: file:learnering.css
 
+#+BEGIN_NOTES
+;; #+OPTIONS: reveal_width:1920 reveal_height:1080
+;; note: function: org-toggle-inline-images   (toggles between showing images in buffer and showing text url of images file)
 ;; Table of Contents w/ time goals
 ;; Intro 5 min
 ;; question 10 min
 ;; answer 15 min
 ;; action 25 min
 ;; Conclusion 5 min
+note that I used two SPACES after the * to make the invisible heading for the non-title title slide.
+#+END_NOTES
 
+*
+:PROPERTIES:
+:reveal_background: file:resources/images/title-screen_2017-01-16_16-18-34.png
+:reveal_background_size: 100%
+:END:
 * TODO Introduction
-TODO Add why me?  bit about foot in mouth, followed by learning about learning for MCSE, but was still hungry to know how computer worked. 
+  TODO Add why me?  bit about foot in mouth, followed by learning about learning for MCSE, but was still hungry to know how computer worked.
 
  #+BEGIN_NOTES 
  Thank you Ryan for hosting another great Clojure Remote conference, and for inviting me to speak. And a big thank you to everyone whose with us today. Welcome to my talk, /The Value of Learning/.
