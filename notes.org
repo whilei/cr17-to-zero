@@ -20,6 +20,9 @@
 note that I used two SPACES after the * to make the invisible heading for the non-title title slide.
 #+END_NOTES
 
+#+BEGIN_NOTES
+I've added an org heading "Jay & Isaac" where we can create subheadings for ideas we want to be documented herein. It's nice to have everything in one file for easy searching.
+#+END_NOTES
 
 * TODO Introduction
   TODO Add why me?  bit about foot in mouth, followed by learning about learning for MCSE, but was still hungry to know how computer worked.
@@ -368,3 +371,18 @@ That's just a taste of what we'll talk about in the next hour.
 
 *** TODO Talk, when viewed on video, will still allow people to tweet pre-defined statements or questions by scanning qr codes and submitting ideas.
 **** All data goes into open data system, as in open source for community benefit.
+* Jay & Isaac 
+** Org Mode notes
+*** After opening notes.org on my system, I usually ~SPC t l~ and then ~SPC t L~ to get things looking good.
+** Separation of TODOs 
+*** Below I've tagged this todo with isaac10, meaning its for you with a priority of 10 (lower number is higher priority and they go up by 10. That's an old basic programming trick which makes it easy to stick other todos inbetween, after the fact).
+*** TODO isaac10 Please study up on how to wrangle css for reveal.js so we can get page elements where we want them.
+**** TODO Page element most concerned about is title at top left, space for video top right, paragraph/bullets left aligned half way down from top for first line. 
+**** TODO These are subtasks under the main task, so they would also be for you unless my name is next the subtask.
+**** This system should work pretty good unless we run into git workflow issues, in which case we can move out to email etc.
+**** TODO items can be placed anywhere in the file so when you git pull you can just do a text search for "isaac" and bingo! :)
+**** Thank you! I'll create a new subheading under Jay & Isaac called Isaac Projects where we can keep your big picture stuff.
+** Isaac Projects 
+*** Wrangle Reveal.js CSS
+**** TODO isaac10 Please study up on how to wrangle css for reveal.js so we can get page elements where we want them. (copied from above)
+***** TODO Page element most concerned about is title at top left, space for video top right, paragraph/bullets left aligned half way down from top for first line. 
