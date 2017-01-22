@@ -24,28 +24,45 @@ note that I used two SPACES after the * to make the invisible heading for the no
 I've added an org heading "Jay & Isaac" where we can create subheadings for ideas we want to be documented herein. It's nice to have everything in one file for easy searching.
 #+END_NOTES
 
-* TODO Introduction
-  TODO Add why me?  bit about foot in mouth, followed by learning about learning for MCSE, but was still hungry to know how computer worked.
+* Introduction
 
  #+BEGIN_NOTES 
- Thank you Ryan for hosting another great Clojure Remote conference, and for inviting me to speak. And a big thank you to everyone whose with us today. Welcome to my talk, /The Value of Learning/.
+ Thank you Ryan for inviting me to speak at Clojure Remote 2017. And welcome to everyone whose with us today to hear about /The Value of Learning/.
 
-TODO (Insert drawing pictures here as a "hook'em")
-
- My name is Jay, and this past year I've had two main learning pursuits: The Clojure programming language and the subject of learning itself.
-
- This talk was written with two particular audiences in mind: Programmers & Aspiring Programmers, but anyone with an interest in learning should find the talk personally relevant.
-
- I'm not an expert in programming or in the science of learning. This talk is a slice of my life experiences of learning and learning to program. My hope is that you will find something herein to help you in your own learning journey, whatever your goals may be. So,here we go! 
-
- "The Value of Learning."
-
- Just how much do I value learning? 
-
- How can I determine how much value I place on something like learning?
-
- If I discover that I value learning greatly, how can I live a life consistent with this core value?
+ My name is Jay, and recently I've become *enthralled* with the subject of learning. Here's one example of why: (next slide)
  #+END_NOTES
+
+** 
+
+#+BEGIN_NOTES
+TODO jay write here
+#+END_NOTES
+
+
+*** TODO isaac30 please crop 6 rectangle pics (no borders or drop-shadows. flat design style. each pair same size.) from this one file:
+  [[file:resources/images/Opening & Overview/illustration-of-drawing-skill-improvement-in-5-days_2017-01-12_09-19-11.png]]
+#+BEGIN_NOTES  
+TODO isaac30 Show one set of before and after pics, split up, with one on left and one on right sides of screen. I've placed my adobe illustrator file 'title-screen.ai' inside the resources/images dir. You can use this as a template. Place before pic centered on left half, and after on right with blue and red background respectively.
+
+Spacemacs tip: you can drag and drop pics into buffer but you need to set custom variable in .spacemacs, see my gist and search for '(org-download-image-dir "resources/images") You can also open file tree buffer with SPC f t or SPC p t 
+#+END_NOTES
+
+
+   #+BEGIN_NOTES
+   This talk was written with two particular audiences in mind: Programmers & Aspiring Programmers, but anyone with an interest in learning should find the talk personally relevant.
+
+  TODO Add why me?  bit about foot in mouth, followed by learning about learning for MCSE, but was still hungry to know how computer worked.
+   I'm not an expert in programming or in the science of learning. This talk is a slice of my life experiences of learning and learning to program. My hope is that you will find something herein to help you in your own learning journey, whatever your goals may be. So,here we go! 
+
+   "The Value of Learning."
+
+   Just how much do I value learning? 
+
+   How can I determine how much value I place on something like learning?
+
+   If I discover that I value learning greatly, how can I live a life consistent with this core value?
+   #+END_NOTES
+*** TODO jay write prose for this set
 
 ** Talk Outline
 *** What is the question?
