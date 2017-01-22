@@ -32,19 +32,55 @@ I've added an org heading "Jay & Isaac" where we can create subheadings for idea
  My name is Jay, and recently I've become *enthralled* with the subject of learning. Here's one example of why: (next slide)
  #+END_NOTES
 
-** 
 
+** TODO add background png (blue/red w/ before and after centered in each)
 #+BEGIN_NOTES
-TODO jay write here
+These before and after self-portraits were drawn by the same person. How long do you think it took to acquire this improvement in skill? (next slide)
 #+END_NOTES
 
 
-*** TODO isaac30 please crop 6 rectangle pics (no borders or drop-shadows. flat design style. each pair same size.) from this one file:
-  [[file:resources/images/Opening & Overview/illustration-of-drawing-skill-improvement-in-5-days_2017-01-12_09-19-11.png]]
-#+BEGIN_NOTES  
-TODO isaac30 Show one set of before and after pics, split up, with one on left and one on right sides of screen. I've placed my adobe illustrator file 'title-screen.ai' inside the resources/images dir. You can use this as a template. Place before pic centered on left half, and after on right with blue and red background respectively.
+  #+BEGIN_NOTES  
+  TODO isaac30 please crop 6 rectangle pics (no borders or drop-shadows. flat design style. each pair same size.) from this one file:
+    [[file:resources/images/Opening & Overview/illustration-of-drawing-skill-improvement-in-5-days_2017-01-12_09-19-11.png]]
 
-Spacemacs tip: you can drag and drop pics into buffer but you need to set custom variable in .spacemacs, see my gist and search for '(org-download-image-dir "resources/images") You can also open file tree buffer with SPC f t or SPC p t 
+
+  Show one set of before and after pics, split up, with one on left and one on right sides of screen. I've placed my adobe illustrator file 'title-screen.ai' inside the resources/images dir. You can use this as a template. Place before pic centered on left half, and after on right with blue and red background respectively.
+
+  Spacemacs tip: you can drag and drop pics into buffer but you need to set custom variable in .spacemacs, see my gist and search for '(org-download-image-dir "resources/images") You can also open file tree buffer with SPC f t or SPC p t 
+  #+END_NOTES
+
+** TODO add background png
+#+BEGIN_NOTES
+How much time for this degree of improvement? (wait 5 seconds) (next slide)
+#+END_NOTES
+
+#+BEGIN_NOTES
+TODO isaac second set of pics on this slide
+#+END_NOTES
+
+** TODO add background png
+#+BEGIN_NOTES
+And how long for this much improvement?
+
+(wait 5 seconds)
+(next slide)
+#+END_NOTES
+
+#+BEGIN_NOTES
+TODO isaac third set of pics on this slide
+#+END_NOTES
+
+** 5 Days 
+- Betty Edwards, author of /Drawing on the Right Side of the Brain/
+- drawright.com
+- ~@DRSB_Edwards~
+
+#+BEGIN_NOTES
+5 days. That's it. That's how long it took for 
+#+END_NOTES
+
+#+BEGIN_NOTES
+TODO jay add qr code/link tweet here "Betty Edwards, your teaching method is astonishing! #thevalueoflearning .@DRSB_Edwards"
 #+END_NOTES
 
 
@@ -62,7 +98,7 @@ Spacemacs tip: you can drag and drop pics into buffer but you need to set custom
 
    If I discover that I value learning greatly, how can I live a life consistent with this core value?
    #+END_NOTES
-*** TODO jay write prose for this set
+
 
 ** Talk Outline
 *** What is the question?
