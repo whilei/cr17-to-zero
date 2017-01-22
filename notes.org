@@ -2,10 +2,9 @@
 #+Author: Jay Martin
 #+Twitter: @webappzero
 #+REVEAL_THEME: jaysky
-#+OPTIONS: reveal_center:t num:nil toc:nil reveal_title_slide:t
+#+OPTIONS: reveal_center:t num:nil toc:nil reveal_title_slide:nil
 #+mynotes: Use Big John / Little Joe for Headings, Quicksand for normal type and lobster for marking up pictures (or any combination of these.
 #+REVEAL_HLEVEL: 1
-#+REVEAL_TITLE_SLIDE_BACKGROUND: file:resources/images/title-screen_2017-01-16_16-18-34.png
 #+REVEAL_EXTRA_CSS: file:learnering.css
 
 #+BEGIN_NOTES
