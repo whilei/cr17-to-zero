@@ -1,0 +1,16 @@
+# Isaac's ongoing project record.
+# Possibly the building grounds for something public-facing and maybe even kind of informative.
+
+* Learning about learning together.
+Notes on beginning to swim in a new language.
+- Org mode
+- Spac/Emacs
+- Clojure
+
+* The Calculus of Growth
+Understanding change over time. How do we visualize change? Diffs, commit trees, fork graphs.
+How do we manage change? PR's and Issues, team leads, organization members.
+How do we nurture growth? ie Stackoverflow -- incredibly and wildly excellent for technicalities, astoundingly resistant-to and empty of "architecture" or "advise".
+
+* The org mode mode.
+Thinking about the ( character ) of text. Get it?
