@@ -1,11 +1,21 @@
 /* class can be used to move the heading (**, h2) to the top left of the slide, PER SLIDE */
+
+
 /* the problem with this is that if the slide has a lot of text, the .slide div will be taller, forcing the h2 off the top */
+
 .heading-tl h2 {
     position: relative;
     top: -150px;
     left: 0px;
     margin-right: 150px;
     /* max-width: 60%; */
+}
+
+.reveal h2 {
+    position: relative;
+    top: -150px;
+    left: 0px;
+    margin: 0 120px 20px 0;
 }
 
 div#videoPlaceholder {
@@ -15,38 +25,84 @@ div#videoPlaceholder {
     right: 0;
     width: 450px;
     height: 300px;
-
     /* z-index: 100; */
-
     background-color: white;
 }
 
+
 /* section.heading-tl { */
+
+
 /*     height: 100%; */
+
+
 /* } */
+
+
 /* section.heading-tl h2 { */
+
+
 /*     position: relative; */
+
+
 /*     top:0; */
+
+
 /*     left:0; */
+
+
 /* } */
+
+
 /* section.heading-tl p { */
+
+
 /*   display: inline-block; */
+
+
 /*   vertical-align: middle; */
+
+
 /* } */
+
 
 /* .hide-controls aside.controls { */
+
+
 /*     display: none !important; */
+
+
 /* } */
+
 
 /* .reveal .slides { */
+
+
 /*     margin-horizontal: auto; */
+
+
 /*     margin-top: 0; */
+
+
 /*     margin-bottom: 20px; */
+
+
 /* } */
 
+
 /* /\* turn this on to do the same for ALL slides *\/ */
+
+
 /* .slides h2 { */
+
+
 /*     position: relative; */
+
+
 /*     top: -150px; */
+
+
 /*     left: 0px; */
+
+
 /* } */

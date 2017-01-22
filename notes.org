@@ -37,7 +37,7 @@ I've added an org heading "Jay & Isaac" where we can create subheadings for idea
 :END:
 * TODO Introduction -- A very very very very very long introduction ....
 :PROPERTIES:
-:reveal_extra_attr: class="heading-tl"
+# :reveal_extra_attr: class="heading-tl"
 :END:
   TODO Add why me?  bit about foot in mouth, followed by learning about learning for MCSE, but was still hungry to know how computer worked.
 
@@ -404,9 +404,11 @@ And it avoids the alphabetization problem of 0's! Sweet!
 *** Wrangle Reveal.js CSS
 **** TODO isaac10 Please study up on how to wrangle css for reveal.js so we can get page elements where we want them. (copied from above)
 ***** TODO Page element most concerned about is title at top left, space for video top right, paragraph/bullets left aligned half way down from top for first line.
+Jay, I've got one stand-in solution for the top left h2 placement for now, using strictly CSS. And now that we've got custom JS involved too, we've got a lot of options for much more fine-grained and DOM-aware control.
 **** TODO isaac20 research then tinker with getting webcam image as part of web page. (This might be tricky with reveal.js. Not sure how to best do it?)
 ***** I found this https://www.kirupa.com/html5/accessing_your_webcam_in_html5.htm
-***** In the mean time, you can just use a blank white rectangle to act as place holder. 
+See email question about p2p video streaming.
+***** In the mean time, you can just use a blll have a lot more controlank white rectangle to act as place holder.
 ***** On the title screen, the video would look better on the left. Not a high priority right now.
 ***** reach out and let me know how things are going, if they are unclear, or to ask any questions :)
 *** TODO isaac300 research doing footnotes in org-mode. There's something called Bibtex too. (notice low priority)
