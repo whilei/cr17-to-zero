@@ -6,6 +6,7 @@
 #+mynotes: Use Big John / Little Joe for Headings, Quicksand for normal type and lobster for marking up pictures (or any combination of these.
 #+REVEAL_HLEVEL: 1
 #+REVEAL_EXTRA_CSS: file:learnering.css
+#+REVEAL_EXTRA_JS: {src: './learnering.js'}
 
 #+BEGIN_NOTES
 ;; #+OPTIONS: reveal_width:1920 reveal_height:1080
