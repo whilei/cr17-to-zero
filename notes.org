@@ -391,3 +391,4 @@ That's just a taste of what we'll talk about in the next hour.
 ***** In the mean time, you can just use a blank white rectangle to act as place holder. 
 ***** On the title screen, the video would look better on the left. Not a high priority right now.
 ***** reach out and let me know how things are going, if they are unclear, or to ask any questions :)
+*** TODO isaac300 research doing footnotes in org-mode. There's something called Bibtex too. (notice low priority)
