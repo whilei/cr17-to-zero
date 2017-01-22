@@ -7,6 +7,7 @@
 #+REVEAL_HLEVEL: 1
 #+REVEAL_EXTRA_CSS: file:learnering.css
 #+REVEAL_EXTRA_JS: {src: './learnering.js'}
+#+REVEAL_DEFAULT_FRAG_STYLE: roll-in
 
 #+BEGIN_NOTES
 ;; #+OPTIONS: reveal_width:1920 reveal_height:1080
@@ -57,7 +58,6 @@ These before and after self-portraits were drawn by the same person. How long do
   TODO isaac30 please crop 6 rectangle pics (no borders or drop-shadows. flat design style. each pair same size.) from this one file:
     [[file:resources/images/Opening & Overview/illustration-of-drawing-skill-improvement-in-5-days_2017-01-12_09-19-11.png]]
 
-
   Show one set of before and after pics, split up, with one on left and one on right sides of screen. I've placed my adobe illustrator file 'title-screen.ai' inside the resources/images dir. You can use this as a template. Place before pic centered on left half, and after on right with blue and red background respectively.
 
   Spacemacs tip: you can drag and drop pics into buffer but you need to set custom variable in .spacemacs, see my gist and search for '(org-download-image-dir "resources/images") You can also open file tree buffer with SPC f t or SPC p t 
@@ -84,13 +84,20 @@ And how long for this much improvement?
 TODO isaac third set of pics on this slide
 #+END_NOTES
 
-** 5 Days
+** 5 days
+#+ATTR_REVEAL: :frag t
 - Betty Edwards, author of /Drawing on the Right Side of the Brain/
 - drawright.com
 - ~@DRSB_Edwards~
 
 #+BEGIN_NOTES
-5 days. That's it. That's how long it took for 
+5 days. That's it. These people, people like you or me, learned the technical fundamentals of drawing in only *5 days*. Personally, I was astonished when I first saw these drawings.
+
+How does their teacher, Betty Edwards, facilitate such progress for *all* of her students, not just some?
+
+And how is her approach relevant to learning other highly technical skills, such as programming?
+
+We'll explore this question, and several others, together, over the next hour. (next slide)
 #+END_NOTES
 
 #+BEGIN_NOTES
