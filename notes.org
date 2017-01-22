@@ -34,8 +34,10 @@ I've added an org heading "Jay & Isaac" where we can create subheadings for idea
 :reveal_background: file:resources/images/title-screen_2017-01-16_16-18-34.png
 :reveal_background_size: 100%
 :END:
-
-* TODO Introduction
+* TODO Introduction -- A very very very very very long introduction ....
+:PROPERTIES:
+:reveal_extra_attr: class="heading-tl"
+:END:
   TODO Add why me?  bit about foot in mouth, followed by learning about learning for MCSE, but was still hungry to know how computer worked.
 
  #+BEGIN_NOTES 
