@@ -21,14 +21,12 @@ note that I used two SPACES after the * to make the invisible heading for the no
 #+END_NOTES
 
 #+BEGIN_NOTES
-<<<<<<< HEAD
 aha! about the `PROPERTIES` below setting _all_ slide backgrounds vs. just this one:
 if the extra space in the *_ title/header1 is removed (which annoyingly happens automatically (autoformat?)
 then the value is extended to ALL slides, but if the second space remains and the '  ' is treated as the header title,
 then the custom background applies only to the slide.
 check that there's a litte dot instead of an asterisk...
 - autoformat is the culprit!  use SPC - t - W to disable auto-whitespace stripping
-I've added an org heading "Jay & Isaac" where we can create subheadings for ideas we want to be documented herein. It's nice to have everything in one file for easy searching.
 #+END_NOTES
 
 
@@ -39,7 +37,6 @@ I've added an org heading "Jay & Isaac" where we can create subheadings for idea
 :reveal_background_size: 100%
 :reveal_background: file:resources/images/title-screen_2017-01-16_16-18-34.png
 :END:
-  TODO Add why me?  bit about foot in mouth, followed by learning about learning for MCSE, but was still hungry to know how computer worked.
 
 * Introduction
 
