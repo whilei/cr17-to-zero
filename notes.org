@@ -84,7 +84,7 @@ And how long for this much improvement?
 TODO isaac third set of pics on this slide
 #+END_NOTES
 
-** 5 Days 
+** 5 Days
 - Betty Edwards, author of /Drawing on the Right Side of the Brain/
 - drawright.com
 - ~@DRSB_Edwards~
@@ -95,6 +95,8 @@ TODO isaac third set of pics on this slide
 
 #+BEGIN_NOTES
 TODO jay add qr code/link tweet here "Betty Edwards, your teaching method is astonishing! #thevalueoflearning .@DRSB_Edwards"
+
+TODO isaac40 treat all titles the same as far as position, so let's raise this one (5 Days) and those of similar class up so its top is level with top of white video feed box.
 #+END_NOTES
 
 
