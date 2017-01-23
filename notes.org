@@ -2,7 +2,7 @@
 #+Author: Jay Martin
 #+Twitter: @webappzero
 #+REVEAL_THEME: jaysky
-#+OPTIONS: reveal_center:t num:nil toc:nil reveal_title_slide:nil
+#+OPTIONS: num:nil toc:nil reveal_title_slide:nil
 #+mynotes: Use Big John / Little Joe for Headings, Quicksand for normal type and lobster for marking up pictures (or any combination of these.
 #+REVEAL_HLEVEL: 1
 #+REVEAL_EXTRA_JS: {src: './learnering.js'} 
@@ -17,14 +17,14 @@
 ;; answer 15 min
 ;; action 25 min
 ;; Conclusion 5 min
+;; reveal_center:t 
 note that I used two SPACES after the * to make the invisible heading for the non-title title slide.
 #+END_NOTES
-
 
 # This is the title-non-title.
 *      
 :PROPERTIES:
-# :reveal_extra_attr: class="heading-tl"
+:reveal_extra_attr: data-state="hide-video"
 :reveal_background_size: 100%
 :reveal_background: file:resources/images/title-screen_2017-01-16_16-18-34.png
 :END:
@@ -41,6 +41,7 @@ note that I used two SPACES after the * to make the invisible heading for the no
 # Before+after(3)
 ** 
 :PROPERTIES:
+:reveal_extra_attr: data-state="hide-video"
 :reveal_background_size: 100%
 :reveal_background: file:resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged2/01-montage.png
 :END:
@@ -51,6 +52,7 @@ These before and after self-portraits were drawn by the same person. How long do
 
 **    
 :PROPERTIES:
+:reveal_extra_attr: data-state="hide-video"
 :reveal_background_size: 100%
 :reveal_background: file:resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged2/02-montage.png
 :END:
@@ -61,6 +63,7 @@ How much time for this degree of improvement? (wait 5 seconds) (NEXT SLIDE DOWN)
 
 **    
 :PROPERTIES:
+:reveal_extra_attr: data-state="hide-video"
 :reveal_background_size: 100%
 :reveal_background: file:resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged2/03-montage.png
 :END:
