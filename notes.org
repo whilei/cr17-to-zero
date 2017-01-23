@@ -52,7 +52,7 @@ check that there's a litte dot instead of an asterisk...
 ** 
 :PROPERTIES:
 :reveal_background_size: 100%
-:reveal_background: file:resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged/01-montage.png
+:reveal_background: file:resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged2/01-montage.png
 :END:
 
 #+BEGIN_NOTES
@@ -62,7 +62,7 @@ These before and after self-portraits were drawn by the same person. How long do
 ** 
 :PROPERTIES:
 :reveal_background_size: 100%
-:reveal_background: file:resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged/02-montage.png
+:reveal_background: file:resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged2/02-montage.png
 :END:
 
 #+BEGIN_NOTES
@@ -72,7 +72,7 @@ How much time for this degree of improvement? (wait 5 seconds) (NEXT SLIDE DOWN)
 ** 
 :PROPERTIES:
 :reveal_background_size: 100%
-:reveal_background: file:resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged/03-montage.png
+:reveal_background: file:resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged2/03-montage.png
 :END:
 #+BEGIN_NOTES
 And how long for this much improvement?
