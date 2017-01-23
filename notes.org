@@ -50,7 +50,7 @@ check that there's a litte dot instead of an asterisk...
 
 ** TODO add background png (blue/red w/ before and after centered in each)
 #+BEGIN_NOTES
-These before and after self-portraits were drawn by the same person. How long do you think it took to acquire this improvement in skill? (next slide)
+These before and after self-portraits were drawn by the same person. How long do you think it took to acquire this improvement in skill? (WAIT 5 seconds) (NEXT SLIDE DOWN)
 #+END_NOTES
 
 
@@ -65,7 +65,7 @@ These before and after self-portraits were drawn by the same person. How long do
 
 ** TODO add background png
 #+BEGIN_NOTES
-How much time for this degree of improvement? (wait 5 seconds) (next slide)
+How much time for this degree of improvement? (wait 5 seconds) (NEXT SLIDE DOWN)
 #+END_NOTES
 
 #+BEGIN_NOTES
@@ -76,8 +76,8 @@ TODO isaac second set of pics on this slide
 #+BEGIN_NOTES
 And how long for this much improvement?
 
-(wait 5 seconds)
-(next slide)
+(WAIT 5 seconds)
+(NEXT SLIDE DOWN)
 #+END_NOTES
 
 #+BEGIN_NOTES
@@ -91,27 +91,65 @@ TODO isaac third set of pics on this slide
 - ~@DRSB_Edwards~
 
 #+BEGIN_NOTES
-5 days. That's it. These people, people like you or me, learned the technical fundamentals of drawing in only *5 days*. Personally, I was astonished when I first saw these drawings.
+5 days. That's it. These people, people not unlike you or me, learned the technical fundamentals of drawing in only *5 days*. 
 
-How does their teacher, Betty Edwards, facilitate such progress for *all* of her students, not just some?
+Personally, I was astonished when I first saw these drawings.
+
+How does their teacher (NEXT FRAG), Betty Edwards, facilitate such progress for *all* of her students, not just some?
 
 And how is her approach relevant to learning other highly technical skills, such as programming?
 
-We'll explore this question, and several others, together, over the next hour. (next slide)
+We'll explore these, and several other engaging questions, together, over the next hour. (next slide)
 #+END_NOTES
 
 #+BEGIN_NOTES
-TODO jay add qr code/link tweet here "Betty Edwards, your teaching method is astonishing! #thevalueoflearning .@DRSB_Edwards"
+TODO jay add qr code/link tweet here "Betty Edwards, your teaching method is astonishing! #thevalueoflearning .@DRSB_Edwards" Actually move to the point in the talk where you provide her method. And get her permissions first -- it's kinda spammy.
 
 TODO isaac40 treat all titles the same as far as position, so let's raise this one (5 Days) and those of similar class up so its top is level with top of white video feed box.
 #+END_NOTES
 
+** Target Audience?
+#+ATTR_REVEAL: :frag (roll-in) 
+- programmers
+- aspiring programmers
+- curious minded people
+
+# TODO isaac45 Bullets and title need to standard positioning, meaning like we talked about.
 
    #+BEGIN_NOTES
-   This talk was written with two particular audiences in mind: Programmers & Aspiring Programmers, but anyone with an interest in learning should find the talk personally relevant.
+   I wrote this talk with (NEXT FRAG) programmers & (NEXT FRAG) aspiring programmers in mind, but (NEXT FRAG) /*anyone with an interest*/ in learning will, /hopefully/, find the talk personally relevant.
+   #+END_NOTES
 
-  TODO Add why me?  bit about foot in mouth, followed by learning about learning for MCSE, but was still hungry to know how computer worked.
+** My Credentials
+   #+ATTR_REVEAL: :frag t
+    [[file:resources/images/jayfootinmouth.png]]
+
+# TODO isaac50 please resize this photo so it fits nicely with the other elements. I won't neet any more items on this slide (bullets etc.)
+# Ooh nice, just figured out, that hash commment lines don't show up on slides, so I'll put our todos in these and save the notes for talk notes.
+
+   #+BEGIN_NOTES
+   What are my qualifications for giving this talk?
+
+    Many things I say today about the human brain, with confidence, will likely be outdated within a decade, or less.
+   
+    Fortunately, I have a long and (NEXT FRAG) documented history of putting my foot in my mouth.
+
+
+    TODO jay10 Start here in morning , learning for MCSE, but was still hungry to know how computer worked.
+
    I'm not an expert in programming or in the science of learning. This talk is a slice of my life experiences of learning and learning to program. My hope is that you will find something herein to help you in your own learning journey, whatever your goals may be. So,here we go! 
+
+
+   #+END_NOTES
+
+**  
+ :PROPERTIES:
+ # :reveal_extra_attr: class="heading-tl"
+ :reveal_background_size: 100%
+ :reveal_background: file:resources/images/thevalueoflearning.png
+ :END:
+
+   #+BEGIN_NOTES
 
    "The Value of Learning."
 
