@@ -39,7 +39,8 @@ check that there's a litte dot instead of an asterisk...
 :reveal_background: file:resources/images/title-screen_2017-01-16_16-18-34.png
 :END:
 
-* Introduction
+* DONE Introduction
+  CLOSED: [2017-01-23 Mon 12:57]
 
  #+BEGIN_NOTES 
  Thank you Ryan for inviting me to speak at Clojure Remote 2017. And welcome to everyone whose with us today to hear about /The Value of Learning/.
@@ -48,31 +49,31 @@ check that there's a litte dot instead of an asterisk...
  #+END_NOTES
 
 
-** TODO add background png (blue/red w/ before and after centered in each)
+** 
+:PROPERTIES:
+:reveal_background_size: 100%
+:reveal_background: file:resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged/01-montage.png
+:END:
+
 #+BEGIN_NOTES
 These before and after self-portraits were drawn by the same person. How long do you think it took to acquire this improvement in skill? (WAIT 5 seconds) (NEXT SLIDE DOWN)
 #+END_NOTES
 
+** 
+:PROPERTIES:
+:reveal_background_size: 100%
+:reveal_background: file:resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged/02-montage.png
+:END:
 
-  #+BEGIN_NOTES  
-  TODO isaac30 please crop 6 rectangle pics (no borders or drop-shadows. flat design style. each pair same size.) from this one file:
-    [[file:resources/images/Opening & Overview/illustration-of-drawing-skill-improvement-in-5-days_2017-01-12_09-19-11.png]]
-
-  Show one set of before and after pics, split up, with one on left and one on right sides of screen. I've placed my adobe illustrator file 'title-screen.ai' inside the resources/images dir. You can use this as a template. Place before pic centered on left half, and after on right with blue and red background respectively.
-
-  Spacemacs tip: you can drag and drop pics into buffer but you need to set custom variable in .spacemacs, see my gist and search for '(org-download-image-dir "resources/images") You can also open file tree buffer with SPC f t or SPC p t 
-  #+END_NOTES
-
-** TODO add background png
 #+BEGIN_NOTES
 How much time for this degree of improvement? (wait 5 seconds) (NEXT SLIDE DOWN)
 #+END_NOTES
 
-#+BEGIN_NOTES
-TODO isaac second set of pics on this slide
-#+END_NOTES
-
-** TODO add background png
+** 
+:PROPERTIES:
+:reveal_background_size: 100%
+:reveal_background: file:resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged/03-montage.png
+:END:
 #+BEGIN_NOTES
 And how long for this much improvement?
 
@@ -80,9 +81,6 @@ And how long for this much improvement?
 (NEXT SLIDE DOWN)
 #+END_NOTES
 
-#+BEGIN_NOTES
-TODO isaac third set of pics on this slide
-#+END_NOTES
 
 ** 5 days
 #+ATTR_REVEAL: :frag t
