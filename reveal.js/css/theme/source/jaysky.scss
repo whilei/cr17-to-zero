@@ -32,7 +32,9 @@
     font-family: "lobster";
     url:('/Users/jay/projects/cr17-to-zero/reveal.js/css/fonts/lobster.otf' format('opentype'));
 }
-// Override theme settings (see ../template/settings.scss)
+
+
+// OVERRIDE theme settings (see ../template/settings.scss)
 $mainFont: 'Open Sans', sans-serif;
 /* $mainFont: 'Quicksand', sans-serif; */
 /* $mainColor: #333; */
@@ -81,6 +83,38 @@ $headingTextTransform: capitalize;
 	line-height: 1.3em;
 }
 
+// ========== Isaac's edits.
+
+// adjust top-left margins to be smaller
+.reveal .slides {
+    margin-left: 80px;
+    margin-top: 0;
+}
+.heading-tl h2 {
+    position: relative;
+    top: -150px;
+    left: 0px;
+    margin-right: 150px;
+    /* max-width: 60%; */
+}
+
+.reveal h2 {
+    position: relative;
+    top: -150px;
+    left: 0px;
+    margin: 0 120px 20px 0;
+}
+
+div#videoPlaceholder {
+    position: fixed;
+    display: inline-block;
+    top: 0;
+    right: 0;
+    width: 450px;
+    height: 300px;
+    /* z-index: 100; */
+    background-color: white;
+}
 // Background generator
 /* @mixin bodyBackground() {
 /* 	@include radial-gradient( #add9e4, #f7fbfc ); */

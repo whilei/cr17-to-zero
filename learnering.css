@@ -3,31 +3,6 @@
 
 /* the problem with this is that if the slide has a lot of text, the .slide div will be taller, forcing the h2 off the top */
 
-.heading-tl h2 {
-    position: relative;
-    top: -150px;
-    left: 0px;
-    margin-right: 150px;
-    /* max-width: 60%; */
-}
-
-.reveal h2 {
-    position: relative;
-    top: -150px;
-    left: 0px;
-    margin: 0 120px 20px 0;
-}
-
-div#videoPlaceholder {
-    position: fixed;
-    display: inline-block;
-    top: 0;
-    right: 0;
-    width: 450px;
-    height: 300px;
-    /* z-index: 100; */
-    background-color: white;
-}
 
 
 /* section.heading-tl { */
