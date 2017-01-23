@@ -23,6 +23,7 @@
   font-family: "lobster";
   url: "/Users/jay/projects/cr17-to-zero/reveal.js/css/fonts/lobster.otf" format("opentype"); }
 
+/* Mixin */
 /* $mainFont: 'Quicksand', sans-serif; */
 /* $mainColor: #333; */
 /* $headingFont: 'Muli', sans-serif; */
@@ -54,30 +55,54 @@
 .reveal a {
   line-height: 1.3em; }
 
+/* //doesn't work... */
+/* div.slides { */
+/*     width: 900px !important; */
+/*     height: 800px !important; */
+/* } */
 .reveal .slides {
-  margin-left: 80px;
-  margin-top: 0; }
+  margin-left: 0;
+  margin-top: 0;
+  padding: 20px;
+  position: relative; }
 
-.heading-tl h2 {
-  position: relative;
-  top: -150px;
-  left: 0px;
-  margin-right: 150px;
-  /* max-width: 60%; */ }
+/* .heading-tl h2 { */
+/*     position: relative; */
+/*     top: -150px; */
+/*     left: 0px; */
+/*     margin-right: 150px; */
+/*     /\* max-width: 60%; *\/ */
+/* } */
+.reveal h2, h3, h4 {
+  position: absolute;
+  /* top: 0; */
+  /* left: 0px; */
+  border-bottom: 2px solid #C1AE7C;
+  max-width: 50%;
+  margin: 30 20 20 20px; }
 
-.reveal h2 {
-  position: relative;
-  top: -150px;
-  left: 0px;
-  margin: 0 120px 20px 0; }
+.hide-heading * h1, .hide-heading h2, .hide-heading h3, .hide-heading h4 {
+  display: none !important; }
+
+.hide-video * div#videoPlaceholder {
+  display: none !important; }
+
+section {
+  top: 0 !important;
+  bottom: 0;
+  padding: 20px; }
+  section ul, section li, section p {
+    /* @include vertical-align(); */
+    position: relative;
+    top: 375px; }
 
 div#videoPlaceholder {
   position: fixed;
   display: inline-block;
   top: 0;
   right: 0;
-  width: 450px;
-  height: 300px;
+  width: 50%;
+  height: 50%;
   /* z-index: 100; */
   background-color: white; }
 
