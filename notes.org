@@ -48,7 +48,12 @@ check that there's a litte dot instead of an asterisk...
  #+END_NOTES
 
 
-** TODO add background png (blue/red w/ before and after centered in each)
+** 
+:PROPERTIES:
+:reveal_background_size: 100%
+:reveal_background: file:resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged/01-montage.png
+:END:
+
 #+BEGIN_NOTES
 These before and after self-portraits were drawn by the same person. How long do you think it took to acquire this improvement in skill? (WAIT 5 seconds) (NEXT SLIDE DOWN)
 #+END_NOTES
@@ -62,8 +67,11 @@ These before and after self-portraits were drawn by the same person. How long do
 
   Spacemacs tip: you can drag and drop pics into buffer but you need to set custom variable in .spacemacs, see my gist and search for '(org-download-image-dir "resources/images") You can also open file tree buffer with SPC f t or SPC p t 
   #+END_NOTES
-
-** TODO add background png
+** 
+:PROPERTIES:
+:reveal_background_size: 100%
+:reveal_background: file:resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged/02-montage.png
+:END:
 #+BEGIN_NOTES
 How much time for this degree of improvement? (wait 5 seconds) (NEXT SLIDE DOWN)
 #+END_NOTES
@@ -72,7 +80,11 @@ How much time for this degree of improvement? (wait 5 seconds) (NEXT SLIDE DOWN)
 TODO isaac second set of pics on this slide
 #+END_NOTES
 
-** TODO add background png
+** 
+:PROPERTIES:
+:reveal_background_size: 100%
+:reveal_background: file:resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged/03-montage.png
+:END:
 #+BEGIN_NOTES
 And how long for this much improvement?
 
