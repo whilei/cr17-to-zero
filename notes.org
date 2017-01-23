@@ -120,10 +120,8 @@ TODO isaac40 treat all titles the same as far as position, so let's raise this o
 
 ** My Credentials
    #+ATTR_REVEAL: :frag t
-    [[file:resources/images/jayfootinmouth.png]]
-
-# TODO isaac50 please resize this photo so it fits nicely with the other elements. I won't neet any more items on this slide (bullets etc.)
-# Ooh nice, just figured out, that hash commment lines don't show up on slides, so I'll put our todos in these and save the notes for talk notes.
+   file:resources/images/jayfootinmouth-x600.png
+# Let me know if you think this should be maybe a tad smaller?..
 
    #+BEGIN_NOTES
    What are my qualifications for giving this talk?
