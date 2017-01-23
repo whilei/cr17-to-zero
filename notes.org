@@ -130,14 +130,40 @@ TODO isaac40 treat all titles the same as far as position, so let's raise this o
    #+BEGIN_NOTES
    What are my qualifications for giving this talk?
 
-    Many things I say today about the human brain, with confidence, will likely be outdated within a decade, or less.
+   Many things I say today about the human brain, with confidence, will likely be outdated within a decade, or less.
    
-    Fortunately, I have a long and (NEXT FRAG) documented history of putting my foot in my mouth.
+   Fortunately, I have a long and (NEXT FRAG) documented history of putting my foot in my mouth.
 
+ 
+ #+END_NOTES  
 
-    TODO jay10 Start here in morning , learning for MCSE, but was still hungry to know how computer worked.
+** My Experiences 
+ #+BEGIN_NOTES 
+   I'm not an expert in programming or in the science of learning. This talk is a slice of my life experiences around learning and learning to program.
 
-   I'm not an expert in programming or in the science of learning. This talk is a slice of my life experiences of learning and learning to program. My hope is that you will find something herein to help you in your own learning journey, whatever your goals may be. So,here we go! 
+   3 years after I graduated college, I decided to pursue a career in IT.
+
+   At the time their were only 40,000 or so Microsoft Certified Systems Engineers. Today their are 
+
+   I would eventually sign up for a 6 month training program, but delayed starting by 2 months, so that I could study up on how to improve my ability to learn new information and acquire new skills.
+
+   The fact is, that after years of being a student, 18 years total, from pre-school to undergrad diploma, I had very little confidence in my own ability to efficiently learn highly technical information.
+
+   The time I invested learning about learning paid off handsomely, as I was the first student to complete the local training program, and with flying colors. I landed to job offers in my first two interviews, and my career in IT was established.
+
+   My studies about learning taught me to focus on fundamental knowledge and practical skill.
+
+   I purchased two computers from a trade show for $400, set them up with multiple boot configurations so that I could materialize every example in my books into real world use cases.
+
+   On top of that I got a job at my school on the weekends, setting up the workstations for the next week's courses, so that by the time of my job interviews I had logged just over 2400 system installations.
+
+   All of these actions were inspired by taking the time to better understand how my brain worked, but the crucial benefit I gained in those two months, was the absolute conviction that I could succeed if I put in the work. This was no pie in sky, self-help woo woo, this was brain science, and I want to share this science with you!
+
+   My hope is that you will find at least one thing in this talk that will help you in your own learning journey, whatever your goals may be.
+
+   Toward that end I will touch on many aspects of this subject. Each aspect can serve as a unique personal starting point or fork in the road for your own curiosity driven research.
+
+   So,here we go! 
 
 
    #+END_NOTES
