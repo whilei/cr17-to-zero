@@ -32,7 +32,8 @@
     font-family: "lobster";
     url:('/Users/jay/projects/cr17-to-zero/reveal.js/css/fonts/lobster.otf' format('opentype'));
 }
-/* Mixin */
+
+//Vertical Aligners
 @mixin vertical-align($position: relative) {
   position: $position;
   top: 50%;
@@ -40,6 +41,15 @@
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+
+@mixin vertical-align-at($position: relative, $percent: 50%) {
+  position: $position;
+  top: $percent;
+  -webkit-transform: translateY(-$percent);
+  -ms-transform: translateY(-$percent);
+  transform: translateY(-$percent);
+}
+
 
 // OVERRIDE theme settings (see ../template/settings.scss)
 $mainFont: 'Open Sans', sans-serif;
@@ -58,6 +68,10 @@ $linkColorHover: lighten( $linkColor, 20% );
 $selectionBackgroundColor: #134674;
 $headingTextTransform: capitalize;
 
+$videoWidth: 50%;
+$videoHeight: 50%;
+
+
 /* // JRM edits */
 /* $navlinkColor: #C1AE7C; */
 /* $navlinkHover: lighten( $navlinkColor, 20% ); */
@@ -66,9 +80,13 @@ $headingTextTransform: capitalize;
 .reveal .slides h1,
 .reveal .slides h2,
 .reveal .slides h3,
-.reveal .slides h4,
-.reveal .slides p {
+.reveal .slides h4
+                   {
     text-align: left;
+    max-width: 100%;
+
+    padding-bottom: 100px;
+    border-bottom: 1px solid $mainColor;
 }
 
 /* .reveal .slides h1, */
@@ -90,36 +108,22 @@ $headingTextTransform: capitalize;
 	line-height: 1.3em;
 }
 
-// ========== Isaac's edits. */
-/* //doesn't work... */
-/* div.slides { */
-/*     width: 900px !important; */
-/*     height: 800px !important; */
-/* } */
-
-// adjust top-left margins to be smaller
-.reveal .slides {
-    margin-left: 0;
-    margin-top: 0;
+// --- Isaac's Edits Take2 ---
+div.slides {
+    max-width: 95% - $videoWidth !important;
     padding: 20px;
-    position: relative;
+    margin: 0 0 auto 0 !important;
 }
 
-/* .heading-tl h2 { */
-/*     position: relative; */
-/*     top: -150px; */
-/*     left: 0px; */
-/*     margin-right: 150px; */
-/*     /\* max-width: 60%; *\/ */
-/* } */
+.reveal section.present {
+    padding: 0 !important;
+    height: 100%;
 
-.reveal h2,h3,h4 {
-    position: absolute;
-    /* top: 0; */
-    /* left: 0px; */
-    border-bottom: 2px solid $headingColor;
-    max-width: 50%;
-    margin: 30 20 20 20px;
+    p img {
+        max-height: 60%; //guesstimate for now
+        margin: auto; //center it
+    }
+
 }
 
 // ie title slide
@@ -134,28 +138,18 @@ $headingTextTransform: capitalize;
     }
 }
 
-section {
-    top: 0 !important; //force full height, to allow heading to climb up and still be related to the pp's.
-    bottom: 0;
-    padding: 20px;
-
-    ul,li,p {
-        /* @include vertical-align(); */
-        position: relative;
-        top: 375px;
-    }
-}
-
 div#videoPlaceholder {
     position: fixed;
     display: inline-block;
     top: 0;
     right: 0;
-    width: 50%;
-    height: 50%;
+    width: $videoWidth;
+    height: $videoHeight;
     /* z-index: 100; */
     background-color: white;
 }
+
+
 // Background generator
 /* @mixin bodyBackground() {
 /* 	@include radial-gradient( #add9e4, #f7fbfc ); */

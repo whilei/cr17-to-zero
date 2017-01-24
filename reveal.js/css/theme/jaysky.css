@@ -23,7 +23,6 @@
   font-family: "lobster";
   url: "/Users/jay/projects/cr17-to-zero/reveal.js/css/fonts/lobster.otf" format("opentype"); }
 
-/* Mixin */
 /* $mainFont: 'Quicksand', sans-serif; */
 /* $mainColor: #333; */
 /* $headingFont: 'Muli', sans-serif; */
@@ -36,9 +35,11 @@
 .reveal .slides h1,
 .reveal .slides h2,
 .reveal .slides h3,
-.reveal .slides h4,
-.reveal .slides p {
-  text-align: left; }
+.reveal .slides h4 {
+  text-align: left;
+  max-width: 100%;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #C1AE7C; }
 
 /* .reveal .slides h1, */
 /* .reveal .slides h2, */
@@ -55,17 +56,41 @@
 .reveal a {
   line-height: 1.3em; }
 
+div.slides {
+  max-width: 45% !important;
+  padding: 20px;
+  margin: 0 0 auto 0 !important; }
+
+.reveal section.present {
+  padding: 0 !important;
+  height: 100%;
+  /* > ul,p,blockquote { */
+  /*     display: block !important; */
+  /*     margin: 0 0 0 40px !important; */
+  /*     @include vertical-align-at(relative, $videoHeight + 5%); // wiggle room so no overlap vid */
+  /* :nth-of-type(1) { */
+  /*     position: relative; */
+  /*     top: $videoHeight; */
+  /* } */
+  /* } */ }
+  .reveal section.present p img {
+    max-height: 50%;
+    margin: auto;
+    /* position: relative; */
+    /* margin-top: -50% !important; // moves pictures back to center */ }
+
 /* //doesn't work... */
 /* div.slides { */
 /*     width: 900px !important; */
 /*     height: 800px !important; */
 /* } */
-.reveal .slides {
-  margin-left: 0;
-  margin-top: 0;
-  padding: 20px;
-  position: relative; }
-
+/* // adjust top-left margins to be smaller */
+/* .reveal .slides { */
+/*     margin-left: 0; */
+/*     margin-top: 0; */
+/*     padding: 20px; */
+/*     position: relative; */
+/* } */
 /* .heading-tl h2 { */
 /*     position: relative; */
 /*     top: -150px; */
@@ -73,29 +98,42 @@
 /*     margin-right: 150px; */
 /*     /\* max-width: 60%; *\/ */
 /* } */
-.reveal h2, h3, h4 {
-  position: absolute;
-  /* top: 0; */
-  /* left: 0px; */
-  border-bottom: 2px solid #C1AE7C;
-  max-width: 50%;
-  margin: 30 20 20 20px; }
-
+/* .reveal h2,h3,h4 { */
+/*     position: absolute; */
+/*     /\* top: 0; *\/ */
+/*     /\* left: 0px; *\/ */
+/*     border-bottom: 2px solid $headingColor; */
+/*     max-width: 50%; */
+/*     margin: 30 20 20 20px; */
+/* } */
 .hide-heading * h1, .hide-heading h2, .hide-heading h3, .hide-heading h4 {
   display: none !important; }
 
 .hide-video * div#videoPlaceholder {
   display: none !important; }
 
-section {
-  top: 0 !important;
-  bottom: 0;
-  padding: 20px; }
-  section ul, section li, section p {
-    /* @include vertical-align(); */
-    position: relative;
-    top: 375px; }
-
+/* section { */
+/*     top: 0 !important; //force full height, to allow heading to climb up and still be related to the pp's. */
+/*     bottom: 0; */
+/*     padding: 20px; */
+/*     height: 100%; // for VA */
+/*     ul,li,p { */
+/*         /\* @include vertical-align(); *\/ */
+/*         position: relative; */
+/*         top: 375px; */
+/*     } */
+/* } */
+/* .reveal p,ul { */
+/*         /\* position: relative; *\/ */
+/*         /\* top: 375px; *\/ */
+/*     /\* @include vertical-align-at(relative, 70%); *\/ */
+/*     @include vertical-align(); */
+/* } */
+/* // Remove border and enforce margin for images, ie footinmouthjay. */
+/* .reveal section img { */
+/*     border: none !important; */
+/*     margin: 30px 0px !important; */
+/* } */
 div#videoPlaceholder {
   position: fixed;
   display: inline-block;
