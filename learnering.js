@@ -21,24 +21,52 @@ slides.insertBefore(vp, slides.firstChild);
 //   vp.style.display = 'none';
 // }, false);
 
+
+
+function setStateFromHash(hash) {
+  var hash = hash;
+    hash = hash.replace('#', '');
+  hash = hash.split("-");
+  console.log("got v, h from hash: ", hash);
+    if (hash !== "") {
+      Reveal.slide(parseInt(hash[0]));
+        console.log('did set state', hash);
+    }
+}
+
+window.onload = function () {
+  if (Reveal.isReady()) {
+    setStateFromHash(location.hash);
+  }
+}
+
+
 // https://github.com/hakimel/reveal.js#slide-states
-Reveal.addEventListener( 'hide-video', function( event ) {
-  // event.previousSlide, event.currentSlide, event.indexh, event.indexv
-  console.log("This is video hiding.");
-  console.log(event);
-  vp.style.display = 'none';
-  document.getElementsByTagName("h2")[0].style.visibility = 'hidden'; //for now, also hide the heading
-}, false );
+Reveal.addEventListener('hide-video', function(event) {
+    // event.previousSlide, event.currentSlide, event.indexh, event.indexv
+    console.log("This is video hiding.");
+    console.log(event);
+    vp.style.display = 'none';
+    document.getElementsByTagName("h2")[0].style.visibility = 'hidden'; //for now, also hide the heading
+}, false);
 
 // reset func // this is ugly but...
-Reveal.addEventListener( 'slidechanged', function( event ) {
-  // event.previousSlide, event.currentSlide, event.indexh, event.indexv
-  console.log("slide changed");
-  console.log(event);
-  console.log("This is slide chaingin.");
-  vp.style.display = 'inline-block';
-  document.getElementsByTagName("h2")[0].style.visibility = 'visible'; //for now, also hide the heading
+Reveal.addEventListener('slidechanged', function(event) {
 
+    // set location hash
+    var state = Reveal.getState();
+    console.log(state.indexh, state.indexv);
+    location.hash = state.indexh.toString();
+
+    // location.hash = event.indexh + "-" + event.indexv; //update hash
+    // console.log("set state to ", state);
+
+    // event.previousSlide, event.currentSlide, event.indexh, event.indexv
+    // console.log("slide changed");
+    console.log(event);
+    // console.log("This is slide chaingin.");
+    vp.style.display = 'inline-block';
+    document.getElementsByTagName("h2")[0].style.visibility = 'visible'; //for now, also hide the heading
 
   // // set p,ul,bqs to height
   // // get sections (slides)
@@ -51,5 +79,4 @@ Reveal.addEventListener( 'slidechanged', function( event ) {
   // console.log(firstTextElem);
   // firstTextElem.className += "quadrantized";
 
-
-}, false );
+}, false);
