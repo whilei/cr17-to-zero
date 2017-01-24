@@ -23,7 +23,6 @@
   font-family: "lobster";
   url: "/Users/jay/projects/cr17-to-zero/reveal.js/css/fonts/lobster.otf" format("opentype"); }
 
-/* Mixin */
 /* $mainFont: 'Quicksand', sans-serif; */
 /* $mainColor: #333; */
 /* $headingFont: 'Muli', sans-serif; */
@@ -90,11 +89,27 @@
 section {
   top: 0 !important;
   bottom: 0;
-  padding: 20px; }
-  section ul, section li, section p {
-    /* @include vertical-align(); */
-    position: relative;
-    top: 375px; }
+  padding: 20px;
+  height: 100%;
+  /*     ul,li,p { */
+  /*         /\* @include vertical-align(); *\/ */
+  /*         position: relative; */
+  /*         top: 375px; */
+  /*     } */ }
+
+.reveal p, ul {
+  /* position: relative; */
+  /* top: 375px; */
+  /* @include vertical-align-at(relative, 70%); */
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+.reveal section img {
+  border: none !important;
+  margin: 30px 0px !important; }
 
 div#videoPlaceholder {
   position: fixed;

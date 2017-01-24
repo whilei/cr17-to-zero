@@ -32,13 +32,22 @@
     font-family: "lobster";
     url:('/Users/jay/projects/cr17-to-zero/reveal.js/css/fonts/lobster.otf' format('opentype'));
 }
-/* Mixin */
+
+//Vertical Aligners
 @mixin vertical-align($position: relative) {
   position: $position;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+
+@mixin vertical-align-at($position: relative, $percent: 50%) {
+  position: $position;
+  top: $percent;
+  -webkit-transform: translateY(-$percent);
+  -ms-transform: translateY(-$percent);
+  transform: translateY(-$percent);
 }
 
 // OVERRIDE theme settings (see ../template/settings.scss)
@@ -138,12 +147,26 @@ section {
     top: 0 !important; //force full height, to allow heading to climb up and still be related to the pp's.
     bottom: 0;
     padding: 20px;
+    height: 100%; // for VA
 
-    ul,li,p {
-        /* @include vertical-align(); */
-        position: relative;
-        top: 375px;
-    }
+/*     ul,li,p { */
+/*         /\* @include vertical-align(); *\/ */
+/*         position: relative; */
+/*         top: 375px; */
+/*     } */
+}
+
+.reveal p,ul {
+        /* position: relative; */
+        /* top: 375px; */
+    /* @include vertical-align-at(relative, 70%); */
+    @include vertical-align();
+}
+
+// Remove border and enforce margin for images, ie footinmouthjay.
+.reveal section img {
+    border: none !important;
+    margin: 30px 0px !important;
 }
 
 div#videoPlaceholder {
@@ -156,6 +179,8 @@ div#videoPlaceholder {
     /* z-index: 100; */
     background-color: white;
 }
+
+
 // Background generator
 /* @mixin bodyBackground() {
 /* 	@include radial-gradient( #add9e4, #f7fbfc ); */

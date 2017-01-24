@@ -2,7 +2,7 @@
 #+Author: Jay Martin
 #+Twitter: @webappzero
 #+REVEAL_THEME: jaysky
-#+OPTIONS: num:nil toc:nil reveal_title_slide:nil
+#+OPTIONS: num:nil toc:nil reveal_title_slide:nil reveal_center:nil
 #+mynotes: Use Big John / Little Joe for Headings, Quicksand for normal type and lobster for marking up pictures (or any combination of these.
 #+REVEAL_HLEVEL: 1
 #+REVEAL_EXTRA_JS: {src: './learnering.js'} 
@@ -97,7 +97,7 @@ We'll explore these, and several other engaging questions, together, over the ne
 #+BEGIN_NOTES
 TODO jay add qr code/link tweet here "Betty Edwards, your teaching method is astonishing! #thevalueoflearning .@DRSB_Edwards" Actually move to the point in the talk where you provide her method. And get her permissions first -- it's kinda spammy.
 
-TODO isaac40 treat all titles the same as far as position, so let's raise this one (5 Days) and those of similar class up so its top is level with top of white video feed box.
+TODO isaac40:done treat all titles the same as far as position, so let's raise this one (5 Days) and those of similar class up so its top is level with top of white video feed box.
 #+END_NOTES
 
 ** Target Audience?
@@ -107,10 +107,9 @@ TODO isaac40 treat all titles the same as far as position, so let's raise this o
 - curious minded people
 
 # TODO isaac45 Bullets and title need to standard positioning, meaning like we talked about.
-
-   #+BEGIN_NOTES
-   I wrote this talk with (NEXT FRAG) programmers & (NEXT FRAG) aspiring programmers in mind, but (NEXT FRAG) /*anyone with an interest*/ in learning will, /hopefully/, find the talk personally relevant.
-   #+END_NOTES
+#+BEGIN_NOTES
+I wrote this talk with (NEXT FRAG) programmers & (NEXT FRAG) aspiring programmers in mind, but (NEXT FRAG) /*anyone with an interest*/ in learning will, /hopefully/, find the talk personally relevant.
+#+END_NOTES
 
 ** My Credentials
    #+ATTR_REVEAL: :frag t
