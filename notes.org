@@ -160,7 +160,7 @@ I wrote this talk with (NEXT FRAG) programmers & (NEXT FRAG) aspiring programmer
 
 **  
  :PROPERTIES:
- # :reveal_extra_attr: class="heading-tl"
+ :reveal_extra_attr: data-state="hide-video"
  :reveal_background_size: 100%
  :reveal_background: file:resources/images/thevalueoflearning.png
  :END:
