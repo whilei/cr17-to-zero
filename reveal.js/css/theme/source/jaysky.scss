@@ -50,6 +50,7 @@
   transform: translateY(-$percent);
 }
 
+
 // OVERRIDE theme settings (see ../template/settings.scss)
 $mainFont: 'Open Sans', sans-serif;
 /* $mainFont: 'Quicksand', sans-serif; */
@@ -67,6 +68,10 @@ $linkColorHover: lighten( $linkColor, 20% );
 $selectionBackgroundColor: #134674;
 $headingTextTransform: capitalize;
 
+$videoWidth: 50%;
+$videoHeight: 50%;
+
+
 /* // JRM edits */
 /* $navlinkColor: #C1AE7C; */
 /* $navlinkHover: lighten( $navlinkColor, 20% ); */
@@ -75,9 +80,10 @@ $headingTextTransform: capitalize;
 .reveal .slides h1,
 .reveal .slides h2,
 .reveal .slides h3,
-.reveal .slides h4,
-.reveal .slides p {
+.reveal .slides h4
+                   {
     text-align: left;
+    max-width: 100% - ($videoWidth*1/3 + 20%); // relative to width of section container
 }
 
 /* .reveal .slides h1, */
@@ -99,6 +105,41 @@ $headingTextTransform: capitalize;
 	line-height: 1.3em;
 }
 
+// --- Isaac's Edits Take2 ---
+div.slides {
+    max-width: 95% !important;
+    padding: 20px;
+    margin: 0 0 auto 0 !important;
+}
+
+.reveal section.present {
+    padding: 0 !important;
+    height: 100%;
+
+    > ul,p,blockquote {
+        display: block !important;
+        margin: 0 0 0 40px !important;
+        @include vertical-align-at(absolute, $videoHeight + 5%); // wiggle room so no overlap vid
+        z-index: 15;
+
+        /* :nth-of-type(1) { */
+        /*     position: relative; */
+        /*     top: $videoHeight; */
+        /* } */
+
+    }
+
+    //see js
+
+    p img {
+        position: relative;
+        margin-top: -50% !important; // moves pictures back to center
+    }
+
+}
+
+
+
 // ========== Isaac's edits. */
 /* //doesn't work... */
 /* div.slides { */
@@ -106,13 +147,13 @@ $headingTextTransform: capitalize;
 /*     height: 800px !important; */
 /* } */
 
-// adjust top-left margins to be smaller
-.reveal .slides {
-    margin-left: 0;
-    margin-top: 0;
-    padding: 20px;
-    position: relative;
-}
+/* // adjust top-left margins to be smaller */
+/* .reveal .slides { */
+/*     margin-left: 0; */
+/*     margin-top: 0; */
+/*     padding: 20px; */
+/*     position: relative; */
+/* } */
 
 /* .heading-tl h2 { */
 /*     position: relative; */
@@ -122,14 +163,14 @@ $headingTextTransform: capitalize;
 /*     /\* max-width: 60%; *\/ */
 /* } */
 
-.reveal h2,h3,h4 {
-    position: absolute;
-    /* top: 0; */
-    /* left: 0px; */
-    border-bottom: 2px solid $headingColor;
-    max-width: 50%;
-    margin: 30 20 20 20px;
-}
+/* .reveal h2,h3,h4 { */
+/*     position: absolute; */
+/*     /\* top: 0; *\/ */
+/*     /\* left: 0px; *\/ */
+/*     border-bottom: 2px solid $headingColor; */
+/*     max-width: 50%; */
+/*     margin: 30 20 20 20px; */
+/* } */
 
 // ie title slide
 .hide-heading {
@@ -143,39 +184,39 @@ $headingTextTransform: capitalize;
     }
 }
 
-section {
-    top: 0 !important; //force full height, to allow heading to climb up and still be related to the pp's.
-    bottom: 0;
-    padding: 20px;
-    height: 100%; // for VA
+/* section { */
+/*     top: 0 !important; //force full height, to allow heading to climb up and still be related to the pp's. */
+/*     bottom: 0; */
+/*     padding: 20px; */
+/*     height: 100%; // for VA */
 
 /*     ul,li,p { */
 /*         /\* @include vertical-align(); *\/ */
 /*         position: relative; */
 /*         top: 375px; */
 /*     } */
-}
+/* } */
 
-.reveal p,ul {
-        /* position: relative; */
-        /* top: 375px; */
-    /* @include vertical-align-at(relative, 70%); */
-    @include vertical-align();
-}
+/* .reveal p,ul { */
+/*         /\* position: relative; *\/ */
+/*         /\* top: 375px; *\/ */
+/*     /\* @include vertical-align-at(relative, 70%); *\/ */
+/*     @include vertical-align(); */
+/* } */
 
-// Remove border and enforce margin for images, ie footinmouthjay.
-.reveal section img {
-    border: none !important;
-    margin: 30px 0px !important;
-}
+/* // Remove border and enforce margin for images, ie footinmouthjay. */
+/* .reveal section img { */
+/*     border: none !important; */
+/*     margin: 30px 0px !important; */
+/* } */
 
 div#videoPlaceholder {
     position: fixed;
     display: inline-block;
     top: 0;
     right: 0;
-    width: 50%;
-    height: 50%;
+    width: $videoWidth;
+    height: $videoHeight;
     /* z-index: 100; */
     background-color: white;
 }

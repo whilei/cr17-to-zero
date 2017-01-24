@@ -38,4 +38,18 @@ Reveal.addEventListener( 'slidechanged', function( event ) {
   console.log("This is slide chaingin.");
   vp.style.display = 'inline-block';
   document.getElementsByTagName("h2")[0].style.visibility = 'visible'; //for now, also hide the heading
+
+
+  // // set p,ul,bqs to height
+  // // get sections (slides)
+  // var allsections = document.getElementsByTagName("section");
+  // // get current one
+  // var currentsection = document.getElementsByClassName("present")[0];
+  // console.log(currentsection);
+  // // text elements need to be moved
+  // var firstTextElem = currentsection.querySelectorAll("p,ul,blockquote")[0];
+  // console.log(firstTextElem);
+  // firstTextElem.className += "quadrantized";
+
+
 }, false );
