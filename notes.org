@@ -369,7 +369,10 @@ This question could have been tackled any number of ways. I stumbled upon this o
 #+BEGIN_NOTES 
 Give the audience a chance to grapple with the question
 #+END_NOTES
-** The instrumental value of my learning
+** The instrumental value of my learning based on 1000 point scale of importance.
+
+*** 1000 basic needs: food, water, clothing, shelter.
+
 *** Topsy turvy world view of my childhood - stars on the ceiling
 **** Sunset story
 *** Child like sense of curiosity, awe and wonder - Nature/Even from a magazine Wow!, Pepper/Insects/Thanksgiving
@@ -389,6 +392,7 @@ Give the audience a chance to grapple with the question
 Therefore learning, not winning is the greater value.
 *** Learning is Adapting
 And adapting is human. (Tie in Clojure connection)
+** 
 * Now I know. What do I do?
 What actions are consistent with this value?
 ** If we value learning, why not get better at it, instead of dribbling the ball incessantly. 
@@ -437,6 +441,9 @@ What actions are consistent with this value?
 Live as if you were to die tomorrow. Learn as if you were to live forever. -- Mahatma Gandhi
 #+END_QUOTE
 * Quotes
+#+begin_quote
+Learning is a growth exponentiator
+#+end_quote
 #+begin_quote
 The work is quite feasible, and is the only thing in our power.…Let go of the past. We must only begin. Believe me and you will see. --Epictetus
 #+end_quote
