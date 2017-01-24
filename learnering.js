@@ -8,4 +8,34 @@ vp.id = "videoPlaceholder";
 
 // insert our placeholder for where the video will go
 // (placement and style attributes handled in css)
-document.body.insertBefore(vp, document.body.firstChild);
+// and I think we want to have this only inserted once, vs appended to each section(aka slide)
+var slides = document.getElementsByClassName("slides")[0]; // there should only be one anyway
+slides.insertBefore(vp, slides.firstChild);
+// document.body.insertBefore(vp, document.body.firstChild);
+
+
+// // state listener
+// Reveal.addEventListener( 'hide-video', function() {
+//   // Called each time the slide with the "hide-video" state is made visible
+//   console.log("listening to video hiding");
+//   vp.style.display = 'none';
+// }, false);
+
+// https://github.com/hakimel/reveal.js#slide-states
+Reveal.addEventListener( 'hide-video', function( event ) {
+  // event.previousSlide, event.currentSlide, event.indexh, event.indexv
+  console.log("This is video hiding.");
+  console.log(event);
+  vp.style.display = 'none';
+  document.getElementsByTagName("h2")[0].style.visibility = 'hidden'; //for now, also hide the heading
+}, false );
+
+// reset func // this is ugly but...
+Reveal.addEventListener( 'slidechanged', function( event ) {
+  // event.previousSlide, event.currentSlide, event.indexh, event.indexv
+  console.log("slide changed");
+  console.log(event);
+  console.log("This is slide chaingin.");
+  vp.style.display = 'inline-block';
+  document.getElementsByTagName("h2")[0].style.visibility = 'visible'; //for now, also hide the heading
+}, false );

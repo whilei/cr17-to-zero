@@ -32,7 +32,16 @@
     font-family: "lobster";
     url:('/Users/jay/projects/cr17-to-zero/reveal.js/css/fonts/lobster.otf' format('opentype'));
 }
-// Override theme settings (see ../template/settings.scss)
+/* Mixin */
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+// OVERRIDE theme settings (see ../template/settings.scss)
 $mainFont: 'Open Sans', sans-serif;
 /* $mainFont: 'Quicksand', sans-serif; */
 /* $mainColor: #333; */
@@ -81,6 +90,72 @@ $headingTextTransform: capitalize;
 	line-height: 1.3em;
 }
 
+// ========== Isaac's edits. */
+/* //doesn't work... */
+/* div.slides { */
+/*     width: 900px !important; */
+/*     height: 800px !important; */
+/* } */
+
+// adjust top-left margins to be smaller
+.reveal .slides {
+    margin-left: 0;
+    margin-top: 0;
+    padding: 20px;
+    position: relative;
+}
+
+/* .heading-tl h2 { */
+/*     position: relative; */
+/*     top: -150px; */
+/*     left: 0px; */
+/*     margin-right: 150px; */
+/*     /\* max-width: 60%; *\/ */
+/* } */
+
+.reveal h2,h3,h4 {
+    position: absolute;
+    /* top: 0; */
+    /* left: 0px; */
+    border-bottom: 2px solid $headingColor;
+    max-width: 50%;
+    margin: 30 20 20 20px;
+}
+
+// ie title slide
+.hide-heading {
+    * h1,h2,h3,h4 {
+        display: none !important;
+    }
+}
+.hide-video {
+    * div#videoPlaceholder {
+        display: none !important;
+    }
+}
+
+section {
+    top: 0 !important; //force full height, to allow heading to climb up and still be related to the pp's.
+    bottom: 0;
+    padding: 20px;
+
+    ul,li,p {
+        /* @include vertical-align(); */
+        position: relative;
+        top: 375px;
+    }
+}
+
+div#videoPlaceholder {
+    position: fixed;
+    display: inline-block;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    /* z-index: 100; */
+    background-color: white;
+}
 // Background generator
 /* @mixin bodyBackground() {
 /* 	@include radial-gradient( #add9e4, #f7fbfc ); */

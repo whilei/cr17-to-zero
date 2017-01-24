@@ -2,11 +2,10 @@
 #+Author: Jay Martin
 #+Twitter: @webappzero
 #+REVEAL_THEME: jaysky
-#+OPTIONS: reveal_center:t num:nil toc:nil reveal_title_slide:nil
+#+OPTIONS: num:nil toc:nil reveal_title_slide:nil
 #+mynotes: Use Big John / Little Joe for Headings, Quicksand for normal type and lobster for marking up pictures (or any combination of these.
 #+REVEAL_HLEVEL: 1
-#+REVEAL_EXTRA_CSS: file:learnering.css
-#+REVEAL_EXTRA_JS: {src: './learnering.js'}
+#+REVEAL_EXTRA_JS: {src: './learnering.js'} 
 #+REVEAL_DEFAULT_FRAG_STYLE: roll-in
 
 #+BEGIN_NOTES
@@ -18,23 +17,14 @@
 ;; answer 15 min
 ;; action 25 min
 ;; Conclusion 5 min
+;; reveal_center:t 
 note that I used two SPACES after the * to make the invisible heading for the non-title title slide.
 #+END_NOTES
 
-#+BEGIN_NOTES
-aha! about the `PROPERTIES` below setting _all_ slide backgrounds vs. just this one:
-if the extra space in the *_ title/header1 is removed (which annoyingly happens automatically (autoformat?)
-then the value is extended to ALL slides, but if the second space remains and the '  ' is treated as the header title,
-then the custom background applies only to the slide.
-check that there's a litte dot instead of an asterisk...
-- autoformat is the culprit!  use SPC - t - W to disable auto-whitespace stripping
-#+END_NOTES
-
-
 # This is the title-non-title.
-*  
+*      
 :PROPERTIES:
-# :reveal_extra_attr: class="heading-tl"
+:reveal_extra_attr: data-state="hide-video"
 :reveal_background_size: 100%
 :reveal_background: file:resources/images/title-screen_2017-01-16_16-18-34.png
 :END:
@@ -48,32 +38,36 @@ check that there's a litte dot instead of an asterisk...
  My name is Jay, and recently I've become *enthralled* with the subject of learning. Here's one example of why: (next slide)
  #+END_NOTES
 
-
+# Before+after(3)
 ** 
 :PROPERTIES:
+:reveal_extra_attr: data-state="hide-video"
 :reveal_background_size: 100%
 :reveal_background: file:resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged2/01-montage.png
 :END:
-
+# (1/3)
 #+BEGIN_NOTES
 These before and after self-portraits were drawn by the same person. How long do you think it took to acquire this improvement in skill? (WAIT 5 seconds) (NEXT SLIDE DOWN)
 #+END_NOTES
 
-** 
+**    
 :PROPERTIES:
+:reveal_extra_attr: data-state="hide-video"
 :reveal_background_size: 100%
 :reveal_background: file:resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged2/02-montage.png
 :END:
-
+# (2/3)
 #+BEGIN_NOTES
 How much time for this degree of improvement? (wait 5 seconds) (NEXT SLIDE DOWN)
 #+END_NOTES
 
-** 
+**    
 :PROPERTIES:
+:reveal_extra_attr: data-state="hide-video"
 :reveal_background_size: 100%
 :reveal_background: file:resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged2/03-montage.png
 :END:
+# (3/3) 
 #+BEGIN_NOTES
 And how long for this much improvement?
 
