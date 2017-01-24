@@ -39,8 +39,7 @@ check that there's a litte dot instead of an asterisk...
 :reveal_background: file:resources/images/title-screen_2017-01-16_16-18-34.png
 :END:
 
-* DONE Introduction
-  CLOSED: [2017-01-23 Mon 12:57]
+* Introduction
 
  #+BEGIN_NOTES 
  Thank you Ryan for inviting me to speak at Clojure Remote 2017. And welcome to everyone whose with us today to hear about /The Value of Learning/.
@@ -58,6 +57,7 @@ check that there's a litte dot instead of an asterisk...
 #+BEGIN_NOTES
 These before and after self-portraits were drawn by the same person. How long do you think it took to acquire this improvement in skill? (WAIT 5 seconds) (NEXT SLIDE DOWN)
 #+END_NOTES
+
 
 ** 
 :PROPERTIES:
@@ -131,7 +131,7 @@ TODO isaac40 treat all titles the same as far as position, so let's raise this o
    Fortunately, I have a long and (NEXT FRAG) documented history of putting my foot in my mouth.
 
  
- #+END_NOTES  
+ #+END_NOTES 
 
 ** My Experiences 
  #+BEGIN_NOTES 
@@ -153,7 +153,63 @@ TODO isaac40 treat all titles the same as far as position, so let's raise this o
 
    On top of that I got a job at my school on the weekends, setting up the workstations for the next week's courses, so that by the time of my job interviews I had logged just over 2400 system installations.
 
-   All of these actions were inspired by taking the time to better understand how my brain worked, but the crucial benefit I gained in those two months, was the absolute conviction that I could succeed if I put in the work. This was no pie in sky, self-help woo woo, this was brain science, and I want to share this science with you!
+   All of these actions were inspired by investing 2 months of my life to better understand how my brain worked.
+#+END_NOTES
+
+** How I got to Clojure
+#+BEGIN_NOTES 
+   My path toward learning to program started when I was 10 years old, but a couple years later I was more interested in riding my bike after school than in staying inside the house.
+
+   A few years ago, I started dabbling in programming again, in my spare time.
+
+   Then a family member had and idea for an app, and wondered what would be involved in creating it.
+   
+   I had seen a lot of poorly designed software systems that were expensive to maintain in my experience in IT, and was highly reluctant to even consider the idea of starting a software company.
+
+   Then I started researching and looking for ways to make it 'easy'  to learn and produce web apps.
+
+   Even though I the lessons I learned 20 years before about technical study were generally helpful, I picked up a way of thinking that needed to be unlearned.
+
+   And given my sometimes stubborn nature, I had to learn the following lesson twice: Stop trying to do it the easy way!
+
+   Twice, I tried to learn an 'easy' web framework, when I should have been focused on the fundamentals of programming.
+
+   By the time I heard Rich Hickey's talk, Simple Made Easy, I was totally receptive to the truth he was laying down.
+
+   In my own words, what I learned from him is that many approaches that appear easy at first glance, are actually highly complicated systems masquerading behind a thin veil of superficial usability. These systems will consume more time and resources the further you get into your greenfield project, before eventually grinding the progress of customization requests to a near halt.
+
+   For me, my main goal, is to work with code and technology which facilitates understanding, allowing the team to focus on the domain problem at hand.
+
+   I never want to be forced by my technology stack into saying, "No, sorry. We can't do that. The system won't allow it!" or "It's just too costly."
+
+   The main reason I've chosen Clojure is that I want to learn to think about the fundamentals of programming in the same way that Rich Hickey does - identities, values, time, these are his fundamental building blocks.
+
+   Masters of a craft, discover, not only its essence, but how to practice it with great efficiency.
+
+   I will save time, not by finding the easy way, but by focusing on fundamentals that bring very difficult problems within the reach of mortals, like me. Thank you Rich! 
+
+#+END_NOTES 
+
+
+** My new goal
+#+BEGIN_NOTES 
+   I have an ambitious goal. I want to be skilled in all aspects of creating a web app, from the front end to the back, using Clojure technologies, including ClojureScript, Datomic, React Native, Arachne and so on. 
+
+   But first, the fundamentals! Forests emerge from a single tree, and a tree from a single seed.
+
+   That's the essence of my message today -- planting seeds.
+
+   Someone planted a seed in my mind over a year ago about taking the 4 hour coursera course, /Learning How to Learn/ by Barbara Oakley and Terrence Sejnowski.
+
+   After slowly going through the course over many months, branching my studies off of the main curriculum by following the compass of my own innate curiosity, I can say unequivocally taking this course is the best thing I have ever done for myself, bar none, head and shoulders above the rest, sign me up for the UFO pickup date, I'm ready to go!
+
+   What I'm trying to say is I'm a big fan. I you running short of time today, or you just don't like the sound of my voice, no worries, just mosey on over the coursera and sign up for the free course and you'll get far more out of that for yourself than you will by listening to my stories.
+   
+   The crucial benefit I've gained from my studies based on the Learning How to Learn course, is the absolute conviction that I will succeed if I put in the work.
+
+   I'm believe that about you too.
+
+   This is not pie in sky, over-hyped, played-out, self-help woo woo, this is brain science, and I want to share my story of pursuing this science with you!
 
    My hope is that you will find at least one thing in this talk that will help you in your own learning journey, whatever your goals may be.
 
