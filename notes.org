@@ -77,10 +77,11 @@ And how long for this much improvement?
 
 
 ** 5 days
-#+ATTR_REVEAL: :frag t
+#+ATTR_REVEAL: :frag (roll-in)
 - Betty Edwards, author of /Drawing on the Right Side of the Brain/
 - drawright.com
 - ~@DRSB_Edwards~
+# isaac20 why don't these frag separately too? hm. well, putting this comment here fixed it. 
 
 #+BEGIN_NOTES
 5 days. That's it. These people, people not unlike you or me, learned the technical fundamentals of drawing in only *5 days*. 

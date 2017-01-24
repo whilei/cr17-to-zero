@@ -36,10 +36,35 @@ function setStateFromHash(hash) {
 
 window.onload = function () {
   if (Reveal.isReady()) {
-    setStateFromHash(location.hash);
+    if (location.hash !== "" && location.hash !== null && typeof(location.hash) !== "undefined") {
+      setStateFromHash(location.hash);
+    }
+  }
+  hideEmptyTitles();
+}
+
+function hideEmptyTitles() {
+  var currentSlide = document.getElementsByClassName("present")[0];
+  var headings = currentSlide.querySelectorAll("h1,h2,h3,h4,h5");
+  for (var i = 0; i < headings.length; i++) {
+    var t = headings[i].textContent;
+    t = t.replace(" ", ""); //cuz 'member we use spaces to fake orgmode out?
+    console.log("heading content", t);
+    if ( t.length === 0 ) {
+      headings[i].style.border = "none";
+      headings[i].style.visiblity = "hidden";
+
+    }
   }
 }
 
+
+// function showTitles() {
+//   var headings = document.querySelectorAll("h1,h2,h3,h4,h5");
+//   for (var i = 0; i < headings.length; i++) {
+//     headings[i].style.visiblity = "visible";
+//   }
+// }
 
 // https://github.com/hakimel/reveal.js#slide-states
 Reveal.addEventListener('hide-video', function(event) {
@@ -47,7 +72,10 @@ Reveal.addEventListener('hide-video', function(event) {
     console.log("This is video hiding.");
     console.log(event);
     vp.style.display = 'none';
-    document.getElementsByTagName("h2")[0].style.visibility = 'hidden'; //for now, also hide the heading
+  //   document.getElementsByTagName("h2")[0].style.visibility = 'hidden'; //for now, also hide the heading
+  // document.getElementsByTagName("h3")[0].style.visibility = 'hidden'; //for now, also hide the heading
+  // document.getElementsByTagName("h4")[0].style.visibility = 'hidden'; //for now, also hide the heading
+  // hideTitles();
 }, false);
 
 // reset func // this is ugly but...
@@ -66,8 +94,10 @@ Reveal.addEventListener('slidechanged', function(event) {
     console.log(event);
     // console.log("This is slide chaingin.");
     vp.style.display = 'inline-block';
-    document.getElementsByTagName("h2")[0].style.visibility = 'visible'; //for now, also hide the heading
+    // document.getElementsByTagName("h2")[0].style.visibility = 'visible'; //for now, also hide the heading
+  // showTitles();
 
+  hideEmptyTitles();
   // // set p,ul,bqs to height
   // // get sections (slides)
   // var allsections = document.getElementsByTagName("section");
