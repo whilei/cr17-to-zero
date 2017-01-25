@@ -5,6 +5,8 @@ var videoPlaceholderTag = "video";
 // create the placeholder
 var vp = document.createElement(videoPlaceholderTag);
 vp.id = "videoPlaceholder";
+vp.setAttribute("data-autoplay", "");
+vp.setAttribute("autoplay", "");
 
 // insert our placeholder for where the video will go
 // (placement and style attributes handled in css)
@@ -28,31 +30,51 @@ var noConstraints = {
   audio: true,
   video: true
 };
-// for jay, not for other people...
-//check for user video media
-navigator.getUserMedia  = navigator.getUserMedia ||
-  navigator.webkitGetUserMedia ||
-  navigator.mozGetUserMedia ||
-  navigator.msGetUserMedia;
 
 var video = document.querySelector('video');
 
+// var gum;
+var usingVideo = false;
+
+// function streamVideo(gum) {
+//   gum(webcamConstraints, function(stream) {
+//     console.log(stream);
+//     video.src = window.URL.createObjectURL(stream);
+//   }, errorCallback);
+// }
+
 function setUpVideo() {
+  // usingVideo = true;
+  // for jay, not for other people...
+  //check for user video media
+  navigator.getUserMedia = navigator.getUserMedia ||
+    navigator.webkitGetUserMedia ||
+    navigator.mozGetUserMedia ||
+    navigator.msGetUserMedia;
+  // gum = navigator.getUserMedia;
   if (navigator.getUserMedia) {
+    usingVideo = true;
     navigator.getUserMedia(webcamConstraints, function(stream) {
       console.log(stream);
       video.src = window.URL.createObjectURL(stream);
     }, errorCallback);
+
+    // streamVideo(gum);
+
   } else {
     video.src = 'somevideo.webm'; // fallback. TODO
   }
 
-  function errorCallback(err) {
-    alert(err);
-  }
 }
-setUpVideo();
-
+function errorCallback(err) {
+  alert(err);
+}
+//see if you want to look at yourself
+if (confirm("Want to use webcam video?")) {
+  setUpVideo();
+} else {
+  vp.style.background = "white"; // for now
+}
 
 
 function setStateFromHash(hash) {
@@ -96,30 +118,36 @@ function videoShouldHide(yes) {
   if (yes && !videoIsHiding) {
     console.log("This is video hiding.");
     videoIsHiding = true;
-    vp.style.display = 'none';
+    // vp.style.display = 'none';
+    vp.style.visibility = "hidden";
+
   } else if (videoIsHiding) {
     console.log("Unhiding video.");
     videoIsHiding = false;
-    vp.style.display = 'inline-block';
+    // vp.style.display = 'inline-block';
+    vp.style.visibility = "visible";
   }
 }
 
 // https://github.com/hakimel/reveal.js#slide-states
 Reveal.addEventListener('hide-video', function(event) {
   videoShouldHide(true);
-}, false);
+}, true);
+
 // reset func // this is ugly but...
 Reveal.addEventListener('slidechanged', function(event) {
   // event.previousSlide, event.currentSlide, event.indexh, event.indexv
-  
   // set location hash
     var state = Reveal.getState();
     // console.log(state.indexh, state.indexv);
     location.hash = state.indexh.toString();
-
   videoShouldHide(false);
+  hideEmptyTitles(); // becuase not all are rendered upfront --
   console.log(event);
 
-  // hideEmptyTitles();
 
-}, false);
+  // if (usingVideo) {
+  //   setUpVideo();
+  // }
+
+}, true);
