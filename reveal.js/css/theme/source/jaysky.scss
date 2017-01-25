@@ -71,6 +71,8 @@ $headingTextTransform: capitalize;
 $videoWidth: 50%;
 $videoHeight: 50%;
 
+$headerMarginLTR: 20px;
+$headerMarginB: 100px;
 
 /* // JRM edits */
 /* $navlinkColor: #C1AE7C; */
@@ -85,23 +87,14 @@ $videoHeight: 50%;
     text-align: left;
     max-width: 100%;
 
-    padding-bottom: 100px;
+
+    /* padding: 20 20 50 20px !important; */
+    margin-bottom: $headerMarginB;
+    margin-left: $headerMarginLTR;
+    margin-right: $headerMarginLTR;
+    margin-top: $headerMarginLTR;
     border-bottom: 1px solid $mainColor;
 }
-
-/* .reveal .slides h1, */
-/* .reveal .slides h2, */
-/* .reveal .slides h3, */
-/* .reveal .slides h4,{ */
-/*     position: absolute; */
-/*     top: 100px; */
-/* } */
-
-/* section > p { */
-/*   position: relative; */
-/*   top: 50%; */
-/*   transform: perspective(1px) translateY(-50%); */
-/* } */
 
 // Fix links so they are not cut off
 .reveal a {
@@ -109,22 +102,39 @@ $videoHeight: 50%;
 }
 
 // --- Isaac's Edits Take2 ---
+
+/* div.slides { */
+/*     max-width: 95% - $videoWidth !important; */
+/*     padding: 20px; */
+/*     margin: 0 0 auto 0 !important; */
+/* } */
+
+
 div.slides {
-    max-width: 95% - $videoWidth !important;
-    padding: 20px;
-    margin: 0 0 auto 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    padding: 0;
+    margin: 0 0 0 0 !important;
 }
 
-.reveal section.present {
-    padding: 0 !important;
-    height: 100%;
-
-    p img {
-        max-height: 60%; //guesstimate for now
-        margin: auto; //center it
+.reveal section {
+    &.stack {
+        max-width: 100% - $videoWidth !important;
+        padding: 0px !important;
+        margin: 0 0 auto 0 !important;
     }
+    &.present {
+        padding: 0px !important;
+        height: 100%;
 
+        p img {
+            max-height: 60%; //guesstimate for now
+            margin: auto; //center it
+        }
+    }
+    width: 100%;
 }
+
 
 // ie title slide
 .hide-heading {
@@ -149,6 +159,10 @@ video#videoPlaceholder {
     /* z-index: 100; */
     /* background-color: white; */ //so no flashes
 }
+
+
+//The Red pill! ...
+
 
 
 // Background generator
