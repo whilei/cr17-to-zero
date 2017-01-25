@@ -22,7 +22,7 @@ note that I used two SPACES after the * to make the invisible heading for the no
 #+END_NOTES
 
 # This is the title-non-title.
-*      
+* 
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video"
 :reveal_background_size: 100%
@@ -36,9 +36,9 @@ note that I used two SPACES after the * to make the invisible heading for the no
 
  My name is Jay, and I'm enthralled by the subject of learning. Here's one example of why: (next slide)
  #+END_NOTES
-
+ 
 # Before+after(3)
-** 
+**  
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video"
 :reveal_background_size: 100%
@@ -49,7 +49,7 @@ note that I used two SPACES after the * to make the invisible heading for the no
 These before and after self-portraits were drawn by the same person. How long do you think it took to acquire this improvement in skill? (WAIT 5 seconds) (NEXT SLIDE DOWN)
 #+END_NOTES
 
-**    
+**  
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video"
 :reveal_background_size: 100%
@@ -60,7 +60,7 @@ These before and after self-portraits were drawn by the same person. How long do
 How much time for this degree of improvement? (wait 5 seconds) (NEXT SLIDE DOWN)
 #+END_NOTES
 
-**    
+**  
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video"
 :reveal_background_size: 100%
@@ -76,26 +76,26 @@ And how long for this much improvement?
 
 
 ** 5 days
-#+ATTR_REVEAL: :frag (roll-in)
+# Setting these to display at once.
+#+ATTR_REVEAL: :frag t
 - Betty Edwards, author of /Drawing on the Right Side of the Brain/
 - drawright.com
 - ~@DRSB_Edwards~
-# isaac20 why don't these frag separately too? hm. well, putting this comment here fixed it. 
 
 #+BEGIN_NOTES
 5 days. That's it. These people, people not unlike you or me, learned the technical fundamentals of drawing in only *5 days*. 
 
 Personally, I'm /*astonished*/ by these drawings.
 
+It reminds of the scene in The Matrix (TODO jay pic), where Neo and Trinity see an M109 helicopter. He asks her "Can you fly that thing?" and she replies, "Not yet". Moments later she is piloting the aircraft with aplomb proficiency.
+
+TODO isaac60 place bell212.jpg (resources/images/introduction/matrix/heli/) in lower right quadrant. Maybe we can find a way "reveal" these lower right images like frags? That would be nice so I can control the timing of their appearance.
+
 How does their teacher (NEXT FRAG), Betty Edwards, facilitate such progress for *all* of her students, not just some?
 
 And how is her approach relevant to learning other highly technical skills, such as programming?
 
-We'll explore these, and other engaging questions, over the next hour. (next slide)
-#+END_NOTES
-
-#+BEGIN_NOTES
-TODO jay add qr code/link tweet here "Betty Edwards, your teaching method is astonishing! #thevalueoflearning .@DRSB_Edwards" Actually move to the point in the talk where you provide her method. And get her permissions first -- it's kinda spammy.
+We'll explore these, and other engaging questions, over the next hour. (NEXT SLIDE DOWN)
 #+END_NOTES
 
 ** Target Audience?
@@ -227,14 +227,14 @@ I wrote this talk with (NEXT FRAG) programmers & (NEXT FRAG) aspiring programmer
 
    You'll notice many red pills throughout the talk on the lower right corner of the screen. Some of these are mini-polls, some are mini-surveys, and some are tweets that will serve to network like minds around this topic. Even if you're watching this on video, months or years from now, you can still participate by scanning the qr codes with your phone.
 
-   This is your red pill, blue pill moment. Scan the red pill now if you were astonished by the Betty Edward's drawings and want to learn more. 
+   This is your red pill, blue pill moment. Scan the red pill now if you were astonished by the Betty Edward's drawings and are curious to learn more. 
 
    Now we're going to explore many aspects of learning through the framework of learning's worth.
 
    Let's get started! 
    #+END_NOTES
 
-**  
+** 
  :PROPERTIES:
  :reveal_extra_attr: data-state="hide-video"
  :reveal_background_size: 100%
