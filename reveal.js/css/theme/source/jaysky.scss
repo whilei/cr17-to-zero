@@ -133,20 +133,21 @@ div.slides {
     }
 }
 .hide-video {
-    * div#videoPlaceholder {
+    * video#videoPlaceholder {
         display: none !important;
     }
 }
 
-div#videoPlaceholder {
+video#videoPlaceholder {
     position: fixed;
     display: inline-block;
     top: 0;
     right: 0;
     width: $videoWidth;
     height: $videoHeight;
+    /* visibility: visible; */
     /* z-index: 100; */
-    background-color: white;
+    /* background-color: white; */ //so no flashes
 }
 
 

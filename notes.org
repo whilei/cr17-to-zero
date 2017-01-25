@@ -26,7 +26,7 @@ note that I used two SPACES after the * to make the invisible heading for the no
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video"
 :reveal_background_size: 100%
-:reveal_background: file:resources/images/title-screen_2017-01-16_16-18-34.png
+:reveal_background: /resources/images/title-screen_2017-01-16_16-18-34.png
 :END:
 
 * Introduction
@@ -42,7 +42,7 @@ note that I used two SPACES after the * to make the invisible heading for the no
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video"
 :reveal_background_size: 100%
-:reveal_background: file:resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged2/01-montage.png
+:reveal_background: /resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged2/01-montage.png
 :END:
 # (1/3)
 #+BEGIN_NOTES
@@ -53,7 +53,7 @@ These before and after self-portraits were drawn by the same person. How long do
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video"
 :reveal_background_size: 100%
-:reveal_background: file:resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged2/02-montage.png
+:reveal_background: /resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged2/02-montage.png
 :END:
 # (2/3)
 #+BEGIN_NOTES
@@ -64,7 +64,7 @@ How much time for this degree of improvement? (wait 5 seconds) (NEXT SLIDE DOWN)
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video"
 :reveal_background_size: 100%
-:reveal_background: file:resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged2/03-montage.png
+:reveal_background: /resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged2/03-montage.png
 :END:
 # (3/3) 
 #+BEGIN_NOTES

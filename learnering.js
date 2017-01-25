@@ -1,26 +1,80 @@
 console.log("hello, i'm learning!");
 
-var videoPlaceholderTag = "div";
+var videoPlaceholderTag = "video";
 
 // create the placeholder
 var vp = document.createElement(videoPlaceholderTag);
 vp.id = "videoPlaceholder";
+vp.setAttribute("data-autoplay", "");
+vp.setAttribute("autoplay", "");
 
 // insert our placeholder for where the video will go
 // (placement and style attributes handled in css)
 // and I think we want to have this only inserted once, vs appended to each section(aka slide)
-var slides = document.getElementsByClassName("slides")[0]; // there should only be one anyway
-slides.insertBefore(vp, slides.firstChild);
+var rev = document.getElementsByClassName("reveal")[0]; // there should only be one anyway
+rev.insertBefore(vp, rev.firstChild); //vs slides
+// document.body.insertBefore(vp, document.body.firstChild); //vs slides
 // document.body.insertBefore(vp, document.body.firstChild);
+var webcamConstraints = {
+  audio: true,
+  video: {
+    mandatory: {
+      maxWidth: 640, //this may be able to be enlarged, depending on cam resolution
+      maxHeight: 360
+      // minWidth: 1280,
+      // minHeight: 720
+    }
+  }
+};
+var noConstraints = {
+  audio: true,
+  video: true
+};
 
+var video = document.querySelector('video');
 
-// // state listener
-// Reveal.addEventListener( 'hide-video', function() {
-//   // Called each time the slide with the "hide-video" state is made visible
-//   console.log("listening to video hiding");
-//   vp.style.display = 'none';
-// }, false);
+// var gum;
+var usingVideo = false;
 
+// function streamVideo(gum) {
+//   gum(webcamConstraints, function(stream) {
+//     console.log(stream);
+//     video.src = window.URL.createObjectURL(stream);
+//   }, errorCallback);
+// }
+
+function setUpVideo() {
+  // usingVideo = true;
+  // for jay, not for other people...
+  //check for user video media
+  navigator.getUserMedia = navigator.getUserMedia ||
+    navigator.webkitGetUserMedia ||
+    navigator.mozGetUserMedia ||
+    navigator.msGetUserMedia;
+  // gum = navigator.getUserMedia;
+  if (navigator.getUserMedia) {
+    usingVideo = true;
+    navigator.getUserMedia(webcamConstraints, function(stream) {
+      console.log(stream);
+      video.src = window.URL.createObjectURL(stream);
+    }, errorCallback);
+
+    // streamVideo(gum);
+
+  } else {
+    video.src = 'somevideo.webm'; // fallback. TODO
+  }
+
+}
+function errorCallback(err) {
+  alert(err);
+}
+//see if you want to look at yourself
+if (confirm("Want to use webcam video?")) {
+  setUpVideo();
+} else {
+  vp.style.background = "white"; // for now
+}
 
 
 function setStateFromHash(hash) {
@@ -49,7 +103,7 @@ function hideEmptyTitles() {
   for (var i = 0; i < headings.length; i++) {
     var t = headings[i].textContent;
     t = t.replace(" ", ""); //cuz 'member we use spaces to fake orgmode out?
-    console.log("heading content", t);
+    // console.log("heading content", t);
     if ( t.length === 0 ) {
       headings[i].style.border = "none";
       headings[i].style.visiblity = "hidden";
@@ -58,55 +112,42 @@ function hideEmptyTitles() {
   }
 }
 
+var videoIsHiding = false;
 
-// function showTitles() {
-//   var headings = document.querySelectorAll("h1,h2,h3,h4,h5");
-//   for (var i = 0; i < headings.length; i++) {
-//     headings[i].style.visiblity = "visible";
-//   }
-// }
+function videoShouldHide(yes) {
+  if (yes && !videoIsHiding) {
+    console.log("This is video hiding.");
+    videoIsHiding = true;
+    // vp.style.display = 'none';
+    vp.style.visibility = "hidden";
+
+  } else if (videoIsHiding) {
+    console.log("Unhiding video.");
+    videoIsHiding = false;
+    // vp.style.display = 'inline-block';
+    vp.style.visibility = "visible";
+  }
+}
 
 // https://github.com/hakimel/reveal.js#slide-states
 Reveal.addEventListener('hide-video', function(event) {
-    // event.previousSlide, event.currentSlide, event.indexh, event.indexv
-    console.log("This is video hiding.");
-    console.log(event);
-    vp.style.display = 'none';
-  //   document.getElementsByTagName("h2")[0].style.visibility = 'hidden'; //for now, also hide the heading
-  // document.getElementsByTagName("h3")[0].style.visibility = 'hidden'; //for now, also hide the heading
-  // document.getElementsByTagName("h4")[0].style.visibility = 'hidden'; //for now, also hide the heading
-  // hideTitles();
-}, false);
+  videoShouldHide(true);
+}, true);
 
 // reset func // this is ugly but...
 Reveal.addEventListener('slidechanged', function(event) {
-
-    // set location hash
+  // event.previousSlide, event.currentSlide, event.indexh, event.indexv
+  // set location hash
     var state = Reveal.getState();
-    console.log(state.indexh, state.indexv);
+    // console.log(state.indexh, state.indexv);
     location.hash = state.indexh.toString();
+  videoShouldHide(false);
+  hideEmptyTitles(); // becuase not all are rendered upfront --
+  console.log(event);
 
-    // location.hash = event.indexh + "-" + event.indexv; //update hash
-    // console.log("set state to ", state);
 
-    // event.previousSlide, event.currentSlide, event.indexh, event.indexv
-    // console.log("slide changed");
-    console.log(event);
-    // console.log("This is slide chaingin.");
-    vp.style.display = 'inline-block';
-    // document.getElementsByTagName("h2")[0].style.visibility = 'visible'; //for now, also hide the heading
-  // showTitles();
+  // if (usingVideo) {
+  //   setUpVideo();
+  // }
 
-  hideEmptyTitles();
-  // // set p,ul,bqs to height
-  // // get sections (slides)
-  // var allsections = document.getElementsByTagName("section");
-  // // get current one
-  // var currentsection = document.getElementsByClassName("present")[0];
-  // console.log(currentsection);
-  // // text elements need to be moved
-  // var firstTextElem = currentsection.querySelectorAll("p,ul,blockquote")[0];
-  // console.log(firstTextElem);
-  // firstTextElem.className += "quadrantized";
-
-}, false);
+}, true);
