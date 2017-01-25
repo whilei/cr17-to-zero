@@ -81,8 +81,9 @@ video#videoPlaceholder {
   right: 0;
   width: 50%;
   height: 50%;
+  visibility: visible;
   /* z-index: 100; */
-  background-color: white; }
+  /* background-color: white; */ }
 
 /* @mixin bodyBackground() {
 /* 	@include radial-gradient( #add9e4, #f7fbfc ); */

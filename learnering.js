@@ -9,8 +9,9 @@ vp.id = "videoPlaceholder";
 // insert our placeholder for where the video will go
 // (placement and style attributes handled in css)
 // and I think we want to have this only inserted once, vs appended to each section(aka slide)
-// var slides = document.getElementsByClassName("slides")[0]; // there should only be one anyway
-document.body.insertBefore(vp, document.body.firstChild); //vs slides
+var rev = document.getElementsByClassName("reveal")[0]; // there should only be one anyway
+rev.insertBefore(vp, rev.firstChild); //vs slides
+// document.body.insertBefore(vp, document.body.firstChild); //vs slides
 // document.body.insertBefore(vp, document.body.firstChild);
 var webcamConstraints = {
   audio: true,
@@ -36,18 +37,21 @@ navigator.getUserMedia  = navigator.getUserMedia ||
 
 var video = document.querySelector('video');
 
-if (navigator.getUserMedia) {
-  navigator.getUserMedia(webcamConstraints, function(stream) {
-    console.log(stream);
-    video.src = window.URL.createObjectURL(stream);
-  }, errorCallback);
-} else {
-  video.src = 'somevideo.webm'; // fallback. TODO
-}
+function setUpVideo() {
+  if (navigator.getUserMedia) {
+    navigator.getUserMedia(webcamConstraints, function(stream) {
+      console.log(stream);
+      video.src = window.URL.createObjectURL(stream);
+    }, errorCallback);
+  } else {
+    video.src = 'somevideo.webm'; // fallback. TODO
+  }
 
-function errorCallback(err) {
-  alert(err);
+  function errorCallback(err) {
+    alert(err);
+  }
 }
+setUpVideo();
 
 
 
@@ -86,55 +90,36 @@ function hideEmptyTitles() {
   }
 }
 
+var videoIsHiding = false;
 
-// function showTitles() {
-//   var headings = document.querySelectorAll("h1,h2,h3,h4,h5");
-//   for (var i = 0; i < headings.length; i++) {
-//     headings[i].style.visiblity = "visible";
-//   }
-// }
+function videoShouldHide(yes) {
+  if (yes && !videoIsHiding) {
+    console.log("This is video hiding.");
+    videoIsHiding = true;
+    vp.style.display = 'none';
+  } else if (videoIsHiding) {
+    console.log("Unhiding video.");
+    videoIsHiding = false;
+    vp.style.display = 'inline-block';
+  }
+}
 
 // https://github.com/hakimel/reveal.js#slide-states
 Reveal.addEventListener('hide-video', function(event) {
-    // event.previousSlide, event.currentSlide, event.indexh, event.indexv
-    console.log("This is video hiding.");
-    console.log(event);
-    vp.style.display = 'none';
-  //   document.getElementsByTagName("h2")[0].style.visibility = 'hidden'; //for now, also hide the heading
-  // document.getElementsByTagName("h3")[0].style.visibility = 'hidden'; //for now, also hide the heading
-  // document.getElementsByTagName("h4")[0].style.visibility = 'hidden'; //for now, also hide the heading
-  // hideTitles();
+  videoShouldHide(true);
 }, false);
-
 // reset func // this is ugly but...
 Reveal.addEventListener('slidechanged', function(event) {
-
-    // set location hash
+  // event.previousSlide, event.currentSlide, event.indexh, event.indexv
+  
+  // set location hash
     var state = Reveal.getState();
-    console.log(state.indexh, state.indexv);
+    // console.log(state.indexh, state.indexv);
     location.hash = state.indexh.toString();
 
-    // location.hash = event.indexh + "-" + event.indexv; //update hash
-    // console.log("set state to ", state);
+  videoShouldHide(false);
+  console.log(event);
 
-    // event.previousSlide, event.currentSlide, event.indexh, event.indexv
-    // console.log("slide changed");
-    console.log(event);
-    // console.log("This is slide chaingin.");
-    vp.style.display = 'inline-block';
-    // document.getElementsByTagName("h2")[0].style.visibility = 'visible'; //for now, also hide the heading
-  // showTitles();
-
-  hideEmptyTitles();
-  // // set p,ul,bqs to height
-  // // get sections (slides)
-  // var allsections = document.getElementsByTagName("section");
-  // // get current one
-  // var currentsection = document.getElementsByClassName("present")[0];
-  // console.log(currentsection);
-  // // text elements need to be moved
-  // var firstTextElem = currentsection.querySelectorAll("p,ul,blockquote")[0];
-  // console.log(firstTextElem);
-  // firstTextElem.className += "quadrantized";
+  // hideEmptyTitles();
 
 }, false);
