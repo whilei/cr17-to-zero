@@ -82,6 +82,8 @@ And how long for this much improvement?
 - drawright.com
 - ~@DRSB_Edwards~
 
+[[file:resources/images/Introduction/bell212.jpg]]
+
 #+BEGIN_NOTES
 5 days. That's it. These people, people not unlike you or me, learned the technical fundamentals of drawing in only *5 days*. 
 
@@ -227,13 +229,15 @@ I wrote this talk with (NEXT FRAG) programmers & (NEXT FRAG) aspiring programmer
 
    You'll notice many red pills throughout the talk on the lower right corner of the screen. Some of these are mini-polls, some are mini-surveys, and some are tweets that will serve to network like minds around this topic. Even if you're watching this on video, months or years from now, you can still participate by scanning the qr codes with your phone.
 
-   This is your red pill, blue pill moment. Scan the red pill now if you were astonished by the Betty Edward's drawings and are curious to learn more. 
+   This is your red pill, blue pill moment. Scan the red pill now if, like me, you were astonished by the Betty Edward's drawings and are curious to learn more. 
 
    Now we're going to explore many aspects of learning through the framework of learning's worth.
 
    Let's get started! 
    #+END_NOTES
 
+
+# This is the "Value of Learning" Slide.
 ** 
  :PROPERTIES:
  :reveal_extra_attr: data-state="hide-video"
@@ -411,6 +415,7 @@ Give the audience a chance to grapple with the question
 **** TODO https://www.brainpickings.org/2016/03/31/dostoyevsky-reason-emotion/ find quote
 *** Learning from failure yields long term success
 Therefore learning, not winning is the greater value.
+*** Know thyself, know others, 16 Personalities
 *** Learning is Adapting
 And adapting is human. (Tie in Clojure connection)
 ** 
@@ -420,12 +425,18 @@ What actions are consistent with this value?
   ** What if there was a subject you could study which would improve your ability to learn and master any other subject?
  There just might be!
   #+ATTR_REVEAL: :frag appear
+*** Power Hour 
+*** Culture of Concentration
+**** Information, not an industrial age factory factory floor.
+**** Exception: different people
 *** The science of learning.
 
 #+ATTR_REVEAL: :frag appear 
 [[file:resources/images/Opening & Overview/illustration-of-drawing-skill-improvement-in-5-days_2017-01-12_09-19-11.png]]
 *** Learning How to Learn
 *** Space Repetition etc.
+** Information age, but we're still in an industrial age mode
+** Everyone a teacher, video, microphone, record and publish.
 * What is the difference between Learning and Education
 ** Inside Out vs Outside In
 ** The power of relationships to fan our internal flame.
