@@ -165,6 +165,10 @@ video#videoPlaceholder {
 #redpill {
     position: fixed;
     display: inline-block;
+
+    /* default  */
+    /* display: none; */
+
     top: $videoHeight;
     right:0;
     width: $videoWidth;

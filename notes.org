@@ -123,7 +123,11 @@ I wrote this talk with (NEXT FRAG) programmers & (NEXT FRAG) aspiring programmer
  #+END_NOTES 
 
 ** My Experiences 
- #+BEGIN_NOTES 
+:PROPERTIES:
+:reveal_extra_attr: data-state="show-redpill"
+:END:
+
+#+BEGIN_NOTES
    I'm not an expert in programming, nor in the science of learning. 
    
    This talk is a slice of my life experiences around learning.

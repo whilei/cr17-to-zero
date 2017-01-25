@@ -92,6 +92,8 @@ video#videoPlaceholder {
 #redpill {
   position: fixed;
   display: inline-block;
+  /* default  */
+  /* display: none; */
   top: 50%;
   right: 0;
   width: 50%;

@@ -25,6 +25,8 @@ var insideTheRedPill = document.createElement("div");
 insideTheRedPill.id = "theredpill";
 redpill.append(insideTheRedPill);
 
+// redpill.style.display = "none";
+redpill.style.visibility = "hidden";
 
 
 var webcamConstraints = {
@@ -125,6 +127,7 @@ function hideEmptyTitles() {
 }
 
 var videoIsHiding = false;
+// var redPillIsHiding = true;
 
 function videoShouldHide(yes) {
   if (yes && !videoIsHiding) {
@@ -141,10 +144,32 @@ function videoShouldHide(yes) {
   }
 }
 
+// function redpillShouldShow(yes) {
+//   if (yes && redPillIsHiding) {
+//     console.log("showing red pill");
+//     redPillIsHiding = false;
+//     redpill.style.display = "inline-block";
+//   } else if (!redPillIsHiding) {
+//     console.log("hiding red pill");
+//     redPillIsHiding = true;
+//     redpill.style.display = "none";
+//   }
+// }
+// redpillShouldShow(false);
+
+
 // https://github.com/hakimel/reveal.js#slide-states
 Reveal.addEventListener('hide-video', function(event) {
   videoShouldHide(true);
 }, true);
+
+//Red pill data hidershower
+Reveal.addEventListener('show-redpill', function(event) {
+  console.log("state show redpill");
+  // redpillShouldShow(true);
+  redpill.style.visibility = "visible";
+}, true);
+
 
 // reset func // this is ugly but...
 Reveal.addEventListener('slidechanged', function(event) {
@@ -156,6 +181,7 @@ Reveal.addEventListener('slidechanged', function(event) {
   videoShouldHide(false);
   hideEmptyTitles(); // becuase not all are rendered upfront --
   console.log(event);
+  redpill.style.visibility = "hidden";
 
 
   // if (usingVideo) {
