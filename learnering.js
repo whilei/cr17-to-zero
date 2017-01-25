@@ -13,8 +13,20 @@ vp.setAttribute("autoplay", "");
 // and I think we want to have this only inserted once, vs appended to each section(aka slide)
 var rev = document.getElementsByClassName("reveal")[0]; // there should only be one anyway
 rev.insertBefore(vp, rev.firstChild); //vs slides
-// document.body.insertBefore(vp, document.body.firstChild); //vs slides
-// document.body.insertBefore(vp, document.body.firstChild);
+
+
+// The Red Pill
+var redpill = document.createElement("div");
+redpill.id = "redpill"; // brings in css
+redpill.style.color = "red";
+rev.append(redpill);
+
+var insideTheRedPill = document.createElement("div");
+insideTheRedPill.id = "theredpill";
+redpill.append(insideTheRedPill);
+
+
+
 var webcamConstraints = {
   audio: true,
   video: {

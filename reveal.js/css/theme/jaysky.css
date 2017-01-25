@@ -89,6 +89,28 @@ video#videoPlaceholder {
   /* z-index: 100; */
   /* background-color: white; */ }
 
+#redpill {
+  position: fixed;
+  display: inline-block;
+  top: 50%;
+  right: 0;
+  width: 50%;
+  height: 50%;
+  text-align: center; }
+  #redpill #theredpill {
+    position: relative;
+    height: 35%;
+    width: 37.5%;
+    border-radius: 30%/50%;
+    background-color: firebrick;
+    margin: auto;
+    transform: rotate(33deg) !important;
+    position: relative;
+    top: 30%;
+    -webkit-transform: translateY(-30%);
+    -ms-transform: translateY(-30%);
+    transform: translateY(-30%); }
+
 /* @mixin bodyBackground() {
 /* 	@include radial-gradient( #add9e4, #f7fbfc ); */
 /* } */
