@@ -1,6 +1,6 @@
 console.log("hello, i'm learning!");
 
-var videoPlaceholderTag = "div";
+var videoPlaceholderTag = "video";
 
 // create the placeholder
 var vp = document.createElement(videoPlaceholderTag);
@@ -9,17 +9,45 @@ vp.id = "videoPlaceholder";
 // insert our placeholder for where the video will go
 // (placement and style attributes handled in css)
 // and I think we want to have this only inserted once, vs appended to each section(aka slide)
-var slides = document.getElementsByClassName("slides")[0]; // there should only be one anyway
-slides.insertBefore(vp, slides.firstChild);
+// var slides = document.getElementsByClassName("slides")[0]; // there should only be one anyway
+document.body.insertBefore(vp, document.body.firstChild); //vs slides
 // document.body.insertBefore(vp, document.body.firstChild);
+var webcamConstraints = {
+  audio: true,
+  video: {
+    mandatory: {
+      maxWidth: 640, //this may be able to be enlarged, depending on cam resolution
+      maxHeight: 360
+      // minWidth: 1280,
+      // minHeight: 720
+    }
+  }
+};
+var noConstraints = {
+  audio: true,
+  video: true
+};
+// for jay, not for other people...
+//check for user video media
+navigator.getUserMedia  = navigator.getUserMedia ||
+  navigator.webkitGetUserMedia ||
+  navigator.mozGetUserMedia ||
+  navigator.msGetUserMedia;
 
+var video = document.querySelector('video');
 
-// // state listener
-// Reveal.addEventListener( 'hide-video', function() {
-//   // Called each time the slide with the "hide-video" state is made visible
-//   console.log("listening to video hiding");
-//   vp.style.display = 'none';
-// }, false);
+if (navigator.getUserMedia) {
+  navigator.getUserMedia(webcamConstraints, function(stream) {
+    console.log(stream);
+    video.src = window.URL.createObjectURL(stream);
+  }, errorCallback);
+} else {
+  video.src = 'somevideo.webm'; // fallback. TODO
+}
+
+function errorCallback(err) {
+  alert(err);
+}
 
 
 
@@ -49,7 +77,7 @@ function hideEmptyTitles() {
   for (var i = 0; i < headings.length; i++) {
     var t = headings[i].textContent;
     t = t.replace(" ", ""); //cuz 'member we use spaces to fake orgmode out?
-    console.log("heading content", t);
+    // console.log("heading content", t);
     if ( t.length === 0 ) {
       headings[i].style.border = "none";
       headings[i].style.visiblity = "hidden";

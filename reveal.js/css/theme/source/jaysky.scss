@@ -133,12 +133,12 @@ div.slides {
     }
 }
 .hide-video {
-    * div#videoPlaceholder {
+    * video#videoPlaceholder {
         display: none !important;
     }
 }
 
-div#videoPlaceholder {
+video#videoPlaceholder {
     position: fixed;
     display: inline-block;
     top: 0;

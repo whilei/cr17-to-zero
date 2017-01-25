@@ -63,78 +63,18 @@ div.slides {
 
 .reveal section.present {
   padding: 0 !important;
-  height: 100%;
-  /* > ul,p,blockquote { */
-  /*     display: block !important; */
-  /*     margin: 0 0 0 40px !important; */
-  /*     @include vertical-align-at(relative, $videoHeight + 5%); // wiggle room so no overlap vid */
-  /* :nth-of-type(1) { */
-  /*     position: relative; */
-  /*     top: $videoHeight; */
-  /* } */
-  /* } */ }
+  height: 100%; }
   .reveal section.present p img {
-    max-height: 50%;
-    margin: auto;
-    /* position: relative; */
-    /* margin-top: -50% !important; // moves pictures back to center */ }
+    max-height: 60%;
+    margin: auto; }
 
-/* //doesn't work... */
-/* div.slides { */
-/*     width: 900px !important; */
-/*     height: 800px !important; */
-/* } */
-/* // adjust top-left margins to be smaller */
-/* .reveal .slides { */
-/*     margin-left: 0; */
-/*     margin-top: 0; */
-/*     padding: 20px; */
-/*     position: relative; */
-/* } */
-/* .heading-tl h2 { */
-/*     position: relative; */
-/*     top: -150px; */
-/*     left: 0px; */
-/*     margin-right: 150px; */
-/*     /\* max-width: 60%; *\/ */
-/* } */
-/* .reveal h2,h3,h4 { */
-/*     position: absolute; */
-/*     /\* top: 0; *\/ */
-/*     /\* left: 0px; *\/ */
-/*     border-bottom: 2px solid $headingColor; */
-/*     max-width: 50%; */
-/*     margin: 30 20 20 20px; */
-/* } */
 .hide-heading * h1, .hide-heading h2, .hide-heading h3, .hide-heading h4 {
   display: none !important; }
 
-.hide-video * div#videoPlaceholder {
+.hide-video * video#videoPlaceholder {
   display: none !important; }
 
-/* section { */
-/*     top: 0 !important; //force full height, to allow heading to climb up and still be related to the pp's. */
-/*     bottom: 0; */
-/*     padding: 20px; */
-/*     height: 100%; // for VA */
-/*     ul,li,p { */
-/*         /\* @include vertical-align(); *\/ */
-/*         position: relative; */
-/*         top: 375px; */
-/*     } */
-/* } */
-/* .reveal p,ul { */
-/*         /\* position: relative; *\/ */
-/*         /\* top: 375px; *\/ */
-/*     /\* @include vertical-align-at(relative, 70%); *\/ */
-/*     @include vertical-align(); */
-/* } */
-/* // Remove border and enforce margin for images, ie footinmouthjay. */
-/* .reveal section img { */
-/*     border: none !important; */
-/*     margin: 30px 0px !important; */
-/* } */
-div#videoPlaceholder {
+video#videoPlaceholder {
   position: fixed;
   display: inline-block;
   top: 0;
