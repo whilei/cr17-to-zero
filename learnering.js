@@ -155,7 +155,7 @@ Reveal.addEventListener('slidechanged', function(event) {
       console.log("Image source is: ", image.src);
 
       //find image in slide.
-
+      //*have to prepend proto + host + src
       if (image.src === "http://" + window.location.host + redImgSrc) {
         //apply css rules to that image (found via src) to move it to the right spot.
         console.log("Found redpill image. Appending class 'redpill-image'");

@@ -76,13 +76,15 @@ How much time for this degree of improvement? (wait 5 seconds) (NEXT SLIDE DOWN)
 
 
 ** 5 days
+:PROPERTIES:
+:reveal_extra_attr: redpill-img-src="/resources/images/Introduction/bell212.jpg"
+:END:
 # Setting these to display at once.
 #+ATTR_REVEAL: :frag t
+[[file:resources/images/Introduction/bell212.jpg]]
 - Betty Edwards, author of /Drawing on the Right Side of the Brain/
 - drawright.com
 - ~@DRSB_Edwards~
-
-[[file:resources/images/Introduction/bell212.jpg]]
 
 #+BEGIN_NOTES
 5 days. That's it. These people, people not unlike you or me, learned the technical fundamentals of drawing in only *5 days*. 
