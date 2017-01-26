@@ -246,7 +246,7 @@ I wrote this talk with (NEXT FRAG) programmers & (NEXT FRAG) aspiring programmer
  :PROPERTIES:
  :reveal_extra_attr: data-state="hide-video"
  :reveal_background_size: 100%
- :reveal_background: /resources/images/thevalueoflearning.png
+ :reveal_background: /resources/images/red-blue/the-value-of-learning-red-blue.png
  :END:
 
    #+BEGIN_NOTES
