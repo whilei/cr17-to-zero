@@ -55,9 +55,9 @@
 /* } */
 .reveal .slides {
   position: relative;
-  width: 96% !important;
-  height: 96% !important;
-  padding: 2%;
+  width: 92% !important;
+  height: 92% !important;
+  padding: 4%;
   border: 1px solid red; }
 
 /* div.slides { */
@@ -89,13 +89,16 @@
   .reveal section.present {
     padding: 0px !important;
     height: 100%;
-    position: relative !important; }
+    position: relative !important;
+    /* > p:nth-child(2), ul:nth-child(2) { */
+    /*     /\* margin-top: 25%; *\/ */
+    /*     @include vertical-align-at(absolute, 50%); */
+    /* } */ }
     .reveal section.present .figure {
       max-width: 80%;
       margin: auto;
       /* @include vertical-align-at(relative, 50%); */ }
-    .reveal section.present > p:nth-child(2), .reveal section.present ul:nth-child(2) {
-      /* margin-top: 25%; */
+    .reveal section.present > :nth-child(2) {
       position: absolute;
       top: 50%;
       -webkit-transform: translateY(-50%);

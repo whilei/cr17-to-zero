@@ -86,7 +86,7 @@ $videoHeight: 50%;
 
 $headerMarginLTR: 20px;
 $headerMarginB: 100px;
-$slidesPadding: 2%;
+$slidesPadding: 4%;
 
 
 /* // JRM edits */
@@ -160,10 +160,14 @@ $slidesPadding: 2%;
             /* @include vertical-align-at(relative, 50%); */
         }
 
-        > p:nth-child(2), ul:nth-child(2) {
-            /* margin-top: 25%; */
+        > :nth-child(2) {
             @include vertical-align-at(absolute, 50%);
         }
+
+        /* > p:nth-child(2), ul:nth-child(2) { */
+        /*     /\* margin-top: 25%; *\/ */
+        /*     @include vertical-align-at(absolute, 50%); */
+        /* } */
 
     }
 

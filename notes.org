@@ -317,11 +317,11 @@ Let's make sure we understand the question by looking at the meaning and history
 #+END_NOTES
 
 *** Value defined
-definition: 
+**** definition: 
 (merriam-webster.com)
 *relative worth, utility, or importance*
 
-etymology: 
+**** etymology: 
 /valu/    Anglo-French    *worth, high quality*
 
 /valēre/  Latin           *to be well, have strength*
@@ -337,11 +337,11 @@ If you're a Game of Thrones fan, you've likely noticed how similar /valēre/ sou
 #+END_NOTES
 
 *** Learning defined
-definition:
+**** definition:
 (learnersdictionary.com)
 *the activity or process of gaining knowledge or skill by studying, practicing, being taught, or experiencing something*
 
-etymology:
+**** etymology:
 (merriam-webster.com)
 /lernen/    Middle English    *to learn*
 /leornian/  Old English       *to learn*
@@ -382,7 +382,7 @@ Today this alternative meaning is relegated to speech, because it's *not* consid
 *** Two modes of learning
 
 **** Inside Out
-
+just a test
 **** Outside In
 
 * How can I know the answer?
