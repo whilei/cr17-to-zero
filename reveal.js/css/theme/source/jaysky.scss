@@ -50,7 +50,20 @@
   transform: translateY(-$percent);
 }
 
-
+@mixin centerer($horizontal: true, $vertical: true) {
+  position: absolute;
+  @if ($horizontal and $vertical) {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } @else if ($horizontal) {
+    left: 50%;
+    transform: translate(-50%, 0);
+  } @else if ($vertical) {
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+}
 // OVERRIDE theme settings (see ../template/settings.scss)
 $mainFont: 'Open Sans', sans-serif;
 /* $mainFont: 'Quicksand', sans-serif; */
@@ -71,6 +84,10 @@ $headingTextTransform: capitalize;
 $videoWidth: 50%;
 $videoHeight: 50%;
 
+$headerMarginLTR: 20px;
+$headerMarginB: 100px;
+$slidesPadding: 4%;
+
 
 /* // JRM edits */
 /* $navlinkColor: #C1AE7C; */
@@ -85,46 +102,104 @@ $videoHeight: 50%;
     text-align: left;
     max-width: 100%;
 
-    padding-bottom: 100px;
+
+    /* padding: 20 20 50 20px !important; */
+    margin-bottom: $headerMarginB;
+    margin-left: $headerMarginLTR;
+    margin-right: $headerMarginLTR;
+    margin-top: $headerMarginLTR;
     border-bottom: 1px solid $mainColor;
 }
-
-/* .reveal .slides h1, */
-/* .reveal .slides h2, */
-/* .reveal .slides h3, */
-/* .reveal .slides h4,{ */
-/*     position: absolute; */
-/*     top: 100px; */
-/* } */
-
-/* section > p { */
-/*   position: relative; */
-/*   top: 50%; */
-/*   transform: perspective(1px) translateY(-50%); */
-/* } */
 
 // Fix links so they are not cut off
 .reveal a {
 	line-height: 1.3em;
 }
 
+
 // --- Isaac's Edits Take2 ---
-div.slides {
-    max-width: 95% - $videoWidth !important;
-    padding: 20px;
-    margin: 0 0 auto 0 !important;
+
+/* div.slides { */
+/*     max-width: 95% - $videoWidth !important; */
+/*     padding: 20px; */
+/*     margin: 0 0 auto 0 !important; */
+/* } */
+
+.reveal .slides {
+    position: relative;
+    width: 100% - 2*$slidesPadding !important;
+    height: 100% - 2*$slidesPadding !important;
+    padding: $slidesPadding;
+    /* border: 1px solid red; */
 }
 
-.reveal section.present {
-    padding: 0 !important;
-    height: 100%;
+/* div.slides { */
+/*     width: 100% !important; */
+/*     height: 100% !important; */
+/*     padding: 40px; // 20; */
+/*     margin: 0 0 0 0 !important; */
+/*     /\* margin: 20 20 20 20 !important; *\/ */
+/* } */
 
-    p img {
-        max-height: 60%; //guesstimate for now
-        margin: auto; //center it
+.reveal section {
+    text-align: left;
+    &.stack {
+        max-width: 100% - $videoWidth !important;
+        padding: 0px !important;
+        margin: 0 0 auto 0 !important;
+    }
+    &.present {
+        padding: 0px !important;
+        height: 100%;
+
+        position: relative !important; //for vertical-aligner, and errything
+
+        blockquote {
+            text-align: center;
+            margin: 20px auto 20px 10%;
+        }
+
+        .figure{
+            max-width: 80%; //guesstimate for now
+            margin: auto; //center it
+            /* @include vertical-align-at(relative, 50%); */
+        }
+
+        > :nth-child(2) {
+            @include vertical-align-at(absolute, 50%);
+        }
+
+        /* > p:nth-child(2), ul:nth-child(2) { */
+        /*     /\* margin-top: 25%; *\/ */
+        /*     @include vertical-align-at(absolute, 50%); */
+        /* } */
+
     }
 
+    /* p, ul { */
+    /*     display: table-cell; */
+    /*     vertical-align: center; */
+    /* } */
+
+    /* p:first-of-type, ul:first-of-type { */
+    /*     @include vertical-align-at(absolute, 50%); */
+    /*     /\* @include centerer(false, true); *\/ */
+    /* } */
+
+    /* > p, ul { */
+    /*     @include vertical-align-at(absolute, 50%); */
+    /*     /\* @include centerer(false, true); *\/ */
+    /* } */
+
+
+    width: 100%;
 }
+
+// Text stuff
+
+/* .reveal p,ul { */
+/*     margin: 0 0 0 2em !important; */
+/* } */
 
 // ie title slide
 .hide-heading {
@@ -132,6 +207,7 @@ div.slides {
         display: none !important;
     }
 }
+
 .hide-video {
     * video#videoPlaceholder {
         display: none !important;
@@ -139,15 +215,50 @@ div.slides {
 }
 
 video#videoPlaceholder {
-    position: fixed;
+    /* position: fixed; */
+    position: relative;
     display: inline-block;
-    top: 0;
-    right: 0;
+    float: right !important;
+    /* top: 0; */
+    /* right: 0; */
     width: $videoWidth;
     height: $videoHeight;
     /* visibility: visible; */
     /* z-index: 100; */
     /* background-color: white; */ //so no flashes
+}
+
+
+/* //The Red pill! ... */
+/* #redpill { */
+/*     position: fixed; */
+/*     display: inline-block; */
+/*     /\* default  *\/ */
+/*     /\* display: none; *\/ */
+/*     top: $videoHeight; */
+/*     right:0; */
+/*     width: $videoWidth; */
+/*     height: 100% - $videoHeight; */
+/*     text-align: center; */
+/*     #theredpill { */
+/*         position: relative; */
+/*         height: $videoHeight * 0.7; */
+/*         width: $videoWidth * 0.75; */
+/*         border-radius: 30%/50%; */
+/*         background-color: firebrick; */
+/*         margin: auto; */
+/*         transform: rotate(33deg) !important; */
+/*         @include vertical-align-at(relative, 30%); */
+/*     } */
+/* } */
+
+img.redpill-image {
+    display: inline-block;
+    margin-top: $videoWidth !important;
+    margin-left: 100% + $videoWidth - $slidesPadding !important;
+    max-height: $videoHeight - $slidesPadding * 2;
+    max-width: $videoWidth - $slidesPadding * 2;
+    /* border: 3px solid red !important; */
 }
 
 

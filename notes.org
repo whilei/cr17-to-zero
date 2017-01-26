@@ -43,7 +43,7 @@ note that I used two SPACES after the * to make the invisible heading for the no
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video"
 :reveal_background_size: 100%
-:reveal_background: /resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged2/03-montage.png
+:reveal_background: /resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged/03-montage.png
 :END:
 # (1/3) 
 #+BEGIN_NOTES
@@ -56,7 +56,7 @@ And how long for this much improvement?
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video"
 :reveal_background_size: 100%
-:reveal_background: /resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged2/01-montage.png
+:reveal_background: /resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged/01-montage.png
 :END:
 # (2/3)
 #+BEGIN_NOTES
@@ -67,7 +67,7 @@ These before and after self-portraits were drawn by the same person. How long do
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video"
 :reveal_background_size: 100%
-:reveal_background: /resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged2/02-montage.png
+:reveal_background: /resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged/02-montage.png
 :END:
 # (3/3)
 #+BEGIN_NOTES
@@ -76,13 +76,15 @@ How much time for this degree of improvement? (wait 5 seconds) (NEXT SLIDE DOWN)
 
 
 ** 5 days
+:PROPERTIES:
+:reveal_extra_attr: redpill-img-src="/resources/images/Introduction/bell212.jpg"
+:END:
 # Setting these to display at once.
 #+ATTR_REVEAL: :frag t
+[[file:resources/images/Introduction/bell212.jpg]]
 - Betty Edwards, author of /Drawing on the Right Side of the Brain/
 - drawright.com
 - ~@DRSB_Edwards~
-
-[[file:resources/images/Introduction/bell212.jpg]]
 
 #+BEGIN_NOTES
 5 days. That's it. These people, people not unlike you or me, learned the technical fundamentals of drawing in only *5 days*. 
@@ -125,7 +127,14 @@ I wrote this talk with (NEXT FRAG) programmers & (NEXT FRAG) aspiring programmer
  #+END_NOTES 
 
 ** My Experiences 
- #+BEGIN_NOTES 
+:PROPERTIES:
+:reveal_extra_attr: redpill-img-src="/resources/images/800px-Pill.svg.png"
+:END:
+
+#+ATTR_REVEAL: :frag t
+file:resources/images/800px-Pill.svg.png
+
+#+BEGIN_NOTES
    I'm not an expert in programming, nor in the science of learning. 
    
    This talk is a slice of my life experiences around learning.
@@ -242,7 +251,7 @@ I wrote this talk with (NEXT FRAG) programmers & (NEXT FRAG) aspiring programmer
  :PROPERTIES:
  :reveal_extra_attr: data-state="hide-video"
  :reveal_background_size: 100%
- :reveal_background: file:resources/images/thevalueoflearning.png
+ :reveal_background: /resources/images/red-blue/the-value-of-learning-red-blue.png
  :END:
 
    #+BEGIN_NOTES
@@ -313,11 +322,11 @@ Let's make sure we understand the question by looking at the meaning and history
 #+END_NOTES
 
 *** Value defined
-definition: 
+**** definition: 
 (merriam-webster.com)
 *relative worth, utility, or importance*
 
-etymology: 
+**** etymology: 
 /valu/    Anglo-French    *worth, high quality*
 
 /valēre/  Latin           *to be well, have strength*
@@ -333,11 +342,11 @@ If you're a Game of Thrones fan, you've likely noticed how similar /valēre/ sou
 #+END_NOTES
 
 *** Learning defined
-definition:
+**** definition:
 (learnersdictionary.com)
 *the activity or process of gaining knowledge or skill by studying, practicing, being taught, or experiencing something*
 
-etymology:
+**** etymology:
 (merriam-webster.com)
 /lernen/    Middle English    *to learn*
 /leornian/  Old English       *to learn*
@@ -366,19 +375,20 @@ Today this alternative meaning is relegated to speech, because it's *not* consid
 #+END_NOTES
 
 *** The history of learning
+:PROPERTIES:
+# :reveal_extra_attr: redpill-img-src="/resources/images/history-of-salt/grand-canyon-filled with-fog-todd-diemer_2017-01-13_09-53-33.jpg"
+:END:
 **** Evolution! We are the very best learners in all of history.
 ***** TODO Rich Hicky quote - from my goodnotes 
 **** Socrates
 ***** TODO Socratic dialogue: add quote about "make them think" --
 **** Small Gap (Picture of Grand Canyon)
-  [[file:resources/images/What is the history of SALT?/grand-canyon-filled with-fog-todd-diemer_2017-01-13_09-53-33.jpg]]
-
   The 1926, pioneering paper by Eduard C. Lindeman's, /The Meaning of Adult Education/ reignited the subject of learning and established a scientific, research oriented approach  
+  [[file:resources/images/history-of-salt/grand-canyon-filled with-fog-todd-diemer_2017-01-13_09-53-33.jpg]]
 
 *** Two modes of learning
 
 **** Inside Out
-
 **** Outside In
 
 * How can I know the answer?
