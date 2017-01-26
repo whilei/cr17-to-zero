@@ -256,6 +256,8 @@ img.redpill-image {
     display: inline-block;
     margin-top: $videoWidth !important;
     margin-left: 100% + $videoWidth - $slidesPadding !important;
+    max-height: $videoHeight - $slidesPadding * 2;
+    max-width: $videoWidth - $slidesPadding * 2;
     /* border: 3px solid red !important; */
 }
 

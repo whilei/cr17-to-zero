@@ -375,14 +375,16 @@ Today this alternative meaning is relegated to speech, because it's *not* consid
 #+END_NOTES
 
 *** The history of learning
+:PROPERTIES:
+# :reveal_extra_attr: redpill-img-src="/resources/images/history-of-salt/grand-canyon-filled with-fog-todd-diemer_2017-01-13_09-53-33.jpg"
+:END:
 **** Evolution! We are the very best learners in all of history.
 ***** TODO Rich Hicky quote - from my goodnotes 
 **** Socrates
 ***** TODO Socratic dialogue: add quote about "make them think" --
 **** Small Gap (Picture of Grand Canyon)
-  [[file:resources/images/What\ is\ the\ history\ of\ SALT\?/grand-canyon-filled with-fog-todd-diemer_2017-01-13_09-53-33.jpg]]
-
   The 1926, pioneering paper by Eduard C. Lindeman's, /The Meaning of Adult Education/ reignited the subject of learning and established a scientific, research oriented approach  
+  [[file:resources/images/history-of-salt/grand-canyon-filled with-fog-todd-diemer_2017-01-13_09-53-33.jpg]]
 
 *** Two modes of learning
 

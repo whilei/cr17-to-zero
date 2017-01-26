@@ -156,10 +156,17 @@ Reveal.addEventListener('slidechanged', function(event) {
 
       //find image in slide.
       //*have to prepend proto + host + src
-      if (image.src === "http://" + window.location.host + redImgSrc) {
+
+      //prepend / if not present, avoid a gotcha <--- cuz is live url
+      if (redImgSrc.search("/") !== 0) { redImgSrc = "/" + redImgSrc; }
+
+      var imageSrc = image.src;
+      imageSrc = decodeURI(imageSrc); // and clear out pesky %'s
+
+      if (imageSrc === "http://" + window.location.host + redImgSrc) {
         //apply css rules to that image (found via src) to move it to the right spot.
         console.log("Found redpill image. Appending class 'redpill-image'");
-        image.className += " redpill-image ";
+        image.className += " redpill-image "; //TODO: don't just apply css; create video-esque fixed div and move the image there to make position independent of slide text... or use "anchor" div in that quadrant to fixed-position the image
       } else {
         console.log(image.src + " <- image.src doesn't match redpillsrc -> " + redImgSrc);
       }
