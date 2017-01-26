@@ -73,6 +73,8 @@ $videoHeight: 50%;
 
 $headerMarginLTR: 20px;
 $headerMarginB: 100px;
+$slidesPadding: 2%;
+
 
 /* // JRM edits */
 /* $navlinkColor: #C1AE7C; */
@@ -109,13 +111,21 @@ $headerMarginB: 100px;
 /*     margin: 0 0 auto 0 !important; */
 /* } */
 
-
-div.slides {
-    width: 100% !important;
-    height: 100% !important;
-    padding: 0;
-    margin: 0 0 0 0 !important;
+.reveal .slides {
+    position: relative;
+    width: 100% - 2*$slidesPadding !important;
+    height: 100% - 2*$slidesPadding !important;
+    padding: $slidesPadding;
+    border: 1px solid red;
 }
+
+/* div.slides { */
+/*     width: 100% !important; */
+/*     height: 100% !important; */
+/*     padding: 40px; // 20; */
+/*     margin: 0 0 0 0 !important; */
+/*     /\* margin: 20 20 20 20 !important; *\/ */
+/* } */
 
 .reveal section {
     &.stack {
@@ -126,15 +136,20 @@ div.slides {
     &.present {
         padding: 0px !important;
         height: 100%;
+        position: relative !important; //for vertical-aligner
 
-        p img {
-            max-height: 60%; //guesstimate for now
-            margin: auto; //center it
-        }
     }
-    width: 100%;
-}
+    .figure{
+        max-width: 80%; //guesstimate for now
+        margin: auto; //center it
+        @include vertical-align-at(relative, 50%);
+    }
 
+    p, ul {
+        @include vertical-align-at(relative, 50%);
+    }
+   width: 100%;
+}
 
 // ie title slide
 .hide-heading {
@@ -149,10 +164,12 @@ div.slides {
 }
 
 video#videoPlaceholder {
-    position: fixed;
+    /* position: fixed; */
+    position: relative;
     display: inline-block;
-    top: 0;
-    right: 0;
+    float: right !important;
+    /* top: 0; */
+    /* right: 0; */
     width: $videoWidth;
     height: $videoHeight;
     /* visibility: visible; */

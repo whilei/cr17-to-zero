@@ -11,7 +11,7 @@ vp.setAttribute("autoplay", "");
 // insert our placeholder for where the video will go
 // (placement and style attributes handled in css)
 // and I think we want to have this only inserted once, vs appended to each section(aka slide)
-var rev = document.getElementsByClassName("reveal")[0]; // there should only be one anyway
+var rev = document.getElementsByClassName("slides")[0]; //("reveal")[0]; // there should only be one anyway
 rev.insertBefore(vp, rev.firstChild); //vs slides
 
 
