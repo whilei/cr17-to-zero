@@ -130,7 +130,7 @@ $slidesPadding: 4%;
     width: 100% - 2*$slidesPadding !important;
     height: 100% - 2*$slidesPadding !important;
     padding: $slidesPadding;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 /* div.slides { */
@@ -153,6 +153,11 @@ $slidesPadding: 4%;
         height: 100%;
 
         position: relative !important; //for vertical-aligner, and errything
+
+        blockquote {
+            text-align: center;
+            margin: 20px auto 20px 10%;
+        }
 
         .figure{
             max-width: 80%; //guesstimate for now

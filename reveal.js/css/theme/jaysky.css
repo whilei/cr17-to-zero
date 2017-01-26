@@ -58,7 +58,7 @@
   width: 92% !important;
   height: 92% !important;
   padding: 4%;
-  border: 1px solid red; }
+  /* border: 1px solid red; */ }
 
 /* div.slides { */
 /*     width: 100% !important; */
@@ -94,6 +94,9 @@
     /*     /\* margin-top: 25%; *\/ */
     /*     @include vertical-align-at(absolute, 50%); */
     /* } */ }
+    .reveal section.present blockquote {
+      text-align: center;
+      margin: 20px auto 20px 10%; }
     .reveal section.present .figure {
       max-width: 80%;
       margin: auto;

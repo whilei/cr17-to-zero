@@ -246,7 +246,7 @@ I wrote this talk with (NEXT FRAG) programmers & (NEXT FRAG) aspiring programmer
  :PROPERTIES:
  :reveal_extra_attr: data-state="hide-video"
  :reveal_background_size: 100%
- :reveal_background: file:resources/images/thevalueoflearning.png
+ :reveal_background: /resources/images/thevalueoflearning.png
  :END:
 
    #+BEGIN_NOTES
@@ -375,14 +375,13 @@ Today this alternative meaning is relegated to speech, because it's *not* consid
 **** Socrates
 ***** TODO Socratic dialogue: add quote about "make them think" --
 **** Small Gap (Picture of Grand Canyon)
-  [[file:resources/images/What is the history of SALT?/grand-canyon-filled with-fog-todd-diemer_2017-01-13_09-53-33.jpg]]
+  [[file:resources/images/What\ is\ the\ history\ of\ SALT\?/grand-canyon-filled with-fog-todd-diemer_2017-01-13_09-53-33.jpg]]
 
   The 1926, pioneering paper by Eduard C. Lindeman's, /The Meaning of Adult Education/ reignited the subject of learning and established a scientific, research oriented approach  
 
 *** Two modes of learning
 
 **** Inside Out
-just a test
 **** Outside In
 
 * How can I know the answer?
