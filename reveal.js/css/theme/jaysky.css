@@ -130,29 +130,30 @@ video#videoPlaceholder {
   /* z-index: 100; */
   /* background-color: white; */ }
 
-#redpill {
-  position: fixed;
-  display: inline-block;
-  /* default  */
-  /* display: none; */
-  top: 50%;
-  right: 0;
-  width: 50%;
-  height: 50%;
-  text-align: center; }
-  #redpill #theredpill {
-    position: relative;
-    height: 35%;
-    width: 37.5%;
-    border-radius: 30%/50%;
-    background-color: firebrick;
-    margin: auto;
-    transform: rotate(33deg) !important;
-    position: relative;
-    top: 30%;
-    -webkit-transform: translateY(-30%);
-    -ms-transform: translateY(-30%);
-    transform: translateY(-30%); }
+/* //The Red pill! ... */
+/* #redpill { */
+/*     position: fixed; */
+/*     display: inline-block; */
+/*     /\* default  *\/ */
+/*     /\* display: none; *\/ */
+/*     top: $videoHeight; */
+/*     right:0; */
+/*     width: $videoWidth; */
+/*     height: 100% - $videoHeight; */
+/*     text-align: center; */
+/*     #theredpill { */
+/*         position: relative; */
+/*         height: $videoHeight * 0.7; */
+/*         width: $videoWidth * 0.75; */
+/*         border-radius: 30%/50%; */
+/*         background-color: firebrick; */
+/*         margin: auto; */
+/*         transform: rotate(33deg) !important; */
+/*         @include vertical-align-at(relative, 30%); */
+/*     } */
+/* } */
+img.redpill-image {
+  border: 3px solid red !important; }
 
 /* @mixin bodyBackground() {
 /* 	@include radial-gradient( #add9e4, #f7fbfc ); */

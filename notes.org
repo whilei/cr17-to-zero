@@ -126,8 +126,11 @@ I wrote this talk with (NEXT FRAG) programmers & (NEXT FRAG) aspiring programmer
 
 ** My Experiences 
 :PROPERTIES:
-:reveal_extra_attr: data-state="show-redpill"
+:reveal_extra_attr: redpill-img-src="/resources/images/800px-Pill.svg.png"
 :END:
+
+#+ATTR_REVEAL: :frag t
+file:resources/images/800px-Pill.svg.png
 
 #+BEGIN_NOTES
    I'm not an expert in programming, nor in the science of learning. 

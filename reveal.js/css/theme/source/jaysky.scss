@@ -229,32 +229,35 @@ video#videoPlaceholder {
 }
 
 
-//The Red pill! ...
-#redpill {
-    position: fixed;
-    display: inline-block;
+/* //The Red pill! ... */
+/* #redpill { */
+/*     position: fixed; */
+/*     display: inline-block; */
 
-    /* default  */
-    /* display: none; */
+/*     /\* default  *\/ */
+/*     /\* display: none; *\/ */
 
-    top: $videoHeight;
-    right:0;
-    width: $videoWidth;
-    height: 100% - $videoHeight;
+/*     top: $videoHeight; */
+/*     right:0; */
+/*     width: $videoWidth; */
+/*     height: 100% - $videoHeight; */
 
-    text-align: center;
-    #theredpill {
-        position: relative;
-        height: $videoHeight * 0.7;
-        width: $videoWidth * 0.75;
-        border-radius: 30%/50%;
-        background-color: firebrick;
-        margin: auto;
-        transform: rotate(33deg) !important;
-        @include vertical-align-at(relative, 30%);
-    }
+/*     text-align: center; */
+/*     #theredpill { */
+/*         position: relative; */
+/*         height: $videoHeight * 0.7; */
+/*         width: $videoWidth * 0.75; */
+/*         border-radius: 30%/50%; */
+/*         background-color: firebrick; */
+/*         margin: auto; */
+/*         transform: rotate(33deg) !important; */
+/*         @include vertical-align-at(relative, 30%); */
+/*     } */
+/* } */
+
+img.redpill-image {
+    border: 3px solid red !important;
 }
-
 
 
 // Background generator
