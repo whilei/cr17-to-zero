@@ -168,6 +168,10 @@ file:resources/images/800px-Pill.svg.png
 
 ** How I got to Clojure
 #+BEGIN_NOTES 
+   My path to finding Clojure has been long and sometimes painful.
+
+   I'd like to help other newcomers find it before they suffer the bumps and bruises I've experienced. 
+
    I started programming at age 10.  By age 12, I was more interested in riding my bike than in staying inside the house.
 
    A few years ago, I started dabbling in programming again, in my spare time.
@@ -216,7 +220,7 @@ file:resources/images/800px-Pill.svg.png
 
    After slowly going through the course over many months, branching my studies off of the main curriculum by following the compass of my own innate curiosity, I can say unequivocally taking this course is the best thing I have ever done for myself!
 
-   It's helped me in ways I never expected. Yes, my learning skills are sharper and broader, and growing. But I'm also sleeping better, eating better and enjoying frequent breaks from my work to playfully exercise in the back yard. Most profoundly, I'm getting along better with the people I work and live with. 
+   It's helped me in ways I never expected. Yes, my learning skills are sharper and broader, and growing. But I'm also sleeping better, eating better and enjoying frequent breaks from my work to playfully exercise in the back yard. Most profoundly, I'm getting along better with the people I work and live with, thanks to better communication skills and a clearer understanding myself and others. There's always room for improvement and as much as things have gotten better, I feel like this journey is just beginning.
 
    What I'm trying to say is I'm a *big* fan. 
 
@@ -236,11 +240,11 @@ file:resources/images/800px-Pill.svg.png
 
    It began its life open to community as an open source github repository, and has evolved into an open-data project, driven by your anonymous, interactive input.
 
-   You'll notice many red pills throughout the talk on the lower right corner of the screen. Some of these are mini-polls, some are mini-surveys, and some are tweets that will serve to network like minds around this topic. Even if you're watching this on video, months or years from now, you can still participate by scanning the qr codes with your phone.
+   You'll notice many red pills throughout the talk on the lower right corner of the screen. These are mini-polls, links to kick-start your research or pre-filled tweets that will serve to network like minds around the subject of learning. Even if you're watching this on video, months or years from now, you can still participate by scanning the qr codes with your phone.
 
-   This is your red pill, blue pill moment. Scan the red pill now if, like me, you were astonished by the Betty Edward's drawings and are curious to learn more. 
+   This is your red pill, blue pill moment. Scan the red pill now if, like me, you were astonished by the Betty Edward's drawings and are curious to learn more. No pressure though, think of this talk as a garden and pick the fruit that appeals to your senses.
 
-   Now we're going to explore many aspects of learning through the framework of learning's worth.
+   We're going to explore many aspects of learning through the framework of learning's /*worth*/.
 
    Let's get started! 
    #+END_NOTES
@@ -447,6 +451,10 @@ What actions are consistent with this value?
 *** Space Repetition etc.
 ** Information age, but we're still in an industrial age mode
 ** Everyone a teacher, video, microphone, record and publish.
+** 
+
+
+
 * What is the difference between Learning and Education
 ** Inside Out vs Outside In
 ** The power of relationships to fan our internal flame.
