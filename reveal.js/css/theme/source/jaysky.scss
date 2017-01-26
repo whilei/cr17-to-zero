@@ -50,7 +50,20 @@
   transform: translateY(-$percent);
 }
 
-
+@mixin centerer($horizontal: true, $vertical: true) {
+  position: absolute;
+  @if ($horizontal and $vertical) {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } @else if ($horizontal) {
+    left: 50%;
+    transform: translate(-50%, 0);
+  } @else if ($vertical) {
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+}
 // OVERRIDE theme settings (see ../template/settings.scss)
 $mainFont: 'Open Sans', sans-serif;
 /* $mainFont: 'Quicksand', sans-serif; */
@@ -103,6 +116,7 @@ $slidesPadding: 2%;
 	line-height: 1.3em;
 }
 
+
 // --- Isaac's Edits Take2 ---
 
 /* div.slides { */
@@ -128,6 +142,7 @@ $slidesPadding: 2%;
 /* } */
 
 .reveal section {
+    text-align: left;
     &.stack {
         max-width: 100% - $videoWidth !important;
         padding: 0px !important;
@@ -136,20 +151,46 @@ $slidesPadding: 2%;
     &.present {
         padding: 0px !important;
         height: 100%;
-        position: relative !important; //for vertical-aligner
+
+        position: relative !important; //for vertical-aligner, and errything
+
+        .figure{
+            max-width: 80%; //guesstimate for now
+            margin: auto; //center it
+            /* @include vertical-align-at(relative, 50%); */
+        }
+
+        > p:nth-child(2), ul:nth-child(2) {
+            /* margin-top: 25%; */
+            @include vertical-align-at(absolute, 50%);
+        }
 
     }
-    .figure{
-        max-width: 80%; //guesstimate for now
-        margin: auto; //center it
-        @include vertical-align-at(relative, 50%);
-    }
 
-    p, ul {
-        @include vertical-align-at(relative, 50%);
-    }
-   width: 100%;
+    /* p, ul { */
+    /*     display: table-cell; */
+    /*     vertical-align: center; */
+    /* } */
+
+    /* p:first-of-type, ul:first-of-type { */
+    /*     @include vertical-align-at(absolute, 50%); */
+    /*     /\* @include centerer(false, true); *\/ */
+    /* } */
+
+    /* > p, ul { */
+    /*     @include vertical-align-at(absolute, 50%); */
+    /*     /\* @include centerer(false, true); *\/ */
+    /* } */
+
+
+    width: 100%;
 }
+
+// Text stuff
+
+/* .reveal p,ul { */
+/*     margin: 0 0 0 2em !important; */
+/* } */
 
 // ie title slide
 .hide-heading {
@@ -157,6 +198,7 @@ $slidesPadding: 2%;
         display: none !important;
     }
 }
+
 .hide-video {
     * video#videoPlaceholder {
         display: none !important;
