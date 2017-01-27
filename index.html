@@ -1,0 +1,1371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>The Value of Learning</title>
+<meta name="author" content="(Jay Martin)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="./reveal.js/css/reveal.css"/>
+
+<link rel="stylesheet" href="./reveal.js/css/theme/jaysky.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<aside class="notes">
+<p>
+;; #+OPTIONS: reveal<sub>width</sub>:1920 reveal<sub>height</sub>:1080 reveal<sub>single</sub><sub>file</sub>:t
+;; note: function: org-toggle-inline-images   (toggles between showing images in buffer and showing text url of images file)
+;; Table of Contents w/ time goals
+;; Intro 10 min
+;; question 10 min
+;; answer 12.5 min
+;; action 22.5 min
+;; Conclusion 5 min
+;; reveal<sub>center</sub>:t 
+note that I used two SPACES after the * to make the invisible heading for the non-title title slide.
+</p>
+
+</aside>
+
+<section>
+<section id="slide-orgd2ff3a7" data-background="/resources/images/title-screen_2017-01-16_16-18-34.png" data-background-size="100%" data-state="hide-video">
+<h2 id="orgd2ff3a7"></h2>
+
+</section>
+</section>
+<section>
+<section id="slide-orgc533dd6">
+<h2 id="orgc533dd6">Introduction</h2>
+<aside class="notes">
+<p>
+Thank you Ryan for inviting me to speak at Clojure Remote 2017. And welcome to everyone whose with us today to hear about <i>The Value of Learning</i>.
+</p>
+
+<p>
+My name is Jay, and I'm enthralled by the subject of learning. Here's one example of why: (next slide)
+</p>
+
+</aside>
+
+</section>
+<section id="slide-org4cfe49c" data-background="/resources/images/Opening\ &amp;\ Overview/drawing-skills-cropped/montaged/03-montage.png" data-background-size="100%" data-state="hide-video">
+<h3 id="org4cfe49c"></h3>
+<aside class="notes">
+<p>
+And how long for this much improvement?
+</p>
+
+<p>
+(WAIT 5 seconds)
+(NEXT SLIDE DOWN)
+</p>
+
+</aside>
+</section>
+<section id="slide-org70e24e8" data-background="/resources/images/Opening\ &amp;\ Overview/drawing-skills-cropped/montaged/01-montage.png" data-background-size="100%" data-state="hide-video">
+<h3 id="org70e24e8"></h3>
+<aside class="notes">
+<p>
+These before and after self-portraits were drawn by the same person. How long do you think it took to acquire this improvement in skill? (WAIT 5 seconds) (NEXT SLIDE DOWN)
+</p>
+
+</aside>
+
+</section>
+<section id="slide-orgd325cc2" data-background="/resources/images/Opening\ &amp;\ Overview/drawing-skills-cropped/montaged/02-montage.png" data-background-size="100%" data-state="hide-video">
+<h3 id="orgd325cc2"></h3>
+<aside class="notes">
+<p>
+How much time for this degree of improvement? (wait 5 seconds) (NEXT SLIDE DOWN)
+</p>
+
+</aside>
+
+
+</section>
+<section id="slide-org932523f" redpill-img-src="/resources/images/Introduction/bell212.jpg">
+<h3 id="org932523f">5 days</h3>
+
+<div class="figure">
+<p><img src="resources/images/Introduction/bell212.jpg" alt="bell212.jpg" class="fragment roll-in" />
+</p>
+</div>
+<ul>
+<li>Betty Edwards, author of <i>Drawing on the Right Side of the Brain</i></li>
+<li>drawright.com</li>
+<li><code>@DRSB_Edwards</code></li>
+
+</ul>
+
+<aside class="notes">
+<p>
+5 days. That's it. These people, people not unlike you or me, learned the technical fundamentals of drawing in only <b>5 days</b>. 
+</p>
+
+<p>
+Personally, I'm <i><b>astonished</b></i> by these drawings.
+</p>
+
+<p>
+It reminds of the scene in The Matrix (TODO jay pic), where Neo and Trinity see an M109 helicopter. He asks her "Can you fly that thing?" and she replies, "Not yet". Moments later she is piloting the aircraft with aplomb proficiency.
+</p>
+
+<p>
+TODO isaac60 place bell212.jpg (resources/images/introduction/matrix/heli/) in lower right quadrant. Maybe we can find a way "reveal" these lower right images like frags? That would be nice so I can control the timing of their appearance.
+</p>
+
+<p>
+How does their teacher (NEXT FRAG), Betty Edwards, facilitate such progress for <b>all</b> of her students, not just some?
+</p>
+
+<p>
+And how is her approach relevant to learning other highly technical skills, such as programming?
+</p>
+
+<p>
+We'll explore these, and other engaging questions, over the next hour. (NEXT SLIDE DOWN)
+</p>
+
+</aside>
+
+</section>
+<section id="slide-org77fadf1">
+<h3 id="org77fadf1">Target Audience?</h3>
+<ul>
+<li class="fragment roll-in">programmers</li>
+<li class="fragment roll-in">aspiring programmers</li>
+<li class="fragment roll-in">curious minded people</li>
+
+</ul>
+
+<aside class="notes">
+<p>
+I wrote this talk with (NEXT FRAG) programmers &amp; (NEXT FRAG) aspiring programmers in mind, but (NEXT FRAG) <i><b>anyone with an interest</b></i> in learning will, <i>hopefully</i>, find the talk personally relevant.
+</p>
+
+</aside>
+
+</section>
+<section id="slide-org756ef73">
+<h3 id="org756ef73">My Credentials</h3>
+
+<div class="figure">
+<p><img src="resources/images/jayfootinmouth-x600.png" alt="jayfootinmouth-x600.png" class="fragment roll-in" />
+</p>
+</div>
+
+<aside class="notes">
+<p>
+What are my qualifications for giving this talk?
+</p>
+
+<p>
+Brain science is a young science, and the pace of discovery is breathtaking.   
+</p>
+
+<p>
+Fortunately, I have a long and (NEXT FRAG) documented history of putting my foot in my mouth, just in case you happen to be an <i>actual</i> neuroscientist.
+</p>
+
+</aside>
+
+</section>
+<section id="slide-org4a371b7" redpill-img-src="/resources/images/800px-Pill.svg.png">
+<h3 id="org4a371b7">My Experiences</h3>
+
+<div class="figure">
+<p><img src="resources/images/800px-Pill.svg.png" alt="800px-Pill.svg.png" class="fragment roll-in" />
+</p>
+</div>
+
+<aside class="notes">
+<p>
+I'm not an expert in programming, nor in the science of learning. 
+</p>
+
+<p>
+This talk is a slice of my life experiences around learning.
+</p>
+
+<p>
+After college, over 20 years ago, I wanted to pursue a career in IT.
+</p>
+
+<p>
+I decided to try a shortcut to breaking into the industry. I would get <i><b>'certified'</b></i>.
+</p>
+
+<p>
+There was just one problem.
+</p>
+
+<p>
+Despite 18 years of being a student, from pre-school to undergrad engineering degree, I had <i><b>sparse</b></i> confidence in my own ability to efficiently learn.
+</p>
+
+<p>
+I signed up for a 6 month certification program, but delayed starting by 2 months, in order to study the <i>science of learning</i>. 
+</p>
+
+<p>
+I was the first student to complete the local training program. I passed my tests with flying colors.
+</p>
+
+<p>
+I landed two job offers in my first two interviews, and my career in IT was established.
+</p>
+
+<p>
+My brief studies about learning taught me to focus on understanding vocabulary and demonstrating practical skill. 
+</p>
+
+<p>
+I purchased two computers from a trade show for $400, set them up with multiple boot configurations, and materialized every example in my text books into real world use cases.
+</p>
+
+<p>
+I also got a job at the certification office on the weekends, setting up workstations for the next week's courses, where I logged just over 2400 system installations.
+</p>
+
+<p>
+I executed two successful job interviews in a row, allowing me to choose a place to begin my career.
+</p>
+
+<p>
+These actions were <i>all</i> inspired by <i>investing</i> 2 months of my life in learn about learning.
+</p>
+
+<p>
+My shortcut driven efforts paid off in terms of personal finances, but were costly in other ways, which I'll explain soon.
+</p>
+
+</aside>
+
+</section>
+<section id="slide-org42f680f">
+<h3 id="org42f680f">How I got to Clojure</h3>
+<aside class="notes">
+<p>
+I started programming at age 10.  By age 12, I was more interested in riding my bike than in staying inside the house.
+</p>
+
+<p>
+A few years ago, I started dabbling in programming again, in my spare time.
+</p>
+
+<p>
+I grew an interest in web applications, and had multiple ideas for potential businesses.
+</p>
+
+<p>
+I looked for 'easy' ways to make web apps.
+</p>
+
+<p>
+Even though I the lessons I learned 20 years before about technical study were generally helpful, I picked up a way of thinking that needed to be unlearned.
+</p>
+
+<p>
+And given my sometimes stubborn nature, I had to learn the following lesson twice: Stop trying to do it the easy way!
+</p>
+
+<p>
+Twice, I tried to learn an 'easy' web framework, when I should have been focused on the fundamentals of programming.
+</p>
+
+<p>
+By the time I heard Rich Hickey's talk, Simple Made Easy, I was totally receptive to his message.
+</p>
+
+<p>
+In my own words, what I learned from him is that many approaches appear easy at first glance. But most <i>easy</i> systems are actually highly complicated systems masquerading behind a thin veil of superficial usability.
+</p>
+
+<p>
+These systems will consume more time and resources the further a team gets into a greenfield project, before eventually grinding the progress of customization requests to a near halt.
+</p>
+
+<p>
+My main goal is to work with code and technology which facilitates understanding, allowing the team to focus on the domain problem at hand.
+</p>
+
+<p>
+I want to avoid being forced by my technology stack into saying, "No! Sorry, we can't do that, because the system won't allow it!" Not good.
+</p>
+
+<p>
+The main reason I've chosen Clojure is that I want to learn to think about the fundamentals of programming in the same way that Rich Hickey does - identities, values, time, these are his fundamental building blocks.
+</p>
+
+<p>
+Masters of a craft, discover, not only its essence, but how to practice it with great efficiency.
+</p>
+
+<p>
+Who are the professionals? What results are they achieving? And how are they achieving those results.
+</p>
+
+<p>
+I will save time, not by finding the easy way, but by mastering the fundamentals that bring very difficult problems within the reach of mortals, like me. Thank you Rich Hickey! 
+</p>
+
+</aside>
+
+
+</section>
+<section id="slide-org144c7fe">
+<h3 id="org144c7fe">New goal</h3>
+<aside class="notes">
+<p>
+I have an ambitious goal. I want to be skilled in all aspects of creating a web app, from the front end to the back, using Clojure technologies, including ClojureScript, Datomic, React Native, Arachne and so on. 
+</p>
+
+<p>
+But first, the fundamentals! Identity, values, time.
+</p>
+
+<p>
+Forests emerge from a single tree, and a tree from a single seed.
+</p>
+
+<p>
+That's the essence of my message today &#x2013; planting seeds.
+</p>
+
+<p>
+Someone planted a seed in my mind over a year ago about taking the 4 hour online course, <i>Learning How to Learn</i> by Barbara Oakley and Terrence Sejnowski.
+</p>
+
+<p>
+After slowly going through the course over many months, branching my studies off of the main curriculum by following the compass of my own innate curiosity, I can say unequivocally taking this course is the best thing I have ever done for myself!
+</p>
+
+<p>
+It's helped me in ways I never expected. Yes, my learning skills are sharper and broader, and growing. But I'm also sleeping better, eating better and enjoying frequent breaks from my work to playfully exercise in the back yard. Most profoundly, I'm getting along better with the people I work and live with. 
+</p>
+
+<p>
+What I'm trying to say is I'm a <b>big</b> fan. 
+</p>
+
+<p>
+If I could plant just one seed today, it would be <b>this</b> course.
+</p>
+
+<p>
+The crucial benefit I've gained from my Learning How to Learn <i>studies</i>, is the absolute conviction that I <i>will</i> succeed if I put in the work.
+</p>
+
+<p>
+I imagine this sounds to you like overstated positive thinking, but it's not, it's brain science, and I'll back up this claim in a bit, because I want you to believe this about yourself too. Doing so significantly increases your odds of learning success.
+</p>
+
+<p>
+My hope is that you will find at least one thing in this talk that will help you in your own learning journey, whatever your goals may be.
+</p>
+
+<p>
+Toward that end I will touch on many aspects of the subject of learning. Each aspect can serve as a unique personal starting point, or fork in the road, for your own curiosity driven research.
+</p>
+
+<p>
+Before we get started there's one more thing you need to know about this talk. 
+</p>
+
+<p>
+It's not just a talk.
+</p>
+
+<p>
+It began its life open to community as an open source github repository, and has evolved into an open-data project, driven by your anonymous, interactive input.
+</p>
+
+<p>
+You'll notice many red pills throughout the talk on the lower right corner of the screen. Some of these are mini-polls, some are mini-surveys, and some are tweets that will serve to network like minds around this topic. Even if you're watching this on video, months or years from now, you can still participate by scanning the qr codes with your phone.
+</p>
+
+<p>
+This is your red pill, blue pill moment. Scan the red pill now if, like me, you were astonished by the Betty Edward's drawings and are curious to learn more. 
+</p>
+
+<p>
+Now we're going to explore many aspects of learning through the framework of learning's worth.
+</p>
+
+<p>
+Let's get started! 
+</p>
+
+</aside>
+
+
+</section>
+<section id="slide-org73d690f" data-background="/resources/images/red-blue/the-value-of-learning-red-blue.png" data-background-size="100%" data-state="hide-video">
+<h3 id="org73d690f"></h3>
+<aside class="notes">
+<p>
+
+</p>
+
+<p>
+"The Value of Learning."
+</p>
+
+<p>
+Just how much do I value learning? 
+</p>
+
+<p>
+How can I determine how much value I place on something like learning?
+</p>
+
+<p>
+If I discover that I value learning greatly, how can I live a life consistent with this core value?
+</p>
+
+</aside>
+
+
+</section>
+<section id="slide-orgbcc9fd8">
+<h3 id="orgbcc9fd8">Talk Outline</h3>
+<div class="outline-text-3" id="text-orgbcc9fd8">
+</div></section>
+<section id="slide-orgd5a6a1e">
+<h4 id="orgd5a6a1e">What is the question?</h4>
+<p>
+How much do I value learning?
+</p>
+</section>
+<section id="slide-org41f28e8">
+<h4 id="org41f28e8">How can I know the answer?</h4>
+<p>
+How can I measure the value I place on learning?
+</p>
+</section>
+<section id="slide-orgddd1cc3">
+<h4 id="orgddd1cc3">Now I know. What do I do?</h4>
+<p>
+What actions are consistent with this value?
+</p>
+</section>
+<section id="slide-org0d8b2c5">
+<h4 id="org0d8b2c5">Simplest possible outline</h4>
+<p>
+-Question
+-Answer
+-Action
+</p>
+<aside class="notes">
+<p>
+In simplest terms: Question, Answer, Action  (NEXT SLIDE DOWN)
+</p>
+
+</aside>
+
+</section>
+<section id="slide-org14506ee">
+<h3 id="org14506ee">Learning, the invisible value</h3>
+<blockquote nil>
+<p>
+In all affairs it's a healthy thing now and then to hang a question mark on the things you have long taken for granted. &#x2013; Bertrand Russell
+</p>
+</blockquote>
+
+<aside class="notes">
+<p>
+Before I jump in and try to answer the central question of this talk, I feel the need to justify the basic nature of the question, because <i>learning</i> appears to be among the most universally accepted of human values. At first glance the answer to the question, "Do I value learning?" appears to be so obvious that the question seems silly or trite, maybe even a complete waste of time.
+</p>
+
+<p>
+Bertrand Russell said, "In all affairs it's a healthy thing now and then to hang a question mark on the things you have long taken for granted."
+</p>
+
+<p>
+I believe that we have a lot to gain and nothing to lose by putting Bertrand Russell's wisdom to work on the subject of learning.
+</p>
+
+<p>
+Invisible values risk being neglected values. My hope is that by thoughtfully assessing the value of learning for ourselves, we can mitigate this risk and reach our individual and collective learning potential.
+</p>
+
+<p>
+At the very least, attempting to answer this question is in accord with the age old wisdom, "know thyself."  (time 3:32)
+</p>
+
+</aside>
+
+</section>
+<section id="slide-orga0f9519">
+<h3 id="orga0f9519">Brain, the invisible organ</h3>
+<aside class="notes">
+<p>
+While learning may be the invisible value, the brain is the invisible organ. At least that's the excuse I use to explain why, in my youth, I was <b>not</b> very interested in the brain, or how I could use it to improve my life.
+</p>
+
+<p>
+I mean, for all its potential power, surely there must be some explanation why the brain wasn't appreciated more deeply in my youth.
+</p>
+
+<p>
+A couple of reasons have come to mind:
+</p>
+
+<p>
+In my case, the brain science of the day led my teachers to inform me that I was given a fixed number of brain cells, and no new cells would ever be produced. What I heard was "You can't any smarter. You've either got it or you don't."
+</p>
+
+<p>
+And here's another simple observation &#x2013; the brain <i>cannot</i> compete with a heartbeat. As a very young child, getting to know my own body, the heartbeat was a constant reminder, "I have a heart!"
+</p>
+
+<p>
+Maybe the brain just needs better PR. This talk hopes to remedy that. No let's proceed with body of the talk by starting with the question.  (time 4:38)
+</p>
+
+</aside>
+
+</section>
+</section>
+<section>
+<section id="slide-org786014c">
+<h2 id="org786014c">What is the question?</h2>
+<p>
+How much do I value learning?
+</p>
+</section>
+<section id="slide-org02b1be6">
+<h3 id="org02b1be6">Understanding the question</h3>
+<p>
+How much do I value learning?
+</p>
+<aside class="notes">
+<p>
+Let's make sure we understand the question by looking at the meaning and history of the words <i>value</i> &amp; <i>learning</i>. 
+</p>
+
+</aside>
+
+</section>
+<section id="slide-orgf8e44cf">
+<h4 id="orgf8e44cf">Value defined</h4>
+<div class="outline-text-4" id="text-orgf8e44cf">
+</div><ul class="org-ul"><li><a id="org9887b7f"></a>definition:<br  /><p>
+(merriam-webster.com)
+<b>relative worth, utility, or importance</b>
+</p></li>
+
+<li><a id="org9284fd8"></a>etymology:<br  /><p>
+<i>valu</i>    Anglo-French    <b>worth, high quality</b>
+</p>
+
+<p>
+<i>valēre</i>  Latin           <b>to be well, have strength</b>
+</p>
+
+<p>
+Game of Thrones fans, please take note of the phonetic similarities to <i>Valyrian</i> steel.
+</p>
+
+<aside class="notes">
+<p>
+<i>Value</i> as used in our central question means <b>relative worth, utility, or importance</b>.
+</p>
+
+<p>
+The history of the word value goes back through Middle English to the Anglo-French work <i>valu</i>, which means <b>worth</b> or <b>high quality</b>, and finally, all the way back to the Latin, <i>valēre</i>, which means <b>to be well</b> or <b>have strength</b>.
+</p>
+
+<p>
+If you're a Game of Thrones fan, you've likely noticed how similar <i>valēre</i> sounds to Valyria, home to the forges of Valyrian steel, renowned for its quality and strength.
+</p>
+
+</aside></li></ul>
+
+</section>
+<section id="slide-org928ada0">
+<h4 id="org928ada0">Learning defined</h4>
+<div class="outline-text-4" id="text-org928ada0">
+</div><ul class="org-ul"><li><a id="org7f956c9"></a>definition:<br  /><p>
+(learnersdictionary.com)
+<b>the activity or process of gaining knowledge or skill by studying, practicing, being taught, or experiencing something</b>
+</p></li>
+
+<li><a id="orgb3097c6"></a>etymology:<br  /><p>
+(merriam-webster.com)
+<i>lernen</i>    Middle English    <b>to learn</b>
+<i>leornian</i>  Old English       <b>to learn</b>
+<i>last</i>      Old English       <b>foot print</b>
+<i>lira</i>      Latin             <b>furrow, track</b>
+</p>
+
+<aside class="notes">
+<p>
+<i>Learning</i> means <b>the activity or process of gaining knowledge or skill by studying, practicing, being taught, or experiencing something</b>.
+</p>
+
+<p>
+The history of the word <i>learn</i> goes back through the Middle English word <i>lernen</i>, which shares the meaning <b>to learn</b> with the Old English word <i>leornian</i>, and further back to the Old English word <i>last</i> which means <b>foot print</b>, and finally, all the way back to the latin word <i>lira</i> which means <b>furrow</b> or <b>track</b>.
+</p>
+
+<p>
+The meaning <b>track</b> ties in neatly with the <b>foot print</b> from the Old English <i>last</i>. 
+</p>
+
+<p>
+But the word furrow really stuck out to me. Firstly because I didn't know what it meant in this context, which is <b>a long trench</b>. But not just any trench! <b>a long narrow trench in the ground made by a plow, especially for planting seeds</b>.
+</p>
+
+<p>
+The latin meaning has become my favorite way to think about learning &#x2013; planting a trail of seeds, seeds of knowledge and skill, which will grow and flourish in time! How cool is that!?!
+</p>
+
+</aside></li>
+
+<li><a id="org35214bc"></a>Learn as synonym for Teach<br  /><p>
+(merriam-webster.com)
+Master blacksmiths learned their apprentices in the craft of sword forging.
+</p>
+<aside class="notes">
+<p>
+As far back as the 13th century, the word <i>learn</i> was also used to mean "teach". As in "Master blacksmiths learned their apprentices in the craft of sword forging." 
+</p>
+
+<p>
+Today this alternative meaning is relegated to speech, because it's <b>not</b> considered ideal grammar.  
+</p>
+
+</aside></li></ul>
+
+</section>
+<section id="slide-org4803739">
+<h4 id="org4803739">The history of learning</h4>
+<ul class="org-ul"><li><a id="orgd5e6c56"></a>Evolution! We are the very best learners in all of history.<br  /><ul class="org-ul"><li><a id="org6b011cc"></a><span class="todo TODO">TODO</span> Rich Hicky quote - from my goodnotes<br  /></li></ul></li>
+<li><a id="org014be50"></a>Socrates<br  /><ul class="org-ul"><li><a id="org6eb01cf"></a><span class="todo TODO">TODO</span> Socratic dialogue: add quote about "make them think" --<br  /></li></ul></li>
+<li><a id="orgd497891"></a>Small Gap (Picture of Grand Canyon)<br  /><p>
+The 1926, pioneering paper by Eduard C. Lindeman's, <i>The Meaning of Adult Education</i> reignited the subject of learning and established a scientific, research oriented approach  
+<img src="resources/images/history-of-salt/grand-canyon-filled with-fog-todd-diemer_2017-01-13_09-53-33.jpg" alt="grand-canyon-filled with-fog-todd-diemer_2017-01-13_09-53-33.jpg" />
+</p></li></ul>
+
+</section>
+<section id="slide-orgf8baabd">
+<h4 id="orgf8baabd">Two modes of learning</h4>
+<div class="outline-text-4" id="text-orgf8baabd">
+</div><ul class="org-ul"><li><a id="org1b90504"></a>Inside Out<br  /></li>
+<li><a id="orgd45505d"></a>Outside In<br  /></li></ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orgbd060be">
+<h2 id="orgbd060be">How can I know the answer?</h2>
+<p>
+How can I measure how much value I place on learning?
+</p>
+</section>
+<section id="slide-org08e046b">
+<h3 id="org08e046b">Answers aren't everything</h3>
+<p>
+Questions are powerful on their own.
+</p>
+
+<p>
+I think this one is worth revisiting again and again.
+</p>
+<aside class="notes">
+<p>
+This question could have been tackled any number of ways. I stumbled upon this one by following my nose and trying not to fall behind my deadline. Oh time! I would enjoy revisiting the question anew, perhaps from a purely mathematical perspective. The options are endless, but decisions must be made, which by definition means possibilities are temporarily killed off. Decide - <i>de</i> <b>to cull away</b> - <i>cide</i> <b>to kill</b>. Like insecticide for the pesky ideas that don't fit the narrative, needs or time constraints of a project.
+</p>
+
+</aside>
+</section>
+<section id="slide-orgad4479d">
+<h3 id="orgad4479d">How would you go about it?</h3>
+<aside class="notes">
+<p>
+Give the audience a chance to grapple with the question
+</p>
+
+</aside>
+</section>
+<section id="slide-orgb74c6be">
+<h3 id="orgb74c6be">The instrumental value of my learning based on 1000 point scale of importance.</h3>
+<div class="outline-text-3" id="text-orgb74c6be">
+</div></section>
+<section id="slide-orgca6b4dc">
+<h4 id="orgca6b4dc">Use my perspective to plant seeds in others minds, like impoverished saving me, not other way around. Not saying stupid people.</h4>
+</section>
+<section id="slide-org3bfa2fe">
+<h4 id="org3bfa2fe">1000 basic needs: food, water, clothing, shelter.</h4>
+
+</section>
+<section id="slide-org255438e">
+<h4 id="org255438e">Topsy turvy world view of my childhood - stars on the ceiling</h4>
+<div class="outline-text-4" id="text-org255438e">
+</div><ul class="org-ul"><li><a id="org0130057"></a>Sunset story<br  /></li></ul>
+</section>
+<section id="slide-org272fd39">
+<h4 id="org272fd39">Child like sense of curiosity, awe and wonder - Nature/Even from a magazine Wow!, Pepper/Insects/Thanksgiving</h4>
+<div class="outline-text-4" id="text-org272fd39">
+</div><ul class="org-ul"><li><a id="org1be5a42"></a>Exceptions! <a href="https://www.theatlantic.com/health/archive/2016/09/is-awe-really-good-for-you/501086/">https://www.theatlantic.com/health/archive/2016/09/is-awe-really-good-for-you/501086/</a><br  /></li></ul>
+</section>
+<section id="slide-org2f69055">
+<h4 id="org2f69055">Philosophy - Stoics (Tim Ferris calls ideal personal operating system)</h4>
+</section>
+<section id="slide-orgb1b30de">
+<h4 id="orgb1b30de">Time - First, Second aha!</h4>
+</section>
+<section id="slide-org15a4177">
+<h4 id="org15a4177">Long Wave - Not just investing, but timing things, like education</h4>
+<div class="outline-text-4" id="text-org15a4177">
+</div><ul class="org-ul"><li><a id="org8e50d79"></a>Sold my house in July of 2007.<br  /></li></ul>
+</section>
+<section id="slide-orge773bbb">
+<h4 id="orge773bbb">Clojure</h4>
+<div class="outline-text-4" id="text-orge773bbb">
+</div><ul class="org-ul"><li><a id="org88810b9"></a>Why Clojure - React Native holism etc.<br  /></li></ul>
+</section>
+<section id="slide-org7905cb6">
+<h4 id="org7905cb6">Family, friends and human relationships</h4>
+<div class="outline-text-4" id="text-org7905cb6">
+</div><ul class="org-ul"><li><a id="org25d9b85"></a>Vipassana Mediation - Understanding the mind/body commection<br  /><ul class="org-ul"><li><a id="org3e1c6e1"></a>Anger and emotional turmoil is no respecter of religion or philosophy<br  /></li></ul></li></ul>
+</section>
+<section id="slide-org5477bfe">
+<h4 id="org5477bfe">Co-Intelligence &amp; Futurism</h4>
+<div class="outline-text-4" id="text-org5477bfe">
+</div><ul class="org-ul"><li><a id="org93eb5bc"></a><span class="todo TODO">TODO</span> <a href="https://www.brainpickings.org/2016/03/31/dostoyevsky-reason-emotion/">https://www.brainpickings.org/2016/03/31/dostoyevsky-reason-emotion/</a> find quote<br  /></li></ul>
+</section>
+<section id="slide-orgcdcc6a2">
+<h4 id="orgcdcc6a2">Learning from failure yields long term success</h4>
+<p>
+Therefore learning, not winning is the greater value.
+</p>
+</section>
+<section id="slide-orgdcf1967">
+<h4 id="orgdcf1967">Know thyself, know others, 16 Personalities</h4>
+</section>
+<section id="slide-org82d159b">
+<h4 id="org82d159b">Learning is Adapting</h4>
+<p>
+And adapting is human. (Tie in Clojure connection)
+</p>
+</section>
+<section id="slide-orgef70609">
+<h3 id="orgef70609"></h3>
+</section>
+</section>
+<section>
+<section id="slide-org09f759e">
+<h2 id="org09f759e">Now I know. What do I do?</h2>
+<p>
+What actions are consistent with this value?
+</p>
+</section>
+<section id="slide-orge76427d">
+<h3 id="orge76427d">If we value learning, why not get better at it, instead of dribbling the ball incessantly.</h3>
+<p>
+ ** What if there was a subject you could study which would improve your ability to learn and master any other subject?
+There just might be!
+</p>
+</section>
+<section id="slide-orgf5f12a8">
+<h4 id="orgf5f12a8">Power Hour</h4>
+</section>
+<section id="slide-org263331d">
+<h4 id="org263331d">Culture of Concentration</h4>
+<div class="outline-text-4" id="text-org263331d">
+</div><ul class="org-ul"><li><a id="org6002190"></a>Information, not an industrial age factory factory floor.<br  /></li>
+<li><a id="org4ffde9c"></a>Exception: different people<br  /></li></ul>
+</section>
+<section id="slide-orgd0d2c40">
+<h4 id="orgd0d2c40">The science of learning.</h4>
+
+<div class="figure">
+<p><img src="resources/images/Opening &amp; Overview/illustration-of-drawing-skill-improvement-in-5-days_2017-01-12_09-19-11.png" alt="illustration-of-drawing-skill-improvement-in-5-days_2017-01-12_09-19-11.png" class="fragment appear" />
+</p>
+</div>
+</section>
+<section id="slide-orgc59577b">
+<h4 id="orgc59577b">Learning How to Learn</h4>
+</section>
+<section id="slide-org1b1748a">
+<h4 id="org1b1748a">Space Repetition etc.</h4>
+</section>
+<section id="slide-orgb232ecd">
+<h3 id="orgb232ecd">Information age, but we're still in an industrial age mode</h3>
+</section>
+<section id="slide-org7e77b30">
+<h3 id="org7e77b30">Everyone a teacher, video, microphone, record and publish.</h3>
+</section>
+</section>
+<section>
+<section id="slide-org7b7a554">
+<h2 id="org7b7a554">What is the difference between Learning and Education</h2>
+<div class="outline-text-2" id="text-org7b7a554">
+</div></section>
+<section id="slide-orgdf1bd17">
+<h3 id="orgdf1bd17">Inside Out vs Outside In</h3>
+</section>
+<section id="slide-orgdc71224">
+<h3 id="orgdc71224">The power of relationships to fan our internal flame.</h3>
+</section>
+</section>
+<section>
+<section id="slide-org48ad1e2">
+<h2 id="org48ad1e2">How are learning and adaptability related?</h2>
+<div class="outline-text-2" id="text-org48ad1e2">
+</div></section>
+<section id="slide-org5ec5432">
+<h3 id="org5ec5432">Learning is an expression of our adaptability.</h3>
+<div class="outline-text-3" id="text-org5ec5432">
+</div></section>
+<section id="slide-org195d012">
+<h4 id="org195d012">From an evolutionary perspective, we are the very best learners in all of history.</h4>
+</section>
+<section id="slide-org82df598">
+<h4 id="org82df598">We are in the midst of a massive adaptation to the age of information.</h4>
+<div class="outline-text-4" id="text-org82df598">
+</div><ul class="org-ul"><li><a id="orgb322e88"></a><span class="todo TODO">TODO</span> (formate quote) Clojure just happens to specialize the processing information!<br  /><p>
+"Clojure is a Swiss Army Knife of operations over data" &#x2013; Rich Hickey
+</p></li></ul>
+</section>
+</section>
+<section>
+<section id="slide-orgc451655">
+<h2 id="orgc451655">Are we getting it?</h2>
+<div class="outline-text-2" id="text-orgc451655">
+</div></section>
+<section id="slide-orgfb1761e">
+<h3 id="orgfb1761e">How many objects are we juggling in our learning?</h3>
+</section>
+<section id="slide-org4c87723">
+<h3 id="org4c87723"><a href="https://www.farnamstreetblog.com/2013/01/how-people-learn/">How People Learn</a> Empathy/Understanding of Expert that Learner doesn't possess rich mental model, or even capacity to organize rich mental model immediately. This is grown over time by ensuring that fundamental concepts are well understood. This should be the main objective, rather than conveying a deluge of facts, which have no meaningful place in the mind to be stored effectively.</h3>
+<div class="outline-text-3" id="text-org4c87723">
+</div></section>
+<section id="slide-org09ed418">
+<h4 id="org09ed418">Bite-size definitions for reading fluency and verbose, technically correct definitions for accurate understanding.</h4>
+</section>
+<section id="slide-org32f9a46">
+<h3 id="org32f9a46">Examining the "genius programmer" image to foster welcoming culture, while still valuing competency, ingenuity &amp; creativity.</h3>
+<div class="outline-text-3" id="text-org32f9a46">
+</div></section>
+<section id="slide-orga714512">
+<h4 id="orga714512">If we're really that smart we can make it better for others.</h4>
+</section>
+<section id="slide-orgfcf4deb">
+<h4 id="orgfcf4deb">Courage of honestly saying, "I'm not getting it". (Liberation from the weight of the expert mask)</h4>
+<div class="outline-text-4" id="text-orgfcf4deb">
+</div><ul class="org-ul"><li><a id="org6a90880"></a>Creates more accurate feedback loop.<br  /></li>
+<li><a id="orgcc8c5ba"></a><br  /></li></ul>
+</section>
+</section>
+<section>
+<section id="slide-org5ea1f17">
+<h2 id="org5ea1f17">My story: Hero to Zero</h2>
+<div class="outline-text-2" id="text-org5ea1f17">
+</div></section>
+<section id="slide-org6102843">
+<h3 id="org6102843">How I found Clojure, How I'd like others to find Clojure</h3>
+<div class="outline-text-3" id="text-org6102843">
+</div></section>
+<section id="slide-orgf8c33f8">
+<h4 id="orgf8c33f8">Clojure community leading the way technically- react</h4>
+</section>
+<section id="slide-org71a789a">
+<h4 id="org71a789a">Clojure could lead the way educationally too! This means people are suffering less before they find us.</h4>
+</section>
+<section id="slide-orgc5ee177">
+<h3 id="orgc5ee177">My view of the essence of the web: Communication</h3>
+</section>
+</section>
+<section>
+<section id="slide-org8b96160">
+<h2 id="org8b96160">Problems We're Trying Solve: Too much Struggle with Agenda, Not enough (or too much) with lessons!</h2>
+<div class="outline-text-2" id="text-org8b96160">
+</div></section>
+<section id="slide-org6666fb1">
+<h3 id="org6666fb1">Richer, more personally customized learning paths (Agenda)</h3>
+<div class="outline-text-3" id="text-org6666fb1">
+</div></section>
+<section id="slide-org75acb33">
+<h4 id="org75acb33">Open Data Format - Community maintained.</h4>
+<div class="outline-text-4" id="text-org75acb33">
+</div><ul class="org-ul"><li><a id="org2b6d868"></a>Machine Readable Curricula (aka Curriculums, Learning Paths, Paths) with well-defined learning outcomes<br  /></li>
+<li><a id="org146ac91"></a>Programming is like learning a tennis, highly technical takes years.<br  /><ul class="org-ul"><li><a id="org04c94d9"></a>'Start serving' is not helpful advice, so why do we persist with this advice.<br  /></li></ul></li>
+<li><a id="org9aa4b83"></a>Metrics: time to competency, attention time, practice time.<br  /></li></ul>
+</section>
+<section id="slide-org52ec883">
+<h4 id="org52ec883">Conceptual Support from Teachers without spoonfeeding.</h4>
+</section>
+</section>
+<section>
+<section id="slide-org473ee0f">
+<h2 id="org473ee0f">Closing</h2>
+<div class="outline-text-2" id="text-org473ee0f">
+</div></section>
+<section id="slide-org62aeeda">
+<h3 id="org62aeeda"></h3>
+<blockquote nil>
+<p>
+Live as if you were to die tomorrow. Learn as if you were to live forever. &#x2013; Mahatma Gandhi
+</p>
+</blockquote>
+</section>
+</section>
+<section>
+<section id="slide-org83327cb">
+<h2 id="org83327cb">Quotes</h2>
+<blockquote nil>
+<p>
+Learning is a growth exponentiator
+</p>
+</blockquote>
+<blockquote nil>
+<p>
+The work is quite feasible, and is the only thing in our power.…Let go of the past. We must only begin. Believe me and you will see. &#x2013;Epictetus
+</p>
+</blockquote>
+
+
+<blockquote nil>
+<p>
+&#x2026;Your values become your destiny.
+</p>
+</blockquote>
+
+
+<blockquote nil>
+<p>
+Action expresses priorities. &#x2013; Mahatma Ghandi
+</p>
+</blockquote>
+
+<blockquote nil>
+<p>
+In mathematics the art of proposing a question must be held of higher value than solving it. &#x2013;Georg Cantor
+</p>
+</blockquote>
+
+</section>
+</section>
+<section>
+<section id="slide-org1e7649c">
+<h2 id="org1e7649c"><span class="todo TODO">TODO</span> Acknowledge existing culture of mentoring, learning, thinking, sharing, etc.</h2>
+<p>
+-Hammock Driven Development by Rich Hickey
+-Eloquent Explanations by Russ Olsen
+</p>
+<ul>
+<li>and many, many more.</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orgb4b6083">
+<h2 id="orgb4b6083">Defining roles, eschewing roles: All people are communicators</h2>
+<div class="outline-text-2" id="text-orgb4b6083">
+</div></section>
+<section id="slide-orgeae7f5d">
+<h3 id="orgeae7f5d">Prosumption of Educational Materials, Mentorship etc.</h3>
+</section>
+<section id="slide-orgb3df6c7">
+<h3 id="orgb3df6c7">People are not machines! We are &#x2026;</h3>
+</section>
+<section id="slide-orgeeb9fbf">
+<h3 id="orgeeb9fbf">Mentors are learners too.</h3>
+</section>
+<section id="slide-orgd46c3ac">
+<h3 id="orgd46c3ac">Embracing the life-long learning mentality without being distracted by every shiny new thing.</h3>
+</section>
+</section>
+<section>
+<section id="slide-orgf4e604b">
+<h2 id="orgf4e604b">Learning Methods</h2>
+<div class="outline-text-2" id="text-orgf4e604b">
+</div></section>
+<section id="slide-org15fa84f">
+<h3 id="org15fa84f">Project based learning vs theory &amp; lecture</h3>
+</section>
+<section id="slide-org70e4bdc">
+<h3 id="org70e4bdc">When is helping hurting?</h3>
+<div class="outline-text-3" id="text-org70e4bdc">
+</div></section>
+<section id="slide-orgd5f943a">
+<h4 id="orgd5f943a">Structured Struggle - Goldilocks learning.</h4>
+</section>
+</section>
+<section>
+<section id="slide-orgb2f26b2">
+<h2 id="orgb2f26b2">Learning Paths</h2>
+<div class="outline-text-2" id="text-orgb2f26b2">
+</div></section>
+<section id="slide-org7e562ac">
+<h3 id="org7e562ac">Interstate vs back roads</h3>
+</section>
+<section id="slide-org4510b79">
+<h3 id="org4510b79">Machine Readable Curricula and Defined Learning Outcomes</h3>
+<div class="outline-text-3" id="text-org4510b79">
+</div></section>
+<section id="slide-org1998b28">
+<h4 id="org1998b28">Degreed</h4>
+</section>
+<section id="slide-org04fd2c1">
+<h4 id="org04fd2c1">Own your data.</h4>
+</section>
+</section>
+<section>
+<section id="slide-org161f32f">
+<h2 id="org161f32f">Student/Teacher Relationships (and Teacher Assistants)</h2>
+<div class="outline-text-2" id="text-org161f32f">
+</div></section>
+<section id="slide-orgdf3402d">
+<h3 id="orgdf3402d">Formal education precedes deep mentorship, but not completely.</h3>
+</section>
+</section>
+<section>
+<section id="slide-org42f4ad9">
+<h2 id="org42f4ad9">Peer Groups (Student to Student)</h2>
+<div class="outline-text-2" id="text-org42f4ad9">
+</div></section>
+<section id="slide-orgdc49522">
+<h3 id="orgdc49522">Pair Programming and Study Groups</h3>
+</section>
+</section>
+<section>
+<section id="slide-org3d2cf16">
+<h2 id="org3d2cf16">Apprenticeship/Mentor Relationships</h2>
+<div class="outline-text-2" id="text-org3d2cf16">
+</div></section>
+<section id="slide-org4c0f1a5">
+<h3 id="org4c0f1a5">What are the wants, needs and aspirations of both apprentices and mentors?</h3>
+<div class="outline-text-3" id="text-org4c0f1a5">
+</div></section>
+<section id="slide-orgbb5f4a6">
+<h4 id="orgbb5f4a6">Apprentices</h4>
+<div class="outline-text-4" id="text-orgbb5f4a6">
+</div><ul class="org-ul"><li><a id="org013b689"></a>Structured Struggle vs Unstructured Struggle (Defeated Exasperation).<br  /></li>
+<li><a id="org2aa2235"></a>(Source: <a href="https://www.farnamstreetblog.com/2013/01/how-people-learn/">How People Learn</a>) Empathy/Understanding of Mentor that Learner doesn't possess rich mental model, or even capacity to organize rich mental model immediately. This is grown over time by ensuring that fundamental concepts are well understood. This should be the main objective, rather than conveying a deluge of facts, which have no meaningful place in the mind to be stored effectively.<br  /></li></ul>
+</section>
+<section id="slide-org4d11805">
+<h4 id="org4d11805">Mentors</h4>
+<div class="outline-text-4" id="text-org4d11805">
+</div><ul class="org-ul"><li><a id="org051559d"></a>Support in achieving high impact community goals.<br  /><ul class="org-ul"><li><a id="orgfddd105"></a>Tutorials, Videos, Books, Lectures, Experiments<br  /></li>
+<li><a id="org96ab541"></a>Apprentice as Subject: One free of the 'Curse of Knowledge.'<br  /></li></ul></li></ul>
+</section>
+<section id="slide-orgde32974">
+<h3 id="orgde32974">How do we improve the lives of individuals in each group?</h3>
+<div class="outline-text-3" id="text-orgde32974">
+</div></section>
+<section id="slide-orgd1219ac">
+<h4 id="orgd1219ac">How can learners facilitate mentor's needs and wants?</h4>
+</section>
+<section id="slide-org16a282d">
+<h4 id="org16a282d">How can mentors facilitate learner's needs and wants?</h4>
+</section>
+<section id="slide-org0549e12">
+<h4 id="org0549e12">What tools, platforms and communication strategies exist or could exist to support these objectives?</h4>
+</section>
+</section>
+<section>
+<section id="slide-org26a4ae8">
+<h2 id="org26a4ae8">New paradigms for collaboration?</h2>
+<div class="outline-text-2" id="text-org26a4ae8">
+</div></section>
+<section id="slide-org7497302">
+<h3 id="org7497302">Education/Marketing Co-ops</h3>
+<div class="outline-text-3" id="text-org7497302">
+</div></section>
+<section id="slide-orgefed8c2">
+<h4 id="orgefed8c2">nownetworking.com</h4>
+<div class="outline-text-4" id="text-orgefed8c2">
+</div><ul class="org-ul"><li><a id="org0e8f408"></a>Please take my idea, I'm to busy to do all of them!<br  /><ul class="org-ul"><li><a id="org24ccb10"></a>Disclaimer: Okay, not all my ideas :)<br  /></li></ul></li></ul>
+</section>
+<section id="slide-org8cb8f22">
+<h3 id="org8cb8f22">Open source &amp; Commerce in Harmony (Not highly relevant: save for another talk)</h3>
+<div class="outline-text-3" id="text-org8cb8f22">
+</div></section>
+<section id="slide-orgf86daf9">
+<h4 id="orgf86daf9">Constructive Capitalism and the Long Wave</h4>
+</section>
+</section>
+<section>
+<section id="slide-orgf867c77">
+<h2 id="orgf867c77">Innovations</h2>
+<div class="outline-text-2" id="text-orgf867c77">
+</div></section>
+<section id="slide-org87fcdcf">
+<h3 id="org87fcdcf">Half-Screen Training</h3>
+<div class="outline-text-3" id="text-org87fcdcf">
+</div></section>
+<section id="slide-org0b8557d">
+<h4 id="org0b8557d">Learning How to Learn</h4>
+<div class="outline-text-4" id="text-org0b8557d">
+</div><ul class="org-ul"><li><a id="org04d052b"></a>Focus Mode, In the Zone, Flow State<br  /><ul class="org-ul"><li><a id="org105205a"></a><a href="https://www.ted.com/talks/mihaly_csikszentmihalyi_on_flow?language=en">https://www.ted.com/talks/mihaly_csikszentmihalyi_on_flow?language=en</a><br  /></li></ul></li></ul>
+</section>
+<section id="slide-org982d06f">
+<h3 id="org982d06f">Shell Steps</h3>
+</section>
+<section id="slide-orgbcd155a">
+<h3 id="orgbcd155a">Now Networking</h3>
+</section>
+<section id="slide-org0dae8e8">
+<h3 id="org0dae8e8">Learning Paths</h3>
+
+</section>
+</section>
+<section>
+<section id="slide-orgf300d26">
+<h2 id="orgf300d26">Complex sugar obscuring simple Clojure fundamentals (Whole other talk)</h2>
+<div class="outline-text-2" id="text-orgf300d26">
+</div></section>
+<section id="slide-orgaafb5b5">
+<h3 id="orgaafb5b5">How do we best de-complect Clojure's complexities from its simple core?</h3>
+<div class="outline-text-3" id="text-orgaafb5b5">
+</div></section>
+<section id="slide-org16d3287">
+<h4 id="org16d3287">e.g. (Source: Russ Olsen) Russ helped me see that Namespaces were simply mappings of names to values but my learning of the subject was distracted by my instinct to tackle the complex aspects of Namespaces: symbols refer to vars, which refer to mutable storage locations, which contain values. These are too many incidental details to take on for a newcomer and distract from the fundamental simplicity of what Namespaces are about. It does, however, help to know that such incidental complexity has a purpose in Clojure, which is to keep unaware developers from shooting their toes off. This mentor related perspective helped me accept Clojure's complexity around Namespaces with more of an open mind, taking the sting out of it.</h4>
+</section>
+</section>
+<section>
+<section id="slide-orga710794">
+<h2 id="orga710794">Prior Art</h2>
+<div class="outline-text-2" id="text-orga710794">
+</div></section>
+<section id="slide-org0876c37">
+<h3 id="org0876c37"><a href="http://lifehacker.com/top-10-ways-to-teach-yourself-to-code-1684250889A">http://lifehacker.com/top-10-ways-to-teach-yourself-to-code-1684250889A</a></h3>
+</section>
+<section id="slide-orgc982ccf">
+<h3 id="orgc982ccf"><a href="https://hackpledge.org/">https://hackpledge.org/</a></h3>
+
+</section>
+</section>
+<section>
+<section id="slide-org285e1ea">
+<h2 id="org285e1ea">Old Pitches</h2>
+<div class="outline-text-2" id="text-org285e1ea">
+</div></section>
+<section id="slide-orga510647">
+<h3 id="orga510647">How can we best support the needs of Clojure learners? Imagine a future where a person interested in learning Clojure was presented with a menu of learning paths, each leading to well defined learning outcomes and offering various 'on-ramps' for learners of varying skill levels, especially, for learners completely new to programming. Imagine a future where every learner feels welcome and supported through supportive human relationships, from participation in users groups, educational co-ops, and especially one-on-one apprentice/mentor pairings. How can we place the needs of the learner above all else and grow Clojure to the scale of its full potential? Much progress has already been made, but what more can we do, together, to reach this goal?</h3>
+</section>
+<section id="slide-org5f4c368">
+<h3 id="org5f4c368">A community-centered brainstorming session facilitated by vulnerably sharing my unconventional ideas about learning to program, and graciously inviting others to share their own. An experiment in group problem solving applied to the problem of learning 'Clojure'.</h3>
+<div class="outline-text-3" id="text-org5f4c368">
+</div></section>
+<section id="slide-org4d4d9c0">
+<h4 id="org4d4d9c0">'Clojure' as used here is a heavily overloaded term, referring the body of knowledge encompassing Clojure(ish) technologies: ClojureScript, Datomic, React, React Native, bash/zshell, deployment technologies such as immutable infrastructure etc. etc. etc.</h4>
+</section>
+<section id="slide-org86dd673">
+<h3 id="org86dd673">I intend to foster an interactive conversation with my audience about how we can create stronger and more creative mentor/apprentice relationships in our growing community. The jumping off point would be my personal learning path of going from Hero to Zero. (Hero to Zero is a greatly overloaded term that is meaningful to me, but likely mysterious to others, so it will be a conversational thread wherein I can relay my personal experience of learning programming and Clojure.)</h3>
+
+</section>
+</section>
+<section>
+<section id="slide-org61bcd47">
+<h2 id="org61bcd47">Why am I the person giving this talk?</h2>
+<div class="outline-text-2" id="text-org61bcd47">
+</div></section>
+<section id="slide-org19bf3c1">
+<h4 id="org19bf3c1"><span class="todo TODO">TODO</span> Long and documented history of putting my foot in my mouth</h4>
+<aside class="notes">
+<p>
+Much of the talk is about the human brain, and almost anything I say about the brain that fits into an hour long talk will be grossly over-simplified. 
+</p>
+
+</aside>
+</section>
+<section id="slide-org9d7e097">
+<h4 id="org9d7e097"><span class="todo TODO">TODO</span> And thinking inside the box.</h4>
+<aside class="notes">
+<p>
+Learning is like breathing &#x2013; we're always doing it. My thoughts on learning are being articulated through a lifetime of inherited and accumulated personal biases, many, if not most of which, I am probably unaware. That's why I need your help to unlock the potential discoveries of this fledgling research.
+</p>
+
+</aside>
+</section>
+<section id="slide-org6d7b317">
+<h4 id="org6d7b317">Seriously though!</h4>
+<aside class="notes">
+<p>
+All joking aside, I'm deeply interested in this topic because learning to program, for me, has been a joy, but also a painful and lonely struggle. My experience and instincts tell that by the time most people discover Clojure, they've suffered needlessly for too long. I hope this talk can reach out and find aspiring learners at the outset of their learning journey. What can we do together to make learning Clojure a fantastic experience for everyone?
+</p>
+
+</aside>
+</section>
+</section>
+<section>
+<section id="slide-orgc865c44">
+<h2 id="orgc865c44">Could the keys to unlocking our human potential be hidden in the mysteries of the human brain?</h2>
+<div class="outline-text-2" id="text-orgc865c44">
+</div></section>
+<section id="slide-orgaab80ed">
+<h4 id="orgaab80ed">Decide for yourself after we explore recent discoveries, including powerful new insights in motivation and procrastination.</h4>
+<div class="outline-text-4" id="text-orgaab80ed">
+</div><ul class="org-ul"><li><a id="orgfb0c851"></a>How can science's new understanding of the placebo effect dramatically increase our chances of successfully mastering highly technical skills?<br  /><aside class="notes">
+<p>
+That's just a taste of what we'll talk about in the next hour.
+</p>
+
+</aside></li></ul>
+</section>
+</section>
+<section>
+<section id="slide-org3526b35">
+<h2 id="org3526b35">Research</h2>
+<div class="outline-text-2" id="text-org3526b35">
+</div></section>
+<section id="slide-org71f5309">
+<h3 id="org71f5309">Education: <a href="https://educarenow.wordpress.com/">https://educarenow.wordpress.com/</a></h3>
+<div class="outline-text-3" id="text-org71f5309">
+</div></section>
+<section id="slide-org9e4461a">
+<h4 id="org9e4461a">educare (latin): To draw out that which lies within.</h4>
+</section>
+<section id="slide-orgd47e57c">
+<h4 id="orgd47e57c">Contrast ecurare definition to that of Education: The process of receiving or giving systematic instruction, especially at a school or university.</h4>
+</section>
+<section id="slide-org69a2015">
+<h3 id="org69a2015">Adult Education <a href="https://en.wikipedia.org/wiki/Adult_education">https://en.wikipedia.org/wiki/Adult_education</a></h3>
+<div class="outline-text-3" id="text-org69a2015">
+</div></section>
+<section id="slide-org9b21396">
+<h4 id="org9b21396">Purpose: Vocational, Social, Recreational, Self-development: Ultimately to achieve human fulfillment</h4>
+</section>
+<section id="slide-org1e80bd6">
+<h3 id="org1e80bd6">Is knowledge good? Am I really helping? <a href="http://super-memory.com/articles/goodness.htm">http://super-memory.com/articles/goodness.htm</a></h3>
+</section>
+<section id="slide-org6cadd3e">
+<h3 id="org6cadd3e"><a href="https://www.brainpickings.org/2016/03/31/dostoyevsky-reason-emotion/">https://www.brainpickings.org/2016/03/31/dostoyevsky-reason-emotion/</a></h3>
+
+</section>
+<section id="slide-orgbe4fe6c">
+<h3 id="orgbe4fe6c">Tweeting</h3>
+<div class="outline-text-3" id="text-orgbe4fe6c">
+</div></section>
+<section id="slide-org78d68b9">
+<h4 id="org78d68b9">QR to Tweet <a href="http://qrickit.com/qrickit_apps/qrickit_qrcode_creator_tweet.php">http://qrickit.com/qrickit_apps/qrickit_qrcode_creator_tweet.php</a></h4>
+
+</section>
+<section id="slide-org83bce28">
+<h4 id="org83bce28">Click to tweet <a href="https://clicktotweet.com/">https://clicktotweet.com/</a></h4>
+
+</section>
+<section id="slide-orgf773acc">
+<h4 id="orgf773acc"><span class="todo TODO">TODO</span> Talk, when viewed on video, will still allow people to tweet pre-defined statements or questions by scanning qr codes and submitting ideas.</h4>
+<div class="outline-text-4" id="text-orgf773acc">
+</div><ul class="org-ul"><li><a id="orge7b7f7d"></a>All data goes into open data system, as in open source for community benefit.<br  /></li></ul>
+</section>
+</section>
+<section>
+<section id="slide-org2814b9f">
+<h2 id="org2814b9f">Jay &amp; Isaac</h2>
+<div class="outline-text-2" id="text-org2814b9f">
+</div></section>
+<section id="slide-org5e2d17a">
+<h3 id="org5e2d17a">Org Mode notes</h3>
+<div class="outline-text-3" id="text-org5e2d17a">
+</div></section>
+<section id="slide-org2e1ad54">
+<h4 id="org2e1ad54">After opening notes.org on my system, I usually <code>SPC t l</code> and then <code>SPC t L</code> to get things looking good.</h4>
+<p>
+Truncating lines and visual breaks. Nice. If you want, you can establish those settings as defaults in your config file. Can use `SPC-?` (Helm describes bindings) to figure out the proper names.
+</p>
+</section>
+<section id="slide-orge023157">
+<h3 id="orge023157">Separation of TODOs</h3>
+<div class="outline-text-3" id="text-orge023157">
+</div></section>
+<section id="slide-org70f744a">
+<h4 id="org70f744a">Below I've tagged this todo with isaac10, meaning its for you with a priority of 10 (lower number is higher priority and they go up by 10. That's an old basic programming trick which makes it easy to stick other todos inbetween, after the fact).</h4>
+<p>
+And it avoids the alphabetization problem of 0's! Sweet!
+</p>
+</section>
+<section id="slide-org62c21f4">
+<h4 id="org62c21f4"><span class="todo TODO">TODO</span> isaac10 Please study up on how to wrangle css for reveal.js so we can get page elements where we want them.</h4>
+<div class="outline-text-4" id="text-org62c21f4">
+</div><ul class="org-ul"><li><a id="orgfa700c5"></a><span class="todo TODO">TODO</span> Page element most concerned about is title at top left, space for video top right, paragraph/bullets left aligned half way down from top for first line.<br  /></li>
+<li><a id="orge4660d5"></a><span class="todo TODO">TODO</span> These are subtasks under the main task, so they would also be for you unless my name is next the subtask.<br  /></li>
+<li><a id="org58d2782"></a>This system should work pretty good unless we run into git workflow issues, in which case we can move out to email etc.<br  /></li>
+<li><a id="orga89e02e"></a><span class="todo TODO">TODO</span> items can be placed anywhere in the file so when you git pull you can just do a text search for "isaac" and bingo! :)<br  /></li>
+<li><a id="org016a839"></a>Thank you! I'll create a new subheading under Jay &amp; Isaac called Isaac Projects where we can keep your big picture stuff.<br  /></li>
+<li><a id="orgd4ce640"></a><span class="todo TODO">TODO</span> Great!<br  /></li></ul>
+
+</section>
+<section id="slide-org195bfbc">
+<h3 id="org195bfbc">Isaac Projects</h3>
+<div class="outline-text-3" id="text-org195bfbc">
+</div></section>
+<section id="slide-org48f9a4a">
+<h4 id="org48f9a4a">Wrangle Reveal.js CSS</h4>
+<div class="outline-text-4" id="text-org48f9a4a">
+</div><ul class="org-ul"><li><a id="orged274fa"></a><span class="todo TODO">TODO</span> isaac10 Please study up on how to wrangle css for reveal.js so we can get page elements where we want them. (copied from above)<br  /><ul class="org-ul"><li><a id="org0d422f0"></a><span class="todo TODO">TODO</span> Page element most concerned about is title at top left, space for video top right, paragraph/bullets left aligned half way down from top for first line.<br  /><p>
+Jay, I've got one stand-in solution for the top left h2 placement for now, using strictly CSS. And now that we've got custom JS involved too, we've got a lot of options for much more fine-grained and DOM-aware control.
+</p></li></ul></li>
+<li><a id="orged1c176"></a><span class="todo TODO">TODO</span> isaac20 research then tinker with getting webcam image as part of web page. (This might be tricky with reveal.js. Not sure how to best do it?)<br  /><ul class="org-ul"><li><a id="org47c646b"></a>I found this <a href="https://www.kirupa.com/html5/accessing_your_webcam_in_html5.htm">https://www.kirupa.com/html5/accessing_your_webcam_in_html5.htm</a><br  /><p>
+See email question about p2p video streaming.
+</p></li>
+<li><a id="org79eca49"></a>In the mean time, you can just use a blll have a lot more controlank white rectangle to act as place holder.<br  /></li>
+<li><a id="org59b7310"></a>On the title screen, the video would look better on the left. Not a high priority right now.<br  /></li>
+<li><a id="orgb1676d8"></a>reach out and let me know how things are going, if they are unclear, or to ask any questions :)<br  /></li></ul></li></ul>
+</section>
+<section id="slide-orge616078">
+<h4 id="orge616078"><span class="todo TODO">TODO</span> isaac300 research doing footnotes in org-mode. There's something called Bibtex too. (notice low priority)</h4>
+</section>
+</section>
+</div>
+</div>
+<script src="./reveal.js/lib/js/head.min.js"></script>
+<script src="./reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: false,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+overview: true,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+{src: './learnering.js'},
+ { src: './reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: './reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: './reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>
