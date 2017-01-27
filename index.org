@@ -7,8 +7,10 @@
 #+REVEAL_HLEVEL: 1
 #+REVEAL_EXTRA_JS: {src: './learnering.js'} 
 #+REVEAL_DEFAULT_FRAG_STYLE: roll-in
+#+REVEAL_ROOT: ./
 
 #+BEGIN_NOTES
+Setting the REVEAL_ROOT as a relative path above works for me, but is inconsistent with https://github.com/yjwen/org-reveal. 
 ;; #+OPTIONS: reveal_width:1920 reveal_height:1080
 ;; note: function: org-toggle-inline-images   (toggles between showing images in buffer and showing text url of images file)
 ;; Table of Contents w/ time goals
