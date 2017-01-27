@@ -130,6 +130,14 @@ video#videoPlaceholder {
   /* z-index: 100; */
   /* background-color: white; */ }
 
+div#redpill-box {
+  position: relative;
+  display: inline-block;
+  float: right !important;
+  width: 50%;
+  height: 50%;
+  border: 2px dashed red; }
+
 /* //The Red pill! ... */
 /* #redpill { */
 /*     position: fixed; */

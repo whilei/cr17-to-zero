@@ -8,11 +8,19 @@ vp.id = "videoPlaceholder";
 vp.setAttribute("data-autoplay", "");
 vp.setAttribute("autoplay", "");
 
+var redpillBox = document.createElement("div");
+redpillBox.id = "redpill-box";
+
 // insert our placeholder for where the video will go
 // (placement and style attributes handled in css)
 // and I think we want to have this only inserted once, vs appended to each section(aka slide)
 var rev = document.getElementsByClassName("slides")[0]; //("reveal")[0]; // there should only be one anyway
+
+// first insert redpillbox, then video before that
+rev.insertBefore(redpillBox, rev.firstChild);
 rev.insertBefore(vp, rev.firstChild); //vs slides
+
+
 
 var webcamConstraints = {
     audio: true,
@@ -165,10 +173,19 @@ Reveal.addEventListener('slidechanged', function(event) {
       var imageSrc = image.src;
       imageSrc = decodeURI(imageSrc); // and clear out pesky %'s
 
+
+        //check amended img source is the redpill source we're looking for
       if (imageSrc === "http://" + window.location.host + redImgSrc) {
+
         //apply css rules to that image (found via src) to move it to the right spot.
         console.log("Found redpill image. Appending class 'redpill-image'");
-        image.className += " redpill-image "; //TODO: don't just apply css; create video-esque fixed div and move the image there to make position independent of slide text... or use "anchor" div in that quadrant to fixed-position the image
+
+          redpillBox.append(image); // we'll have to clear this out, too
+
+
+        // image.className += " redpill-image "; //TODO: don't just apply css; create video-esque fixed div and move the image there to make position independent of slide text... or use "anchor" div in that quadrant to fixed-position the image
+
+
       } else {
         console.log(image.src + " <- image.src doesn't match redpillsrc -> " + redImgSrc);
       }
