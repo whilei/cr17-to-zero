@@ -60,19 +60,12 @@ function setUpVideo() {
 function errorCallback(err) {
     alert(err);
 }
-//see if you want to look at yourself
-if (confirm("Want to use webcam video?")) {
-    setUpVideo();
-} else {
-    vp.style.background = "white"; // for now
-}
-
 
 function setStateFromHash(hash) {
     var hash = hash;
     hash = hash.replace('#', '');
     hash = hash.split("-");
-    console.log("got v, h from hash: ", hash);
+    // console.log("got v, h from hash: ", hash);
     if (hash !== "") {
         Reveal.slide(parseInt(hash[0]));
         console.log('did set state', hash);
@@ -80,12 +73,21 @@ function setStateFromHash(hash) {
 }
 
 window.onload = function() {
+
     if (Reveal.isReady()) {
         if (location.hash !== "" && location.hash !== null && typeof(location.hash) !== "undefined") {
             setStateFromHash(location.hash);
         }
     }
     hideEmptyTitles();
+
+    //see if you want to look at yourself
+    if (confirm("Want to use webcam video?")) {
+        setUpVideo();
+    } else {
+        vp.style.background = "white"; // for now
+    }
+
 }
 
 function hideEmptyTitles() {
@@ -107,13 +109,13 @@ var videoIsHiding = false;
 
 function videoShouldHide(yes) {
     if (yes && !videoIsHiding) {
-        console.log("This is video hiding.");
+        // console.log("This is video hiding.");
         videoIsHiding = true;
         // vp.style.display = 'none';
         vp.style.visibility = "hidden";
 
     } else if (videoIsHiding) {
-        console.log("Unhiding video.");
+        // console.log("Unhiding video.");
         videoIsHiding = false;
         // vp.style.display = 'inline-block';
         vp.style.visibility = "visible";
@@ -136,12 +138,12 @@ Reveal.addEventListener('slidechanged', function(event) {
     location.hash = state.indexh.toString();
     videoShouldHide(false);
     hideEmptyTitles(); // becuase not all are rendered upfront --
-    console.log("slidechanged", event);
+    // console.log("slidechanged", event);
 
   // check for redpill images
     var curSlide = event.currentSlide;
     var redImgSrc = curSlide.getAttribute("redpill-img-src");
-    console.log("REDPILL imgSrc", redImgSrc);
+    // console.log("REDPILL imgSrc", redImgSrc);
 
   if (redImgSrc !== null) {
     // get all images in slide
@@ -151,8 +153,8 @@ Reveal.addEventListener('slidechanged', function(event) {
     for (var i = 0; i < slideImages.length; i++) {
 
       var image = slideImages[i];
-      console.log("Iterating through slide image: ", image);
-      console.log("Image source is: ", image.src);
+      // console.log("Iterating through slide image: ", image);
+      // console.log("Image source is: ", image.src);
 
       //find image in slide.
       //*have to prepend proto + host + src
