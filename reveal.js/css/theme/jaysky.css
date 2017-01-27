@@ -162,8 +162,8 @@ div#redpill-box {
 /* } */
 img.redpill-image {
   display: inline-block;
-  margin-top: 50% !important;
-  margin-left: 146% !important;
+  /* margin-top: $videoWidth !important; */
+  /* margin-left: 100% + $videoWidth - $slidesPadding !important; */
   max-height: 42%;
   max-width: 42%;
   /* border: 3px solid red !important; */ }

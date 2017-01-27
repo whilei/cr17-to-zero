@@ -129,7 +129,17 @@ function videoShouldHide(yes) {
         vp.style.visibility = "visible";
     }
 }
-
+// http://stackoverflow.com/questions/442404/retrieve-the-position-x-y-of-an-html-element
+function getOffset( el ) {
+    var _x = 0;
+    var _y = 0;
+    while( el && !isNaN( el.offsetLeft ) && !isNaN( el.offsetTop ) ) {
+        _x += el.offsetLeft - el.scrollLeft;
+        _y += el.offsetTop - el.scrollTop;
+        el = el.offsetParent;
+    }
+    return { top: _y, left: _x };
+}
 
 // https://github.com/hakimel/reveal.js#slide-states
 Reveal.addEventListener('hide-video', function(event) {
@@ -148,49 +158,72 @@ Reveal.addEventListener('slidechanged', function(event) {
     hideEmptyTitles(); // becuase not all are rendered upfront --
     // console.log("slidechanged", event);
 
-  // check for redpill images
+    // check for redpill images
     var curSlide = event.currentSlide;
     var redImgSrc = curSlide.getAttribute("redpill-img-src");
     // console.log("REDPILL imgSrc", redImgSrc);
 
-  if (redImgSrc !== null) {
-    // get all images in slide
-    var slideImages = curSlide.getElementsByTagName("img");
+    if (redImgSrc !== null) {
+        // get all images in slide
+        var slideImages = curSlide.getElementsByTagName("img");
 
-    // iterate through images
-    for (var i = 0; i < slideImages.length; i++) {
+        // iterate through images
+        for (var i = 0; i < slideImages.length; i++) {
 
-      var image = slideImages[i];
-      // console.log("Iterating through slide image: ", image);
-      // console.log("Image source is: ", image.src);
+            var image = slideImages[i];
+            // console.log("Iterating through slide image: ", image);
+            // console.log("Image source is: ", image.src);
 
-      //find image in slide.
-      //*have to prepend proto + host + src
+            //find image in slide.
+            //*have to prepend proto + host + src
 
-      //prepend / if not present, avoid a gotcha <--- cuz is live url
-      if (redImgSrc.search("/") !== 0) { redImgSrc = "/" + redImgSrc; }
+            //prepend / if not present, avoid a gotcha <--- cuz is live url
+            if (redImgSrc.search("/") !== 0) {
+                redImgSrc = "/" + redImgSrc;
+            }
 
-      var imageSrc = image.src;
-      imageSrc = decodeURI(imageSrc); // and clear out pesky %'s
-
-
-        //check amended img source is the redpill source we're looking for
-      if (imageSrc === "http://" + window.location.host + redImgSrc) {
-
-        //apply css rules to that image (found via src) to move it to the right spot.
-        console.log("Found redpill image. Appending class 'redpill-image'");
-
-          redpillBox.append(image); // we'll have to clear this out, too
+            var imageSrc = image.src;
+            imageSrc = decodeURI(imageSrc); // and clear out pesky %'s
 
 
-        // image.className += " redpill-image "; //TODO: don't just apply css; create video-esque fixed div and move the image there to make position independent of slide text... or use "anchor" div in that quadrant to fixed-position the image
+            //check amended img source is the redpill source we're looking for
+            if (imageSrc === "http://" + window.location.host + redImgSrc) {
 
+                //apply css rules to that image (found via src) to move it to the right spot.
+                console.log("Found redpill image. Appending class 'redpill-image'");
 
-      } else {
-        console.log(image.src + " <- image.src doesn't match redpillsrc -> " + redImgSrc);
-      }
+                // get coords of redpillBox.
+                // redpillBox.append(image); // we'll have to clear this out, too
+
+                image.className += " redpill-image "; //TODO: don't just apply css; create video-esque fixed div and move the image there to make position independent of slide text... or use "anchor" div in that quadrant to fixed-position the image
+
+                // var videoDom = document.getElementById(vp.id);
+                // var videoDom = document.getElementsByTagName("video")[0];
+                // console.log("video", videoDom.getBoundingClientRect());
+                // var vidPos = videoDom.getBoundingClientRect();
+
+                var rpBoxCoords = redpillBox.getBoundingClientRect();
+                var o = getOffset(redpillBox);
+
+                // console.log("vw", videoDom.style.width);
+                // console.log("vh", videoDom.style.height);
+                image.style.position = "absolute";
+                // image.style.left = rpBoxCoords.left + "px";
+                // image.style.top = rpBoxCoords.top + "px";
+                image.style.left = o.left + "px";
+                image.style.top = o.top + "px";
+
+                // image.style.transform = "translate(" + vidPos.left + "px," + vidPos.top + "px)";
+                // image.style.transform = "translate(" + 100 + "px," + 100 + "px)";
+
+            } else {
+                console.log(image.src + " <- image.src doesn't match redpillsrc -> " + redImgSrc);
+            }
+
+        }
+    } else {
+        console.log("No redpill. As you were.");
     }
-  }
 
 
 });
