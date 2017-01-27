@@ -14,3 +14,36 @@ How do we nurture growth? ie Stackoverflow -- incredibly and wildly excellent fo
 
 * The org mode mode.
 Thinking about the ( character ) of text. Get it?
+
+* Learning Language
+When we're toddlers, we make a lot of mistakes. We bump into walls, scrape our knees, accidentally spill pasta all over our heads. Some are simple misunderstandings - or, alternate interpretations - of established conventions, and others less intentional. Perhaps the most important mistakes we can make as children is in our mumblings and cryings, our manglings, simplifications, and contortions of language. 
+
+I would pause here - mistakes is the wrong word. Children do not regret their words, nor parents regret that "mo miks" actually means "More milk, please." Language is forgiving like that. Language is plastic, and can finds its most critical and characteristic triumphs in it's being able to bend without breaking.
+
+Again, I pause -- _human_ language is plastic. Because humans are plastic. Whatever it is that enables self-reference, self-development, and... 'learning', shall we call it? Our language is or is able to be a reflection of ourselves. Our languages are expressive, dynamic, and ultimately able to acheive the impossible -- namely, to extend beyond themselves with the dynamism of contortionist and the strength of an army.
+
+When a toddler makes a syntax mistake, her listeners are still able to glean valuable information from the effort.
+
+As a beginning programmer, I felt much the same as a toddler. But I made one important mistake: I devalued them.
+I wanted to write code that _ran_. I abhorred errors. I wanted to avoid them. The computer was not generous with me. That is not how computers are (yet!).
+
+What I've learned since has been from the generosity of Stackoverflow contributors, bloggers, authors, Youtubers... the list goes on. But I also learned to listen to the machine. I learned to love errors, because I learned to read them. I thank my humanity for that -- somehow if you stare a thing long enough you start to be able to read it. Whether it's the water on the pond, the painting on the wall, or the god damned 500.
+
+When you develop with the attitude that "errors should be avoided," one is likely to aim towards the more-surely-achievable. That's a problem. For one: it's not as fun. For two: it's not a challenge. For three: you're not as likely to expose yourself to the opportunity to learn. Make friends with errors, on the other hand, and while progress may seem slower, or success less certain, you just might wind up holding the impossible.
+# damn that's fucking corny
+
+- Code resources on the internet are often endpoint-success-oriented.
+  - I think of git init commits on Github containing 95% of the codebase.
+  - I think of blogs and tutorials... "Build with me a working thing," where each step has been planned ahead of time and there are no dead-ends, no oops! well, here's what we're going to have to do about that...
+- Code resources on the internet are focues on solving a single technical problem.
+  - I think of the self-imposed limits of stackoverflow. A few excellent "here's how and here's why" answers in a sea of "here's how". Practicality rules, but education does not. (Not that there's not something to be learned from that, too).
+    - stackexchange/codereview is a very interesting alernately-framed approach
+- Code resources on the internet are often single-framed.
+  - static images, stepA, stepB, stepC. I'd be curious to see more over-the-shoulder opportunities, where a student might be able to learn by watching. How does the teacher interact with his OS environment. From window layouts to aliases, hotkeys to debuggers, editors, IDEs... There is a difference between examining the chair and breathing the sawdust.
+
+- https://www.youtube.com/watch?v=ZFV5EqpZ6_s
+
+We need teachers, not instruction-manual authors. We need students, not copycats. We need hackers who can use their computer in the name of play.
+
+
+** Language likes to grow. 
