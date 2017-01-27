@@ -125,7 +125,7 @@ $slidesPadding: 4%;
 /*     margin: 0 0 auto 0 !important; */
 /* } */
 
-.reveal .slides {
+.reveal.default .slides { //.default disentangles from notes-view-prez
     position: relative;
     width: 100% - 2*$slidesPadding !important;
     height: 100% - 2*$slidesPadding !important;

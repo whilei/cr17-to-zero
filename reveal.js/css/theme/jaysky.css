@@ -53,7 +53,7 @@
 /*     padding: 20px; */
 /*     margin: 0 0 auto 0 !important; */
 /* } */
-.reveal .slides {
+.reveal.default .slides {
   position: relative;
   width: 92% !important;
   height: 92% !important;
