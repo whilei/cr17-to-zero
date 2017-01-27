@@ -11,6 +11,7 @@ pom.xml.asc
 .hg/
 /notes.html
 *.log
+/index.html
 
 # Reveal.js
 .idea/

@@ -78,7 +78,32 @@ How much time for this degree of improvement? (wait 5 seconds) (NEXT SLIDE DOWN)
 
 
 ** 5 days
-:PROPERTIES
+:PROPERTIES:
+ :reveal_extra_attr: redpill-img-src="/resources/images/Introduction/bell212.jpg"
+ :END:
+ # Setting these to display at once.
+ #+ATTR_REVEAL: :frag t
+ [[file:resources/images/Introduction/bell212.jpg]]
+ - Betty Edwards, author of /Drawing on the Right Side of the Brain/
+ - drawright.com
+ - ~@DRSB_Edwards~
+ 
+ #+BEGIN_NOTES
+ 5 days. That's it. These people, people not unlike you or me, learned the technical fundamentals of drawing in only *5 days*. 
+ 
+ Personally, I'm /*astonished*/ by these drawings.
+ 
+ It reminds of the scene in The Matrix (TODO jay pic), where Neo and Trinity see an M109 helicopter. He asks her "Can you fly that thing?" and she replies, "Not yet". Moments later she is piloting the aircraft with aplomb proficiency.
+ 
+ TODO isaac60 place bell212.jpg (resources/images/introduction/matrix/heli/) in lower right quadrant. Maybe we can find a way "reveal" these lower right images like frags? That would be nice so I can control the timing of their appearance.
+ 
+ How does their teacher (NEXT FRAG), Betty Edwards, facilitate such progress for *all* of her students, not just some?
+ 
+ And how is her approach relevant to learning other highly technical skills, such as programming?
+ 
+ We'll explore these, and other engaging questions, over the next hour. (NEXT SLIDE DOWN)
+ #+END_NOTES
+ 
 ** Target Audience?
 #+ATTR_REVEAL: :frag (roll-in) 
 - programmers
