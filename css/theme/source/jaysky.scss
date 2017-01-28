@@ -228,6 +228,18 @@ video#videoPlaceholder {
     /* background-color: white; */ //so no flashes
 }
 
+// similar to videoplaceholder...
+div#redpill-box {
+    position: relative;
+    display: inline-block;
+    float: right !important;
+    width: $videoWidth;
+    height: $videoHeight;
+
+    border: 2px dashed red;
+}
+
+
 
 /* //The Red pill! ... */
 /* #redpill { */
@@ -254,11 +266,12 @@ video#videoPlaceholder {
 
 img.redpill-image {
     display: inline-block;
-    margin-top: $videoWidth !important;
-    margin-left: 100% + $videoWidth - $slidesPadding !important;
+    /* margin-top: $videoWidth !important; */
+    /* margin-left: 100% + $videoWidth - $slidesPadding !important; */
     max-height: $videoHeight - $slidesPadding * 2;
     max-width: $videoWidth - $slidesPadding * 2;
     /* border: 3px solid red !important; */
+    z-index: 100;
 }
 
 
