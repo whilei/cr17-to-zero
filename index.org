@@ -5,7 +5,7 @@
 #+OPTIONS: num:nil toc:nil reveal_title_slide:nil reveal_center:nil
 #+mynotes: Use Big John / Little Joe for Headings, Quicksand for normal type and lobster for marking up pictures (or any combination of these.
 #+REVEAL_HLEVEL: 1
-#+REVEAL_EXTRA_JS: {src: './learnering.js'} 
+#+REVEAL_EXTRA_JS: {src: './js/custom.js'} 
 #+REVEAL_DEFAULT_FRAG_STYLE: roll-in
 #+REVEAL_ROOT: ./
 
@@ -79,8 +79,8 @@ How much time for this degree of improvement? (wait 5 seconds) (NEXT SLIDE DOWN)
 
 ** 5 days
 :PROPERTIES:
- :reveal_extra_attr: redpill-img-src="/resources/images/Introduction/bell212.jpg"
- :END:
+:reveal_extra_attr: redpill-img-src="/resources/images/Introduction/bell212.jpg"
+:END:
  # Setting these to display at once.
  #+ATTR_REVEAL: :frag t
  [[file:resources/images/Introduction/bell212.jpg]]
@@ -130,11 +130,12 @@ I wrote this talk with (NEXT FRAG) programmers & (NEXT FRAG) aspiring programmer
 
 ** My Experiences 
 :PROPERTIES:
-:reveal_extra_attr: redpill-img-src="/resources/images/800px-Pill.svg.png"
+:reveal_extra_attr: redpill-img-src="/resources/images/800px-Pill-threshold00.png"
 :END:
 
 #+ATTR_REVEAL: :frag t
-file:resources/images/800px-Pill.svg.png
+file:resources/images/800px-Pill-threshold00.png
+
 
 #+BEGIN_NOTES
    I'm not an expert in programming, nor in the science of learning. 

@@ -68,15 +68,20 @@
 $mainFont: 'Open Sans', sans-serif;
 /* $mainFont: 'Quicksand', sans-serif; */
 /* $mainColor: #333; */
-$mainColor: #C1AE7C;
+
+$mainColor: #E3C567; //#C1AE7C;
 $headingFont: 'bigjohn', sans-serif;
 /* $headingFont: 'Muli', sans-serif; */
-$headingColor: #C1AE7C;
+
+$headingColor: $mainColor; //#C1AE7C;
+
 /* $headingLetterSpacing: -0.08em; */
 $headingTextShadow: none;
+
 /* $backgroundColor: #000000; */
 $backgroundColor: #545f66;
-$linkColor: #E3C567;
+
+$linkColor: gold; //#E3C567;
 $linkColorHover: lighten( $linkColor, 20% );
 $selectionBackgroundColor: #134674;
 $headingTextTransform: capitalize;
@@ -119,12 +124,6 @@ $slidesPadding: 4%;
 
 // --- Isaac's Edits Take2 ---
 
-/* div.slides { */
-/*     max-width: 95% - $videoWidth !important; */
-/*     padding: 20px; */
-/*     margin: 0 0 auto 0 !important; */
-/* } */
-
 .reveal.default .slides { //.default disentangles from notes-view-prez
     position: relative;
     width: 100% - 2*$slidesPadding !important;
@@ -133,13 +132,11 @@ $slidesPadding: 4%;
     /* border: 1px solid red; */
 }
 
-/* div.slides { */
-/*     width: 100% !important; */
-/*     height: 100% !important; */
-/*     padding: 40px; // 20; */
-/*     margin: 0 0 0 0 !important; */
-/*     /\* margin: 20 20 20 20 !important; *\/ */
-/* } */
+.reveal section img {
+    background: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
 
 .reveal section {
     text-align: left;
@@ -162,44 +159,18 @@ $slidesPadding: 4%;
         .figure{
             max-width: 80%; //guesstimate for now
             margin: auto; //center it
+            text-align: center;
             /* @include vertical-align-at(relative, 50%); */
         }
 
         > :nth-child(2) {
             @include vertical-align-at(absolute, 50%);
         }
-
-        /* > p:nth-child(2), ul:nth-child(2) { */
-        /*     /\* margin-top: 25%; *\/ */
-        /*     @include vertical-align-at(absolute, 50%); */
-        /* } */
-
     }
-
-    /* p, ul { */
-    /*     display: table-cell; */
-    /*     vertical-align: center; */
-    /* } */
-
-    /* p:first-of-type, ul:first-of-type { */
-    /*     @include vertical-align-at(absolute, 50%); */
-    /*     /\* @include centerer(false, true); *\/ */
-    /* } */
-
-    /* > p, ul { */
-    /*     @include vertical-align-at(absolute, 50%); */
-    /*     /\* @include centerer(false, true); *\/ */
-    /* } */
-
-
     width: 100%;
 }
 
 // Text stuff
-
-/* .reveal p,ul { */
-/*     margin: 0 0 0 2em !important; */
-/* } */
 
 // ie title slide
 .hide-heading {
@@ -230,6 +201,7 @@ video#videoPlaceholder {
 
 
 /* //The Red pill! ... */
+// this was work on a bounding box for the area. it's complicated :pill:
 /* #redpill { */
 /*     position: fixed; */
 /*     display: inline-block; */
@@ -255,10 +227,13 @@ video#videoPlaceholder {
 img.redpill-image {
     display: inline-block;
     margin-top: $videoWidth !important;
-    margin-left: 100% + $videoWidth - $slidesPadding !important;
+    margin-left: 100% + $videoWidth - $slidesPadding*2 !important;
     max-height: $videoHeight - $slidesPadding * 2;
     max-width: $videoWidth - $slidesPadding * 2;
-    /* border: 3px solid red !important; */
+
+    border: none !important;
+
+    z-index: 100;
 }
 
 
