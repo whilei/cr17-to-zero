@@ -162,6 +162,7 @@ $slidesPadding: 4%;
         .figure{
             max-width: 80%; //guesstimate for now
             margin: auto; //center it
+            text-align: center;
             /* @include vertical-align-at(relative, 50%); */
         }
 
@@ -261,6 +262,8 @@ img.redpill-image {
 
     /* border: 3px solid red !important; */
     border: none !important;
+
+    z-index: 100;
 }
 
 
