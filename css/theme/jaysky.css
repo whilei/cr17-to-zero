@@ -155,10 +155,11 @@ video#videoPlaceholder {
 img.redpill-image {
   display: inline-block;
   margin-top: 50% !important;
-  margin-left: 146% !important;
+  margin-left: 142% !important;
   max-height: 42%;
   max-width: 42%;
-  /* border: 3px solid red !important; */ }
+  /* border: 3px solid red !important; */
+  border: none !important; }
 
 /* @mixin bodyBackground() {
 /* 	@include radial-gradient( #add9e4, #f7fbfc ); */
