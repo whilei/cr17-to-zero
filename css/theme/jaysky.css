@@ -43,7 +43,7 @@
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 20px;
-  border-bottom: 1px solid #C1AE7C; }
+  border-bottom: 1px solid #E3C567; }
 
 .reveal a {
   line-height: 1.3em; }
@@ -57,7 +57,8 @@
 
 .reveal section img {
   background: none !important;
-  box-shadow: none !important; }
+  box-shadow: none !important;
+  border: none !important; }
 
 .reveal section {
   text-align: left;
@@ -152,7 +153,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 36px;
   font-weight: normal;
-  color: #C1AE7C; }
+  color: #E3C567; }
 
 ::selection {
   color: #fff;
@@ -174,7 +175,7 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #C1AE7C;
+  color: #E3C567;
   font-family: "bigjohn", sans-serif;
   font-weight: normal;
   line-height: 1.2;
@@ -339,20 +340,20 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #E3C567;
+  color: gold;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
   transition: color .15s ease; }
 
 .reveal a:hover {
-  color: #f3e6bd;
+  color: #ffe766;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #d6ac27; }
+  background: #b39700; }
 
 /*********************************************
  * IMAGES
@@ -360,7 +361,7 @@ body {
 .reveal section img {
   margin: 15px 0px;
   background: rgba(255, 255, 255, 0.12);
-  border: 4px solid #C1AE7C;
+  border: 4px solid #E3C567;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
 
 .reveal section img.plain {
@@ -374,7 +375,7 @@ body {
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color: #E3C567;
+  border-color: gold;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
@@ -382,31 +383,31 @@ body {
  *********************************************/
 .reveal .controls .navigate-left,
 .reveal .controls .navigate-left.enabled {
-  border-right-color: #E3C567; }
+  border-right-color: gold; }
 
 .reveal .controls .navigate-right,
 .reveal .controls .navigate-right.enabled {
-  border-left-color: #E3C567; }
+  border-left-color: gold; }
 
 .reveal .controls .navigate-up,
 .reveal .controls .navigate-up.enabled {
-  border-bottom-color: #E3C567; }
+  border-bottom-color: gold; }
 
 .reveal .controls .navigate-down,
 .reveal .controls .navigate-down.enabled {
-  border-top-color: #E3C567; }
+  border-top-color: gold; }
 
 .reveal .controls .navigate-left.enabled:hover {
-  border-right-color: #f3e6bd; }
+  border-right-color: #ffe766; }
 
 .reveal .controls .navigate-right.enabled:hover {
-  border-left-color: #f3e6bd; }
+  border-left-color: #ffe766; }
 
 .reveal .controls .navigate-up.enabled:hover {
-  border-bottom-color: #f3e6bd; }
+  border-bottom-color: #ffe766; }
 
 .reveal .controls .navigate-down.enabled:hover {
-  border-top-color: #f3e6bd; }
+  border-top-color: #ffe766; }
 
 /*********************************************
  * PROGRESS BAR
@@ -415,7 +416,7 @@ body {
   background: rgba(0, 0, 0, 0.2); }
 
 .reveal .progress span {
-  background: #E3C567;
+  background: gold;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }

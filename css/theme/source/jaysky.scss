@@ -68,15 +68,20 @@
 $mainFont: 'Open Sans', sans-serif;
 /* $mainFont: 'Quicksand', sans-serif; */
 /* $mainColor: #333; */
-$mainColor: #C1AE7C;
+
+$mainColor: #E3C567; //#C1AE7C;
 $headingFont: 'bigjohn', sans-serif;
 /* $headingFont: 'Muli', sans-serif; */
-$headingColor: #C1AE7C;
+
+$headingColor: $mainColor; //#C1AE7C;
+
 /* $headingLetterSpacing: -0.08em; */
 $headingTextShadow: none;
+
 /* $backgroundColor: #000000; */
 $backgroundColor: #545f66;
-$linkColor: #E3C567;
+
+$linkColor: gold; //#E3C567;
 $linkColorHover: lighten( $linkColor, 20% );
 $selectionBackgroundColor: #134674;
 $headingTextTransform: capitalize;
@@ -130,6 +135,7 @@ $slidesPadding: 4%;
 .reveal section img {
     background: none !important;
     box-shadow: none !important;
+    border: none !important;
 }
 
 .reveal section {
