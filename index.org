@@ -220,17 +220,29 @@ file:resources/images/800px-Pill.svg.png
 
    Someone planted a seed in my mind over a year ago about taking the 4 hour online course, /Learning How to Learn/ by Barbara Oakley and Terrence Sejnowski.
 
-   After slowly going through the course over many months, branching my studies off of the main curriculum by following the compass of my own innate curiosity, I can say unequivocally taking this course is the best thing I have ever done for myself!
+   After slowly going through the course over many months, branching my studies off of the main curriculum by following the compass of my curiosity, I can say unequivocally taking this course has super-charged my learning!
 
-   It's helped me in ways I never expected. Yes, my learning skills are sharper and broader, and growing. But I'm also sleeping better, eating better and enjoying frequent breaks from my work to playfully exercise in the back yard. Most profoundly, I'm getting along better with the people I work and live with, thanks to better communication skills and a clearer understanding myself and others. There's always room for improvement and as much as things have gotten better, I feel like this journey is just beginning.
+   To my delight, it's helped me in ways I never expected. Yes, my learning skills are sharper and broader, and growing. 
+
+   But I'm also sleeping better, eating better and enjoying playful breaks from my work to exercise in the back yard.
+
+   Most profoundly, my relationships with family, friends and colleagues are flourishing, thanks to a better understanding of myself and others.
+
+   But there's always room for improvement and as much as things have gotten better, its feels like this journey is just beginning.
 
    What I'm trying to say is I'm a *big* fan. 
 
    If I could plant just one seed today, it would be *this* course.
-  
-   The crucial benefit I've gained from my Learning How to Learn /studies/, is the absolute conviction that I /will/ succeed if I put in the work.
 
-   I imagine this sounds to you like overstated positive thinking, but it's not, it's brain science, and I'll back up this claim in a bit, because I want you to believe this about yourself too. Doing so significantly increases your odds of learning success.
+   The crucial benefit I've gained from my Learning How to Learn /studies/, is the confidence that I /will/ continue to improve my learning skills, which will accelerate learning in every other aspect of my life, including learning to program.
+
+   Perhaps you're already confident in your ability to learn, and why shouldn't you be!?!
+
+   After all you've gotten this far along in life, right!?!
+
+   Fortunately, the brain comes pre-built to learn.
+
+   The challenge then is this: can we learn to work with the natural 'grain' of the brain, can we learn even more efficiently? And what would our world look like if we did this en masse? 
 
    My hope is that you will find at least one thing in this talk that will help you in your own learning journey, whatever your goals may be.
 
@@ -242,15 +254,18 @@ file:resources/images/800px-Pill.svg.png
 
    It began its life open to community as an open source github repository, and has evolved into an open-data project, driven by your anonymous, interactive input.
 
-   You'll notice many red pills throughout the talk on the lower right corner of the screen. These are mini-polls, links to kick-start your research or pre-filled tweets that will serve to network like minds around the subject of learning. Even if you're watching this on video, months or years from now, you can still participate by scanning the qr codes with your phone.
+   You'll notice many red pills throughout the talk on the lower right corner of the screen. These are either mini-polls, links to kick-start your research or pre-filled tweets that will serve to network like minds around the subject of learning. Even if you're watching this on video, months or years from now, you can still participate by scanning the QR codes with your phone.
 
-   This is your red pill, blue pill moment. Scan the red pill now if, like me, you were astonished by the Betty Edward's drawings and are curious to learn more. No pressure though, think of this talk as a garden and pick the fruit that appeals to your senses.
+   This is your red pill, blue pill moment!
+
+   Scan the red pill now if, like me, you were astonished by the drawings done by Betty Edward's students and are curious to learn more.
+
+   No pressure though, think of this talk as a garden and pick the fruit that appeals to your senses.
 
    We're going to explore many aspects of learning through the framework of learning's /*worth*/.
 
    Let's get started! 
    #+END_NOTES
-
 
 # This is the "Value of Learning" Slide.
 ** 
@@ -280,9 +295,9 @@ file:resources/images/800px-Pill.svg.png
 *** Now I know. What do I do?
  What actions are consistent with this value?
 *** Simplest possible outline
--Question
--Answer
--Action
+- Question
+- Answer
+- Action
 #+BEGIN_NOTES 
 In simplest terms: Question, Answer, Action  (NEXT SLIDE DOWN)
 #+END_NOTES
@@ -431,10 +446,13 @@ Give the audience a chance to grapple with the question
 **** TODO https://www.brainpickings.org/2016/03/31/dostoyevsky-reason-emotion/ find quote
 *** Learning from failure yields long term success
 Therefore learning, not winning is the greater value.
-*** Know thyself, know others, 16 Personalities
+*** Know thyself, know others, 16 Personalities 
+*** Learning about learning
+There's a parallel between the drawings we saw at the start of this talk and the skill of learning, both are technical skills. I could poke around at drawing for years, or I could absorb the fundamentals from a master and use that framework to accelerate my progress.
+
+That framework, as it turns out, is vitally important to genuine understanding. TODO University Study.
 *** Learning is Adapting
 And adapting is human. (Tie in Clojure connection)
-** 
 * Now I know. What do I do?
 What actions are consistent with this value?
 ** If we value learning, why not get better at it, instead of dribbling the ball incessantly. 
