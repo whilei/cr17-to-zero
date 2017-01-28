@@ -166,7 +166,8 @@ img.redpill-image {
   /* margin-left: 100% + $videoWidth - $slidesPadding !important; */
   max-height: 42%;
   max-width: 42%;
-  /* border: 3px solid red !important; */ }
+  /* border: 3px solid red !important; */
+  z-index: 100; }
 
 /* @mixin bodyBackground() {
 /* 	@include radial-gradient( #add9e4, #f7fbfc ); */
