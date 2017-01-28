@@ -195,6 +195,7 @@ Reveal.addEventListener('slidechanged', function(event) {
                 // get coords of redpillBox.
                 // redpillBox.append(image); // we'll have to clear this out, too
 
+                // sets max height+width
                 image.className += " redpill-image "; //TODO: don't just apply css; create video-esque fixed div and move the image there to make position independent of slide text... or use "anchor" div in that quadrant to fixed-position the image
 
                 // var videoDom = document.getElementById(vp.id);
@@ -203,15 +204,30 @@ Reveal.addEventListener('slidechanged', function(event) {
                 // var vidPos = videoDom.getBoundingClientRect();
 
                 var rpBoxCoords = redpillBox.getBoundingClientRect();
-                var o = getOffset(redpillBox);
+                var vpCoords = vp.getBoundingClientRect();
+                var pElem = image.parentElement;
+                var pElemCoords = pElem.getBoundingClientRect();
+                var l = pElem.offsetWidth;
+                var t = vpCoords.top + vp.offsetHeight; //assume vp and section always equi-high
+                console.log("l", l);
+                console.log("t", t);
 
-                // console.log("vw", videoDom.style.width);
-                // console.log("vh", videoDom.style.height);
-                image.style.position = "absolute";
-                // image.style.left = rpBoxCoords.left + "px";
-                // image.style.top = rpBoxCoords.top + "px";
-                image.style.left = o.left + "px";
-                image.style.top = o.top + "px";
+                var padX = vp.width - image.width;
+                padX = padX / 2;
+                console.log("padX", padX);
+
+                var padY = pElem.offsetHeight - vp.offsetHeight - image.offsetHeight; //assume image height already set by .redpill-image
+                padY = padY / 2;
+                console.log("padY", padY);
+
+                l = l + padX;
+                t = t + padY;
+                console.log("l", l);
+                console.log("t", t);
+
+                image.style.position = "fixed";
+                image.style.left = l + "px";
+                image.style.top = t + "px";
 
                 // image.style.transform = "translate(" + vidPos.left + "px," + vidPos.top + "px)";
                 // image.style.transform = "translate(" + 100 + "px," + 100 + "px)";
