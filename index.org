@@ -130,11 +130,11 @@ I wrote this talk with (NEXT FRAG) programmers & (NEXT FRAG) aspiring programmer
 
 ** My Experiences 
 :PROPERTIES:
-:reveal_extra_attr: redpill-img-src="/resources/images/800px-Pill.svg.png"
+:reveal_extra_attr: redpill-img-src="/resources/images/800px-Pill-threshold00.png"
 :END:
 
 #+ATTR_REVEAL: :frag t
-file:resources/images/800px-Pill.svg.png
+file:resources/images/800px-Pill-threshold00.png
 
 
 #+BEGIN_NOTES

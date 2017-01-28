@@ -119,12 +119,6 @@ $slidesPadding: 4%;
 
 // --- Isaac's Edits Take2 ---
 
-/* div.slides { */
-/*     max-width: 95% - $videoWidth !important; */
-/*     padding: 20px; */
-/*     margin: 0 0 auto 0 !important; */
-/* } */
-
 .reveal.default .slides { //.default disentangles from notes-view-prez
     position: relative;
     width: 100% - 2*$slidesPadding !important;
@@ -133,13 +127,10 @@ $slidesPadding: 4%;
     /* border: 1px solid red; */
 }
 
-/* div.slides { */
-/*     width: 100% !important; */
-/*     height: 100% !important; */
-/*     padding: 40px; // 20; */
-/*     margin: 0 0 0 0 !important; */
-/*     /\* margin: 20 20 20 20 !important; *\/ */
-/* } */
+.reveal section img {
+    background: none !important;
+    box-shadow: none !important;
+}
 
 .reveal section {
     text-align: left;
@@ -169,38 +160,11 @@ $slidesPadding: 4%;
         > :nth-child(2) {
             @include vertical-align-at(absolute, 50%);
         }
-
-        /* > p:nth-child(2), ul:nth-child(2) { */
-        /*     /\* margin-top: 25%; *\/ */
-        /*     @include vertical-align-at(absolute, 50%); */
-        /* } */
-
     }
-
-    /* p, ul { */
-    /*     display: table-cell; */
-    /*     vertical-align: center; */
-    /* } */
-
-    /* p:first-of-type, ul:first-of-type { */
-    /*     @include vertical-align-at(absolute, 50%); */
-    /*     /\* @include centerer(false, true); *\/ */
-    /* } */
-
-    /* > p, ul { */
-    /*     @include vertical-align-at(absolute, 50%); */
-    /*     /\* @include centerer(false, true); *\/ */
-    /* } */
-
-
     width: 100%;
 }
 
 // Text stuff
-
-/* .reveal p,ul { */
-/*     margin: 0 0 0 2em !important; */
-/* } */
 
 // ie title slide
 .hide-heading {
@@ -231,6 +195,7 @@ video#videoPlaceholder {
 
 
 /* //The Red pill! ... */
+// this was work on a bounding box for the area. it's complicated :pill:
 /* #redpill { */
 /*     position: fixed; */
 /*     display: inline-block; */
@@ -260,7 +225,6 @@ img.redpill-image {
     max-height: $videoHeight - $slidesPadding * 2;
     max-width: $videoWidth - $slidesPadding * 2;
 
-    /* border: 3px solid red !important; */
     border: none !important;
 
     z-index: 100;

@@ -48,11 +48,6 @@
 .reveal a {
   line-height: 1.3em; }
 
-/* div.slides { */
-/*     max-width: 95% - $videoWidth !important; */
-/*     padding: 20px; */
-/*     margin: 0 0 auto 0 !important; */
-/* } */
 .reveal.default .slides {
   position: relative;
   width: 92% !important;
@@ -60,27 +55,12 @@
   padding: 4%;
   /* border: 1px solid red; */ }
 
-/* div.slides { */
-/*     width: 100% !important; */
-/*     height: 100% !important; */
-/*     padding: 40px; // 20; */
-/*     margin: 0 0 0 0 !important; */
-/*     /\* margin: 20 20 20 20 !important; *\/ */
-/* } */
+.reveal section img {
+  background: none !important;
+  box-shadow: none !important; }
+
 .reveal section {
   text-align: left;
-  /* p, ul { */
-  /*     display: table-cell; */
-  /*     vertical-align: center; */
-  /* } */
-  /* p:first-of-type, ul:first-of-type { */
-  /*     @include vertical-align-at(absolute, 50%); */
-  /*     /\* @include centerer(false, true); *\/ */
-  /* } */
-  /* > p, ul { */
-  /*     @include vertical-align-at(absolute, 50%); */
-  /*     /\* @include centerer(false, true); *\/ */
-  /* } */
   width: 100%; }
   .reveal section.stack {
     max-width: 50% !important;
@@ -89,11 +69,7 @@
   .reveal section.present {
     padding: 0px !important;
     height: 100%;
-    position: relative !important;
-    /* > p:nth-child(2), ul:nth-child(2) { */
-    /*     /\* margin-top: 25%; *\/ */
-    /*     @include vertical-align-at(absolute, 50%); */
-    /* } */ }
+    position: relative !important; }
     .reveal section.present blockquote {
       text-align: center;
       margin: 20px auto 20px 10%; }
@@ -109,9 +85,6 @@
       -ms-transform: translateY(-50%);
       transform: translateY(-50%); }
 
-/* .reveal p,ul { */
-/*     margin: 0 0 0 2em !important; */
-/* } */
 .hide-heading * h1, .hide-heading h2, .hide-heading h3, .hide-heading h4 {
   display: none !important; }
 
@@ -159,7 +132,6 @@ img.redpill-image {
   margin-left: 142% !important;
   max-height: 42%;
   max-width: 42%;
-  /* border: 3px solid red !important; */
   border: none !important;
   z-index: 100; }
 
