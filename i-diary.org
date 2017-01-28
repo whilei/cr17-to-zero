@@ -14,3 +14,68 @@ How do we nurture growth? ie Stackoverflow -- incredibly and wildly excellent fo
 
 * The org mode mode.
 Thinking about the ( character ) of text. Get it?
+
+** Notes on building a custom project with org-mode and Reveal.js
+Org-mode is about _content_. It's for this reason that it's encouraging and intuitive to consider the joining-of-forces between the veritable Org-mode and and the very-shiny Reveal.js. It's a match made.
+
+With that said, both frameworks - if I can call them that - are highly opinionated beasts, and while org-reveal does an excellent job of shipping one to the other (respectively), there will come a time in a developer's life when some customization is required, and from there... opinions may differ.
+
+The first hurdle is that since you're porting an org document to an html document, you're working with a relatively black-boxy metamorphosis,[fn:1] and it can feel at times like working on an airplane that keeps taking off. If it would just hold still! With that said, the developer's challenge here is also one of the great powers of the process. Org-reveal is providing a comprehensive way to ship _dynamic_ text content to a slideshow-formatted html doc. 
+
+Our project involves a moderate degree of customization. Generally speaking, we want to format each slide in quadrants, with the left 2 quadrants (the left half) comprising the majority of the slide content, the top-right leaving room for a live-video stream, and the bottom-right holding a place for supplementary images and audience-oriented content. 
+
+*** Getting customize-able.
+First things first: You want to customize a template? Where and how are you going to fit your changes in? 
+
+Org-reveal provides document-specific variable precisely for this job: 
+```
+#+REVEAL_EXTRA_JS
+#+REVEAL_EXTRA_CSS
+```
+Great! 
+
+Now, hold your horses here for a second. Before you go swinging away into a custom .css sheet, I urge you to also note that Reveal.js on its own is prepared for this kind of thing. The instructions on the [Reveal.js README](linkhere) direct us to custom template pattern in which we can write SCSS :clap: and use the provided grunt tasks to build the css for us.
+
+*** Getting your dirs in order.
+Which brings me to the issue of reckoning parentage with regard to your directory structure. By default, *Org-reveal* is going to look for the _root_ (yes, _root_; not script) of the Reveal.js package at `./reveal.js`, where that directory contains all of what you'll find at the [Reveal Github repository](linkhere). On the other hand, if we take a peek at the reveal.js directory, we'll notice that it's set up to treat itself as the root of the project; noting `./demo.html`, grunt tasks reference base paths (by default) at `.`.
+
+So there's a decision to be made here. Is your org project something that is going to live beyond the Reveal.js show? Does it have a lot of extra relative resources? Is it a part of a larger whole, of other docs and projects? If it is, your best bet is probably to keep reveal.js/ where org-reveal expects it to be - as a ~~sub~~sibling directory ~~below~~akin to your .org file. However, if your idea is to write a single presentation and to use org mode to do it, then your best best is likely to take the reveal.js/ as your root dir, and locate your .org file alongside `./demo.html`. If this is the case, you'll need to correct where org-reveal is going to look to find the reveal.js/ directory structure it expects (don't think I forgot!). Good thing there's a variable for that! Set `#+REVEAL_ROOT: ./`, and you're off to the races.
+
+As for your custom JavaScript, use `#+REVEAL_EXTRA_JS: {src: './js/custom.js'}`, pointing, of course, to wherever your actual .js is. 
+:TODO: because show where org-reveal actually sticks this nugget
+
+
+[fn:1] I'm sure for many the box is less than black for many. For yours truly, it was more opaque than not. Our project is - at this point - a one-off, and it's the first of it's kind in my experience.
+
+* Learning Language
+When we're toddlers, we make a lot of mistakes. We bump into walls, scrape our knees, accidentally spill pasta all over our heads. Some are simple misunderstandings - or, alternate interpretations - of established conventions, and others less intentional. Perhaps the most important mistakes we can make as children is in our mumblings and cryings, our manglings, simplifications, and contortions of language. 
+
+I would pause here - mistakes is the wrong word. Children do not regret their words, nor parents regret that "mo miks" actually means "More milk, please." Language is forgiving like that. Language is plastic, and can finds its most critical and characteristic triumphs in it's being able to bend without breaking.
+
+Again, I pause -- _human_ language is plastic. Because humans are plastic. Whatever it is that enables self-reference, self-development, and... 'learning', shall we call it? Our language is or is able to be a reflection of ourselves. Our languages are expressive, dynamic, and ultimately able to acheive the impossible -- namely, to extend beyond themselves with the dynamism of contortionist and the strength of an army.
+
+When a toddler makes a syntax mistake, her listeners are still able to glean valuable information from the effort.
+
+As a beginning programmer, I felt much the same as a toddler. But I made one important mistake: I devalued them.
+I wanted to write code that _ran_. I abhorred errors. I wanted to avoid them. The computer was not generous with me. That is not how computers are (yet!).
+
+What I've learned since has been from the generosity of Stackoverflow contributors, bloggers, authors, Youtubers... the list goes on. But I also learned to listen to the machine. I learned to love errors, because I learned to read them. I thank my humanity for that -- somehow if you stare a thing long enough you start to be able to read it. Whether it's the water on the pond, the painting on the wall, or the god damned 500.
+
+When you develop with the attitude that "errors should be avoided," one is likely to aim towards the more-surely-achievable. That's a problem. For one: it's not as fun. For two: it's not a challenge. For three: you're not as likely to expose yourself to the opportunity to learn. Make friends with errors, on the other hand, and while progress may seem slower, or success less certain, you just might wind up holding the impossible.
+# damn that's fucking corny
+
+- Code resources on the internet are often endpoint-success-oriented.
+  - I think of git init commits on Github containing 95% of the codebase.
+  - I think of blogs and tutorials... "Build with me a working thing," where each step has been planned ahead of time and there are no dead-ends, no oops! well, here's what we're going to have to do about that...
+- Code resources on the internet are focues on solving a single technical problem.
+  - I think of the self-imposed limits of stackoverflow. A few excellent "here's how and here's why" answers in a sea of "here's how". Practicality rules, but education does not. (Not that there's not something to be learned from that, too).
+    - stackexchange/codereview is a very interesting alernately-framed approach
+- Code resources on the internet are often single-framed.
+  - static images, stepA, stepB, stepC. I'd be curious to see more over-the-shoulder opportunities, where a student might be able to learn by watching. How does the teacher interact with his OS environment. From window layouts to aliases, hotkeys to debuggers, editors, IDEs... There is a difference between examining the chair and breathing the sawdust.
+
+- https://www.youtube.com/watch?v=ZFV5EqpZ6_s
+
+We need teachers, not instruction-manual authors. We need students, not copycats. We need hackers who can use their computer in the name of play.
+
+
+** Language likes to grow. 

@@ -82,11 +82,11 @@ window.onload = function() {
     hideEmptyTitles();
 
     //see if you want to look at yourself
-    if (confirm("Want to use webcam video?")) {
+    // if (confirm("Want to use webcam video?")) {
         setUpVideo();
-    } else {
-        vp.style.background = "white"; // for now
-    }
+    // } else {
+    //     vp.style.background = "white"; // for now
+    // }
 
 }
 
