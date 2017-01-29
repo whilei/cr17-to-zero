@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1"
+	 id="svg2" inkscape:export-filename="/home/prod402/ivan/capsula.png" inkscape:export-xdpi="14.77" inkscape:export-ydpi="14.77" inkscape:output_extension="org.inkscape.output.svg.inkscape" inkscape:version="0.46" sodipodi:docname="capsula.svg" sodipodi:version="0.32" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 780 340"
+	 style="enable-background:new 0 0 780 340;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#BA324F;stroke:#BA324F;stroke-width:4;}
+	.st1{display:none;}
+	.st2{display:inline;fill:#808080;stroke:#000000;stroke-width:2;}
+	.st3{display:inline;fill:#782121;stroke:#000000;stroke-width:2;}
+	.st4{display:inline;}
+	.st5{display:inline;fill:none;stroke:#000000;stroke-width:7;stroke-dasharray:28,28;}
+</style>
+<sodipodi:namedview  bordercolor="#666666" borderopacity="1.0" gridtolerance="10000" guidetolerance="10" id="base" inkscape:current-layer="layer1" inkscape:cx="-865.70082" inkscape:cy="-244.88985" inkscape:document-units="px" inkscape:guide-bbox="true" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:window-height="973" inkscape:window-width="1679" inkscape:window-x="0" inkscape:window-y="27" inkscape:zoom="0.30985889" objecttolerance="10" pagecolor="#ffffff" showgrid="false" showguides="true">
+	</sodipodi:namedview>
+<defs>
+	
+	
+		<inkscape:perspective  id="perspective10" inkscape:persp3d-origin="372.04724 : 350.78739 : 1" inkscape:vp_x="0 : 526.18109 : 1" inkscape:vp_y="0 : 1000 : 0" inkscape:vp_z="744.09448 : 526.18109 : 1" sodipodi:type="inkscape:persp3d">
+		</inkscape:perspective>
+</defs>
+<g id="layer1" inkscape:groupmode="layer" inkscape:label="Layer 1">
+</g>
+<g id="capsula" transform="translate(15.213677,-331.38439)" inkscape:label="#g4203">
+	<path id="rect2817" class="st0" d="M145.3,349h442.3c87.8,0,158.5,70.7,158.5,158.5S675.4,666,587.6,666H145.3
+		c-87.8,0-158.5-70.7-158.5-158.5S57.5,349,145.3,349z"/>
+	<path id="rect2819" class="st0" d="M357.8,345.7v323.7h230.6c89.7,0,161.8-72.2,161.8-161.9S678,345.7,588.4,345.7H357.8z"/>
+</g>
+<g id="layer2" inkscape:groupmode="layer" inkscape:label="pillole" sodipodi:insensitive="true" class="st1">
+	<path id="path2815" class="st2" d="M206.2,204.4c0,67-87.7,121.4-195.7,121.4s-195.7-54.4-195.7-121.4S-97.5,83,10.5,83
+		S206.2,137.4,206.2,204.4z"/>
+	<path id="path2383" class="st2" d="M736.2,204.4c0,67-87.7,121.4-195.7,121.4s-195.7-54.4-195.7-121.4S432.5,83,540.5,83
+		S736.2,137.4,736.2,204.4z"/>
+	<path id="path2698" class="st2" d="M540.5,53c-108,0-195.7,54.4-195.7,121.4v30c0-67,87.7-121.4,195.7-121.4V53z"/>
+	<path id="path2700" class="st2" d="M344.8,174.4L344.8,174.4v30l0,0V174.4z"/>
+	<path id="path2706" class="st2" d="M649.1,73.5C618,60.6,580.7,53,540.5,53v30c40.2,0,77.5,7.5,108.6,20.4V73.5z"/>
+	<path id="path2708" class="st2" d="M710.7,114.5l-278.8,161v30l278.8-161V114.5z"/>
+	<path id="path2714" class="st2" d="M736.2,174.4c0-21.8-9.3-42.3-25.5-60v30c16.3,17.7,25.5,38.2,25.5,60V174.4z"/>
+	<path id="path2437" class="st2" d="M540.5,53c-108,0-195.7,54.4-195.7,121.4c0,21.8,9.3,42.3,25.6,60l278.8-161
+		C618,60.6,580.7,53,540.5,53z M710.7,114.5l-278.8,161c31.1,12.9,68.5,20.4,108.7,20.4c108,0,195.7-54.4,195.7-121.4
+		C736.2,152.6,726.9,132.2,710.7,114.5z"/>
+	<path id="path2704" class="st2" d="M370.3,234.4l278.8-161v30l-278.8,161V234.4z"/>
+	<path id="path2702" sodipodi:nodetypes="cccscccccccccc" class="st3" d="M344.8,174.4v30v40c0,67,87.7,121.4,195.7,121.4
+		s195.7-54.4,195.7-121.4v-40v-30c-11.2,96.8-114.8,114-195.7,121.4c-40.2,0-77.6-7.5-108.7-20.4v30c-25.3-10.5-46.4-24.5-61.5-41
+		v-30c-12.8-13.9-21.3-29.5-24.3-46.2C345.8,183.8,345.1,179.5,344.8,174.4z"/>
+	<path id="path2809" class="st2" d="M10.5,53c-108,0-195.7,54.4-195.7,121.4c0,21.8,9.3,42.3,25.6,60l278.8-161
+		C88,60.6,50.7,53,10.5,53z M180.7,114.5l-278.8,161c31.1,12.9,68.5,20.4,108.7,20.4c108,0,195.7-54.4,195.7-121.4
+		C206.2,152.6,196.9,132.2,180.7,114.5z"/>
+	<path id="path2811" sodipodi:nodetypes="cccscccccccccc" class="st3" d="M-185.2,174.4v30v40c0,67,87.7,121.4,195.7,121.4
+		s195.7-54.4,195.7-121.4v-40v-30C195,271.2,91.4,288.4,10.5,295.9c-40.2,0-77.6-7.5-108.7-20.4v30c-25.3-10.5-46.4-24.5-61.5-41
+		v-30c-12.8-13.9-21.3-29.5-24.3-46.2C-184.2,183.8-184.9,179.5-185.2,174.4z"/>
+	<path id="path2813" class="st2" d="M-159.7,234.4l278.8-161v30l-278.8,161V234.4z"/>
+	<path id="path3727" class="st4" d="M-158.7-11h22v-71.3h-22V-11z M-114.7-11h0.3h21.7v-71.3h-21.7h-0.3V-11z M-70.7-11h0.6h21.4
+		v-71.3h-21.4h-0.6V-11z M-26.7-11h0.9h21.1v-71.3h-21.1h-0.9V-11z M17.3-11h1.2h20.8v-71.3H18.5h-1.2V-11z M61.3-11h1.5h20.5v-71.3
+		H62.8h-1.5V-11z M105.3-11h1.8h20.2v-71.3h-20.2h-1.8V-11z M149.3-11h2.1h19.9v-71.3h-19.9h-2.1V-11z M193.3-11h2.4h19.6v-71.3
+		h-19.6h-2.4V-11z M237.3-11h2.7h19.3v-71.3H240h-2.7V-11z M281.3-11h3h19v-71.3h-19h-3V-11z M325.3-11h3.3h18.7v-71.3h-18.7h-3.3
+		V-11z M369.3-11h3.6h18.4v-71.3h-18.4h-3.6V-11z M413.3-11h3.9h18.1v-71.3h-18.1h-3.9V-11z M457.3-11h4.2h17.8v-71.3h-17.8h-4.2
+		V-11z M501.3-11h4.5h17.5v-71.3h-17.5h-4.5V-11z M545.3-11h4.8v-71.3h-4.8V-11z"/>
+	<path id="path2425" sodipodi:nodetypes="ccccccccccccccccccccccccccccccccc" class="st5" d="M-156.3-114h22.4h22.4h22.4h22.4h22.4
+		h22.4H0.2h22.4h22.4h22.4h22.4H112h22.4h22.4H179h22.4h22.4h22.4h22.4h22.4h22.4h22.4h22.4h22.4h22.4h22.4h22.4h22.4H492h22.4h22.4
+		H559"/>
+</g>
+</svg>
