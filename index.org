@@ -38,9 +38,9 @@ note that I used two SPACES after the * to make the invisible heading for the no
 
  My name is Jay, and I'm enthralled by the subject of learning. Here's one example of why: (NEXT SLIDE DOWN)
  #+END_NOTES
+
  
 # Before+after(3)
-
 **  
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video"
@@ -90,9 +90,10 @@ And how long for this much improvement?
 :PROPERTIES:
 :reveal_extra_attr: redpill-img-src="/resources/images/Introduction/bell212.jpg"
 :END:
- # Setting these to display at once.
  #+ATTR_REVEAL: :frag t
  [[file:resources/images/Introduction/bell212.jpg]]
+
+ #+ATTR_REVEAL: :frag t
  - Betty Edwards, author of /Drawing on the Right Side of the Brain/
  - drawright.com
  - ~@DRSB_Edwards~
@@ -102,9 +103,7 @@ And how long for this much improvement?
  
  Personally, I'm /*astonished*/ by these drawings.
  
- It reminds of the scene in The Matrix, where Neo and Trinity see a helicopter. He asks her "Can you fly that thing?" and she replies, "Not yet". Moments later she is piloting the aircraft with aplomb proficiency.
- 
- TODO isaac60:done place bell212.jpg (resources/images/introduction/matrix/heli/) in lower right quadrant. Maybe we can find a way "reveal" these lower right images like frags? That would be nice so I can control the timing of their appearance.
+ It reminds of the scene in The Matrix, where Neo and Trinity see a helicopter. He asks her "Can you fly that thing?" and she replies, "Not yet". Moments later (NEXT FRAG) she is skillfully flying the aircraft.
  
  How does their teacher (NEXT FRAG), Betty Edwards, facilitate such progress for *all* of her students, not just some?
  
@@ -113,13 +112,12 @@ And how long for this much improvement?
  We'll explore these, and other engaging questions, over the next hour. (NEXT SLIDE DOWN)
  #+END_NOTES
  
-** Target Audience?
+** Target Audience
 #+ATTR_REVEAL: :frag (roll-in) 
 - programmers
 - aspiring programmers
 - curious minded people
 
-# TODO isaac45 Bullets and title need to standard positioning, meaning like we talked about.
 #+BEGIN_NOTES
 I wrote this talk with (NEXT FRAG) programmers *and* (NEXT FRAG) aspiring programmers in mind, but (NEXT FRAG) /*anyone*/ with an interest in learning will, /hopefully/, find the talk personally relevant.
 #+END_NOTES
@@ -127,7 +125,6 @@ I wrote this talk with (NEXT FRAG) programmers *and* (NEXT FRAG) aspiring progra
 ** My Credentials
    #+ATTR_REVEAL: :frag t
    file:resources/images/jayfootinmouth-x600.png
-# Let me know if you think this should be maybe a tad smaller?..
 
    #+BEGIN_NOTES
    What are my qualifications for giving this talk?
@@ -137,134 +134,35 @@ I wrote this talk with (NEXT FRAG) programmers *and* (NEXT FRAG) aspiring progra
    Fortunately, I have a long and (NEXT FRAG) documented history of putting my foot in my mouth, just in case you happen to be an /actual/ neuroscientist.
  #+END_NOTES 
 
-** My Experiences 
-:PROPERTIES:
-:reveal_extra_attr: redpill-img-src="/resources/images/800px-Pill-threshold00.png"
-:END:
+** Stories of learning 
+  :PROPERTIES:
+  :reveal_extra_attr: redpill-img-src="/resources/images/800px-Pill-threshold00.png"
+  :END:
 
-#+ATTR_REVEAL: :frag t
-file:resources/images/800px-Pill-threshold00.png
+  #+ATTR_REVEAL: :frag t
+  file:resources/images/800px-Pill-threshold00.png
 
 
 #+BEGIN_NOTES
    I'm not an expert in programming, nor in the science of learning. 
    
    This talk is a slice of my life experiences around learning.
-
-   After college, over 20 years ago, I wanted to pursue a career in IT.
-
-   I decided to try a shortcut to breaking into the industry. I would get /*'certified'*/.
-
-   There was just one problem.
-
-   Despite 18 years of being a student, from pre-school to undergrad engineering degree, I had /*sparse*/ confidence in my own ability to efficiently learn.
-
-   I signed up for a 6 month certification program, but delayed starting by 2 months, in order to study the /science of learning/. 
-
-   I was the first student to complete the local training program. I passed my tests with flying colors.
-
-   I landed two job offers in my first two interviews, and my career in IT was established.
-
-   My brief studies about learning taught me to focus on understanding vocabulary and demonstrating practical skill. 
-
-   I purchased two computers from a trade show for $400, set them up with multiple boot configurations, and materialized every example in my text books into real world use cases.
-
-   I also got a job at the certification office on the weekends, setting up workstations for the next week's courses, where I logged just over 2400 system installations.
-
-   I executed two successful job interviews in a row, allowing me to choose a place to begin my career.
-
-   These actions were /all/ inspired by /investing/ 2 months of my life in learn about learning.
    
-   My shortcut driven efforts paid off in terms of personal finances, but were costly in other ways, which I'll explain soon.
-#+END_NOTES
-
-** How I got to Clojure
-#+BEGIN_NOTES 
-   My path to finding Clojure has been long and sometimes painful.
-
-   I'd like to help other newcomers find it before they suffer the bumps and bruises I've experienced. 
-
-   I started programming at age 10.  By age 12, I was more interested in riding my bike than in staying inside the house.
-
-   A few years ago, I started dabbling in programming again, in my spare time.
-
-   I grew an interest in web applications, and had multiple ideas for potential businesses.
-
-   I looked for 'easy' ways to make web apps.
-
-   Even though I the lessons I learned 20 years before about technical study were generally helpful, I picked up a way of thinking that needed to be unlearned.
-
-   And given my sometimes stubborn nature, I had to learn the following lesson twice: Stop trying to do it the easy way!
-
-   Twice, I tried to learn an 'easy' web framework, when I should have been focused on the fundamentals of programming.
-
-   By the time I heard Rich Hickey's talk, Simple Made Easy, I was totally receptive to his message.
-
-   In my own words, what I learned from him is that many approaches appear easy at first glance. But most /easy/ systems are actually highly complicated systems masquerading behind a thin veil of superficial usability.
-
-   These systems will consume more time and resources the further a team gets into a greenfield project, before eventually grinding the progress of customization requests to a near halt.
-
-   My main goal is to work with code and technology which facilitates understanding, allowing the team to focus on the domain problem at hand.
-
-   I want to avoid being forced by my technology stack into saying, "No! Sorry, we can't do that, because the system won't allow it!" Not good.
-
-   The main reason I've chosen Clojure is that I want to learn to think about the fundamentals of programming in the same way that Rich Hickey does - identities, values, time, these are his fundamental building blocks.
-
-   Masters of a craft, discover, not only its essence, but how to practice it with great efficiency.
-
-   Who are the professionals? What results are they achieving? And how are they achieving those results.
-
-   I will save time, not by finding the easy way, but by mastering the fundamentals that bring very difficult problems within the reach of mortals, like me. Thank you Rich Hickey! 
-#+END_NOTES 
-
-
-** New goal
-#+BEGIN_NOTES 
-   I have an ambitious goal. I want to be skilled in all aspects of creating a web app, from the front end to the back, using Clojure technologies, including ClojureScript, Datomic, React Native, Arachne and so on. 
-
-   But first, the fundamentals! Identity, values, time.
-
-   Forests emerge from a single tree, and a tree from a single seed.
-
-   That's the essence of my message today -- planting seeds.
-
-   Someone planted a seed in my mind over a year ago about taking the 4 hour online course, /Learning How to Learn/ by Barbara Oakley and Terrence Sejnowski.
-
-   After slowly going through the course over many months, branching my studies off of the main curriculum by following the compass of my curiosity, I can say unequivocally taking this course has super-charged my learning!
-
-   To my delight, it's helped me in ways I never expected. Yes, my learning skills are sharper and broader, and growing. 
-
-   But I'm also sleeping better, eating better and enjoying playful breaks from my work to exercise in the back yard.
-
-   Most profoundly, my relationships with family, friends and colleagues are flourishing, thanks to a better understanding of myself and others.
-
-   But there's always room for improvement and as much as things have gotten better, its feels like this journey is just beginning.
-
-   What I'm trying to say is I'm a *big* fan. 
-
-   If I could plant just one seed today, it would be *this* course.
-
-   The crucial benefit I've gained from my Learning How to Learn /studies/, is the confidence that I /will/ continue to improve my learning skills, which will accelerate learning in every other aspect of my life, including learning to program.
-
-   Perhaps you're already confident in your ability to learn, and why shouldn't you be!?!
-
-   After all you've gotten this far along in life, right!?!
-
-   Fortunately, the brain comes pre-built to learn.
-
-   The challenge then is this: can we learn to work with the natural 'grain' of the brain, can we learn even more efficiently? And what would our world look like if we did this en masse? 
-
-   My hope is that you will find at least one thing in this talk that will help you in your own learning journey, whatever your goals may be.
-
-   Toward that end I will touch on many aspects of the subject of learning. Each aspect can serve as a unique personal starting point, or fork in the road, for your own curiosity driven research.
-
    Before we get started there's one more thing you need to know about this talk. 
 
-   It's not just a talk.
+   It's not just a one-way talk. It's been designed to evolve into a dynamic, community driven, conversation.
 
    It began its life open to community as an open source github repository, and has evolved into an open-data project, driven by your anonymous, interactive input.
 
-   You'll notice many red pills throughout the talk on the lower right corner of the screen. These are either mini-polls, links to kick-start your research or pre-filled tweets that will serve to network like minds around the subject of learning. Even if you're watching this on video, months or years from now, you can still participate by scanning the QR codes with your phone.
+   Scattered throughout the talk, you'll notice a red pill appear on the lower right corner of the screen.
+
+   Each pill contains a QR code.
+
+   If you want to particpate, please ready your smart phone to scan QR codes.
+
+   These are either mini-polls, links to kick-start your research or pre-filled tweets that will serve to network like minds around the subject of learning.
+
+   Even if you're watching this on video, months or years from now, you can still participate by scanning the QR codes with your smart phone.
 
    This is your red pill, blue pill moment!
 
@@ -274,11 +172,12 @@ file:resources/images/800px-Pill-threshold00.png
 
    We're going to explore many aspects of learning through the framework of learning's /*worth*/.
 
-   Let's get started! 
-   #+END_NOTES
+   Let's get started!
 
-# This is the "Value of Learning" Slide.
-** 
+   (NEXT SLIDE RIGHT)
+#+END_NOTES
+
+* 
  :PROPERTIES:
  :reveal_extra_attr: data-state="hide-video"
  :reveal_background_size: 100%
@@ -294,62 +193,87 @@ file:resources/images/800px-Pill-threshold00.png
    How can I determine how much value I place on something like learning?
 
    If I discover that I value learning greatly, how can I live a life consistent with this core value?
+
+   (NEXT SLIDE RIGHT)
    #+END_NOTES
 
+* Talk Outline
 
-** Talk Outline
-*** What is the question?
- How much do I value learning?
-*** How can I know the answer?
- How can I measure the value I place on learning?
-*** Now I know. What do I do?
- What actions are consistent with this value?
-*** Simplest possible outline
-- Question
-- Answer
-- Action
 #+BEGIN_NOTES 
-In simplest terms: Question, Answer, Action  (NEXT SLIDE DOWN)
+I'm going to weave several stories about learning through the framework of this simple 3 part outline.
+
+(NEXT SLIDE DOWN)
 #+END_NOTES
+
+** The question
+How much do I value learning?
+
+#+BEGIN_NOTES 
+What is the question?
+
+How much /*do I*/ value learning?
+
+(NEXT SLIDE DOWN)
+#+END_NOTES
+
+** The answer
+How can I measure the value I place on learning?
+
+#+BEGIN_NOTES 
+How can I know the answer? That is, how can I measure the value I place on learning?
+
+(NEXT SLIDE DOWN)
+#+END_NOTES
+
+** The actions
+What actions are consistent with this value?
+
+#+BEGIN_NOTES 
+What actions spring from living this value?
+
+(NEXT SLIDE RIGHT)
+#+END_NOTES
+
+* The question
+How much do I value learning?
 
 ** Learning, the invisible value 
- #+BEGIN_QUOTE
- In all affairs it's a healthy thing now and then to hang a question mark on the things you have long taken for granted. -- Bertrand Russell
- #+END_QUOTE
+  #+BEGIN_QUOTE
+  In all affairs it's a healthy thing now and then to hang a question mark on the things you have long taken for granted. -- Bertrand Russell
+  #+END_QUOTE
 
- #+BEGIN_NOTES
-Before I jump in and try to answer the central question of this talk, I feel the need to justify the basic nature of the question, because /learning/ appears to be among the most universally accepted of human values. At first glance the answer to the question, "Do I value learning?" appears to be so obvious that the question seems silly or trite, maybe even a complete waste of time.
+  #+BEGIN_NOTES
+ Before we assess the central question of this talk, I want to justify the question. /Learning/, it seems, is among the most universally accepted of human values. At first glance the answer to the question, "Do I value learning?" appears to be so obvious that the question might seem silly or trite, maybe even a complete waste of time.
 
-Bertrand Russell said, "In all affairs it's a healthy thing now and then to hang a question mark on the things you have long taken for granted."
+ Bertrand Russell said, "In all affairs it's a healthy thing now and then to hang a question mark on the things you have long taken for granted."
 
-I believe that we have a lot to gain and nothing to lose by putting Bertrand Russell's wisdom to work on the subject of learning.
+ I believe that we have a lot to gain and nothing to lose by putting Bertrand Russell's wisdom to work on the subject of learning.
 
-Invisible values risk being neglected values. My hope is that by thoughtfully assessing the value of learning for ourselves, we can mitigate this risk and reach our individual and collective learning potential.
+ Invisible values risk becoming neglected values. My hope is that by thoughtfully assessing the value of learning for ourselves, we can mitigate this risk and reach our individual and collective learning potential.
 
-At the very least, attempting to answer this question is in accord with the age old wisdom, "know thyself."  (time 3:32)
- #+END_NOTES
+ At the very least, attempting to answer this question is in accord with the age old wisdom, "know thyself." (NEXT SLIDE DOWN) 
+  #+END_NOTES
 
 ** Brain, the invisible organ
-#+BEGIN_NOTES 
-While learning may be the invisible value, the brain is the invisible organ. At least that's the excuse I use to explain why, in my youth, I was *not* very interested in the brain, or how I could use it to improve my life.
+ #+BEGIN_NOTES 
+ While learning may be the invisible value, the brain is the invisible organ. At least that's the excuse I use to explain why, in my youth, I was *not* very interested in the brain, or how I could use it to improve my life.
 
-I mean, for all its potential power, surely there must be some explanation why the brain wasn't appreciated more deeply in my youth.
+ For all its potential power, surely there must be some explanation why I wasn't in awe of the brain in my youth.
 
-A couple of reasons have come to mind:
+ A couple of reasons have come to mind:
 
-In my case, the brain science of the day led my teachers to inform me that I was given a fixed number of brain cells, and no new cells would ever be produced. What I heard was "You can't any smarter. You've either got it or you don't."
+ In my case, the brain science of the day led my teachers to inform me that I was given a fixed number of brain cells, and no new cells would ever be produced. What I heard was "You can't get any smarter. You're either smart or you're not."
 
-And here's another simple observation -- the brain /cannot/ compete with a heartbeat. As a very young child, getting to know my own body, the heartbeat was a constant reminder, "I have a heart!"
+ And here's another simple observation -- the brain has to compete with a heartbeat. As a very young child, getting to know my own body, the heartbeat was a constant reminder, "I have a heart!" 
 
-Maybe the brain just needs better PR. This talk hopes to remedy that. No let's proceed with body of the talk by starting with the question.  (time 4:38)
-#+END_NOTES
+ Maybe the brain just needs better PR. This talk hopes to remedy that. 
+ #+END_NOTES
 
-* What is the question?
-How much do I value learning?
 ** Understanding the question
 How much do I value learning?
+
 #+BEGIN_NOTES 
-Let's make sure we understand the question by looking at the meaning and history of the words /value/ & /learning/. 
+Let's illuminate the question by looking at the meaning and history of the words /value/ & /learning/. 
 #+END_NOTES
 
 *** Value defined
@@ -402,7 +326,7 @@ Master blacksmiths learned their apprentices in the craft of sword forging.
 #+BEGIN_NOTES 
 As far back as the 13th century, the word /learn/ was also used to mean "teach". As in "Master blacksmiths learned their apprentices in the craft of sword forging." 
 
-Today this alternative meaning is relegated to speech, because it's *not* considered ideal grammar.  
+Today this alternative meaning is relegated to speech, because it's *not* considered proper grammar.  
 #+END_NOTES
 
 *** The history of learning
@@ -421,8 +345,7 @@ Today this alternative meaning is relegated to speech, because it's *not* consid
 
 **** Inside Out
 **** Outside In
-
-* How can I know the answer?
+* The answer
 How can I measure how much value I place on learning?
 ** Answers aren't everything
 Questions are powerful on their own.
@@ -443,10 +366,89 @@ Give the audience a chance to grapple with the question
 **** Sunset story
 *** Child like sense of curiosity, awe and wonder - Nature/Even from a magazine Wow!, Pepper/Insects/Thanksgiving
 **** Exceptions! https://www.theatlantic.com/health/archive/2016/09/is-awe-really-good-for-you/501086/
+
+*** Finding Clojure 
+    :PROPERTIES:
+    :reveal_extra_attr: redpill-img-src="/resources/images/800px-Pill-threshold00.png"
+    :END:
+
+  #+ATTR_REVEAL: :frag t
+  file:resources/images/800px-Pill-threshold00.png
+
+
+  #+BEGIN_NOTES 
+     My path to finding Clojure has been long and sometimes painful.
+
+     I'd like to help other newcomers find it before they suffer the bumps and bruises I've experienced. 
+
+     I started programming at age 10.  By age 12, I was more interested in riding my bike than in staying inside the house.
+
+     A few years ago, I started dabbling in programming again, in my spare time.
+
+     I grew an interest in web applications, and had multiple ideas for potential businesses.
+
+     I looked for 'easy' ways to make web apps.
+
+     Even though I the lessons I learned 20 years before about technical study were generally helpful, I picked up a way of thinking that needed to be unlearned.
+
+     And given my sometimes stubborn nature, I had to learn the following lesson twice: Stop trying to do it the easy way!
+
+     Twice, I tried to learn an 'easy' web framework, when I should have been focused on the fundamentals of programming.
+
+     By the time I heard Rich Hickey's talk, Simple Made Easy, I was totally receptive to his message.
+
+     In my own words, what I learned from him is that many approaches appear easy at first glance. But most /easy/ systems are actually highly complicated systems masquerading behind a thin veil of superficial usability.
+
+     These systems will consume more time and resources the further a team gets into a greenfield project, before eventually grinding the progress of customization requests to a near halt.
+
+     My main goal is to work with code and technology which facilitates understanding, allowing the team to focus on the domain problem at hand.
+
+     I want to avoid being forced by my technology stack into saying, "No! Sorry, we can't do that, because the system won't allow it!"
+
+     The main reason I've chosen Clojure is that I want to learn to think about the fundamentals of programming in the same way that Rich Hickey does - identities, values, time, these are his fundamental building blocks.
+
+     Masters of a craft, discover, not only its essence, but how to practice it with great efficiency.
+
+     Who are the professionals? What results are they achieving? And how are they achieving those results.
+
+     I will save time, not by finding the easy way, but by mastering the fundamentals that bring very difficult problems within the reach of mortals, like me. Thank you Rich Hickey! 
+  #+END_NOTES 
 *** Philosophy - Stoics (Tim Ferris calls ideal personal operating system)
 *** Time - First, Second aha!
 *** Long Wave - Not just investing, but timing things, like education
+
+
+
 **** Sold my house in July of 2007.
+
+*** Career in IT
+
+   After college, over 20 years ago, I wanted to pursue a career in IT.
+
+   I decided to try a shortcut to breaking into the industry. I would get /*'certified'*/.
+
+   There was just one problem.
+
+   Despite 18 years of being a student, from pre-school to undergrad engineering degree, I had /*sparse*/ confidence in my own ability to efficiently learn.
+
+   I signed up for a 6 month certification program, but delayed starting by 2 months, in order to study the /science of learning/. 
+
+   I was the first student to complete the local training program. I passed my tests with flying colors.
+
+   I landed two job offers in my first two interviews, and my career in IT was established.
+
+   My brief studies about learning taught me to focus on understanding vocabulary and demonstrating practical skill. 
+
+   I purchased two computers from a trade show for $400, set them up with multiple boot configurations, and materialized every example in my text books into real world use cases.
+
+   I also got a job at the certification office on the weekends, setting up workstations for the next week's courses, where I logged just over 2400 system installations.
+
+   I executed two successful job interviews in a row, allowing me to choose a place to begin my career.
+
+   These actions were /all/ inspired by /investing/ 2 months of my life in learn about learning.
+   
+   My shortcut driven efforts paid off in terms of personal finances, but were costly in other ways, which I'll explain soon.
+
 *** Clojure
 **** Why Clojure - React Native holism etc.
 *** Family, friends and human relationships
@@ -463,7 +465,7 @@ There's a parallel between the drawings we saw at the start of this talk and the
 That framework, as it turns out, is vitally important to genuine understanding. TODO University Study.
 *** Learning is Adapting
 And adapting is human. (Tie in Clojure connection)
-* Now I know. What do I do?
+* The actions
 What actions are consistent with this value?
 ** If we value learning, why not get better at it, instead of dribbling the ball incessantly. 
   ** What if there was a subject you could study which would improve your ability to learn and master any other subject?
@@ -482,8 +484,11 @@ What actions are consistent with this value?
 ** Information age, but we're still in an industrial age mode
 ** Everyone a teacher, video, microphone, record and publish.
 ** 
-
-
+* Closing
+** 
+#+BEGIN_QUOTE
+Live as if you were to die tomorrow. Learn as if you were to live forever. -- Mahatma Gandhi
+#+END_QUOTE
 
 * What is the difference between Learning and Education
 ** Inside Out vs Outside In
@@ -508,6 +513,69 @@ What actions are consistent with this value?
 *** Clojure community leading the way technically- react
 *** Clojure could lead the way educationally too! This means people are suffering less before they find us.
 ** My view of the essence of the web: Communication
+
+
+* New goal
+#+BEGIN_NOTES 
+   I have an ambitious goal. I want to be skilled in all aspects of creating a web app, from the front end to the back, using Clojure technologies, including ClojureScript, Datomic, React Native, Arachne and so on. 
+
+   But first, the fundamentals! Identity, values, time.
+
+   Forests emerge from a single tree, and a tree from a single seed.
+
+   That's the essence of my message today -- planting seeds.
+
+   Someone planted a seed in my mind over a year ago about taking the 4 hour online course, /Learning How to Learn/ by Barbara Oakley and Terrence Sejnowski.
+
+   After slowly going through the course over many months, branching my studies off of the main curriculum by following the compass of my curiosity, I can say unequivocally taking this course has super-charged my learning!
+
+   To my delight, it's helped me in ways I never expected. Yes, my learning skills are sharper and broader, and growing. 
+
+   But I'm also sleeping better, eating better and enjoying playful breaks from my work to exercise in the back yard.
+
+   Most profoundly, my relationships with family, friends and colleagues are flourishing, thanks to a better understanding of myself and others.
+
+   But there's always room for improvement and as much as things have gotten better, its feels like this journey is just beginning.
+
+   What I'm trying to say is I'm a *big* fan. 
+
+   If I could plant just one seed today, it would be *this* course.
+
+   The crucial benefit I've gained from my Learning How to Learn /studies/, is the confidence that I /will/ continue to improve my learning skills, which will accelerate learning in every other aspect of my life, including learning to program.
+
+   Perhaps you're already confident in your ability to learn, and why shouldn't you be!?!
+
+   After all you've gotten this far along in life, right!?!
+
+   Fortunately, the brain comes pre-built to learn.
+
+   The challenge then is this: can we learn to work with the natural 'grain' of the brain, can we learn even more efficiently? And what would our world look like if we did this en masse? 
+
+   My hope is that you will find at least one thing in this talk that will help you in your own learning journey, whatever your goals may be.
+
+   Toward that end I will touch on many aspects of the subject of learning. Each aspect can serve as a unique personal starting point, or fork in the road, for your own curiosity driven research.
+
+   #+END_NOTES
+
+
+# The Value of Learning
+* 
+ :PROPERTIES:
+ :reveal_extra_attr: data-state="hide-video"
+ :reveal_background_size: 100%
+ :reveal_background: /resources/images/red-blue/the-value-of-learning-red-blue.png
+ :END:
+
+   #+BEGIN_NOTES
+
+   "The Value of Learning."
+
+   Just how much do I value learning? 
+
+   How can I determine how much value I place on something like learning?
+
+   If I discover that I value learning greatly, how can I live a life consistent with this core value?
+   #+END_NOTES
 * Problems We're Trying Solve: Too much Struggle with Agenda, Not enough (or too much) with lessons!
 ** Richer, more personally customized learning paths (Agenda)
 *** Open Data Format - Community maintained.
@@ -516,11 +584,6 @@ What actions are consistent with this value?
 ***** 'Start serving' is not helpful advice, so why do we persist with this advice.
 **** Metrics: time to competency, attention time, practice time. 
 *** Conceptual Support from Teachers without spoonfeeding.
-* Closing
-** 
-#+BEGIN_QUOTE
-Live as if you were to die tomorrow. Learn as if you were to live forever. -- Mahatma Gandhi
-#+END_QUOTE
 * Quotes
 #+begin_quote
 Learning is a growth exponentiator
