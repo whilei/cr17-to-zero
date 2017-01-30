@@ -2,7 +2,7 @@
 #+Author: Jay Martin
 #+Twitter: @webappzero
 #+REVEAL_THEME: jaysky
-#+OPTIONS: num:nil toc:nil reveal_title_slide:nil reveal_center:nil
+#+OPTIONS: num:nil toc:nil reveal_title_slide:nil reveal_center:nil reveal_slide_number:nil
 #+mynotes: Use Big John / Little Joe for Headings, Quicksand for normal type and lobster for marking up pictures (or any combination of these.
 #+REVEAL_HLEVEL: 1
 #+REVEAL_EXTRA_JS: {src: './js/custom.js'} 
@@ -90,14 +90,15 @@ And how long for this much improvement?
 :PROPERTIES:
 :reveal_extra_attr: redpill-img-src="/resources/images/Introduction/bell212.jpg"
 :END:
- #+ATTR_REVEAL: :frag t
- [[file:resources/images/Introduction/bell212.jpg]]
 
  #+ATTR_REVEAL: :frag t
  - Betty Edwards, author of /Drawing on the Right Side of the Brain/
  - drawright.com
  - ~@DRSB_Edwards~
  
+ #+ATTR_REVEAL: :frag t
+ [[file:resources/images/Introduction/bell212.jpg]]
+
  #+BEGIN_NOTES
  5 days. That's it. These people, people not unlike you or me, learned the technical fundamentals of drawing in only *5 days*. 
  

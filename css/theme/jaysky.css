@@ -32,21 +32,36 @@
 /* $navlinkColor: #C1AE7C; */
 /* $navlinkHover: lighten( $navlinkColor, 20% ); */
 /* $navlinkColorHover: lighten ($navlinkColor, 20% ); */
+.reveal .controls {
+  transform: scale(0.6);
+  width: 66px;
+  height: 66px;
+  /* right: $controlScaleDelta * $controlOriginalPos; */
+  /* bottom: $controlScaleDelta * $controlOriginalPos; */ }
+  .reveal .controls > {
+    border-color: #E3C567 !important; }
+
 .reveal .slides h1,
 .reveal .slides h2,
 .reveal .slides h3,
 .reveal .slides h4 {
   text-align: left;
-  max-width: 100%;
+  max-width: 90%;
   /* padding: 20 20 50 20px !important; */
   margin-bottom: 100px;
-  margin-left: 20px;
+  margin-left: 0px;
   margin-right: 20px;
-  margin-top: 20px;
+  margin-top: 0px;
   border-bottom: 1px solid #E3C567; }
 
 .reveal a {
   line-height: 1.3em; }
+
+.reveal ul > li {
+  font-size: 0.9em; }
+
+.reveal p, ul, li, blockquote {
+  max-width: 95%; }
 
 .reveal.default .slides {
   position: relative;
@@ -58,19 +73,24 @@
 .reveal section img {
   background: none !important;
   box-shadow: none !important;
-  border: none !important; }
+  border: none !important;
+  max-height: 80%;
+  max-width: 80%; }
 
 .reveal section {
   text-align: left;
   width: 100%; }
   .reveal section.stack {
-    max-width: 50% !important;
+    max-width: 60% !important;
     padding: 0px !important;
     margin: 0 0 auto 0 !important; }
   .reveal section.present {
     padding: 0px !important;
     height: 100%;
-    position: relative !important; }
+    position: relative !important;
+    /* > :nth-child(2) { */
+    /*     @include vertical-align-at(absolute, 50%); */
+    /* } */ }
     .reveal section.present blockquote {
       text-align: center;
       margin: 20px auto 20px 10%; }
@@ -79,12 +99,6 @@
       margin: auto;
       text-align: center;
       /* @include vertical-align-at(relative, 50%); */ }
-    .reveal section.present > :nth-child(2) {
-      position: absolute;
-      top: 50%;
-      -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-      transform: translateY(-50%); }
 
 .hide-heading * h1, .hide-heading h2, .hide-heading h3, .hide-heading h4 {
   display: none !important; }
@@ -99,8 +113,8 @@ video#videoPlaceholder {
   float: right !important;
   /* top: 0; */
   /* right: 0; */
-  width: 50%;
-  height: 50%;
+  width: 40%;
+  height: 40%;
   /* visibility: visible; */
   /* z-index: 100; */
   /* background-color: white; */ }
@@ -129,10 +143,10 @@ video#videoPlaceholder {
 /* } */
 img.redpill-image {
   display: inline-block;
-  margin-top: 50% !important;
-  margin-left: 142% !important;
-  max-height: 42%;
-  max-width: 42%;
+  margin-top: 40% !important;
+  margin-left: 132% !important;
+  max-height: 32% !important;
+  max-width: 32%;
   border: none !important;
   z-index: 100; }
 

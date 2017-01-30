@@ -86,18 +86,37 @@ $linkColorHover: lighten( $linkColor, 20% );
 $selectionBackgroundColor: #134674;
 $headingTextTransform: capitalize;
 
-$videoWidth: 50%;
-$videoHeight: 50%;
+$videoWidth: 40%;
+$videoHeight: 40%;
 
 $headerMarginLTR: 20px;
 $headerMarginB: 100px;
 $slidesPadding: 4%;
 
+$headerMaxWidth: 90%;
+$slideContentMaxWidth: 95%;
+
+
+$controlScaleDelta: 0.6;
+$controlOriginalHW: 110px;
+$controlOriginalPos: 10px;
+$controlBorderColor: $mainColor; // sets color of arrows
 
 /* // JRM edits */
 /* $navlinkColor: #C1AE7C; */
 /* $navlinkHover: lighten( $navlinkColor, 20% ); */
 /* $navlinkColorHover: lighten ($navlinkColor, 20% ); */
+
+.reveal .controls {
+    transform: scale($controlScaleDelta);
+    width: $controlScaleDelta * $controlOriginalHW;
+    height: $controlScaleDelta * $controlOriginalHW;
+    > { // for immediate children
+        border-color: $controlBorderColor !important;
+    }
+    /* right: $controlScaleDelta * $controlOriginalPos; */
+    /* bottom: $controlScaleDelta * $controlOriginalPos; */
+}
 
 .reveal .slides h1,
 .reveal .slides h2,
@@ -105,20 +124,27 @@ $slidesPadding: 4%;
 .reveal .slides h4
                    {
     text-align: left;
-    max-width: 100%;
-
+    max-width: $headerMaxWidth;
 
     /* padding: 20 20 50 20px !important; */
     margin-bottom: $headerMarginB;
-    margin-left: $headerMarginLTR;
+    margin-left: 0px; //$headerMarginLTR;
     margin-right: $headerMarginLTR;
-    margin-top: $headerMarginLTR;
+    margin-top: 0px;
     border-bottom: 1px solid $mainColor;
 }
 
 // Fix links so they are not cut off
 .reveal a {
 	line-height: 1.3em;
+}
+
+.reveal ul > li {
+    font-size: 0.9em;
+}
+
+.reveal p,ul,li,blockquote {
+    max-width: $slideContentMaxWidth;
 }
 
 
@@ -136,6 +162,8 @@ $slidesPadding: 4%;
     background: none !important;
     box-shadow: none !important;
     border: none !important;
+    max-height: 80%;
+    max-width: 80%;
 }
 
 .reveal section {
@@ -163,9 +191,10 @@ $slidesPadding: 4%;
             /* @include vertical-align-at(relative, 50%); */
         }
 
-        > :nth-child(2) {
-            @include vertical-align-at(absolute, 50%);
-        }
+        /* > :nth-child(2) { */
+        /*     @include vertical-align-at(absolute, 50%); */
+        /* } */
+
     }
     width: 100%;
 }
@@ -228,8 +257,8 @@ img.redpill-image {
     display: inline-block;
     margin-top: $videoWidth !important;
     margin-left: 100% + $videoWidth - $slidesPadding*2 !important;
-    max-height: $videoHeight - $slidesPadding * 2;
-    max-width: $videoWidth - $slidesPadding * 2;
+    max-height: $videoHeight - $slidesPadding * 2 !important;
+    max-width: $videoWidth - $slidesPadding * 2 ;
 
     border: none !important;
 
