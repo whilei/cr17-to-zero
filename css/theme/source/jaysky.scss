@@ -230,11 +230,14 @@ video#videoPlaceholder {
 
 // similar to videoplaceholder...
 div#redpill-box {
-    position: relative;
+    position: absolute;
     display: inline-block;
-    float: right !important;
-    width: $videoWidth;
-    height: $videoHeight;
+    /* float: right !important; */
+    width: $videoWidth - $slidesPadding;
+    top: $videoHeight + $slidesPadding*2;
+    /* height: 100% - $videoHeight - $slidesPadding*2; */
+    bottom: $slidesPadding * 2;
+    right: $slidesPadding; 
 
     border: 2px dashed red;
 }
@@ -267,8 +270,8 @@ div#redpill-box {
 
 img.redpill-image {
     display: inline-block;
-    margin-top: $videoWidth !important;
-    margin-left: 100% + $videoWidth - $slidesPadding*2 !important;
+    /* margin-top: $videoWidth !important; */
+    /* margin-left: 100% + $videoWidth - $slidesPadding*2 !important; */
     max-height: $videoHeight - $slidesPadding * 2 !important;
     max-width: $videoWidth - $slidesPadding * 2 ;
 

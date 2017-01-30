@@ -120,11 +120,14 @@ video#videoPlaceholder {
   /* background-color: white; */ }
 
 div#redpill-box {
-  position: relative;
+  position: absolute;
   display: inline-block;
-  float: right !important;
-  width: 40%;
-  height: 40%;
+  /* float: right !important; */
+  width: 36%;
+  top: 48%;
+  /* height: 100% - $videoHeight - $slidesPadding*2; */
+  bottom: 8%;
+  right: 4%;
   border: 2px dashed red; }
 
 /* //The Red pill! ... */
@@ -151,8 +154,8 @@ div#redpill-box {
 /* } */
 img.redpill-image {
   display: inline-block;
-  margin-top: 40% !important;
-  margin-left: 132% !important;
+  /* margin-top: $videoWidth !important; */
+  /* margin-left: 100% + $videoWidth - $slidesPadding*2 !important; */
   max-height: 32% !important;
   max-width: 32%;
   border: none !important;

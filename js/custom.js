@@ -146,6 +146,23 @@ Reveal.addEventListener('hide-video', function(event) {
     videoShouldHide(true);
 }, true);
 
+function findAncestor (el, cls) {
+    // while ((el = el.parentElement) && !el.classList.contains(cls));
+    // return el;
+    return el.closest(cls);
+}
+
+function getOffset( el ) {
+    var _x = 0;
+    var _y = 0;
+    while( el && !isNaN( el.offsetLeft ) && !isNaN( el.offsetTop ) ) {
+        _x += el.offsetLeft - el.scrollLeft;
+        _y += el.offsetTop - el.scrollTop;
+        el = el.offsetParent;
+    }
+    return { top: _y, left: _x };
+}
+
 
 // reset func // this is ugly but...
 Reveal.addEventListener('slidechanged', function(event) {
@@ -203,31 +220,53 @@ Reveal.addEventListener('slidechanged', function(event) {
                 // console.log("video", videoDom.getBoundingClientRect());
                 // var vidPos = videoDom.getBoundingClientRect();
 
-                var rpBoxCoords = redpillBox.getBoundingClientRect();
-                var vpCoords = vp.getBoundingClientRect();
-                var pElem = image.parentElement;
-                var pElemCoords = pElem.getBoundingClientRect();
-                var l = pElem.offsetWidth;
-                var t = vpCoords.top + vp.offsetHeight; //assume vp and section always equi-high
-                console.log("l", l);
-                console.log("t", t);
+                // var rpBoxCoords = redpillBox.getBoundingClientRect();
+                var rpBoxCoords = getOffset(redpillBox);
+                console.log("rpBoxCoords", rpBoxCoords);
 
-                var padX = vp.width - image.width;
-                padX = padX / 2;
-                console.log("padX", padX);
+                var imageFigure = findAncestor(image, ".figure");
+                console.log("figure", imageFigure);
+                // var imageCoords = imageFigure.getBoundingClientRect();
+                var imageCoords = getOffset(imageFigure);
+                console.log("figureCoords", imageCoords);
+                // var imageCoords = image.getBoundingClientRect();
 
-                var padY = pElem.offsetHeight - vp.offsetHeight - image.offsetHeight; //assume image height already set by .redpill-image
-                padY = padY / 2;
-                console.log("padY", padY);
+                // var deltaTop = rpBoxCoords.top - imageCoords.top;
+                // var deltaLeft = rpBoxCoords.left - imageCoords.left;
+                var deltaTop = rpBoxCoords.top - imageCoords.top;
+                var deltaLeft = rpBoxCoords.left - imageCoords.left;
 
-                l = l + padX;
-                t = t + padY;
-                console.log("l", l);
-                console.log("t", t);
+                imageFigure.style.position = "absolute";
+                imageFigure.style.width = redpillBox.offsetWidth + "px";
+                imageFigure.style.transform = "translate(" + deltaLeft + "px," + deltaTop + "px)";
+                // image.style.position = "absolute";
+                // image.style.transform = "translate(" + deltaLeft + "px," + deltaTop + "px)";
 
-                image.style.position = "fixed";
-                image.style.left = l + "px";
-                image.style.top = t + "px";
+                // var vpCoords = vp.getBoundingClientRect();
+
+                // var pElem = image.parentElement;
+                // var pElemCoords = pElem.getBoundingClientRect();
+                // var l = pElem.offsetWidth;
+                // var t = vpCoords.top + vp.offsetHeight; //assume vp and section always equi-high
+                // console.log("l", l);
+                // console.log("t", t);
+
+                // var padX = vp.width - image.width;
+                // padX = padX / 2;
+                // console.log("padX", padX);
+
+                // var padY = pElem.offsetHeight - vp.offsetHeight - image.offsetHeight; //assume image height already set by .redpill-image
+                // padY = padY / 2;
+                // console.log("padY", padY);
+
+                // l = l + padX;
+                // t = t + padY;
+                // console.log("l", l);
+                // console.log("t", t);
+
+                // image.style.position = "fixed";
+                // image.style.left = l + "px";
+                // image.style.top = t + "px";
 
                 // image.style.transform = "translate(" + vidPos.left + "px," + vidPos.top + "px)";
                 // image.style.transform = "translate(" + 100 + "px," + 100 + "px)";
