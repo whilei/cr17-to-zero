@@ -278,11 +278,18 @@ Let's illuminate the question by looking at the meaning and history of the words
 #+END_NOTES
 
 *** Value defined
-**** definition: 
 (merriam-webster.com)
 *relative worth, utility, or importance*
 
-**** etymology: 
+#+BEGIN_NOTES 
+/Value/ as used in our central question means *relative worth, utility, or importance*.
+
+
+(NEXT SLIDE DOWN)
+
+#+END_NOTES
+
+*** Value etymology: 
 /valu/    Anglo-French    *worth, high quality*
 
 /valēre/  Latin           *to be well, have strength*
@@ -290,8 +297,6 @@ Let's illuminate the question by looking at the meaning and history of the words
 Game of Thrones fans, please take note of the phonetic similarities to /Valyrian/ steel.
 
 #+BEGIN_NOTES 
-/Value/ as used in our central question means *relative worth, utility, or importance*.
-
 The history of the word value goes back through Middle English to the Anglo-French work /valu/, which means *worth* or *high quality*, and finally, all the way back to the Latin, /valēre/, which means *to be well* or *have strength*.
 
 If you're a Game of Thrones fan, you've likely noticed how similar /valēre/ sounds to Valyria, home to the forges of Valyrian steel, renowned for its quality and strength.
