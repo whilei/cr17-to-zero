@@ -228,6 +228,18 @@ video#videoPlaceholder {
     /* background-color: white; */ //so no flashes
 }
 
+// similar to videoplaceholder...
+div#redpill-box {
+    position: relative;
+    display: inline-block;
+    float: right !important;
+    width: $videoWidth;
+    height: $videoHeight;
+
+    border: 2px dashed red;
+}
+
+
 
 /* //The Red pill! ... */
 // this was work on a bounding box for the area. it's complicated :pill:
