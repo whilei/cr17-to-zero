@@ -188,7 +188,7 @@ var qrStyleBase = {
     // text: "http://jindo.dev.naver.com/collie",
     width: 256,
     height: 256,
-    colorDark : "rgb(186,50,79)",
+    colorDark : "#000000", //"rgb(186,50,79)",
     colorLight : "#ffffff",
     correctLevel : QRCode.CorrectLevel.H
 };
