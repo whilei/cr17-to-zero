@@ -20,10 +20,10 @@
 
 			#current-slide iframe,
 			#upcoming-slide iframe {
-				width: 100%;
-				height: 100%;
+				/* width: 100%; */
+				/* height: 100%; */
 				border: 1px solid #ddd;
-        /* display: none; */
+        display: none;
 			}
 
 			#current-slide .label,
@@ -44,6 +44,7 @@
 				top: 0;
 				left: 0;
 				padding-right: 0;
+        display: none;
 			}
 
 			#upcoming-slide {
@@ -52,14 +53,18 @@
 				height: 40%;
 				right: 0;
 				top: 0;
+        display: none;
 			}
 
 			#speaker-controls {
 				position: absolute;
-				top: 40%;
+				/* top: 40%; */
 				right: 0;
-				width: 35%;
-				height: 60%;
+        top: 0;
+        left: 0;
+        bottom: 0;
+				/* width: 35%; */
+				/* height: 60%; */
 				overflow: auto;
 
 				font-size: 18px;
@@ -85,6 +90,7 @@
 					padding: 10px 16px;
 					padding-bottom: 20px;
 					cursor: pointer;
+          display: none;
 				}
 
 				.speaker-controls-time .reset-button {
@@ -194,7 +200,7 @@
 					if( data.state ) delete data.state.overview;
 
 					// Messages sent by the notes plugin inside of the main window
-					if( data && data.namespace === 'reveal-notes' ) {
+					if( data && data.namespace === 'reveal-notes-text' ) {
 						if( data.type === 'connect' ) {
 							handleConnectMessage( data );
 						}
@@ -206,7 +212,7 @@
 					else if( data && data.namespace === 'reveal' ) {
 						if( /ready/.test( data.eventName ) ) {
 							// Send a message back to notify that the handshake is complete
-							window.opener.postMessage( JSON.stringify({ namespace: 'reveal-notes', type: 'connected'} ), '*' );
+							window.opener.postMessage( JSON.stringify({ namespace: 'reveal-notes-text', type: 'connected'} ), '*' );
 						}
 						else if( /slidechanged|fragmentshown|fragmenthidden|paused|resumed/.test( data.eventName ) && currentState !== JSON.stringify( data.state ) ) {
 

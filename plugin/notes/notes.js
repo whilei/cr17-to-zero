@@ -11,15 +11,202 @@
  */
 var RevealNotes = (function() {
 
-	function openNotes( notesFilePath ) {
+	function openImages( notesImagesFilepath ) {
 
-		if( !notesFilePath ) {
+		if( !notesImagesFilepath ) {
 			var jsFileLocation = document.querySelector('script[src$="notes.js"]').src;  // this js file path
 			jsFileLocation = jsFileLocation.replace(/notes\.js(\?.*)?$/, '');   // the js folder path
-			notesFilePath = jsFileLocation + 'notes.html';
+			notesImagesFilepath = jsFileLocation + 'notes-images.html';
 		}
 
-		var notesPopup = window.open( notesFilePath, 'reveal.js - Notes', 'width=1100,height=700' );
+		var imagesPopup = window.open( notesImagesFilepath, 'reveal.js - Notes', 'width=1100,height=700' );
+
+		/**
+		 * Connect to the notes window through a postmessage handshake.
+		 * Using postmessage enables us to work in situations where the
+		 * origins differ, such as a presentation being opened from the
+		 * file system.
+		 */
+		function connect() {
+			// Keep trying to connect until we get a 'connected' message back
+			var connectInterval = setInterval( function() {
+				imagesPopup.postMessage( JSON.stringify( {
+					namespace: 'reveal-notes-images',
+					type: 'connect',
+					url: window.location.protocol + '//' + window.location.host + window.location.pathname + window.location.search,
+					state: Reveal.getState()
+				} ), '*' );
+			}, 500 );
+
+			window.addEventListener( 'message', function( event ) {
+				var data = JSON.parse( event.data );
+				if( data && data.namespace === 'reveal-notes-images' && data.type === 'connected' ) {
+					clearInterval( connectInterval );
+					onConnected();
+				}
+			} );
+		}
+
+		/**
+		 * Posts the current slide data to the notes window
+		 */
+		function post() {
+
+			var slideElement = Reveal.getCurrentSlide(),
+				notesElement = slideElement.querySelector( 'aside.notes' );
+
+			var messageData = {
+				namespace: 'reveal-notes-images',
+				type: 'state',
+				notes: '',
+				markdown: false,
+				whitespace: 'normal',
+				state: Reveal.getState()
+			};
+
+			// Look for notes defined in a slide attribute
+			if( slideElement.hasAttribute( 'data-notes' ) ) {
+				messageData.notes = slideElement.getAttribute( 'data-notes' );
+				messageData.whitespace = 'pre-wrap';
+			}
+
+			// Look for notes defined in an aside element
+			if( notesElement ) {
+				messageData.notes = notesElement.innerHTML;
+				messageData.markdown = typeof notesElement.getAttribute( 'data-markdown' ) === 'string';
+			}
+
+			imagesPopup.postMessage( JSON.stringify( messageData ), '*' );
+
+		}
+
+		/**
+		 * Called once we have established a connection to the notes
+		 * window.
+		 */
+		function onConnected() {
+
+			// Monitor events that trigger a change in state
+			Reveal.addEventListener( 'slidechanged', post );
+			Reveal.addEventListener( 'fragmentshown', post );
+			Reveal.addEventListener( 'fragmenthidden', post );
+			Reveal.addEventListener( 'overviewhidden', post );
+			Reveal.addEventListener( 'overviewshown', post );
+			Reveal.addEventListener( 'paused', post );
+			Reveal.addEventListener( 'resumed', post );
+
+			// Post the initial state
+			post();
+
+		}
+
+		connect();
+
+	}
+
+
+	function openText( notesTextFilepath ) {
+
+		if( !notesTextFilepath ) {
+			var jsFileLocation = document.querySelector('script[src$="notes.js"]').src;  // this js file path
+			jsFileLocation = jsFileLocation.replace(/notes\.js(\?.*)?$/, '');   // the js folder path
+			notesTextFilepath = jsFileLocation + 'notes-text.html';
+		}
+
+		var textPopup = window.open( notesTextFilepath, 'reveal.js - Notes', 'width=1100,height=700' );
+
+		/**
+		 * Connect to the notes window through a postmessage handshake.
+		 * Using postmessage enables us to work in situations where the
+		 * origins differ, such as a presentation being opened from the
+		 * file system.
+		 */
+		function connect() {
+			// Keep trying to connect until we get a 'connected' message back
+			var connectInterval = setInterval( function() {
+				textPopup.postMessage( JSON.stringify( {
+					namespace: 'reveal-notes-text',
+					type: 'connect',
+					url: window.location.protocol + '//' + window.location.host + window.location.pathname + window.location.search,
+					state: Reveal.getState()
+				} ), '*' );
+			}, 500 );
+
+			window.addEventListener( 'message', function( event ) {
+				var data = JSON.parse( event.data );
+				if( data && data.namespace === 'reveal-notes-text' && data.type === 'connected' ) {
+					clearInterval( connectInterval );
+					onConnected();
+				}
+			} );
+		}
+
+		/**
+		 * Posts the current slide data to the notes window
+		 */
+		function post() {
+
+			var slideElement = Reveal.getCurrentSlide(),
+				notesElement = slideElement.querySelector( 'aside.notes' );
+
+			var messageData = {
+				namespace: 'reveal-notes-text',
+				type: 'state',
+				notes: '',
+				markdown: false,
+				whitespace: 'normal',
+				state: Reveal.getState()
+			};
+
+			// Look for notes defined in a slide attribute
+			if( slideElement.hasAttribute( 'data-notes' ) ) {
+				messageData.notes = slideElement.getAttribute( 'data-notes' );
+				messageData.whitespace = 'pre-wrap';
+			}
+
+			// Look for notes defined in an aside element
+			if( notesElement ) {
+				messageData.notes = notesElement.innerHTML;
+				messageData.markdown = typeof notesElement.getAttribute( 'data-markdown' ) === 'string';
+			}
+
+			textPopup.postMessage( JSON.stringify( messageData ), '*' );
+
+		}
+
+		/**
+		 * Called once we have established a connection to the notes
+		 * window.
+		 */
+		function onConnected() {
+
+			// Monitor events that trigger a change in state
+			Reveal.addEventListener( 'slidechanged', post );
+			Reveal.addEventListener( 'fragmentshown', post );
+			Reveal.addEventListener( 'fragmenthidden', post );
+			Reveal.addEventListener( 'overviewhidden', post );
+			Reveal.addEventListener( 'overviewshown', post );
+			Reveal.addEventListener( 'paused', post );
+			Reveal.addEventListener( 'resumed', post );
+
+			// Post the initial state
+			post();
+
+		}
+
+		connect();
+
+	}
+
+	function openNotes( notesFilepath ) {
+
+		if( !notesFilepath ) {
+			var jsFileLocation = document.querySelector('script[src$="notes.js"]').src;  // this js file path
+			jsFileLocation = jsFileLocation.replace(/notes\.js(\?.*)?$/, '');   // the js folder path
+			notesFilepath = jsFileLocation + 'notes.html';
+		}
+
+		var notesPopup = window.open( notesFilepath, 'reveal.js - Notes', 'width=1100,height=700' );
 
 		/**
 		 * Connect to the notes window through a postmessage handshake.
@@ -120,17 +307,34 @@ var RevealNotes = (function() {
 			// Disregard the event if keyboard is disabled
 			if ( Reveal.getConfig().keyboard === false ) return;
 
+        //open default notes screen --> 's'
 			if( event.keyCode === 83 ) {
 				event.preventDefault();
 				openNotes();
 			}
+        //open notes screen with only text --> 't'
+			  if( event.keyCode === 84 ) {
+				    event.preventDefault();
+				    openText();
+			  }
+        //open notes screen with only images --> 'p' [preview]
+			  if( event.keyCode === 80 ) {
+				    event.preventDefault();
+				    openImages();
+			  }
+
+
 		}, false );
 
 		// Show our keyboard shortcut in the reveal.js help overlay
-		if( window.Reveal ) Reveal.registerKeyboardShortcut( 'S', 'Speaker notes view' );
+		  if( window.Reveal ) {
+          Reveal.registerKeyboardShortcut( 'S', 'Speaker notes view' );   
+          Reveal.registerKeyboardShortcut( 'T', 'Speaker notes view - TEXT ONLY' );   
+          Reveal.registerKeyboardShortcut( 'P', 'Speaker notes view - IMAGES ONLY' );   
+      }
 
 	}
 
-	return { open: openNotes };
+	  return { open: openNotes, openText: openText, openImages: openImages };
 
 })();
