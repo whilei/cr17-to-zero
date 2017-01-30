@@ -5,7 +5,7 @@
 #+OPTIONS: num:nil toc:nil reveal_title_slide:nil reveal_center:nil reveal_slide_number:nil
 #+mynotes: Use Big John / Little Joe for Headings, Quicksand for normal type and lobster for marking up pictures (or any combination of these.
 #+REVEAL_HLEVEL: 1
-#+REVEAL_EXTRA_JS: {src: './js/custom.js'} 
+#+REVEAL_EXTRA_JS: {src: '/js/qrcode.min.js'}, {src: './js/custom.js'}
 #+REVEAL_DEFAULT_FRAG_STYLE: roll-in
 #+REVEAL_ROOT: ./
 
@@ -137,11 +137,11 @@ I wrote this talk with (NEXT FRAG) programmers *and* (NEXT FRAG) aspiring progra
 
 ** Stories of learning 
   :PROPERTIES:
-  :reveal_extra_attr: redpill-img-src="/resources/images/800px-Pill-threshold00.png"
+  :reveal_extra_attr: redpill-img-src="/resources/images/red-pill.svg.png" qr-data="http://webappzero.com"
   :END:
 
   #+ATTR_REVEAL: :frag t
-  file:resources/images/800px-Pill-threshold00.png
+  file:resources/images/red-pill.svg.png
 
 
 #+BEGIN_NOTES

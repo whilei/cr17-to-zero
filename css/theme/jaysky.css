@@ -159,7 +159,15 @@ img.redpill-image {
   max-height: 32% !important;
   max-width: 32%;
   border: none !important;
-  z-index: 100; }
+  /* z-index: 100; */ }
+
+div.qrcode {
+  z-index: 50;
+  max-width: 50%;
+  margin: auto;
+  position: absolute;
+  bottom: -50px;
+  right: -50px; }
 
 /* @mixin bodyBackground() {
 /* 	@include radial-gradient( #add9e4, #f7fbfc ); */
