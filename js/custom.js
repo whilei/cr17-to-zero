@@ -184,82 +184,92 @@ function alreadyFormatted(event, src) {
     return formattedFigures[getUniqueFigureID(event, src)];
 }
 
+var qrStyleBase = {
+    // text: "http://jindo.dev.naver.com/collie",
+    width: 256,
+    height: 256,
+    colorDark : "rgb(186,50,79)",
+    colorLight : "#ffffff",
+    correctLevel : QRCode.CorrectLevel.H
+};
+
+function createQRImage(element, optsIn) {
+    for (var i in optsIn) {
+        if (optsIn.hasOwnProperty(i)) {
+            qrStyleBase[i] = optsIn[i];
+        }
+    }
+    console.log("building qr with data", qrStyleBase);
+    var qrcode = new QRCode(element.id, qrStyleBase);
+    return qrcode;
+}
+
 function formatRedpillFigures(event) {
     var curSlide = event.currentSlide;
-    // var slides = document.getElementsByTagName("section");
-    // console.log("slides", slides);
-    // console.log("slides count", slides.length);
-    // for (var i = 0; i < slides.length - 1; i++) {
-        // var curSlide = slides[i];
-        var redImgSrc = curSlide.getAttribute("redpill-img-src");
-        if (redImgSrc !== null) {
-            // get all images in slide
-            var slideImages = curSlide.getElementsByTagName("img");
+    var redImgSrc = curSlide.getAttribute("redpill-img-src");
+    var qrData = curSlide.getAttribute("qr-data");
+    if (redImgSrc !== null) {
+        // get all images in slide
+        var slideImages = curSlide.getElementsByTagName("img");
 
-            // iterate through images
-            for (var i = 0; i < slideImages.length; i++) {
+        // iterate through images
+        for (var i = 0; i < slideImages.length; i++) {
 
-                var image = slideImages[i];
-                // console.log("Iterating through slide image: ", image);
-                // console.log("Image source is: ", image.src);
+            var image = slideImages[i];
 
-                //find image in slide.
-                //*have to prepend proto + host + src
-
-                //prepend / if not present, avoid a gotcha <--- cuz is live url
-                if (redImgSrc.search("/") !== 0) {
-                    redImgSrc = "/" + redImgSrc;
-                }
-
-                var imageSrc = image.src;
-                imageSrc = decodeURI(imageSrc); // and clear out pesky %'s
-
-
-                //check amended img source is the redpill source we're looking for
-                if (imageSrc === "http://" + window.location.host + redImgSrc) {
-
-                    //apply css rules to that image (found via src) to move it to the right spot.
-                    console.log("Found redpill image. Appending class 'redpill-image'");
-
-                    // get coords of redpillBox.
-                    // redpillBox.append(image); // we'll have to clear this out, too
-
-                    // sets max height+width
-                    // image.className += " redpill-image "; //TODO: don't just apply css; create video-esque fixed div and move the image there to make position independent of slide text... or use "anchor" div in that quadrant to fixed-position the image
-
-                    var rpBoxCoords = getOffset(redpillBox);
-                    console.log("rpBoxCoords", rpBoxCoords);
-
-                    var imageFigure = findAncestor(image, ".figure");
-                    console.log("figure", imageFigure);
-
-                    var imageCoords = getOffset(imageFigure);
-                    console.log("figureCoords", imageCoords);
-
-                    var deltaTop, deltaLeft;
-                    if (alreadyFormatted(event, redImgSrc)) {
-                        deltaTop = rpBoxCoords.top - imageCoords.top;
-                        deltaLeft = rpBoxCoords.left - imageCoords.left;
-                    } else {
-                        // no idea why have to do this...
-                        deltaTop = ( rpBoxCoords.top - imageCoords.top ) + 20;
-                        deltaLeft = ( rpBoxCoords.left - imageCoords.left ) + 76;
-                        setAsFormatted(event, redImgSrc); // so don't have to add the extra spacer
-                    }
-
-                    imageFigure.style.position = "absolute";
-                    imageFigure.style.width = redpillBox.offsetWidth + "px";
-                    imageFigure.style.transform = "translate(" + deltaLeft + "px," + deltaTop + "px)";
-
-                } else {
-                    console.log(image.src + " <- image.src doesn't match redpillsrc -> " + redImgSrc);
-                }
-
+            //prepend / if not present, avoid a gotcha <--- cuz is live url
+            if (redImgSrc.search("/") !== 0) {
+                redImgSrc = "/" + redImgSrc;
             }
-        } else {
-            console.log("No redpill. As you were.");
+
+            var imageSrc = image.src;
+            imageSrc = decodeURI(imageSrc); // and clear out pesky %'s
+
+            //check amended img source is the redpill source we're looking for
+            if (imageSrc === "http://" + window.location.host + redImgSrc) {
+
+                var rpBoxCoords = getOffset(redpillBox);
+                console.log("rpBoxCoords", rpBoxCoords);
+
+                var imageFigure = findAncestor(image, ".figure");
+                console.log("figure", imageFigure);
+
+                var imageCoords = getOffset(imageFigure);
+                console.log("figureCoords", imageCoords);
+
+                var deltaTop, deltaLeft;
+                // check if we've been through this already so not to dupe..
+                if (alreadyFormatted(event, redImgSrc)) {
+                    deltaTop = rpBoxCoords.top - imageCoords.top;
+                    deltaLeft = rpBoxCoords.left - imageCoords.left;
+                } else {
+                    // no idea why have to do this...
+                    deltaTop = (rpBoxCoords.top - imageCoords.top) + 20;
+                    deltaLeft = (rpBoxCoords.left - imageCoords.left) + 76;
+                    setAsFormatted(event, redImgSrc); // so don't have to add the extra spacer
+
+
+                    if (qrData !== null && typeof(qrData) !== "undefined" && qrData !== "") {
+                        var qrHere = document.createElement("div");
+                        qrHere.id = getUniqueFigureID(event, redImgSrc);
+                        qrHere.className += " qrcode ";
+                        imageFigure.children[0].append(qrHere);
+                        var qr = createQRImage(qrHere, {text: qrData});
+                    }
+                }
+
+                imageFigure.style.position = "absolute";
+                imageFigure.style.width = redpillBox.offsetWidth + "px";
+                imageFigure.style.transform = "translate(" + deltaLeft + "px," + deltaTop + "px)";
+
+            } else {
+                console.log(image.src + " <- image.src doesn't match redpillsrc -> " + redImgSrc);
+            }
+
         }
-    // }
+    } else {
+        console.log("No redpill. As you were.");
+    }
 }
 
 
