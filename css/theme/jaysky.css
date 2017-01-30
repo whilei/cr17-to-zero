@@ -61,7 +61,7 @@
   font-size: 0.9em; }
 
 .reveal p, ul, li, blockquote {
-  max-width: 95%; }
+  /* max-width: $slideContentMaxWidth; */ }
 
 .reveal.default .slides {
   position: relative;
@@ -128,7 +128,7 @@ div#redpill-box {
   /* height: 100% - $videoHeight - $slidesPadding*2; */
   bottom: 8%;
   right: 4%;
-  border: 2px dashed red; }
+  /* border: 2px dashed red; */ }
 
 /* //The Red pill! ... */
 /* #redpill { */

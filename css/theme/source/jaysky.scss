@@ -144,7 +144,7 @@ $controlBorderColor: $mainColor; // sets color of arrows
 }
 
 .reveal p,ul,li,blockquote {
-    max-width: $slideContentMaxWidth;
+    /* max-width: $slideContentMaxWidth; */
 }
 
 
@@ -239,7 +239,7 @@ div#redpill-box {
     bottom: $slidesPadding * 2;
     right: $slidesPadding; 
 
-    border: 2px dashed red;
+    /* border: 2px dashed red; */
 }
 
 
