@@ -31,14 +31,32 @@ note that I used two SPACES after the * to make the invisible heading for the no
 :reveal_background: /resources/images/title-screen_2017-01-16_16-18-34.png
 :END:
 
+#+BEGIN_NOTES 
+Title Slide
+
+(NEXT SLIDE RIGHT)
+
+#+END_NOTES
 * Welcome
 
  #+BEGIN_NOTES 
  Thank you Ryan for inviting me to speak at Clojure Remote 2017. And /*welcome*/ to everyone whose with us today to hear about /The Value of Learning/.
 
- My name is Jay, and I'm enthralled by the subject of learning. Here's one example of why: (NEXT SLIDE DOWN)
- #+END_NOTES
+ My name is Jay, and I'm enthralled by the subject of learning. Here's one example of why:
 
+ (NEXT SLIDE DOWN)
+
+.
+
+.
+
+.
+
+.
+
+.
+ #+END_NOTES
+# Yes, these dots are intentional. They allow me to continue to scroll to place text directly over the lens of the camera.
  
 # Before+after(3)
 **  
@@ -92,12 +110,14 @@ And how long for this much improvement?
 :END:
 
  #+ATTR_REVEAL: :frag t
+ [[file:resources/images/Introduction/bell212.jpg]]
+
+
+ #+ATTR_REVEAL: :frag t
  - Betty Edwards, author of /Drawing on the Right Side of the Brain/
  - drawright.com
  - ~@DRSB_Edwards~
  
- #+ATTR_REVEAL: :frag t
- [[file:resources/images/Introduction/bell212.jpg]]
 
  #+BEGIN_NOTES
  5 days. That's it. These people, people not unlike you or me, learned the technical fundamentals of drawing in only *5 days*. 
@@ -110,7 +130,23 @@ And how long for this much improvement?
  
  And how is her approach relevant to learning other highly technical skills, such as programming?
  
- We'll explore these, and other engaging questions, over the next hour. (NEXT SLIDE DOWN)
+ We'll explore these, and other engaging questions, over the next hour.
+
+ (NEXT SLIDE DOWN)
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
  #+END_NOTES
  
 ** Target Audience
@@ -121,6 +157,18 @@ And how long for this much improvement?
 
 #+BEGIN_NOTES
 I wrote this talk with (NEXT FRAG) programmers *and* (NEXT FRAG) aspiring programmers in mind, but (NEXT FRAG) /*anyone*/ with an interest in learning will, /hopefully/, find the talk personally relevant.
+
+(NEXT SLIDE DOWN)
+
+.
+
+.
+
+.
+
+.
+
+.
 #+END_NOTES
 
 ** My Credentials
@@ -133,7 +181,19 @@ I wrote this talk with (NEXT FRAG) programmers *and* (NEXT FRAG) aspiring progra
    Brain science is a young science, and the pace of discovery is breathtaking.   
    
    Fortunately, I have a long and (NEXT FRAG) documented history of putting my foot in my mouth, just in case you happen to be an /actual/ neuroscientist.
- #+END_NOTES 
+
+   (NEXT SLIDE DOWN)
+
+   .
+
+   .
+
+   .
+
+   .
+
+   .
+    #+END_NOTES 
 
 ** Stories of learning 
   :PROPERTIES:
@@ -161,7 +221,7 @@ I wrote this talk with (NEXT FRAG) programmers *and* (NEXT FRAG) aspiring progra
 
    If you want to particpate, please ready your smart phone to scan QR codes.
 
-   These are either mini-polls, links to kick-start your research or pre-filled tweets that will serve to network like minds around the subject of learning.
+   These red-pill qr codes are mini-polls, links to kick-start your research or pre-filled tweets that will serve to network like minds around the subject of learning.
 
    Even if you're watching this on video, months or years from now, you can still participate by scanning the QR codes with your smart phone.
 
@@ -176,6 +236,20 @@ I wrote this talk with (NEXT FRAG) programmers *and* (NEXT FRAG) aspiring progra
    Let's get started!
 
    (NEXT SLIDE RIGHT)
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
 #+END_NOTES
 
 * 
@@ -196,6 +270,15 @@ I wrote this talk with (NEXT FRAG) programmers *and* (NEXT FRAG) aspiring progra
    If I discover that I value learning greatly, how can I live a life consistent with this core value?
 
    (NEXT SLIDE RIGHT)
+.
+
+.
+
+.
+
+.
+
+.
    #+END_NOTES
 
 * Talk Outline
@@ -204,6 +287,12 @@ I wrote this talk with (NEXT FRAG) programmers *and* (NEXT FRAG) aspiring progra
 I'm going to weave several stories about learning through the framework of this simple 3 part outline.
 
 (NEXT SLIDE DOWN)
+
+.
+
+.
+
+.
 #+END_NOTES
 
 ** The question
@@ -215,6 +304,12 @@ What is the question?
 How much /*do I*/ value learning?
 
 (NEXT SLIDE DOWN)
+
+.
+
+.
+
+.
 #+END_NOTES
 
 ** The answer
@@ -224,6 +319,12 @@ How can I measure the value I place on learning?
 How can I know the answer? That is, how can I measure the value I place on learning?
 
 (NEXT SLIDE DOWN)
+
+.
+
+.
+
+.
 #+END_NOTES
 
 ** The actions
@@ -233,6 +334,12 @@ What actions are consistent with this value?
 What actions spring from living this value?
 
 (NEXT SLIDE RIGHT)
+
+.
+
+.
+
+.
 #+END_NOTES
 
 * The question
@@ -244,7 +351,11 @@ How much do I value learning?
   #+END_QUOTE
 
   #+BEGIN_NOTES
- Before we assess the central question of this talk, I want to justify the question. /Learning/, it seems, is among the most universally accepted of human values. At first glance the answer to the question, "Do I value learning?" appears to be so obvious that the question might seem silly or trite, maybe even a complete waste of time.
+ Before we assess the central question of this talk, let me justify the question. /Education/, it seems, is among the most universally accepted of human values.
+
+ At first glance the answer to the question, "Do I value learning?" appears to be so obvious that the question seems silly or trite, maybe even a complete waste of time.
+
+ In a few moments, I'll draw a subtle distinction between the words education and learning which will further justify the question.
 
  Bertrand Russell said, "In all affairs it's a healthy thing now and then to hang a question mark on the things you have long taken for granted."
 
@@ -252,7 +363,25 @@ How much do I value learning?
 
  Invisible values risk becoming neglected values. My hope is that by thoughtfully assessing the value of learning for ourselves, we can mitigate this risk and reach our individual and collective learning potential.
 
- At the very least, attempting to answer this question is in accord with the age old wisdom, "know thyself." (NEXT SLIDE DOWN) 
+ At the very least, attempting to answer this question is in accord with the age old wisdom, "know thyself."
+
+(NEXT SLIDE DOWN) 
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
   #+END_NOTES
 
 ** Brain, the invisible organ
@@ -268,13 +397,35 @@ How much do I value learning?
  And here's another simple observation -- the brain has to compete with a heartbeat. As a very young child, getting to know my own body, the heartbeat was a constant reminder, "I have a heart!" 
 
  Maybe the brain just needs better PR. This talk hopes to remedy that. 
+
+(NEXT SLIDE DOWN)
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
  #+END_NOTES
 
 ** Understanding the question
 How much do I value learning?
 
 #+BEGIN_NOTES 
-Let's illuminate the question by looking at the meaning and history of the words /value/ & /learning/. 
+Let's illuminate the question by looking at the meaning and history of the words /value/ & /learning/.
+
+(NEXT SLIDE DOWN) 
+
+.
+
+.
+
+.
 #+END_NOTES
 
 *** Value defined
@@ -287,6 +438,11 @@ Let's illuminate the question by looking at the meaning and history of the words
 
 (NEXT SLIDE DOWN)
 
+.
+
+.
+
+.
 #+END_NOTES
 
 *** Value etymology: 
@@ -299,15 +455,35 @@ Game of Thrones fans, please take note of the phonetic similarities to /Valyrian
 #+BEGIN_NOTES 
 The history of the word value goes back through Middle English to the Anglo-French work /valu/, which means *worth* or *high quality*, and finally, all the way back to the Latin, /valēre/, which means *to be well* or *have strength*.
 
-If you're a Game of Thrones fan, you've likely noticed how similar /valēre/ sounds to Valyria, home to the forges of Valyrian steel, renowned for its quality and strength.
+If you're a Game of Thrones fan, you've likely noticed how similar /valēre/ sounds to Valyria, home to the forges of Valyrian steel, which is renowned for its quality and strength.
+
+(NEXT SLIDE DOWN)
+
+.
+
+.
+
+.
+
+.
 #+END_NOTES
 
 *** Learning defined
-**** definition:
 (learnersdictionary.com)
 *the activity or process of gaining knowledge or skill by studying, practicing, being taught, or experiencing something*
 
-**** etymology:
+#+BEGIN_NOTES 
+/Learning/ means *the activity or process of gaining knowledge or skill by studying, practicing, being taught, or experiencing something*.
+
+(NEXT SLIDE DOWN)
+
+.
+
+.
+
+.
+#+END_NOTES
+*** etymology of learn:
 (merriam-webster.com)
 /lernen/    Middle English    *to learn*
 /leornian/  Old English       *to learn*
@@ -315,8 +491,6 @@ If you're a Game of Thrones fan, you've likely noticed how similar /valēre/ sou
 /lira/      Latin             *furrow, track*
 
 #+BEGIN_NOTES 
-/Learning/ means *the activity or process of gaining knowledge or skill by studying, practicing, being taught, or experiencing something*.
-
 The history of the word /learn/ goes back through the Middle English word /lernen/, which shares the meaning *to learn* with the Old English word /leornian/, and further back to the Old English word /last/ which means *foot print*, and finally, all the way back to the latin word /lira/ which means *furrow* or *track*.
 
 The meaning *track* ties in neatly with the *foot print* from the Old English /last/. 
@@ -324,45 +498,268 @@ The meaning *track* ties in neatly with the *foot print* from the Old English /l
 But the word furrow really stuck out to me. Firstly because I didn't know what it meant in this context, which is *a long trench*. But not just any trench! *a long narrow trench in the ground made by a plow, especially for planting seeds*. 
 
 The latin meaning has become my favorite way to think about learning -- planting a trail of seeds, seeds of knowledge and skill, which will grow and flourish in time! How cool is that!?!
+
+(NEXT SLIDE DOWN)
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
 #+END_NOTES
 
-**** Learn as synonym for Teach
+*** Learn as synonym for Teach
+
 (merriam-webster.com)
 Master blacksmiths learned their apprentices in the craft of sword forging.
 #+BEGIN_NOTES 
 As far back as the 13th century, the word /learn/ was also used to mean "teach". As in "Master blacksmiths learned their apprentices in the craft of sword forging." 
 
 Today this alternative meaning is relegated to speech, because it's *not* considered proper grammar.  
+
+(NEXT SLIDE RIGHT)
+
+.
+
+.
+
+.
+
+.
 #+END_NOTES
 
-*** The history of learning
+** The history of learning
 :PROPERTIES:
 # :reveal_extra_attr: redpill-img-src="/resources/images/history-of-salt/grand-canyon-filled with-fog-todd-diemer_2017-01-13_09-53-33.jpg"
 :END:
-**** Evolution! We are the very best learners in all of history.
-***** TODO Rich Hicky quote - from my goodnotes 
-**** Socrates
-***** TODO Socratic dialogue: add quote about "make them think" --
-**** Small Gap (Picture of Grand Canyon)
-  The 1926, pioneering paper by Eduard C. Lindeman's, /The Meaning of Adult Education/ reignited the subject of learning and established a scientific, research oriented approach  
-  [[file:resources/images/history-of-salt/grand-canyon-filled with-fog-todd-diemer_2017-01-13_09-53-33.jpg]]
+*** Evolution
+We descend from, and are ,the very best learners in all of history, because we're here.
 
-*** Two modes of learning
+#+BEGIN_NOTES 
+Evolutionary biology teaches that our prime directive in life is to pass on our genes to future generations.
 
-**** Inside Out
-**** Outside In
+The basic tool we use to accomplish this task is learning.
+
+We descend from, and are, the very best learners in all of history. 
+
+We know this because we are here!
+
+(NEXT SLIDE DOWN)
+
+.
+
+.
+
+.
+
+.
+
+.
+#+END_NOTES
+
+*** Socrates
+#+begin_quote
+I cannot teach anybody anything, I can only make them think. --Socrates
+#+end_quote
+
+#+BEGIN_NOTES 
+Socrates challenged his pupils with questions to stimulate their critical thinking and draw out contradictions in their own reasoning.
+
+The /socratic method/ remains as effective today as it was over 2400 years ago. 
+
+(NEXT SLIDE DOWN)
+
+.
+
+.
+
+.
+#+END_NOTES
+
+*** Modern Learning  
+/The Meaning of Adult Education/
+Eduard C. Lindeman
+
+ [[file:resources/images/history-of-salt/grand-canyon-filled with-fog-todd-diemer_2017-01-13_09-53-33.jpg]]
+
+# TODO isaac frag this picture please :)
+
+#+BEGIN_NOTES 
+After the time of Socrates, humankind's progress in adult education experiences a small gap.
+
+(NEXT FRAG canyon)
+
+The 1926 paper /The Meaning of Adult Education/, by Eduard C. Lindeman, reignited the subject of learning and established a scientific, research oriented approach to understanding how adults learn.  
+
+It's helpful to remember that the science of learning is a young science.
+
+(NEXT SLIDE RIGHT)
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+#+END_NOTES
+
+** Two faces of education
+- Outside In
+- Inside Out
+
+#+BEGIN_NOTES 
+The meaning of the word education is surrounded by scholarly debate, stemming from the two branches of its latin roots.
+
+These two faces of education can be generally described as /Outside In/ vs /Inside Out/. 
+
+(NEXT SLIDE DOWN)
+
+.
+
+.
+
+.
+
+.
+#+END_NOTES
+
+*** Outside In
+educare: to train or mold
+
+#+BEGIN_NOTES 
+The latin /educare/ means: to train or mold.
+
+Proponents of the "outside in" perspective of education seek to impart knowledge and form students by shaping them according to templates of idealized virtues and skill.
+
+As in, "The University educates its students by exposing them to knowledge."
+
+When I first encountered the Clojure programming language, I'd never heard anyone distinguish between identity, values & time.
+
+I definitely needed some "outside in" education!
+
+(NEXT SLIDE DOWN)
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+#+END_NOTES
+
+*** Inside Out
+educere: to lead out
+#+BEGIN_NOTES 
+The latin /educere/ means: to lead out.
+
+Advocates of the "inside out" perspective of education seek to prepare the student for the unpredictable challenges of the future by focusing the pupil's attention on the process of acquiring new skills and knowledge.
+
+As in, "The students education is most evident in their lifelong curiosity about science and the world in which they live."
+
+I take the position that both faces of education have their ideal time and place, and that we are in the early stages of discovering an ideal balance between the two.
+
+The science and math scores in the U.S. over the past couple decades show an over-reliance on outside-in education.
+
+Students here in the U.S. are given a new problem, immediately followed by the recipe to solve the problem.
+
+In German, Japan and other high performing countries, students are challenged to think through the problem, after being reminded of recent supportive lessons.
+
+Then students work in teams to try to solve the problem.
+
+Only then, is the answer revealed, after which students compare their own strategies with the, quote "official answer".
+
+Educators call this 'productive struggle'. 
+
+I like to call it 'structured struggle', but whatever you call it, at its heart it's a prime example of "Inside Out" learning.
+
+Even Socrates would be proud!
+
+(NEXT SLIDE DOWN)
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+#+END_NOTES
+
+** Review the question
+How much do I value learning?
+
+#+BEGIN_NOTES 
+We've discovered some new ways of thinking about education and learning which will help ask this question of ourselves again, this time with a deeper sense of meaning:
+
+How much do I value learning?
+
+Now it's time to talk about answers.
+
+(NEXT SLIDE RIGHT)
+
+.
+
+.
+
+.
+
+.
+
+.
+#+END_NOTES
+
 * The answer
 How can I measure how much value I place on learning?
+
+#+BEGIN_NOTES 
+So, how /*can*/ I measure how much value I place on learning?
+
+(NEXT SLIDE)
+#+END_NOTES
+
+** Axiology
+*** Intrinsic vs Instrumental 
 ** Answers aren't everything
 Questions are powerful on their own.
 
 I think this one is worth revisiting again and again.
 #+BEGIN_NOTES 
-This question could have been tackled any number of ways. I stumbled upon this one by following my nose and trying not to fall behind my deadline. Oh time! I would enjoy revisiting the question anew, perhaps from a purely mathematical perspective. The options are endless, but decisions must be made, which by definition means possibilities are temporarily killed off. Decide - /de/ *to cull away* - /cide/ *to kill*. Like insecticide for the pesky ideas that don't fit the narrative, needs or time constraints of a project.
+This question could have been tackled any number of ways. I stumbled upon this one by following my nose and trying not to fall behind on my deadline. Oh time! I would enjoy revisiting the question anew, perhaps from a purely mathematical perspective. The options are endless, but decisions must be made, which by definition means possibilities are temporarily killed off. Decide - /de/ *to cull away* - /cide/ *to kill*. Like insecticide for the pesky ideas that don't fit the narrative, needs or time constraints of a project.
 #+END_NOTES
 ** How would you go about it?
 #+BEGIN_NOTES 
-Give the audience a chance to grapple with the question
+Before I dive into how I went about answering this question for myself, maybe you'd like to take a minute ask yourself the question:
+
+How can I measure how much value I place on learning?
+
 #+END_NOTES
 ** The instrumental value of my learning based on 1000 point scale of importance.
 *** Use my perspective to plant seeds in others minds, like impoverished saving me, not other way around. Not saying stupid people.
@@ -565,23 +962,6 @@ Live as if you were to die tomorrow. Learn as if you were to live forever. -- Ma
 
 
 # The Value of Learning
-* 
- :PROPERTIES:
- :reveal_extra_attr: data-state="hide-video"
- :reveal_background_size: 100%
- :reveal_background: /resources/images/red-blue/the-value-of-learning-red-blue.png
- :END:
-
-   #+BEGIN_NOTES
-
-   "The Value of Learning."
-
-   Just how much do I value learning? 
-
-   How can I determine how much value I place on something like learning?
-
-   If I discover that I value learning greatly, how can I live a life consistent with this core value?
-   #+END_NOTES
 * Problems We're Trying Solve: Too much Struggle with Agenda, Not enough (or too much) with lessons!
 ** Richer, more personally customized learning paths (Agenda)
 *** Open Data Format - Community maintained.
