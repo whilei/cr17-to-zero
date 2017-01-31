@@ -237,57 +237,26 @@ div#redpill-box {
     top: $videoHeight + $slidesPadding*2;
     /* height: 100% - $videoHeight - $slidesPadding*2; */
     bottom: $slidesPadding * 2;
-    right: $slidesPadding; 
-
-    /* border: 2px dashed red; */
+    right: $slidesPadding;
 }
 
+.figure.redpill {
+    p .qrcode {
+        @include vertical-align-at(relative, 100%);
+        img {
+            margin: auto;
+        }
+    }
+}
 
-
-/* //The Red pill! ... */
-// this was work on a bounding box for the area. it's complicated :pill:
-/* #redpill { */
-/*     position: fixed; */
-/*     display: inline-block; */
-/*     /\* default  *\/ */
-/*     /\* display: none; *\/ */
-/*     top: $videoHeight; */
-/*     right:0; */
-/*     width: $videoWidth; */
-/*     height: 100% - $videoHeight; */
-/*     text-align: center; */
-/*     #theredpill { */
-/*         position: relative; */
-/*         height: $videoHeight * 0.7; */
-/*         width: $videoWidth * 0.75; */
-/*         border-radius: 30%/50%; */
-/*         background-color: firebrick; */
-/*         margin: auto; */
-/*         transform: rotate(33deg) !important; */
-/*         @include vertical-align-at(relative, 30%); */
-/*     } */
+/* .qrcode { */
+/*     z-index: 50; */
+/*     max-width: 50%; */
+/*     margin: auto; */
+/*     position: absolute; */
+/*     bottom: -50px; */
+/*     right: -50px; */
 /* } */
-
-img.redpill-image {
-    display: inline-block;
-    /* margin-top: $videoWidth !important; */
-    /* margin-left: 100% + $videoWidth - $slidesPadding*2 !important; */
-    max-height: $videoHeight - $slidesPadding * 2 !important;
-    max-width: $videoWidth - $slidesPadding * 2 ;
-
-    border: none !important;
-
-    /* z-index: 100; */
-}
-
-div.qrcode {
-    z-index: 50;
-    max-width: 50%;
-    margin: auto;
-    position: absolute;
-    bottom: -50px;
-    right: -50px;
-}
 
 
 // Background generator

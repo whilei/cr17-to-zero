@@ -234,18 +234,21 @@ function formatRedpillFigures(event) {
                 var imageFigure = findAncestor(image, ".figure");
                 console.log("figure", imageFigure);
 
-                var imageCoords = getOffset(imageFigure);
-                console.log("figureCoords", imageCoords);
+                var imageFigureCoords = getOffset(imageFigure);
+                console.log("figureCoords", imageFigureCoords);
 
                 var deltaTop, deltaLeft;
                 // check if we've been through this already so not to dupe..
                 if (alreadyFormatted(event, redImgSrc)) {
-                    deltaTop = rpBoxCoords.top - imageCoords.top;
-                    deltaLeft = rpBoxCoords.left - imageCoords.left;
+                    deltaTop = rpBoxCoords.top - imageFigureCoords.top;
+                    deltaLeft = rpBoxCoords.left - imageFigureCoords.left;
                 } else {
                     // no idea why have to do this...
-                    deltaTop = (rpBoxCoords.top - imageCoords.top) + 20;
-                    deltaLeft = (rpBoxCoords.left - imageCoords.left) + 76;
+
+                    imageFigure.className += " redpill ";
+
+                    deltaTop = (rpBoxCoords.top - imageFigureCoords.top) + 20;
+                    deltaLeft = (rpBoxCoords.left - imageFigureCoords.left) + 76;
                     setAsFormatted(event, redImgSrc); // so don't have to add the extra spacer
 
 
@@ -253,8 +256,10 @@ function formatRedpillFigures(event) {
                         var qrHere = document.createElement("div");
                         qrHere.id = getUniqueFigureID(event, redImgSrc);
                         qrHere.className += " qrcode ";
-                        imageFigure.children[0].append(qrHere);
-                        var qr = createQRImage(qrHere, {text: qrData});
+                        imageFigure.children[0].append(qrHere); // div.figure > p > img[redpill]
+                        var size = image.height < image.width ? image.height : image.width;
+                        size += -40; // smaller than smallest side of image by this much
+                        var qr = createQRImage(qrHere, {text: qrData, height: size, width: size});
                     }
                 }
 
