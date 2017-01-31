@@ -123,7 +123,8 @@
 				}
 
 				.speaker-controls-notes {
-					padding: 10px 16px;
+          border-top: 1px solid lightblue;
+					padding: 5px 16px;
 				}
 
 				.speaker-controls-notes .value {
@@ -174,7 +175,7 @@
 			</div>
 
 			<div class="speaker-controls-notes hidden">
-				<h4 class="label">Notes</h4>
+				<!-- <h4 class="label">Notes</h4> -->
 				<div class="value"></div>
 			</div>
 		</div>
@@ -182,7 +183,21 @@
 		<script src="../../plugin/markdown/marked.js"></script>
 		<script>
 
-			(function() {
+     //animate scroll top for visual reference
+     //http://stackoverflow.com/questions/8917921/cross-browser-javascript-not-jquery-scroll-to-top-animation
+     function scrollTo(element, to, duration) {
+         if (duration <= 0) return;
+         var difference = to - element.scrollTop;
+         var perTick = difference / duration * 10;
+
+         setTimeout(function() {
+             element.scrollTop = element.scrollTop + perTick;
+             if (element.scrollTop === to) return;
+             scrollTo(element, to, duration - 10);
+         }, 10);
+     }
+
+     (function() {
 
 				var notes,
 					notesValue,
@@ -259,6 +274,8 @@
 						else {
 							notesValue.innerHTML = data.notes;
 						}
+              /* scrollTo(notes, 0, 100);*/ // animates scroll on down-arrow key. no go.
+              notes.scrollTop = 0; // set notes window scroll to top
 					}
 					else {
 						notes.classList.add( 'hidden' );
