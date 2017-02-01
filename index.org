@@ -1015,8 +1015,73 @@ How can I measure how much value I place on learning?
 .
 #+END_NOTES
 
+** My valuation method
 
+todo isaac frag this whole bulleted list as one thing please :)
 
+- Health
+
+- Family
+
+- Friends
+
+- Community
+
+- Art
+
+- Career / Business
+
+- Fun / Hobbies / Recreation
+
+- Philosophical / Spiritual
+
+- Personal Finance
+
+- Personal Development & Learning
+
+#+BEGIN_NOTES 
+How can I measure the value I place on learning?
+
+The method I've chosen aims to quantify the role of learning in my life.
+
+My general strategy is to look back over my life, identify significant memories, where learning played a central role, and try to assign a quantifiable value that memory somehow.
+
+How can I break this big problem up in to smaller pieces?
+
+Inspired by Maslow's hierarchical pyramid of needs, and borrowing from the plethora of life-coaching material on then internet, I've divided my life into 10 major categories.
+
+(NEXT FRAG)
+
+These are: Health, Family, Friends, Community, Art, Career / Business, Fun / Hobbies/ Recreation, Philosophical / Spiritual, Personal Finance, Personal Development & Learning.
+
+These categories serve a dual purpose.
+
+First, they serve as a way for me to look back on my life memories and recall stories about learning that relate to a given category.
+
+I found this very helpful 
+
+**********
+Health
+
+Family
+
+Friends
+
+Community
+
+Art
+
+Career / Business
+
+Fun / Hobbies / Recreation
+
+Philosophical / Spiritual
+
+Personal Finance
+
+Personal Development & Learning
+**********
+#+END_NOTES
 * The actions
 What actions are consistent with this value?
 ** If we value learning, why not get better at it, instead of dribbling the ball incessantly. 
