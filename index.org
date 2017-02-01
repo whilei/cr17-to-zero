@@ -717,11 +717,11 @@ Even Socrates would be proud!
 How much do I value learning?
 
 #+BEGIN_NOTES 
-We've discovered some new ways of thinking about education and learning which will help ask this question of ourselves again, this time with a deeper sense of meaning:
+We've discovered some new ways of thinking about education & learning. Now we can ask the question again, this time with a deeper sense of meaning:
 
 How much do I value learning?
 
-Now it's time to talk about answers.
+Now it's time to look for an answer. And while we're at it, we'll discover how Betty Edwards accelerates the pace of her student's progress. 
 
 (NEXT SLIDE RIGHT)
 
@@ -742,132 +742,280 @@ How can I measure how much value I place on learning?
 #+BEGIN_NOTES 
 So, how /*can*/ I measure how much value I place on learning?
 
-(NEXT SLIDE)
+(NEXT SLIDE DOWN)
+
+.
+
+.
+
+.
 #+END_NOTES
 
 ** Axiology
-*** Intrinsic vs Instrumental 
-** Answers aren't everything
-Questions are powerful on their own.
+The philosophical study of value.
+#+BEGIN_NOTES 
+Pursuing this question led me to the field of axiology, which is the philosophical study of value.
 
-I think this one is worth revisiting again and again.
-#+BEGIN_NOTES 
-This question could have been tackled any number of ways. I stumbled upon this one by following my nose and trying not to fall behind on my deadline. Oh time! I would enjoy revisiting the question anew, perhaps from a purely mathematical perspective. The options are endless, but decisions must be made, which by definition means possibilities are temporarily killed off. Decide - /de/ *to cull away* - /cide/ *to kill*. Like insecticide for the pesky ideas that don't fit the narrative, needs or time constraints of a project.
+This study dates back to the time of ancient Greece, when Plato first wrote about the distinction between intrinsic value and instrumental value.
+
+(NEXT SLIDE DOWN)   
+
+(source: https://en.wikipedia.org/wiki/Value_theory)
+
+(source: https://www.supermemo.com/articles/goodness.htm)
+
+(source: https://en.wikipedia.org/wiki/Axiology)
+
+.
+
+.
+
+.
 #+END_NOTES
-** How would you go about it?
+
+*** Intrinsic vs Instrumental
 #+BEGIN_NOTES 
-Before I dive into how I went about answering this question for myself, maybe you'd like to take a minute ask yourself the question:
+According to axiology, learning has intrinsic value if it is valuable in and of itself.
+
+Learning has instrumental value if it serves as a means toward achieving something else.
+
+As in, "Learning to speak German helped me make new friends in Berlin."
+
+(NEXT SLIDE DOWN)
+
+.
+
+.
+
+.
+#+END_NOTES
+
+*** Limitations of Axiology
+#+BEGIN_NOTES 
+Axiology provides a helpful framework for /thinking and talking/ about the value of something, because values are more nebulous than facts.
+
+If values were facts, we could seek an answer to our question scientifically. Is there a way to convert values into facts?
+
+What other fields might help us?
+
+(NEXT SLIDE DOWN)
+
+.
+
+.
+
+.
+#+END_NOTES
+
+** Value Theory
+isaac todo frag a picture of Maslow's hierarchy of needs (see source ref)
+
+#+BEGIN_NOTES 
+Value theory is a modern approach to understanding value. It stems from axiology, but seeks to determine value through scientific observation.
+
+What do people value and why? Psychology, sociology and economics each provide a unique lens through which to study value.
+
+For example, a sociologist might be interested in how different groups of people value learning similarly or differently.
+
+An economist might choose to measure the value of learning in terms of goods and services related to learning which are sold in the marketplace.
+
+They might also point out 'opportunity cost' as a means of assessing the value of learning.
+
+If I choose to learn to speak German, what return on investment could've been realized with an alternate and equal investment in time and money?
+
+A psychologist might seek to measure the value of learning by categorizing learning subjects according to Maslow's hierarchy of needs.
+
+Value theory is encouraging us to find a quantifiable way of measuring the value of learning.
+
+(NEXT SLIDE DOWN)
+
+(source: https://en.wikipedia.org/wiki/Value_theory)
+
+(source: https://en.wikipedia.org/wiki/Maslow's_hierarchy_of_needs)
+
+.
+
+.
+
+.
+
+.
+#+END_NOTES
+
+** Pragmatism
+
+#+BEGIN_NOTES 
+It's worth noting that some philosophers entirely reject the idea of intrinsic value.
+
+John Dewey, in his book /Theory of Valuation/, sees the process of valuation as a continuous balancing of objectives, which change over time with new information.
+
+(NEXT SLIDE DOWN)
+
+.
+
+.
+
+.
+
+.  
+#+END_NOTES
+
+** Flip the question
+
+#+BEGIN_NOTES 
+At this point in my research, I thought of a potential shortcut to answering the question. What if we could prove that learning was harmful?
+
+We're in the age of information. Knowledge streams across the internet at up to two thirds the speed of light. Isn't it possible that malicious actors could use this information destructively?
+
+I'm learning to program, and I want to help others learn too. Are these actions helping society or are they hurting?
+
+This is an important question! If they're hurting, I should cease and desist now.
+
+ 
+
+
+(NEXT SLIDE DOWN)
+
+.
+
+.
+
+.
+
+.
+
+.
+
+(source: https://techcrunch.com/2015/11/08/data-the-speed-of-light-and-you/)
+#+END_NOTES
+
+** Is learning harmful?
+isaac todo frag this:
+- Piotr Wozniak, /Is knowledge "good" or "neutral"?/
+
+- supermemo.com
+
+
+isaac todo red pill hyperlink to https://www.supermemo.com/articles/goodness.htm
+
+#+BEGIN_NOTES 
+So, /*is*/ learning harmful?
+
+Upon asking this question, I struck gold in finding the article (NEXT FRAG) /Is knowledge "good" or "neutral"?/
+
+The author, Piotr Wozniak, raises some of the same questions I was asking myself about malicious actors in the world.
+
+Wozniak claims that Knowledge is good.
+
+The article supports this claim by elaborating in great detail over a simple five-step chain of reasoning.
+
+Wozniak argues that humans benefit through cooperation and lose out on conflict, and claims this truth can be demonstrated mathematically with the tools of game theory.
+
+This article was chiefly responsible for justifying my natural instinct to help others learn.
+
+We don't have time to walk through his reasoning in detail, but I highly recommend this article as an exercise in critical thinking.
+
+After reading the article, I noticed that I felt a bit more lighthearted in my work.
+
+I'm convinced it helped relieve my cognitive dissonance about facilitating technological advances for our society.
+
+You can scan (NEXT FRAG) the red pill below which includes a link to the article, so you'll have it in your phone.
+
+The talk will also be available as a video and a web page if you prefer to just relax and listen.
+
+I'll just pause for a few seconds and let all of that sink in.
+
+(WAIT 12 seconds)
+
+(NEXT SLIDE)
+
+.
+
+.
+
+.
+
+.
+
+.
+#+END_NOTES
+
+** Systems of value
+- hedonism
+- religion
+- scientific axiology
+
+#+BEGIN_NOTES 
+Wozniak's article also serves as a gentle introduction to axiology and value theory.
+
+There are three major systems of value: hedonism, religion and scientific axiology.
+
+Hedonism values pleasure and devalues pain. It's been around since multi-celled organisms developed nervous systems.
+
+Religion uses faith and reason to ascribe value.
+
+And Scientific axiology strives to measure value using only the scientific method. 
+
+All other systems of value can be categorized in or among these three.
+
+Most people apply a conglomeration of these three value systems to evaluate their goals.
+
+(NEXT SLIDE DOWN)
+
+.
+(time since start of answer 6:45)
+.
+
+.
+
+.
+
+.
+#+END_NOTES
+
+** Method Formulation
+
+#+BEGIN_NOTES 
+Okay, we've covered the basics of value systems. Now its time for me to come up with a method to measure the value of learning. 
+
+
+(NEXT SLIDE DOWN)
+
+.
+
+.
+
+.
+
+.
+#+END_NOTES
+
+** How would you go about it?
+How can I measure the value I place on learning?
+
+#+BEGIN_NOTES 
+Before I dive into how I answered this question, maybe you'd like to take a minute to think about the question for yourself:
 
 How can I measure how much value I place on learning?
 
+(WAIT 25 seconds)
+
+
+(NEXT SLIDE DOWN)
+
+.
+
+.
+
+.
+
+.
+
+.
 #+END_NOTES
-** The instrumental value of my learning based on 1000 point scale of importance.
-*** Use my perspective to plant seeds in others minds, like impoverished saving me, not other way around. Not saying stupid people.
-*** 1000 basic needs: food, water, clothing, shelter.
-
-*** Topsy turvy world view of my childhood - stars on the ceiling
-**** Sunset story
-*** Child like sense of curiosity, awe and wonder - Nature/Even from a magazine Wow!, Pepper/Insects/Thanksgiving
-**** Exceptions! https://www.theatlantic.com/health/archive/2016/09/is-awe-really-good-for-you/501086/
-
-*** Finding Clojure 
-    :PROPERTIES:
-    :reveal_extra_attr: redpill-img-src="/resources/images/800px-Pill-threshold00.png"
-    :END:
-
-  #+ATTR_REVEAL: :frag t
-  file:resources/images/800px-Pill-threshold00.png
-
-
-  #+BEGIN_NOTES 
-     My path to finding Clojure has been long and sometimes painful.
-
-     I'd like to help other newcomers find it before they suffer the bumps and bruises I've experienced. 
-
-     I started programming at age 10.  By age 12, I was more interested in riding my bike than in staying inside the house.
-
-     A few years ago, I started dabbling in programming again, in my spare time.
-
-     I grew an interest in web applications, and had multiple ideas for potential businesses.
-
-     I looked for 'easy' ways to make web apps.
-
-     Even though I the lessons I learned 20 years before about technical study were generally helpful, I picked up a way of thinking that needed to be unlearned.
-
-     And given my sometimes stubborn nature, I had to learn the following lesson twice: Stop trying to do it the easy way!
-
-     Twice, I tried to learn an 'easy' web framework, when I should have been focused on the fundamentals of programming.
-
-     By the time I heard Rich Hickey's talk, Simple Made Easy, I was totally receptive to his message.
-
-     In my own words, what I learned from him is that many approaches appear easy at first glance. But most /easy/ systems are actually highly complicated systems masquerading behind a thin veil of superficial usability.
-
-     These systems will consume more time and resources the further a team gets into a greenfield project, before eventually grinding the progress of customization requests to a near halt.
-
-     My main goal is to work with code and technology which facilitates understanding, allowing the team to focus on the domain problem at hand.
-
-     I want to avoid being forced by my technology stack into saying, "No! Sorry, we can't do that, because the system won't allow it!"
-
-     The main reason I've chosen Clojure is that I want to learn to think about the fundamentals of programming in the same way that Rich Hickey does - identities, values, time, these are his fundamental building blocks.
-
-     Masters of a craft, discover, not only its essence, but how to practice it with great efficiency.
-
-     Who are the professionals? What results are they achieving? And how are they achieving those results.
-
-     I will save time, not by finding the easy way, but by mastering the fundamentals that bring very difficult problems within the reach of mortals, like me. Thank you Rich Hickey! 
-  #+END_NOTES 
-*** Philosophy - Stoics (Tim Ferris calls ideal personal operating system)
-*** Time - First, Second aha!
-*** Long Wave - Not just investing, but timing things, like education
 
 
 
-**** Sold my house in July of 2007.
-
-*** Career in IT
-
-   After college, over 20 years ago, I wanted to pursue a career in IT.
-
-   I decided to try a shortcut to breaking into the industry. I would get /*'certified'*/.
-
-   There was just one problem.
-
-   Despite 18 years of being a student, from pre-school to undergrad engineering degree, I had /*sparse*/ confidence in my own ability to efficiently learn.
-
-   I signed up for a 6 month certification program, but delayed starting by 2 months, in order to study the /science of learning/. 
-
-   I was the first student to complete the local training program. I passed my tests with flying colors.
-
-   I landed two job offers in my first two interviews, and my career in IT was established.
-
-   My brief studies about learning taught me to focus on understanding vocabulary and demonstrating practical skill. 
-
-   I purchased two computers from a trade show for $400, set them up with multiple boot configurations, and materialized every example in my text books into real world use cases.
-
-   I also got a job at the certification office on the weekends, setting up workstations for the next week's courses, where I logged just over 2400 system installations.
-
-   I executed two successful job interviews in a row, allowing me to choose a place to begin my career.
-
-   These actions were /all/ inspired by /investing/ 2 months of my life in learn about learning.
-   
-   My shortcut driven efforts paid off in terms of personal finances, but were costly in other ways, which I'll explain soon.
-
-*** Clojure
-**** Why Clojure - React Native holism etc.
-*** Family, friends and human relationships
-**** Vipassana Mediation - Understanding the mind/body commection
-***** Anger and emotional turmoil is no respecter of religion or philosophy
-*** Co-Intelligence & Futurism
-**** TODO https://www.brainpickings.org/2016/03/31/dostoyevsky-reason-emotion/ find quote
-*** Learning from failure yields long term success
-Therefore learning, not winning is the greater value.
-*** Know thyself, know others, 16 Personalities 
-*** Learning about learning
-There's a parallel between the drawings we saw at the start of this talk and the skill of learning, both are technical skills. I could poke around at drawing for years, or I could absorb the fundamentals from a master and use that framework to accelerate my progress.
-
-That framework, as it turns out, is vitally important to genuine understanding. TODO University Study.
-*** Learning is Adapting
-And adapting is human. (Tie in Clojure connection)
 * The actions
 What actions are consistent with this value?
 ** If we value learning, why not get better at it, instead of dribbling the ball incessantly. 
@@ -888,10 +1036,15 @@ What actions are consistent with this value?
 ** Everyone a teacher, video, microphone, record and publish.
 ** 
 * Closing
+
 ** 
 #+BEGIN_QUOTE
 Live as if you were to die tomorrow. Learn as if you were to live forever. -- Mahatma Gandhi
 #+END_QUOTE
+
+
+
+
 
 * What is the difference between Learning and Education
 ** Inside Out vs Outside In
@@ -1056,6 +1209,127 @@ The work is quite feasible, and is the only thing in our power.…Let go of the 
 ** A community-centered brainstorming session facilitated by vulnerably sharing my unconventional ideas about learning to program, and graciously inviting others to share their own. An experiment in group problem solving applied to the problem of learning 'Clojure'.
 *** 'Clojure' as used here is a heavily overloaded term, referring the body of knowledge encompassing Clojure(ish) technologies: ClojureScript, Datomic, React, React Native, bash/zshell, deployment technologies such as immutable infrastructure etc. etc. etc.
 ** I intend to foster an interactive conversation with my audience about how we can create stronger and more creative mentor/apprentice relationships in our growing community. The jumping off point would be my personal learning path of going from Hero to Zero. (Hero to Zero is a greatly overloaded term that is meaningful to me, but likely mysterious to others, so it will be a conversational thread wherein I can relay my personal experience of learning programming and Clojure.)
+
+
+* Answers aren't everything
+Questions are powerful on their own.
+
+I think this one is worth revisiting again and again.
+
+#+BEGIN_NOTES 
+This question could have been tackled any number of ways. I stumbled upon this one by following my nose and trying not to fall behind on my deadline. 
+
+
+
+I would enjoy revisiting the question anew, perhaps from a purely mathematical perspective. The options are endless, but decisions must be made, which by definition means possibilities are temporarily killed off. Decide - /de/ *to cull away* - /cide/ *to kill*. Like insecticide for the pesky ideas that don't fit the narrative, needs or time constraints of a project.
+#+END_NOTES
+** The instrumental value of my learning based on 1000 point scale of importance.
+*** Use my perspective to plant seeds in others minds, like impoverished saving me, not other way around. Not saying stupid people.
+*** 1000 basic needs: food, water, clothing, shelter.
+
+*** Topsy turvy world view of my childhood - stars on the ceiling
+**** Sunset story
+*** Child like sense of curiosity, awe and wonder - Nature/Even from a magazine Wow!, Pepper/Insects/Thanksgiving
+**** Exceptions! https://www.theatlantic.com/health/archive/2016/09/is-awe-really-good-for-you/501086/
+
+*** Finding Clojure 
+    :PROPERTIES:
+    :reveal_extra_attr: redpill-img-src="/resources/images/800px-Pill-threshold00.png"
+    :END:
+
+  #+ATTR_REVEAL: :frag t
+  file:resources/images/800px-Pill-threshold00.png
+
+
+  #+BEGIN_NOTES 
+     My path to finding Clojure has been long and sometimes painful.
+
+     I'd like to help other newcomers find it before they suffer the bumps and bruises I've experienced. 
+
+     I started programming at age 10.  By age 12, I was more interested in riding my bike than in staying inside the house.
+
+     A few years ago, I started dabbling in programming again, in my spare time.
+
+     I grew an interest in web applications, and had multiple ideas for potential businesses.
+
+     I looked for 'easy' ways to make web apps.
+
+     Even though I the lessons I learned 20 years before about technical study were generally helpful, I picked up a way of thinking that needed to be unlearned.
+
+     And given my sometimes stubborn nature, I had to learn the following lesson twice: Stop trying to do it the easy way!
+
+     Twice, I tried to learn an 'easy' web framework, when I should have been focused on the fundamentals of programming.
+
+     By the time I heard Rich Hickey's talk, Simple Made Easy, I was totally receptive to his message.
+
+     In my own words, what I learned from him is that many approaches appear easy at first glance. But most /easy/ systems are actually highly complicated systems masquerading behind a thin veil of superficial usability.
+
+     These systems will consume more time and resources the further a team gets into a greenfield project, before eventually grinding the progress of customization requests to a near halt.
+
+     My main goal is to work with code and technology which facilitates understanding, allowing the team to focus on the domain problem at hand.
+
+     I want to avoid being forced by my technology stack into saying, "No! Sorry, we can't do that, because the system won't allow it!"
+
+     The main reason I've chosen Clojure is that I want to learn to think about the fundamentals of programming in the same way that Rich Hickey does - identities, values, time, these are his fundamental building blocks.
+
+     Masters of a craft, discover, not only its essence, but how to practice it with great efficiency.
+
+     Who are the professionals? What results are they achieving? And how are they achieving those results.
+
+     I will save time, not by finding the easy way, but by mastering the fundamentals that bring very difficult problems within the reach of mortals, like me. Thank you Rich Hickey! 
+  #+END_NOTES 
+*** Philosophy - Stoics (Tim Ferris calls ideal personal operating system)
+*** Time - First, Second aha!
+*** Long Wave - Not just investing, but timing things, like education
+
+
+
+**** Sold my house in July of 2007.
+
+*** Career in IT
+
+   After college, over 20 years ago, I wanted to pursue a career in IT.
+
+   I decided to try a shortcut to breaking into the industry. I would get /*'certified'*/.
+
+   There was just one problem.
+
+   Despite 18 years of being a student, from pre-school to undergrad engineering degree, I had /*sparse*/ confidence in my own ability to efficiently learn.
+
+   I signed up for a 6 month certification program, but delayed starting by 2 months, in order to study the /science of learning/. 
+
+   I was the first student to complete the local training program. I passed my tests with flying colors.
+
+   I landed two job offers in my first two interviews, and my career in IT was established.
+
+   My brief studies about learning taught me to focus on understanding vocabulary and demonstrating practical skill. 
+
+   I purchased two computers from a trade show for $400, set them up with multiple boot configurations, and materialized every example in my text books into real world use cases.
+
+   I also got a job at the certification office on the weekends, setting up workstations for the next week's courses, where I logged just over 2400 system installations.
+
+   I executed two successful job interviews in a row, allowing me to choose a place to begin my career.
+
+   These actions were /all/ inspired by /investing/ 2 months of my life in learn about learning.
+   
+   My shortcut driven efforts paid off in terms of personal finances, but were costly in other ways, which I'll explain soon.
+
+*** Clojure
+**** Why Clojure - React Native holism etc.
+*** Family, friends and human relationships
+**** Vipassana Mediation - Understanding the mind/body commection
+***** Anger and emotional turmoil is no respecter of religion or philosophy
+*** Co-Intelligence & Futurism
+**** TODO https://www.brainpickings.org/2016/03/31/dostoyevsky-reason-emotion/ find quote
+*** Learning from failure yields long term success
+Therefore learning, not winning is the greater value.
+*** Know thyself, know others, 16 Personalities 
+*** Learning about learning
+There's a parallel between the drawings we saw at the start of this talk and the skill of learning, both are technical skills. I could poke around at drawing for years, or I could absorb the fundamentals from a master and use that framework to accelerate my progress.
+
+That framework, as it turns out, is vitally important to genuine understanding. TODO University Study.
+*** Learning is Adapting
+And adapting is human. (Tie in Clojure connection)
 
 * Why am I the person giving this talk?
 *** TODO Long and documented history of putting my foot in my mouth
