@@ -240,12 +240,36 @@ div#redpill-box {
     right: $slidesPadding;
 }
 
+/* // redpill v1, where redpill/twitter image are icon-ish and fall above distinct qr below */
+/* .figure.redpill { */
+/*     max-height: $videoHeight - $slidesPadding*2; */
+/*     // the "original" image from the .figure, ie redpill.png */
+/*     p > img { */
+/*         /\* position: absolute; *\/ */
+/*         /\* max-height: 100% !important; *\/ */
+/*         max-height: 64px !important; */
+/*     } */
+/*     p .qrcode { */
+/*         /\* @include vertical-align-at(relative, 100%); *\/ */
+/*         margin-left: auto; */
+/*         margin-right: auto; */
+/*         /\* position: absolute; *\/ */
+/*         /\* bottom: 0; *\/ */
+/*         img { */
+/*             margin: auto; */
+/*         } */
+/*     } */
+/* } */
+
+// redpill v2, where redpill image is big and contains qr code inside
 .figure.redpill {
     max-height: $videoHeight - $slidesPadding*2;
+    // the "original" image from the .figure, ie redpill.png
     p > img {
         /* position: absolute; */
         /* max-height: 100% !important; */
-        max-height: 64px !important;
+        /* max-height: 64px !important; */
+        max-height: 256px !important;
     }
     p .qrcode {
         /* @include vertical-align-at(relative, 100%); */
@@ -254,10 +278,22 @@ div#redpill-box {
         /* position: absolute; */
         /* bottom: 0; */
         img {
+            /* border: 2px solid $backgroundColor; */
+            /* margin: auto; */
+            border: 10px solid #545f66 !important;
+            border-radius: 3px;
             margin: auto;
+            position: absolute;
+            top: 51px;
+            left: 170px;
+            height: 128px;
+
         }
     }
 }
+
+
+// ensure qr show up with and only with sibling image (ie redpill)
 .figure.redpill > p > img.fragment + div.qrcode {
     opacity: 0;
     transition: opacity 500ms;
