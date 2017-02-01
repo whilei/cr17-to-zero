@@ -248,6 +248,17 @@ div#redpill-box {
         }
     }
 }
+.figure.redpill > p > img.fragment + div.qrcode {
+    /* visibility: hidden; */
+    opacity: 0;
+    transition: opacity 500ms;
+}
+.figure.redpill > p > img.fragment.visible + div.qrcode {
+    /* visibility: visible; */
+    opacity: 1;
+}
+
+
 
 /* .qrcode { */
 /*     z-index: 50; */
