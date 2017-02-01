@@ -107,7 +107,8 @@ And how long for this much improvement?
 ** 5 days
 :PROPERTIES:
 # :reveal_extra_attr: redpill-img-src="/resources/images/Introduction/bell212.jpg"
-:reveal_extra_attr: redpill-img-src="/resources/images/twitter-bird-944px.svg.png" qr-data="http://twitter.com/intent/tweet?text=Can you fly that thing? Not yet...  &hashtags=valueoflearning,bettyedwards"
+# :reveal_extra_attr: redpill-img-src="/resources/images/twitter-bird-944px.svg.png" qr-data="http://twitter.com/intent/tweet?text=Can you fly that thing? Not yet...  &hashtags=valueoflearning,bettyedwards"
+:reveal_extra_attr: redpill-img-src="/resources/images/red-pill.svg.png" qr-data="http://twitter.com/intent/tweet?text=Can you fly that thing? Not yet...  &hashtags=valueoflearning,bettyedwards"
 :END:
 
  #+ATTR_REVEAL: :frag t
@@ -119,8 +120,9 @@ And how long for this much improvement?
  - ~@DRSB_Edwards~
 
  #+ATTR_REVEAL: :frag t
- file:resources/images/twitter-bird-944px.svg.png
- 
+ file:resources/images/red-pill.svg.png
+
+ # file:resources/images/twitter-bird-944px.svg.png
 
  #+BEGIN_NOTES
  5 days. That's it. These people, people not unlike you or me, learned the technical fundamentals of drawing in only *5 days*. 
