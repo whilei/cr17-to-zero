@@ -236,7 +236,7 @@
 		// Holds information about the keyboard shortcuts
 		keyboardShortcuts = {
 			'N  ,  SPACE':			'Next slide',
-			'P':					'Previous slide',
+			'P  ,  DEL':					'Previous slide',
 			'&#8592;  ,  H':		'Navigate left',
 			'&#8594;  ,  L':		'Navigate right',
 			'&#8593;  ,  K':		'Navigate up',
@@ -4022,7 +4022,7 @@
 
 			switch( event.keyCode ) {
 				// p, page up
-				case 80: case 33: navigatePrev(); break;
+			  case 80: case 33: case 8: navigatePrev(); break;
 				// n, page down
 				case 78: case 34: navigateNext(); break;
 				// h, left
