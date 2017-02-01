@@ -79,3 +79,55 @@ We need teachers, not instruction-manual authors. We need students, not copycats
 
 
 ** Language likes to grow. 
+* Clojure, meet Learning
+Clojure has a lot going for it on the learning front. A vibrant, welcoming community. A charasmatic and sharp key figure, Rich Hickey. And REPL. 
+
+REPL! **REPL!!** 
+
+Among doctors, anathesiologists have the relatively highest measurable accuracy of 'intuition,' more so than surgeons, therapists, ENT's, GI's... the list goes on. It's not because they are cleverer or that they self-select as scientifically- abstractly(math)-oriented. It's because they get feedback quickly. In fact, they weren't always so adept. Anathesia used be a _very_ clumsy science; whiskey and bullets, chloroform and morphine were about as good as it got. And, yes, those tools still work! But, aside from improved chemistry, what anathesiologists have today that they didn't 100 or even 20 years ago is exceptionally responsive monitoring devices. They can watch a patient's blood levels, cardiac rhythms, and a variety of other bio-feedback variables in realtime. While on the other hand, a surgeon's feedback comes hours, days, or even months after the fact. Leave some pliers in the abdomen? Better check your email... But anathesiologists have REPLs. 
+
+Immediate feedback is critical for learning. And that's what a REPL does.
+
+And not only does almost every Clojure tutorial I've found begin with _Setting up your IDE and trying out the nREPL_, but the language itself is built to support inline feedback and tests, ie `(comment)`. The only other evironment I've found with similarly dynamic feedback space is XCode's Playgrounds. Let's not understate this!
+
+One of the things I love about code is that it brings abstraction to life. It gives math tangibility. You get the same feeling when your router misbehaves as if the transmission dropped out of your car. _Thunk. Yep, nope, we're not going anywhere._ Math for me (at least in school) was different. You're presented with a problem - you offer a possible, plausibly, hopefully-probably approximately solve for it, then you turn it and go home for the weekend. Monday morning you get a note on your desk saying "Yes, close, but `5.0` should have been `0.5`." But I meant that! I made a typo! Or: "Yes, but here's a another - faster/more-elegant/more-legible way of doing it." Oh, I though of that, but wasn't sure it would run... 
+
+Feedback is an issue for math; a red pen is not the same as a stalled engine.
+
+By my account, Clojure looks - weird. As a strictly functional language it's something fundamentally different than I'm experienced with. It's got funny, loopy-looking words and punctuation. But it looks _responsive_ - it looks like a language (and a discourse!) that was built with "development" (great word) as a first-class priority.
+
+* The shape of teaching code.
+Problem: tutorials (99% of them) looks like this:
+---
+1. Alright, now we're going to add this piece of the puzzle: 
+```
+(funny (looking (+ shape shape)))
+```
+Got it? Good. Next step:
+
+2. Now we've got our describer-thingy set up. Time to install the bad-guys-preventers:
+```
+(knock :as knockknock (:equals? (or password token handshake eyecontact)))
+```
+And now look! No bad guys. Great. 
+
+Oh yea, it's on Github. Copy and paste at will.
+---
+
+- Problem 1: It's chunked. I have a hard time frame-by-frame. For me, it's like watching a slideshow instead of a movie, or reading an iPad instead of flipping through a book. 
+- Problem 2: It's over-under. I spend too long wondering Wait? Does that commentary-prose text apply to the code fence above... or below? And what was that thing we did two steps early? How does this piece fit with that one? And what was that thing we did 4 window heights above?
+
+One hypothesis I've got for why so many tutorials look like this is that I've got a suspicion that the free-agent independent-thinker how-the-hell-do-we-measure-or-find-great-or-at-least-semi-competent-coders orientation of the capital-I Industry genartes a possibly-sub-conscious attitude or inclination to use so-called tutorials to demonstrate that Yes, indeed, I do know what the hell I'm talking about. See all these fancy words? See how friendly my prose is? I'm hirable! Or the tutorials are articles in blog, inclined to take up mass and imply substance for a virtual personality. My bone to pick is not with the attitudes of bloggers and tutorialists. By and large I'm convinced that these authors are _generous_, _curious_, and _inventive_ humans. My problem is not so much with the prose, but with the material format of the things. Call me a formalist.
+
+My solution is simple: side-by instead of top-bottom. Two birds, one stone. Page 1: the code; Page 2: the commentary. Left, meet right. This'll let you render a full snippet of code on the left and inline the comments at their relevant lines on the right. Prose-commentary can then walk through the code, referencing any line you want along the way, and I can see the whole and the parts at the same time.
+
+It might look something like this (although I'm not going to spend the time to set up a org-table for it and so it's just going to look like a code-commenting sometimes-antipattern): 
+---
+
+(funny (looking (+ shape shape))) ;; See how funny that thing is? What it's going to do for us is mitiage the fluxatron...
+
+(knock :as knockknock (:equals? (or password token handshake eyecontact))) ;; Since the fluxatron relies on capacitation, and capacitation makes noise which attracts rodents, we've got make sure the rodents can actually get in through the flux-tubes.
+
+--- 
+
+The problem with my solve is that our tools aren't formatted for it. Web pages don't particularly incline to horizontally-aware layouts - they're built to stack. Our editors are too! Now that you mention it, so it our whole... language. We have very good excuses for such chunky code-prose. But we also have the tools to move beyond them.
