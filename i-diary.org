@@ -131,3 +131,6 @@ It might look something like this (although I'm not going to spend the time to s
 --- 
 
 The problem with my solve is that our tools aren't formatted for it. Web pages don't particularly incline to horizontally-aware layouts - they're built to stack. Our editors are too! Now that you mention it, so it our whole... language. We have very good excuses for such chunky code-prose. But we also have the tools to move beyond them.
+* Random access thoughts
+Like bl.ocks but for _____ &clojure
+Self portraits... #dubuffet #basquiat #hirst #hundertwasser #picasso.young/#picasso.picasso. You don't have to be an artist to be an artist.
