@@ -266,6 +266,12 @@
                 el.scrollTop = 0;
             }
 
+            var lastState = {
+                indexv: 0,
+                indexh: 0,
+                indexf: 0
+            };
+
             /**
              * Called when the main window sends an updated state.
              */
@@ -287,12 +293,18 @@
                         notesValue.innerHTML = data.notes;
                     }
 
-                    // *note! use _notesCtrl_ here... not _notes_
-                    scrollUp(notesCtrl);
 
                 } else {
                     notes.classList.add('hidden');
                 }
+
+                // compare state to last state to see if ih or iv (but NOT if) has changed
+                // in order to not scroll on only frag changes
+                if ((data.state.indexv !== lastState.indexv) || (data.state.indexh !== lastState.indexh)) {
+                    // *note! use _notesCtrl_ here... not _notes_
+                    scrollUp(notesCtrl);
+                }
+                lastState = data.state;
 
                 // Update the note slides
                 currentSlide.contentWindow.postMessage(JSON.stringify({
