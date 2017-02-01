@@ -23,7 +23,7 @@ rev.insertBefore(vp, rev.firstChild); //vs slides
 
 
 var webcamConstraints = {
-    audio: true,
+    audio: false, //true,
     video: {
         mandatory: {
             maxWidth: 640, //this may be able to be enlarged, depending on cam resolution
