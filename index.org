@@ -106,17 +106,20 @@ And how long for this much improvement?
 
 ** 5 days
 :PROPERTIES:
-:reveal_extra_attr: redpill-img-src="/resources/images/Introduction/bell212.jpg"
+# :reveal_extra_attr: redpill-img-src="/resources/images/Introduction/bell212.jpg"
+:reveal_extra_attr: redpill-img-src="/resources/images/twitter-bird-944px.svg.png" qr-data="http://twitter.com/intent/tweet?text=Can you fly that thing? Not yet...  &hashtags=valueoflearning,bettyedwards"
 :END:
 
  #+ATTR_REVEAL: :frag t
  [[file:resources/images/Introduction/bell212.jpg]]
 
-
  #+ATTR_REVEAL: :frag t
  - Betty Edwards, author of /Drawing on the Right Side of the Brain/
  - drawright.com
  - ~@DRSB_Edwards~
+
+ #+ATTR_REVEAL: :frag t
+ file:resources/images/twitter-bird-944px.svg.png
  
 
  #+BEGIN_NOTES

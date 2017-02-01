@@ -241,20 +241,28 @@ div#redpill-box {
 }
 
 .figure.redpill {
+    max-height: $videoHeight - $slidesPadding*2;
+    p > img {
+        /* position: absolute; */
+        /* max-height: 100% !important; */
+        max-height: 64px !important;
+    }
     p .qrcode {
-        @include vertical-align-at(relative, 100%);
+        /* @include vertical-align-at(relative, 100%); */
+        margin-left: auto;
+        margin-right: auto;
+        /* position: absolute; */
+        /* bottom: 0; */
         img {
             margin: auto;
         }
     }
 }
 .figure.redpill > p > img.fragment + div.qrcode {
-    /* visibility: hidden; */
     opacity: 0;
     transition: opacity 500ms;
 }
 .figure.redpill > p > img.fragment.visible + div.qrcode {
-    /* visibility: visible; */
     opacity: 1;
 }
 

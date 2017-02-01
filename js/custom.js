@@ -257,8 +257,12 @@ function formatRedpillFigures(event) {
                         qrHere.id = getUniqueFigureID(event, redImgSrc);
                         qrHere.className += " qrcode ";
                         imageFigure.children[0].append(qrHere); // div.figure > p > img[redpill]
-                        var size = image.height < image.width ? image.height : image.width;
-                        size += -40; // smaller than smallest side of image by this much
+
+                        // var size = image.height < image.width ? image.height : image.width;
+                        // size += -40; // smaller than smallest side of image by this much
+                        // size = size > 192 ? 192 : size; //max size 256square
+                        var size = 192;
+
                         var qr = createQRImage(qrHere, {text: qrData, height: size, width: size});
                     }
                 }
