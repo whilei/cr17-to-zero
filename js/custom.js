@@ -243,14 +243,14 @@ function formatRedpillFigures(event) {
                     deltaTop = rpBoxCoords.top - imageFigureCoords.top;
                     deltaLeft = rpBoxCoords.left - imageFigureCoords.left;
                 } else {
-                    // no idea why have to do this...
 
                     imageFigure.className += " redpill ";
 
+                    // no idea why have to do this extra spacing...
                     deltaTop = (rpBoxCoords.top - imageFigureCoords.top) + 20;
                     deltaLeft = (rpBoxCoords.left - imageFigureCoords.left) + 76;
-                    setAsFormatted(event, redImgSrc); // so don't have to add the extra spacer
 
+                    setAsFormatted(event, redImgSrc); // so don't have to add the extra spacer if there is a next time
 
                     if (qrData !== null && typeof(qrData) !== "undefined" && qrData !== "") {
                         var qrHere = document.createElement("div");

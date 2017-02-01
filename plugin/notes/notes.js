@@ -113,7 +113,7 @@ var RevealNotes = (function() {
             notesTextFilepath = jsFileLocation + 'notes-text.html';
         }
 
-        var textPopup = window.open(notesTextFilepath, 'reveal.js - Notes', 'width=1100,height=700');
+        var textPopup = window.open(notesTextFilepath, 'reveal.js - Notes', 'resizable=1,scrollbars=1,width=800,height=400');
 
         /**
          * Connect to the notes window through a postmessage handshake.
