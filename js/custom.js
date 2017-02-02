@@ -20,7 +20,44 @@ var rev = document.getElementsByClassName("slides")[0]; //("reveal")[0]; // ther
 rev.insertBefore(redpillBox, rev.firstChild);
 rev.insertBefore(vp, rev.firstChild); //vs slides
 
+var usingVideo = false;
+var videoIsFullsize = false;
+var video = document.querySelector('video');
+video.addEventListener("click", setVideoFullsize);
 
+function setVideoFullsize() {
+    // TODO move class+display adjustments to reveal data attribute
+    var allSections = document.getElementsByTagName("section");
+    var presentSection = document.querySelector("section.present");
+    console.log("presentSection", presentSection);
+    //toggler
+    if (!videoIsFullsize) {
+        console.log("going fullsize");
+        vp.className += "fullsize";
+
+        presentSection.style.display = "none";
+        // for (var i = 0; i < presentSection.length; i++) {
+        //     console.log("hiding present stack element", presentSection[i]);
+        //     // presentSection[i].setAttribute("hidden", '');
+        //     presentSection[i].style.display = "none";
+        // }
+
+        setUpVideo(setVideoContraints(1920*0.8, 1080*0.8));
+        videoIsFullsize = true;
+    } else {
+        console.log("removing fullsize");
+        vp.className = "";
+
+        presentSection.style.display = "block";
+        // for (var i = 0; i < presentSection.length; i++) {
+        //     // presentSection[i].removeAttribute("hidden");
+        //     presentSection[i].style.display = "block";
+        // }
+
+        setUpVideo(webcamConstraints);
+        videoIsFullsize = false;
+    }
+}
 
 var webcamConstraints = {
     audio: false, //true,
@@ -34,16 +71,18 @@ var webcamConstraints = {
     }
 };
 var noConstraints = {
-    audio: true,
+    audio: false, //true,
     video: true
 };
 
-var video = document.querySelector('video');
-var usingVideo = false;
+function setVideoContraints(w, h) {
+    var x = webcamConstraints;
+    x.video.mandatory.minWidth = w;
+    x.video.mandatory.minHeight = h;
+    return x;
+}
 
-function setUpVideo() {
-    // usingVideo = true;
-    // for jay, not for other people...
+function setUpVideo(constraints) {
     //check for user video media
     navigator.getUserMedia = navigator.getUserMedia ||
         navigator.webkitGetUserMedia ||
@@ -52,23 +91,26 @@ function setUpVideo() {
     // gum = navigator.getUserMedia;
     if (navigator.getUserMedia) {
         usingVideo = true;
-        navigator.getUserMedia(webcamConstraints, function(stream) {
+         navigator.getUserMedia(webcamConstraints, function(stream) {
             console.log(stream);
             video.src = window.URL.createObjectURL(stream);
-        }, errorCallback);
+        }, videoErrorCallback);
 
         // streamVideo(gum);
 
     } else {
-        video.src = 'somevideo.webm'; // fallback. TODO
+        console.log("Browser doesn't support webcamering. Bummer.");
+        // video.src = 'somevideo.webm'; // fallback. TODO
     }
-
 }
 
-function errorCallback(err) {
-    alert(err);
+function videoErrorCallback(err) {
+    // alert(err);
+    console.log(err);
 }
 
+
+// enables url hash placeholding
 function setStateFromHash(hash) {
     var hash = hash;
     hash = hash.replace('#', '');
