@@ -811,7 +811,9 @@ What other fields might help us?
 #+END_NOTES
 
 ** Value Theory
-isaac todo frag a picture of Maslow's hierarchy of needs (see source ref)
+ #+ATTR_REVEAL: :frag t
+ file:resources/images/maslows-heirarchy-wifi.jpg
+ # file:resources/images/2000px-MaslowsHierarchyOfNeeds.svg.png # in case of seriousness
 
 #+BEGIN_NOTES 
 Value theory is a modern approach to understanding value. It stems from axiology, but seeks to determine value through scientific observation.
