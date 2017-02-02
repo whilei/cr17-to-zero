@@ -1160,7 +1160,6 @@ Where should we start? How about near the beginning?
 
 ** Worldview
 :PROPERTIES:
-# unset fullsize (before, in case of moving backwards)
 :reveal_extra_attr: video-size="full"
 :END:
 #+BEGIN_NOTES
@@ -1199,7 +1198,7 @@ I learned something that day about how sunsets work, but I learned a far more im
 
 ** Imagination
 :PROPERTIES:
-# unset fullsize (before, in case of moving backwards)
+# unset fullsize (after)
 :reveal_extra_attr: video-size="normal"
 :END:
 #+BEGIN_NOTES
