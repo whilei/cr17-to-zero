@@ -603,10 +603,6 @@ The /socratic method/ remains as effective today as it was over 2400 years ago.
 #+END_NOTES
 
 *** Modern Learning  
-:PROPERTIES:
-# unset fullsize (before, in case of moving backwards)
-:reveal_extra_attr: video-size="normal"
-:END:
 /The Meaning of Adult Education/
 Eduard C. Lindeman
 
@@ -639,10 +635,6 @@ It's helpful to remember that the science of learning is a young science.
 #+END_NOTES
 
 ** Two faces of education
-:PROPERTIES:
-# set fullsize
-:reveal_extra_attr: video-size="full"
-:END:
 - Outside In
 - Inside Out
 
@@ -662,11 +654,39 @@ These two faces of education can be generally described as /Outside In/ vs /Insi
 .
 #+END_NOTES
 
-*** Outside In
+***  
 :PROPERTIES:
-# unset fullsize (after)
-:reveal_extra_attr: video-size="normal"
+:reveal_extra_attr: data-state="hide-video"
+:reveal_background_size: 100%
+:reveal_background: /resources/images/finest-art/padded/picasso-montage.png
 :END:
+
+#+BEGIN_NOTES
+Picasso painted the self portrait on the left at age 18.
+
+The one on the right, age 90.
+
+Techniques may vary... but so may we.
+#+END_NOTES
+***  
+:PROPERTIES:
+:reveal_extra_attr: data-state="hide-video"
+:reveal_background_size: 100%
+:reveal_background: /resources/images/finest-art/padded/dubuffet-montage.png
+:END:
+
+#+BEGIN_NOTES
+Dubuffet painted the self portrait on the left at age 35.
+
+On the right, 38 years later.
+
+Dubuffet was an iconoclast in the Art Brut movement, a school which grew to recognition for its emphasis on authenticity while rejecting more traditional formal standards. Art Brut was a forerunner in establishing the validity of the "untrained", "outsider", and "naive" values in art. The debt Modern Art (as it were) owes to this approach is significant; think of Pollock and Rothko, Basquiat... the list goes on. 
+
+Whatever learning is, it is nothing without change. And sometimes that change is in the form of adoption and growth within an established system, and sometimes it requires us to move beyond, and into an exploration of the unknown, unworthy, or invisible.
+#+END_NOTES
+
+
+*** Outside In
 educare: to train or mold
 
 #+BEGIN_NOTES 
