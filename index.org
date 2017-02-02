@@ -895,13 +895,17 @@ This is an important question! If they're hurting, I should cease and desist now
 #+END_NOTES
 
 ** Is learning harmful?
-isaac todo frag this:
-- Piotr Wozniak, /Is knowledge "good" or "neutral"?/
+:PROPERTIES:
+:reveal_extra_attr: redpill-img-src="/resources/images/red-pill.svg.png" qr-data="https://www.supermemo.com/articles/goodness.htm" 
+:END:
 
+#+ATTR_REVEAL: :frag t
+- Piotr Wozniak, /Is knowledge "good" or "neutral"?/
 - supermemo.com
 
+#+ATTR_REVEAL: :frag t
+file:resources/images/red-pill.svg.png
 
-isaac todo red pill hyperlink to https://www.supermemo.com/articles/goodness.htm
 
 #+BEGIN_NOTES 
 So, /*is*/ learning harmful?
