@@ -1071,7 +1071,10 @@ How can I measure how much value I place on learning?
 #+END_NOTES
 
 ** My valuation method
-
+:PROPERTIES:
+# unset fullsize (before, in case of moving backwards)
+:reveal_extra_attr: video-size="normal"
+:END:
 #+ATTR_REVEAL: :frag (roll-in)
 - Health
 - Family
@@ -1156,7 +1159,10 @@ Where should we start? How about near the beginning?
 #+END_NOTES
 
 ** Worldview
-
+:PROPERTIES:
+# unset fullsize (before, in case of moving backwards)
+:reveal_extra_attr: video-size="full"
+:END:
 #+BEGIN_NOTES
 My first story stems from the family category
 
@@ -1192,7 +1198,10 @@ I learned something that day about how sunsets work, but I learned a far more im
 #+END_NOTES
 
 ** Imagination
-
+:PROPERTIES:
+# unset fullsize (before, in case of moving backwards)
+:reveal_extra_attr: video-size="normal"
+:END:
 #+BEGIN_NOTES
 
 My next story is about imagination.

@@ -64,6 +64,7 @@ function setVideoContraints(w, h) {
 }
 
 function setUpVideo(constraints) {
+    if (typeof(constraints) === "undefined") {constraints = webcamConstraints;}
     //check for user video media
     navigator.getUserMedia = navigator.getUserMedia ||
         navigator.webkitGetUserMedia ||
