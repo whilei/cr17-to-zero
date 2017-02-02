@@ -20,7 +20,25 @@ var rev = document.getElementsByClassName("slides")[0]; //("reveal")[0]; // ther
 rev.insertBefore(redpillBox, rev.firstChild);
 rev.insertBefore(vp, rev.firstChild); //vs slides
 
+var usingVideo = false;
+var video = document.querySelector('video');
+// video.addEventListener("click", setVideoFullsize);
 
+function setVideoNormalsize() {
+    var presentSection = document.querySelector("section.present");
+    console.log("removing fullsize");
+    video.className = "";
+    presentSection.style.display = "block";
+    setUpVideo(webcamConstraints);
+}
+
+function setVideoFullsize() {
+    var presentSection = document.querySelector("section.present");
+    console.log("going fullsize");
+    video.className += "fullsize";
+    presentSection.style.display = "none";
+    setUpVideo(setVideoContraints(1920 * 0.8, 1080 * 0.8));
+}
 
 var webcamConstraints = {
     audio: false, //true,
@@ -34,16 +52,18 @@ var webcamConstraints = {
     }
 };
 var noConstraints = {
-    audio: true,
+    audio: false, //true,
     video: true
 };
 
-var video = document.querySelector('video');
-var usingVideo = false;
+function setVideoContraints(w, h) {
+    var x = webcamConstraints;
+    x.video.mandatory.minWidth = w;
+    x.video.mandatory.minHeight = h;
+    return x;
+}
 
-function setUpVideo() {
-    // usingVideo = true;
-    // for jay, not for other people...
+function setUpVideo(constraints) {
     //check for user video media
     navigator.getUserMedia = navigator.getUserMedia ||
         navigator.webkitGetUserMedia ||
@@ -55,20 +75,23 @@ function setUpVideo() {
         navigator.getUserMedia(webcamConstraints, function(stream) {
             console.log(stream);
             video.src = window.URL.createObjectURL(stream);
-        }, errorCallback);
+        }, videoErrorCallback);
 
         // streamVideo(gum);
 
     } else {
-        video.src = 'somevideo.webm'; // fallback. TODO
+        console.log("Browser doesn't support webcamering. Bummer.");
+        // video.src = 'somevideo.webm'; // fallback. TODO
     }
-
 }
 
-function errorCallback(err) {
-    alert(err);
+function videoErrorCallback(err) {
+    // alert(err);
+    console.log(err);
 }
 
+
+// enables url hash placeholding
 function setStateFromHash(hash) {
     var hash = hash;
     hash = hash.replace('#', '');
@@ -188,9 +211,9 @@ var qrStyleBase = {
     // text: "http://jindo.dev.naver.com/collie",
     width: 256,
     height: 256,
-    colorDark : "#000000", //"rgb(186,50,79)",
-    colorLight : "#ffffff",
-    correctLevel : QRCode.CorrectLevel.H
+    colorDark: "#000000", //"rgb(186,50,79)",
+    colorLight: "#ffffff",
+    correctLevel: QRCode.CorrectLevel.H
 };
 
 function createQRImage(element, optsIn) {
@@ -202,6 +225,17 @@ function createQRImage(element, optsIn) {
     console.log("building qr with data", qrStyleBase);
     var qrcode = new QRCode(element.id, qrStyleBase);
     return qrcode;
+}
+
+function checkVideoSize(event) {
+    var curSlide = event.currentSlide;
+    var videoSizeAttr = curSlide.getAttribute("video-size"); // full, normal
+    if (videoSizeAttr === "full") {
+        setVideoFullsize();
+    }
+    if (videoSizeAttr === "normal") {
+        setVideoNormalsize();
+    }
 }
 
 function formatRedpillFigures(event) {
@@ -263,7 +297,11 @@ function formatRedpillFigures(event) {
                         // size = size > 192 ? 192 : size; //max size 256square
                         var size = 192;
 
-                        var qr = createQRImage(qrHere, {text: qrData, height: size, width: size});
+                        var qr = createQRImage(qrHere, {
+                            text: qrData,
+                            height: size,
+                            width: size
+                        });
                     }
                 }
 
@@ -286,19 +324,17 @@ function formatRedpillFigures(event) {
 
 // reset func // this is ugly but...
 Reveal.addEventListener('slidechanged', function(event) {
-    // event.previousSlide, event.currentSlide, event.indexh, event.indexv
-    // set location hash
-    var state = Reveal.getState();
-    // console.log(state.indexh, state.indexv);
-    location.hash = state.indexh.toString();
-    videoShouldHide(false);
-    hideEmptyTitles(); // becuase not all are rendered upfront --
-    // console.log("slidechanged", event);
 
-    // check for redpill images
-    // var curSlide = event.currentSlide;
+    var state = Reveal.getState();
+    location.hash = state.indexh.toString();
+
+    videoShouldHide(false);
+
+    hideEmptyTitles(); // becuase not all are rendered upfront --
+
     formatRedpillFigures(event);
-    // var redImgSrc = curSlide.getAttribute("redpill-img-src");
-    // console.log("REDPILL imgSrc", redImgSrc);
+
+    // need to set, and then unset video size for full-normal toggling
+    checkVideoSize(event);
 
 });
