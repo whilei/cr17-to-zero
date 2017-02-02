@@ -1532,7 +1532,7 @@ She's designed several unique exercises, such as drawing from a picture which is
 
 Looking at an upside-down picture disrupts the left brain's habit of naming what is seen, so it loses interest which allows the right brain to step in and do what it's good at -- perceiving visually.
 
-Betty Edward's work ties in neatly with Rich Hickey's popular talk, /Hammock Driven Development/, in which he shares his process for solving big problems - engage the problem, then disengage, rinse and repeat. 
+Betty Edwards' work ties in neatly with Rich Hickey's popular talk, /Hammock Driven Development/, in which he shares his process for solving big problems - engage the problem, then disengage, rinse and repeat. 
 
 In her book, /Drawing on the Artist Within/, Betty Edward's deeply explores the the five stages of creativity:
 
@@ -1566,9 +1566,9 @@ Both hemispheres play an active role in Verification, forming the creative epiph
 
 The left-brain methodically structures the product step by step, while the right-brain keeps an eye on the big picture.
 
-Betty Edward's work was ahead of the formal brain science of the day when she began this journey. We'll talk more about her soon, but for now
+Betty Edward's work was ahead of the formal brain science of the day when she began this journey.
 
-I want to thank Betty Edward's for opening my eyes and helping me see the world more clearly!
+We'll talk more about her soon, but for now I want to thank Betty Edwards for opening my eyes and helping me see the world more clearly!
 
 (NEXT SLIDE DOWN)
 
@@ -1589,7 +1589,9 @@ I want to thank Betty Edward's for opening my eyes and helping me see the world 
 There's a parallel between the drawings we saw at the start of this talk and the skill of learning, both are technical skills. I could poke around at drawing for years, or I could absorb the fundamentals from a master and use that framework to accelerate my progress.
 
 That framework, as it turns out, is vitally important to genuine understanding. TODO University Study.
-
+#+BEGIN_NOTES 
+ 
+#+END_NOTES
 *** University Study regression
 It's not just students that need to learn about learning!
 * The actions
