@@ -3,27 +3,20 @@
 #+Twitter: @webappzero
 #+REVEAL_THEME: jaysky
 #+OPTIONS: num:nil toc:nil reveal_title_slide:nil reveal_center:nil reveal_slide_number:nil
-#+mynotes: Use Big John / Little Joe for Headings, Quicksand for normal type and lobster for marking up pictures (or any combination of these.
 #+REVEAL_HLEVEL: 1
 #+REVEAL_EXTRA_JS: {src: '/js/qrcode.min.js'}, {src: './js/custom.js'}
 #+REVEAL_DEFAULT_FRAG_STYLE: roll-in
 #+REVEAL_ROOT: ./
 
 #+BEGIN_NOTES
-Setting the REVEAL_ROOT as a relative path above works for me, but is inconsistent with https://github.com/yjwen/org-reveal. 
-;; #+OPTIONS: reveal_width:1920 reveal_height:1080
-;; note: function: org-toggle-inline-images   (toggles between showing images in buffer and showing text url of images file)
 ;; Table of Contents w/ time goals
 ;; Intro 10 min
 ;; question 10 min
 ;; answer 12.5 min
 ;; action 22.5 min
 ;; Conclusion 5 min
-;; reveal_center:t 
-note that I used two SPACES after the * to make the invisible heading for the non-title title slide.
 #+END_NOTES
 
-# This is the title-non-title.
 * 
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video"
@@ -434,8 +427,10 @@ Let's illuminate the question by looking at the meaning and history of the words
 #+END_NOTES
 
 *** Value defined
-(merriam-webster.com)
+
 *relative worth, utility, or importance*
+
+#+REVEAL_HTML: <div class="citation">merriam-webster.com</div>
 
 #+BEGIN_NOTES 
 /Value/ as used in our central question means *relative worth, utility, or importance*.
@@ -450,10 +445,15 @@ Let's illuminate the question by looking at the meaning and history of the words
 .
 #+END_NOTES
 
-*** Value etymology: 
-/valu/    Anglo-French    *worth, high quality*
+*** Etymology of /value/: 
 
-/valēre/  Latin           *to be well, have strength*
+#+BEGIN_SRC markdown
+Anglo-French
+_valu_    *worth, high quality*
+
+Latin
+_valēre_  *to be well, have strength*
+#+END_SRC
 
 Game of Thrones fans, please take note of the phonetic similarities to /Valyrian/ steel.
 
@@ -474,8 +474,10 @@ If you're a Game of Thrones fan, you've likely noticed how similar /valēre/ sou
 #+END_NOTES
 
 *** Learning defined
-(learnersdictionary.com)
+
 *the activity or process of gaining knowledge or skill by studying, practicing, being taught, or experiencing something*
+
+#+REVEAL_HTML: <div class="citation">learnersdictionary.com</div>
 
 #+BEGIN_NOTES 
 /Learning/ means *the activity or process of gaining knowledge or skill by studying, practicing, being taught, or experiencing something*.
@@ -488,12 +490,23 @@ If you're a Game of Thrones fan, you've likely noticed how similar /valēre/ sou
 
 .
 #+END_NOTES
-*** etymology of learn:
-(merriam-webster.com)
-/lernen/    Middle English    *to learn*
-/leornian/  Old English       *to learn*
-/last/      Old English       *foot print*
-/lira/      Latin             *furrow, track*
+*** Etymology of /learn/:
+
+#+BEGIN_SRC markdown
+Middle English
+_lernen_  *to learn*
+
+Old English
+_leornian_  *to learn*
+
+Old English
+_last_  *foot print*
+
+Latin
+_lira_  *furrow, track*
+#+END_SRC
+
+#+REVEAL_HTML: <div class="citation">merriam-webster.com</div>
 
 #+BEGIN_NOTES 
 The history of the word /learn/ goes back through the Middle English word /lernen/, which shares the meaning *to learn* with the Old English word /leornian/, and further back to the Old English word /last/ which means *foot print*, and finally, all the way back to the latin word /lira/ which means *furrow* or *track*.
@@ -521,8 +534,10 @@ The latin meaning has become my favorite way to think about learning -- planting
 
 *** Learn as synonym for Teach
 
-(merriam-webster.com)
 Master blacksmiths learned their apprentices in the craft of sword forging.
+
+#+REVEAL_HTML: <div class="citation">merriam-webster.com</div>
+
 #+BEGIN_NOTES 
 As far back as the 13th century, the word /learn/ was also used to mean "teach". As in "Master blacksmiths learned their apprentices in the craft of sword forging." 
 
@@ -1025,26 +1040,16 @@ How can I measure how much value I place on learning?
 
 ** My valuation method
 
-todo isaac frag this whole bulleted list as one thing please :)
-
+#+ATTR_REVEAL: :frag (roll-in)
 - Health
-
 - Family
-
 - Friends
-
 - Community
-
 - Art
-
 - Career / Business
-
 - Fun / Hobbies / Recreation
-
 - Philosophical / Spiritual
-
 - Personal Finance
-
 - Personal Development & Learning
 
 #+BEGIN_NOTES 
@@ -1688,7 +1693,8 @@ That's just a taste of what we'll talk about in the next hour.
 
 *** Click to tweet https://clicktotweet.com/
 
-*** TODO Talk, when viewed on video, will still allow people to tweet pre-defined statements or questions by scanning qr codes and submitting ideas.
+*** DONE Talk, when viewed on video, will still allow people to tweet pre-defined statements or questions by scanning qr codes and submitting ideas.
+    CLOSED: [2017-02-02 Thu 09:42]
 **** All data goes into open data system, as in open source for community benefit.
 * Jay & Isaac 
 ** Org Mode notes
@@ -1697,23 +1703,38 @@ That's just a taste of what we'll talk about in the next hour.
 ** Separation of TODOs 
 *** Below I've tagged this todo with isaac10, meaning its for you with a priority of 10 (lower number is higher priority and they go up by 10. That's an old basic programming trick which makes it easy to stick other todos inbetween, after the fact).
 And it avoids the alphabetization problem of 0's! Sweet!
-*** TODO isaac10 Please study up on how to wrangle css for reveal.js so we can get page elements where we want them.
-**** TODO Page element most concerned about is title at top left, space for video top right, paragraph/bullets left aligned half way down from top for first line. 
-**** TODO These are subtasks under the main task, so they would also be for you unless my name is next the subtask.
+*** DONE isaac10 Please study up on how to wrangle css for reveal.js so we can get page elements where we want them.
+    CLOSED: [2017-02-02 Thu 09:40]
+**** DONE Page element most concerned about is title at top left, space for video top right, paragraph/bullets left aligned half way down from top for first line. 
+     CLOSED: [2017-02-02 Thu 09:40]
+**** DONE These are subtasks under the main task, so they would also be for you unless my name is next the subtask.
+     CLOSED: [2017-02-02 Thu 09:40]
 **** This system should work pretty good unless we run into git workflow issues, in which case we can move out to email etc.
-**** TODO items can be placed anywhere in the file so when you git pull you can just do a text search for "isaac" and bingo! :)
+**** DONE items can be placed anywhere in the file so when you git pull you can just do a text search for "isaac" and bingo! :)
+     CLOSED: [2017-02-02 Thu 09:40]
 **** Thank you! I'll create a new subheading under Jay & Isaac called Isaac Projects where we can keep your big picture stuff.
-**** TODO Great!
+**** DONE Great!
+     CLOSED: [2017-02-02 Thu 09:40]
 
 ** Isaac Projects
 *** Wrangle Reveal.js CSS
-**** TODO isaac10 Please study up on how to wrangle css for reveal.js so we can get page elements where we want them. (copied from above)
-***** TODO Page element most concerned about is title at top left, space for video top right, paragraph/bullets left aligned half way down from top for first line.
+**** DONE isaac10 Please study up on how to wrangle css for reveal.js so we can get page elements where we want them. (copied from above)
+     CLOSED: [2017-02-02 Thu 09:40]
+***** DONE Page element most concerned about is title at top left, space for video top right, paragraph/bullets left aligned half way down from top for first line.
+      CLOSED: [2017-02-02 Thu 09:40]
 Jay, I've got one stand-in solution for the top left h2 placement for now, using strictly CSS. And now that we've got custom JS involved too, we've got a lot of options for much more fine-grained and DOM-aware control.
-**** TODO isaac20 research then tinker with getting webcam image as part of web page. (This might be tricky with reveal.js. Not sure how to best do it?)
+**** DONE isaac20 research then tinker with getting webcam image as part of web page. (This might be tricky with reveal.js. Not sure how to best do it?)
+     CLOSED: [2017-02-02 Thu 09:40]
 ***** I found this https://www.kirupa.com/html5/accessing_your_webcam_in_html5.htm
 See email question about p2p video streaming.
 ***** In the mean time, you can just use a blll have a lot more controlank white rectangle to act as place holder.
 ***** On the title screen, the video would look better on the left. Not a high priority right now.
 ***** reach out and let me know how things are going, if they are unclear, or to ask any questions :)
 *** TODO isaac300 research doing footnotes in org-mode. There's something called Bibtex too. (notice low priority)
+*** Reveal notes
+Setting the REVEAL_ROOT as a relative path above works for me, but is inconsistent with https://github.com/yjwen/org-reveal. 
+;; #+OPTIONS: reveal_width:1920 reveal_height:1080
+;; note: function: org-toggle-inline-images   (toggles between showing images in buffer and showing text url of images file)
+;; reveal_center:t 
+note that I used two SPACES after the * to make the invisible heading for the non-title title slide.
+#+mynotes: Use Big John / Little Joe for Headings, Quicksand for normal type and lobster for marking up pictures (or any combination of these.

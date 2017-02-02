@@ -63,6 +63,25 @@
 .reveal p, ul, li, blockquote {
   /* max-width: $slideContentMaxWidth; */ }
 
+.reveal pre {
+  box-shadow: none !important;
+  font-size: 0.6em !important;
+  width: 100% !important;
+  margin: 20px auto 40px auto !important; }
+
+.reveal p {
+  max-width: 95% !important; }
+
+.figure.redpill p {
+  max-width: 100% !important; }
+
+.citation {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  font-size: 0.55em !important;
+  color: lightblue; }
+
 .reveal.default .slides {
   position: relative;
   width: 92% !important;
