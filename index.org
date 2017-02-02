@@ -558,6 +558,18 @@ Today this alternative meaning is relegated to speech, because it's *not* consid
 :PROPERTIES:
 # :reveal_extra_attr: redpill-img-src="/resources/images/history-of-salt/grand-canyon-filled with-fog-todd-diemer_2017-01-13_09-53-33.jpg"
 :END:
+
+#+BEGIN_NOTES 
+Let's quickly recap the history of learning.
+
+(NEXT SLIDE DOWN)
+.
+
+.
+
+.
+#+END_NOTES
+
 *** Evolution
 We descend from, and are ,the very best learners in all of history, because we're here.
 
@@ -662,7 +674,7 @@ The latin /educare/ means: to train or mold.
 
 Proponents of the "outside in" perspective of education seek to impart knowledge and form students by shaping them according to templates of idealized virtues and skill.
 
-As in, "The University educates its students by exposing them to knowledge."
+As in, "The University educates its students by giving them knowledge."
 
 When I first encountered the Clojure programming language, I'd never heard anyone distinguish between identity, values & time.
 
@@ -692,9 +704,13 @@ The latin /educere/ means: to lead out.
 
 Advocates of the "inside out" perspective of education seek to prepare the student for the unpredictable challenges of the future by focusing the pupil's attention on the process of acquiring new skills and knowledge.
 
-As in, "The students education is most evident in their lifelong curiosity about science and the world in which they live."
+As in, "The students education is evident in their lifelong curiosity about the world in which they live."
 
-I take the position that both faces of education have their ideal time and place, and that we are in the early stages of discovering an ideal balance between the two.
+I have a personal bias toward inside-out education.
+
+When I hear the word "learn", I typically associate it with the inside-out mode of education.
+
+Because I know I'm biased, I strive to return to the ideological position that both faces of education have their ideal time and place, and that we are in the early stages of discovering an ideal balance between the two.
 
 The science and math scores in the U.S. over the past couple decades show an over-reliance on outside-in education.
 
@@ -711,6 +727,7 @@ Educators call this 'productive struggle'.
 I like to call it 'structured struggle', but whatever you call it, at its heart it's a prime example of "Inside Out" learning.
 
 Even Socrates would be proud!
+
 
 (NEXT SLIDE DOWN)
 
@@ -1045,7 +1062,7 @@ How can I measure how much value I place on learning?
 - Family
 - Friends
 - Community
-- Art
+- Romance / Art
 - Career / Business
 - Fun / Hobbies / Recreation
 - Philosophical / Spiritual
@@ -1071,11 +1088,11 @@ My general strategy is to look back over my life, identify significant memories,
 
 How can I break this big problem up in to smaller pieces?
 
-Inspired by Maslow's hierarchical pyramid of needs, and borrowing from the plethora of life-coaching material on then internet, I've divided my life into 10 major categories.
+Inspired by Maslow's hierarchical pyramid of needs, I've divided my life into 10 major categories.
 
 (NEXT FRAG)
 
-These are: Health, Family, Friends, Community, Art, Career / Business, Fun / Hobbies/ Recreation, Philosophical / Spiritual, Personal Finance, Personal Development & Learning.
+These are: Health, Family, Friends, Community, Romance / Art, Career / Business, Fun / Hobbies/ Recreation, Philosophical / Spiritual, Personal Finance, Personal Development & Learning.
 
 These categories serve a dual purpose.
 
@@ -1263,7 +1280,7 @@ Thanks again, Mom!
 .
 #+END_NOTES
 
-** Professor McKee 2
+** Professor McKee 
 
 #+BEGIN_NOTES 
 In college, I had one professor that came to mind instantly when thinking about the career category.
@@ -1407,18 +1424,137 @@ Professor McKee taught me just how much difference one teacher can in a person's
 
     Masters of a craft, discover, not only its essence, but how to practice it with great efficiency.
 
+    While its true that professionals perform difficult tasks, they most certainly aren't doing them the hard way.
+
     Who are the professionals? What results are they achieving? And how are they achieving those results.
 
-    I will save time, not by finding the easy way, but by mastering the fundamentals that bring very difficult problems within the reach of mortals, like me. Thank you Rich Hickey! 
+    I will save time, not by finding the easy way, but by mastering the fundamentals that bring very difficult problems within the reach of studious practitioners.
+
+    Thank you Rich Hickey! 
  #+END_NOTES 
 
 
-** Betty Edwards 4
+** Betty Edwards
+TODO isacc frag this:
+/resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged/02-montage.png
 
-** Learning How to Learn 5
+TODO isaac frag this all at once, not individually :)
+
+edges
+spaces
+relationship
+lights & shadows
+the gestalt
+
+#+BEGIN_NOTES 
+Discovering the work of Betty Edwards was a eureka moment in my life, so its no surprise that she holds a prominent spot in my life's memory bank, from the home category of learning.
+
+So how does Betty Edwards do it?
+
+(NEXT FRAG 02-montage)
+
+How does she accelerate the learning process of her drawing students so dramatically?
+
+Betty Edwards teaches people 5 fundamental /seeing/ skills:
+
+(NEXT FRAG)
+How to *perceive* edges, spaces, relationship, lights & shadows and the gestalt (or whole).
+
+Just as Rich Hickey, after years of studious practice, identified the fundamentals of software, Betty disentangled the basic building blocks of skill within the global skill of drawing.
+
+After much practice and study, she had an aha! moment. These 5 subskills were it.
+
+She researched the literature and found no additional fundamental components of the global skill of basic realistic drawing.
+
+What if drawing could be taught and learned quickly, not over the course years?
+
+Thus, with the help of her colleagues, Edwards developed a 5 day workshop to test her method.
+
+The method was immediately validated by the workshop student's rapid progress.
+
+Even more fascinating than what Edward's teaches her students is how she teaches it!
+
+Edward's techniques revolve around understanding each brain hemisphere's role in the creative process, and employing the best suited hemisphere for the task at hand.
+
+Her book, /Drawing on the Right Side of the Brain/, covers this subject with the detail it deserves, but I'll do my best to summarize.
+
+Seeing is the domain of the right brain hemisphere.
+
+This presents a unique challenge because, as the evidence Edward's compiles in her book indicates, the right brain is constantly being drowned out by left-brain activity, stimulated by our modern, technical, language-driven society.
+
+This not only stymies our ability to draw, it dulls our general problem solving skills too.
+
+Of course, the brain never really shuts half of itself completely off, but one half can be more active than the other.
+
+Edward's calls these L-mode and R-mode to indicate which half is more active.
+
+She's designed several unique exercises, such as drawing from a picture which is upside-down to trigger the R-mode.
+
+Looking at an upside-down picture disrupts the left brain's habit of naming what is seen, so it loses interest which allows the right brain to step in and do what it's good at -- perceiving visually.
+
+Betty Edward's work ties in neatly with Rich Hickey's popular talk, /Hammock Driven Development/, in which he shares his process for solving big problems - engage the problem, then disengage, rinse and repeat. 
+
+In her book, /Drawing on the Artist Within/, Betty Edward's deeply explores the the five stages of creativity:
+
+First Insight, Saturation, Incubation, Illumination, and Verification.
+
+First Insight is largely a right brain activity, where problems are identified and examined in a wordless, visual way.
+
+This surveying of the surrounding world typically results in a question, such as "I wonder why ...?", or "I wonder if" etc.
+
+This verbal articulation of a problem snaps the left-brain to attention in the second phase Saturation, so named because the left-brain saturates the brain with information and data that could be in any way related to the problem.
+
+People have a tendency to hold onto a problem with an over-reliance on their conscious mental faculty.
+
+Hence Rich Hickey's advice to try taking a nap in a Hammock once in a while.
+
+When we finally do 'let go' of the problem, the right brain is able to resume work, only now with more information at hand.
+
+This third phase is called Incubation, wherein the right brain, using it's spacial mapping prowess, connects the dots, and usually while the person is doing something else.
+
+Aha! The illumination phase is a joint celebration between the left and right hemisphere's of the brain.
+
+Some people report rapid heart rates and a profound sense of "things coming together".
+
+As Betty Edward's states, "It is perhaps a moment when the whole human brain is suffused with joy."
+
+Einstein described one his aha moments about gravity as "the happiest moment in my life". (source: Betty Edwards DRSOB pg 247, The cosmic Code, Hans Pagel)
+
+Before we break out the dance music, there's work to do, hard work -- the final phase called Verification.
+
+Both hemispheres play an active role in Verification, forming the creative epiphany into a finished product: whether that's an architectural model for a software system, a business plan or a report for school.
+
+The left-brain methodically structures the product step by step, while the right-brain keeps an eye on the big picture.
+
+Betty Edward's work was ahead of the formal brain science of the day when she began this journey. We'll talk more about her soon, but for now
+
+I want to thank Betty Edward's for opening my eyes and helping me see the world more clearly!
+
+(NEXT SLIDE DOWN)
+
+.
+
+.
+
+.
+
+.
+
+.
+#+END_NOTES
+
+** Learning How to Learn
+
+
+There's a parallel between the drawings we saw at the start of this talk and the skill of learning, both are technical skills. I could poke around at drawing for years, or I could absorb the fundamentals from a master and use that framework to accelerate my progress.
+
+That framework, as it turns out, is vitally important to genuine understanding. TODO University Study.
+
+*** University Study regression
+It's not just students that need to learn about learning!
 * The actions
 What actions are consistent with this value?
-** If we value learning, why not get better at it, instead of dribbling the ball incessantly. 
+** If we value learning, why not get better at it via Betty Edwards approach, instead of doodling. 
   ** What if there was a subject you could study which would improve your ability to learn and master any other subject?
  There just might be!
   #+ATTR_REVEAL: :frag appear
@@ -1427,16 +1563,26 @@ What actions are consistent with this value?
 **** Information, not an industrial age factory factory floor.
 **** Exception: different people
 *** The science of learning.
+Don't remove drawing for schools.
+Use l-mode and r-mode for general problem solving.
+
 
 #+ATTR_REVEAL: :frag appear 
 [[file:resources/images/Opening & Overview/illustration-of-drawing-skill-improvement-in-5-days_2017-01-12_09-19-11.png]]
 *** Learning How to Learn
 *** Space Repetition etc.
 ** Information age, but we're still in an industrial age mode
-** Everyone a teacher, video, microphone, record and publish.
-** 
+*** Sharing knowledge with others is a way of helping ourselves, and the people we love. Life saving ideas are lying dormant. (reference back to game theory)
+*** Everyone a teacher, video, microphone, record and publish.
+*** Information Diet
+There's only so much I can learn watching T.V. (tie in to the sunset story)
+Being informed without becoming malformed.
+Setting my own agenda.
+Getting ready for this talk.
 * Closing
 inclusivity via learning
+helping others is helping myself
+informat
 ** 
 #+BEGIN_QUOTE
 Live as if you were to die tomorrow. Learn as if you were to live forever. -- Mahatma Gandhi
