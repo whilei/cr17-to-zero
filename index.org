@@ -1044,9 +1044,19 @@ todo isaac frag this whole bulleted list as one thing please :)
 #+BEGIN_NOTES 
 How can I measure the value I place on learning?
 
+Before I reveal my method, I'd like to offer this disclaimer.
+
+This is my first stab at the problem and the method is far from perfect.
+
+There are simpler methods, but they would require more time, time I didn't have in preparing for this talk.
+
+The simplest method I could think of would be to measure how much time in a given month do I dedicate specifically to learning.
+
+Unfortunately, I don't have a month to spare, so please excuse the complexity of my next best solution. Drum roll please...
+
 The method I've chosen aims to quantify the role of learning in my life.
 
-My general strategy is to look back over my life, identify significant memories, where learning played a central role, and try to assign a quantifiable value that memory somehow.
+My general strategy is to look back over my life, identify significant memories, and try to assign a quantifiable value to that memory somehow.
 
 How can I break this big problem up in to smaller pieces?
 
@@ -1058,32 +1068,343 @@ These are: Health, Family, Friends, Community, Art, Career / Business, Fun / Hob
 
 These categories serve a dual purpose.
 
-First, they serve as a way for me to look back on my life memories and recall stories about learning that relate to a given category.
+First, they serve as a way for me to look back on my life memories and recall stories that relate to a given category, which I will call the home category.
 
-I found this very helpful 
+Second, they serve as a way to quantify value, where each category will be worth 100 points.
 
-**********
-Health
+In fairness, I want to recall the same number of stories from each category.
 
-Family
+Each memory has the potential to impact between 1 and 10 life categories.
 
-Friends
+If a memory affects multiple categories, the home category of that memory will score 100 points for each affected category, and each affected category will score 100 points for being "tagged" by that memory.
 
-Community
+For example, if a memory from the learning category about learning to ride my bike affects 3 categories, Fun, Family and Learning, then the home category of of learning will earn 300 points, and the other two categories Fun and Family will earn 100 points each.
 
-Art
+In this way, categories earn points for playing a role in my significant life memories. 
 
-Career / Business
+The logic behind this strategy is that a memory which stands out in my mind is a valuable memory, otherwise I would have forgotten about it.
 
-Fun / Hobbies / Recreation
+The obvious exceptions are painful memories, like when I broke my arm, which will be filtered out, unless they have some obvious life value.
 
-Philosophical / Spiritual
+As you can imagine, this process has the potential to bring up deeply personal memories, and lucky for you we don't have time for my entire life story.
 
-Personal Finance
+Instead I've curated a short list of memories which are relevant to this talk.
 
-Personal Development & Learning
-**********
+I'll use 2 or 3 of the following stories as examples of how I scored memories according to described method.
+
+Where should we start? How about near the beginning?
+
+(NEXT SLIDE DOWN)
+
+(time estimated 25 minutes)
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
 #+END_NOTES
+
+** Worldview
+
+#+BEGIN_NOTES
+My first story stems from the family category
+
+At the age of 3, I lived with my Mother in an apartment on the outskirts of Lincoln, Nebraska.
+
+In the evenings we sat on the balcony and watched the sunset over the golden wheat fields and countryside.
+
+One evening the sun set down right behind an old barn on the horizon.
+
+This was an exciting event for me.
+
+I was convinced that the sun was hiding just behind that barn, just over the hill where it had disappeared. 
+
+I remember, more than anything, just how badly I wanted to touch the sun!
+
+My mother, instead of telling me that that's just not the way the world works, drove me out to that barn the very next day at sunset.
+
+I could see for myself that we were at the barn, and still the sun was setting yet a long ways off.
+
+I learned something that day about how sunsets work, but I learned a far more important lesson about the power of demonstration and involving the pupil smack dab in the middle of a lesson, or a barn in the middle of nowhere in this case. Thanks Mom!
+(NEXT SLIDE DOWN)
+
+(todo jay score this and use score as an example)
+.
+(time 1.5 min)
+.
+
+.
+
+.
+
+.
+#+END_NOTES
+
+** Imagination
+
+#+BEGIN_NOTES
+
+My next story is about imagination.
+
+At the age 6 my best friend was Steve Peterson.
+
+Steve and I met at the apartments where I lived in Columbia, SC.
+
+He had a single Mom and so did I.
+
+The four of us were practically inseparable, and remain lifelong friends to this day.
+
+His mother Barbara Peterson was a kindergarten teacher. She was very good at her job.
+
+So good in fact, that she found herself being interviewed by Mr. Rogers on PBS. Mr Rogers!
+
+Playing at Steve's house was the best.
+
+Mrs. Peterson was masterful at sparking imagination.
+
+She encouraged us to use our imaginations often.
+
+She sewed super hero and other costumes for us to wear.
+
+The memory that came to mind instantly when I challenged myself to recall a life memory from the friends category is the day Steve and I went into a restaurant to order a hamburger.
+
+Steve and I were 5 and 6 years old, dressed up as college football players, each of us donning a uniform of the big local rivalry here in SC, the Carolina Gamecocks and Clemson Tigers.
+
+What makes the moment so memorable is that just before we got out of the car to go inside the local Wendy's, we turned to Mrs. Peterson and pleaded with her not tell anyone we weren't really college football players.
+
+"Oh no, of course I wouldn't give you away!" she said.
+
+It makes me smile to this day to think that we actually thought we'd be mistaken for college athletes.
+
+Mrs. Peterson taught me more than I could summarize in 10 hours, much less one, but that day I learned how to pretend which it turns out is a great skill to have.
+
+(NEXT SLIDE DOWN)
+
+(todo jay score this)
+.
+
+.
+(time 2 min)
+.
+
+.
+
+.
+#+END_NOTES
+
+** Childlike Wonder & Awe
+
+#+BEGIN_NOTES 
+This next story is great example of inside out vs outside in learning, as it spans both.
+
+When I was around 8 years old I had a subscription to a kid's science magazine.
+
+I remember how amazed I was at learning new facts about the world.
+
+Animals were often my favorite subjects.
+
+Like how a blue whale's arteries are so large in diameter that a small child could swim through them. You know, cool stuff!
+
+I loved getting a new magazine at the beginning of the month, and would devour it within days, completely self-motivated to learn, a classic example of inside-out education.
+
+The other thing I loved to do was share these facts with other people, and watch their faces light up with amazement, shock or awe.
+
+Sometimes though, my timing was terrible.
+
+It was Thanksgiving day at Mrs. Peterson's and the table was set with Turkey and fixings.
+
+Everyone was hungry and we were ready to dig in, but first I needed to share an important fact with everyone!
+
+"Did you guys know that black pepper contains the highest percentage of insect parts, according the FDA?"
+
+I'll never forget the look on my Mom's face.
+
+She had some outside-in educating to do! And she did it.
+
+I'll never forget the joy of reading those magazines.
+
+I treasure the child-like sense of awe & wonder that I learned to cultivate by reading through those pages. And, of course, I always watch my manners at the dinner table! :O
+
+Thanks again, Mom!
+
+(NEXT SLIDE DOWN)
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+#+END_NOTES
+
+** Professor McKee 2
+
+#+BEGIN_NOTES 
+In college, I had one professor that came to mind instantly when thinking about the career category.
+
+Professor Jim McKee.
+
+Professor McKee was a consummate professional.
+
+Being in his class felt more like participating in a job interview than it did a classroom.
+
+His sayings still echo in my head:
+
+"If you're not 5 minutes early, you're 5 minutes late!"
+
+"You never get a second chance to make a first impression!"
+
+And the arm length rule:
+
+"If you're within arms length of someone, stick out your hand and introduce yourself."
+
+Professor McKee told a story of his first big job break.
+
+He had an interview in an office building down town.
+
+He applied the arm length rule and introduced himself to the person riding the elevator with him.
+
+Turns out that person was his interviewer for the job, which of course he got.
+
+But the image of professor McKee I'll never get out of my head is the day he taught us how to draw cash flow diagrams in our engineering economics class.
+
+"The day of your investment you draw the arrow down because you have to part with your money so you're feeling low, low, low," he said as he drooped his torso, arms practically mopping the floor.
+
+"The day of your return on investment, you draw the arrow up, up, up!" he shouted as hopped on top his his desk and jumped up and down to the rhythm of his mantra.
+
+Professor McKee taught me just how much difference one teacher can in a person's life. Thanks Professor McKee.
+
+(NEXT SLIDE DOWN)
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+#+END_NOTES
+
+** Career in IT
+#+BEGIN_NOTES 
+
+  After college, over 20 years ago, I wanted to pursue a career in IT.
+
+  I decided to try a shortcut to breaking into the industry. I would get /*'certified'*/.
+
+  There was just one problem.
+
+  Despite 18 years of being a student, from pre-school to undergrad engineering degree, I had /*sparse*/ confidence in my own ability to efficiently learn.
+
+  I signed up for a 6 month certification program, but delayed starting by 2 months, in order to study the fundamentals of adult education. 
+
+  My brief studies about learning taught me to focus on demonstrating practical skill. 
+
+  I purchased two computers from a trade show for $400, set them up with multiple boot configurations, and materialized every example in my text books into real world use cases.
+
+  I also got a job at the certification office on the weekends, setting up workstations for the next week's courses, where I logged just over 2400 system installations.
+
+  I was the first student to complete the local training program. I passed my tests with flying colors.
+
+  I executed two successful job interviews in a row, allowing me to choose a place to begin my career.
+
+  These actions were inspired by /investing/ 2 months of my life in learning about adult education.
+   
+  My shortcut driven efforts paid off in terms of personal finances, but were costly in another way.
+
+  By succeeding at taking a shortcut, by taking the easy way, I reinforced a personal strategy that would cost precious time and money when I started to learn how to program, which I'll talk more about soon.
+
+  The experience of learning about adult education was my first brush with learning about learning itself, but the profundity of it didn't sink in at the   time.
+
+  It would be years later that I would look back and really glean wisdom from the experience.
+
+(NEXT SLIDE DOWN)
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+#+END_NOTES
+
+
+** Finding Clojure 
+
+ #+BEGIN_NOTES 
+    My path to finding Clojure has been long and sometimes emotionally painful.
+
+    Instead of structured struggle, much of the path has felt like needless struggle.
+
+    I'd like to help other newcomers find their way before they suffer the bumps and bruises I've experienced. 
+
+    I started programming at age 10.  By age 12, I was more interested in riding my bike than in staying inside the house.
+
+    A few years ago, I started dabbling in programming again, in my spare time.
+
+    I grew an interest in web applications, and had multiple ideas for potential businesses.
+
+    I looked for 'easy' ways to make web apps.
+
+    Even though the lessons I learned 20 years before about adult education were generally helpful, I picked up a way of thinking that needed to be unlearned.
+
+    And given my sometimes stubborn nature, I had to learn the following lesson twice: Stop trying to do it the easy way!
+
+    Twice, I tried to learn an 'easy' web framework, when I should have been focused on the fundamentals of programming.
+
+    By the time I heard Rich Hickey's talk, Simple Made Easy, I was totally receptive to his message.
+
+    In my own words, what I learned from him is that many approaches appear easy at first glance. But most /easy/ systems are actually highly complicated systems masquerading behind a thin veil of superficial usability.
+
+    These systems will consume more time and resources the further a team gets into a greenfield project, before eventually grinding the progress of customization requests to a near halt.
+
+    My main goal is to work with code and technology which facilitates understanding, allowing the team to focus on the domain problem at hand.
+
+    I want to avoid being forced by my technology stack into saying, "No! Sorry, we can't do that, because the system won't allow it!"
+
+    The main reason I've chosen Clojure is that I want to learn to think about the fundamentals of programming in the same way that Rich Hickey does - identities, values, time, these are his fundamental building blocks.
+
+    Masters of a craft, discover, not only its essence, but how to practice it with great efficiency.
+
+    Who are the professionals? What results are they achieving? And how are they achieving those results.
+
+    I will save time, not by finding the easy way, but by mastering the fundamentals that bring very difficult problems within the reach of mortals, like me. Thank you Rich Hickey! 
+ #+END_NOTES 
+
+
+** Betty Edwards 4
+
+** Learning How to Learn 5
 * The actions
 What actions are consistent with this value?
 ** If we value learning, why not get better at it, instead of dribbling the ball incessantly. 
@@ -1104,13 +1425,16 @@ What actions are consistent with this value?
 ** Everyone a teacher, video, microphone, record and publish.
 ** 
 * Closing
-
+inclusivity via learning
 ** 
 #+BEGIN_QUOTE
 Live as if you were to die tomorrow. Learn as if you were to live forever. -- Mahatma Gandhi
 #+END_QUOTE
 
 
+
+
+* ********** Beyond this point is all notes ************ 
 
 
 
@@ -1299,54 +1623,7 @@ I would enjoy revisiting the question anew, perhaps from a purely mathematical p
 **** Sunset story
 *** Child like sense of curiosity, awe and wonder - Nature/Even from a magazine Wow!, Pepper/Insects/Thanksgiving
 **** Exceptions! https://www.theatlantic.com/health/archive/2016/09/is-awe-really-good-for-you/501086/
-
-*** Finding Clojure 
-    :PROPERTIES:
-    :reveal_extra_attr: redpill-img-src="/resources/images/800px-Pill-threshold00.png"
-    :END:
-
-  #+ATTR_REVEAL: :frag t
-  file:resources/images/800px-Pill-threshold00.png
-
-
-  #+BEGIN_NOTES 
-     My path to finding Clojure has been long and sometimes painful.
-
-     I'd like to help other newcomers find it before they suffer the bumps and bruises I've experienced. 
-
-     I started programming at age 10.  By age 12, I was more interested in riding my bike than in staying inside the house.
-
-     A few years ago, I started dabbling in programming again, in my spare time.
-
-     I grew an interest in web applications, and had multiple ideas for potential businesses.
-
-     I looked for 'easy' ways to make web apps.
-
-     Even though I the lessons I learned 20 years before about technical study were generally helpful, I picked up a way of thinking that needed to be unlearned.
-
-     And given my sometimes stubborn nature, I had to learn the following lesson twice: Stop trying to do it the easy way!
-
-     Twice, I tried to learn an 'easy' web framework, when I should have been focused on the fundamentals of programming.
-
-     By the time I heard Rich Hickey's talk, Simple Made Easy, I was totally receptive to his message.
-
-     In my own words, what I learned from him is that many approaches appear easy at first glance. But most /easy/ systems are actually highly complicated systems masquerading behind a thin veil of superficial usability.
-
-     These systems will consume more time and resources the further a team gets into a greenfield project, before eventually grinding the progress of customization requests to a near halt.
-
-     My main goal is to work with code and technology which facilitates understanding, allowing the team to focus on the domain problem at hand.
-
-     I want to avoid being forced by my technology stack into saying, "No! Sorry, we can't do that, because the system won't allow it!"
-
-     The main reason I've chosen Clojure is that I want to learn to think about the fundamentals of programming in the same way that Rich Hickey does - identities, values, time, these are his fundamental building blocks.
-
-     Masters of a craft, discover, not only its essence, but how to practice it with great efficiency.
-
-     Who are the professionals? What results are they achieving? And how are they achieving those results.
-
-     I will save time, not by finding the easy way, but by mastering the fundamentals that bring very difficult problems within the reach of mortals, like me. Thank you Rich Hickey! 
-  #+END_NOTES 
-*** Philosophy - Stoics (Tim Ferris calls ideal personal operating system)
+* Philosophy - Stoics (Tim Ferris calls ideal personal operating system)
 *** Time - First, Second aha!
 *** Long Wave - Not just investing, but timing things, like education
 
@@ -1354,35 +1631,21 @@ I would enjoy revisiting the question anew, perhaps from a purely mathematical p
 
 **** Sold my house in July of 2007.
 
-*** Career in IT
+* Why am I the person giving this talk?
+*** TODO Long and documented history of putting my foot in my mouth
+#+BEGIN_NOTES 
+Much of the talk is about the human brain, and almost anything I say about the brain that fits into an hour long talk will be grossly over-simplified. 
+#+END_NOTES
+*** TODO And thinking inside the box.
+#+BEGIN_NOTES 
+Learning is like breathing -- we're always doing it. My thoughts on learning are being articulated through a lifetime of inherited and accumulated personal biases, many, if not most of which, I am probably unaware. That's why I need your help to unlock the potential discoveries of this fledgling research.
+#+END_NOTES
+*** Seriously though!  
+#+BEGIN_NOTES
+All joking aside, I'm deeply interested in this topic because learning to program, for me, has been a joy, but also a painful and lonely struggle. My experience and instincts tell that by the time most people discover Clojure, they've suffered needlessly for too long. I hope this talk can reach out and find aspiring learners at the outset of their learning journey. What can we do together to make learning Clojure a fantastic experience for everyone?
+#+END_NOTES
 
-   After college, over 20 years ago, I wanted to pursue a career in IT.
-
-   I decided to try a shortcut to breaking into the industry. I would get /*'certified'*/.
-
-   There was just one problem.
-
-   Despite 18 years of being a student, from pre-school to undergrad engineering degree, I had /*sparse*/ confidence in my own ability to efficiently learn.
-
-   I signed up for a 6 month certification program, but delayed starting by 2 months, in order to study the /science of learning/. 
-
-   I was the first student to complete the local training program. I passed my tests with flying colors.
-
-   I landed two job offers in my first two interviews, and my career in IT was established.
-
-   My brief studies about learning taught me to focus on understanding vocabulary and demonstrating practical skill. 
-
-   I purchased two computers from a trade show for $400, set them up with multiple boot configurations, and materialized every example in my text books into real world use cases.
-
-   I also got a job at the certification office on the weekends, setting up workstations for the next week's courses, where I logged just over 2400 system installations.
-
-   I executed two successful job interviews in a row, allowing me to choose a place to begin my career.
-
-   These actions were /all/ inspired by /investing/ 2 months of my life in learn about learning.
-   
-   My shortcut driven efforts paid off in terms of personal finances, but were costly in other ways, which I'll explain soon.
-
-*** Clojure
+* Clojure
 **** Why Clojure - React Native holism etc.
 *** Family, friends and human relationships
 **** Vipassana Mediation - Understanding the mind/body commection
@@ -1398,20 +1661,6 @@ There's a parallel between the drawings we saw at the start of this talk and the
 That framework, as it turns out, is vitally important to genuine understanding. TODO University Study.
 *** Learning is Adapting
 And adapting is human. (Tie in Clojure connection)
-
-* Why am I the person giving this talk?
-*** TODO Long and documented history of putting my foot in my mouth
-#+BEGIN_NOTES 
-Much of the talk is about the human brain, and almost anything I say about the brain that fits into an hour long talk will be grossly over-simplified. 
-#+END_NOTES
-*** TODO And thinking inside the box.
-#+BEGIN_NOTES 
-Learning is like breathing -- we're always doing it. My thoughts on learning are being articulated through a lifetime of inherited and accumulated personal biases, many, if not most of which, I am probably unaware. That's why I need your help to unlock the potential discoveries of this fledgling research.
-#+END_NOTES
-*** Seriously though!  
-#+BEGIN_NOTES
-All joking aside, I'm deeply interested in this topic because learning to program, for me, has been a joy, but also a painful and lonely struggle. My experience and instincts tell that by the time most people discover Clojure, they've suffered needlessly for too long. I hope this talk can reach out and find aspiring learners at the outset of their learning journey. What can we do together to make learning Clojure a fantastic experience for everyone?
-#+END_NOTES
 * Could the keys to unlocking our human potential be hidden in the mysteries of the human brain?
 *** Decide for yourself after we explore recent discoveries, including powerful new insights in motivation and procrastination.
 **** How can science's new understanding of the placebo effect dramatically increase our chances of successfully mastering highly technical skills?
