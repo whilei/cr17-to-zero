@@ -591,9 +591,9 @@ The /socratic method/ remains as effective today as it was over 2400 years ago.
 /The Meaning of Adult Education/
 Eduard C. Lindeman
 
+ #+ATTR_REVEAL: :frag t
  [[file:resources/images/history-of-salt/grand-canyon-filled with-fog-todd-diemer_2017-01-13_09-53-33.jpg]]
 
-# TODO isaac frag this picture please :)
 
 #+BEGIN_NOTES 
 After the time of Socrates, humankind's progress in adult education experiences a small gap.
