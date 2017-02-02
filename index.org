@@ -603,6 +603,10 @@ The /socratic method/ remains as effective today as it was over 2400 years ago.
 #+END_NOTES
 
 *** Modern Learning  
+:PROPERTIES:
+# unset fullsize (before, in case of moving backwards)
+:reveal_extra_attr: video-size="normal"
+:END:
 /The Meaning of Adult Education/
 Eduard C. Lindeman
 
@@ -635,6 +639,10 @@ It's helpful to remember that the science of learning is a young science.
 #+END_NOTES
 
 ** Two faces of education
+:PROPERTIES:
+# set fullsize
+:reveal_extra_attr: video-size="full"
+:END:
 - Outside In
 - Inside Out
 
@@ -655,6 +663,10 @@ These two faces of education can be generally described as /Outside In/ vs /Insi
 #+END_NOTES
 
 *** Outside In
+:PROPERTIES:
+# unset fullsize (after)
+:reveal_extra_attr: video-size="normal"
+:END:
 educare: to train or mold
 
 #+BEGIN_NOTES 
