@@ -404,15 +404,24 @@ Let's dig into this question!
 
 ** Brain, the invisible organ
  #+BEGIN_NOTES 
- While learning may be the invisible value, the brain is the invisible organ. At least that's the excuse I use to explain why, in my youth, I was *not* very interested in the brain, or how I could use it to improve my life.
 
- For all its potential power, surely there must be some explanation why I wasn't in awe of the brain in my youth.
+ While learning may be the invisible value, the brain is the invisible organ. At least that's my explanation of why, in my youth, I was *not* very interested in the brain, or how I could use it to improve my life.
+
+ For all its potential power, surely there /must be/ some explanation why I wasn't in awe of the brain.
 
  A couple of reasons have come to mind:
 
- In my case, the brain science of the day led my teachers to inform me that I was given a fixed number of brain cells, and no new cells would ever be produced. What I heard was "You can't get any smarter. You're either smart or you're not."
+ In my case, the brain science of the day said that once a human embryo was fully developed the brain had a fixed number of brain cells, and no new cells would ever be produced.
 
- And here's another simple observation -- the brain has to compete with a heartbeat. As a very young child, getting to know my own body, the heartbeat was a constant reminder, "I have a heart!" 
+ The message behind the message, to my ear, was "You can't get any smarter. You're either smart or you're not."
+
+ And maybe there's another reason why the brain goes unappreciated to kids -- the brain has to compete with a heartbeat. As a very young child, the heartbeat was a constant reminder, "I have a heart!"
+
+ It's funny how as I child, I never really thought about my brain thinking. It was always "me thinking".
+
+ Truth is, even to this day its kind of weird for me to think about the brain thinking.
+
+ Is thinking for me, as me? I give up.
 
  Maybe the brain just needs better PR. This talk hopes to remedy that. 
 
@@ -423,16 +432,10 @@ Let's dig into this question!
 .
 
 .
-
-.
-
-.
-
-.
  #+END_NOTES
 
 ** Understanding the question
-How much do I value learning?
+What is the value of learning?
 
 #+BEGIN_NOTES 
 Let's illuminate the question by looking at the meaning and history of the words /value/ & /learning/.
