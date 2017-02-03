@@ -189,7 +189,7 @@ div#redpill-box {
     .figure.redpill p .qrcode img {
       /* border: 2px solid $backgroundColor; */
       /* margin: auto; */
-      border: 10px solid #545f66 !important;
+      border: 10px solid white !important;
       border-radius: 3px;
       margin: auto;
       position: absolute;
