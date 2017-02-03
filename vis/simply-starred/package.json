@@ -1,0 +1,15 @@
+{
+  "name": "simply-starred",
+  "version": "1.0.0",
+  "description": "counts stars with 'simple' in the desc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "freq": "^0.1.5",
+    "github-api": "^3.0.0"
+  }
+}
