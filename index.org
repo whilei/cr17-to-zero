@@ -17,22 +17,13 @@
 ;; Conclusion 5 min
 #+END_NOTES
 
-* 
+*  
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video"
 :reveal_background_size: 100%
 :reveal_background: /resources/images/title-screen_2017-01-16_16-18-34.png
 :END:
-
 #+BEGIN_NOTES 
-Title Slide
-
-(NEXT SLIDE RIGHT)
-
-#+END_NOTES
-* Welcome
-
- #+BEGIN_NOTES 
  Thank you Ryan for inviting me to speak at Clojure Remote 2017. And /*welcome*/ to everyone whose with us today to hear about /The Value of Learning/.
 
  My name is Jay, and I'm enthralled by the subject of learning. Here's one example of why:
@@ -48,9 +39,9 @@ Title Slide
 .
 
 .
- #+END_NOTES
+#+END_NOTES
 # Yes, these dots are intentional. They allow me to continue to scroll to place text directly over the lens of the camera.
- 
+
 # Before+after(3)
 **  
 :PROPERTIES:
@@ -147,59 +138,61 @@ And how long for this much improvement?
 .
  #+END_NOTES
  
-** Target Audience
-#+ATTR_REVEAL: :frag (roll-in) 
-- programmers
-- aspiring programmers
-- curious minded people
+# ** Target Audience
 
-#+BEGIN_NOTES
-I wrote this talk with (NEXT FRAG) programmers *and* (NEXT FRAG) aspiring programmers in mind, but (NEXT FRAG) /*anyone*/ with an interest in learning will, /hopefully/, find the talk personally relevant.
 
-(NEXT SLIDE DOWN)
+# #+ATTR_REVEAL: :frag (roll-in) 
+# - programmers
+# - aspiring programmers
+# - curious minded people
 
-.
+# #+BEGIN_NOTES
+# I wrote this talk with (NEXT FRAG) programmers *and* (NEXT FRAG) aspiring programmers in mind, but (NEXT FRAG) /*anyone*/ with an interest in learning will, /hopefully/, find the talk personally relevant.
 
-.
+# (NEXT SLIDE DOWN)
 
-.
+# .
 
-.
+# .
 
-.
+# .
+
+# .
+
+# .
+# #+END_NOTES
+
+** My Credentials 
+#+ATTR_REVEAL: :frag t 
+file:resources/images/jayfootinmouth-x600.png
+
+#+BEGIN_NOTES 
+What are my qualifications for giving this talk? 
+
+Brain science is a young science, and the pace of discovery is breathtaking. 
+
+Fortunately, I have a long and 
+
+(NEXT FRAG) 
+
+documented history of putting my foot in my mouth, just in case you happen to be an /actual/ neuroscientist. 
+
+(NEXT SLIDE DOWN) 
+
+. 
+. 
+. 
+. 
+. 
 #+END_NOTES
 
-** My Credentials
-   #+ATTR_REVEAL: :frag t
-   file:resources/images/jayfootinmouth-x600.png
-
-   #+BEGIN_NOTES
-   What are my qualifications for giving this talk?
-
-   Brain science is a young science, and the pace of discovery is breathtaking.   
-   
-   Fortunately, I have a long and (NEXT FRAG) documented history of putting my foot in my mouth, just in case you happen to be an /actual/ neuroscientist.
-
-   (NEXT SLIDE DOWN)
-
-   .
-
-   .
-
-   .
-
-   .
-
-   .
-    #+END_NOTES 
-
 ** Stories of learning 
-  :PROPERTIES:
-  :reveal_extra_attr: redpill-img-src="/resources/images/red-pill.svg.png" qr-data="http://webappzero.com"
-  :END:
+:PROPERTIES:
+:reveal_extra_attr: redpill-img-src="/resources/images/red-pill.svg.png" qr-data="http://webappzero.com" video-size="normal"
+:END:
 
-  #+ATTR_REVEAL: :frag t
-  file:resources/images/red-pill.svg.png
+#+ATTR_REVEAL: :frag t
+file:resources/images/red-pill.svg.png
 
 
 #+BEGIN_NOTES
@@ -250,23 +243,19 @@ I wrote this talk with (NEXT FRAG) programmers *and* (NEXT FRAG) aspiring progra
 .
 #+END_NOTES
 
-* 
- :PROPERTIES:
- :reveal_extra_attr: data-state="hide-video"
- :reveal_background_size: 100%
- :reveal_background: /resources/images/red-blue/the-value-of-learning-red-blue.png
- :END:
-
-   #+BEGIN_NOTES
+*   
+:PROPERTIES:
+:reveal_extra_attr: video-size="full"
+:END:
+   
+#+BEGIN_NOTES
 
    "The Value of Learning."
 
-   Just how much do I value learning? 
+   How do I value learning? 
 
-   How can I determine how much value I place on something like learning?
-
-   If I discover that I value learning greatly, how can I live a life consistent with this core value?
-
+   What does learning look like in the context of Clojure, programming in general, and how might we learn from lessons outside this scope?
+   
    (NEXT SLIDE RIGHT)
 .
 
@@ -277,10 +266,12 @@ I wrote this talk with (NEXT FRAG) programmers *and* (NEXT FRAG) aspiring progra
 .
 
 .
-   #+END_NOTES
+#+END_NOTES
 
 * Talk Outline
-
+:PROPERTIES:
+:reveal_extra_attr: video-size="normal"
+:END:
 #+BEGIN_NOTES 
 I'm going to weave several stories about learning through the framework of this simple 3 part outline.
 
@@ -294,12 +285,12 @@ I'm going to weave several stories about learning through the framework of this 
 #+END_NOTES
 
 ** The question
-How much do I value learning?
+How do I value learning?
 
 #+BEGIN_NOTES 
 What is the question?
 
-How much /*do I*/ value learning?
+How /*do I*/ value learning?
 
 (NEXT SLIDE DOWN)
 
@@ -311,10 +302,11 @@ How much /*do I*/ value learning?
 #+END_NOTES
 
 ** The answer
-How can I measure the value I place on learning?
+How can I develop the value I place on learning?
 
 #+BEGIN_NOTES 
-How can I know the answer? That is, how can I measure the value I place on learning?
++How can I know the answer? That is, how can I measure the value I place on learning?+
+What does learning look like? How can I cultivate it in myself and my community?
 
 (NEXT SLIDE DOWN)
 
@@ -329,7 +321,7 @@ How can I know the answer? That is, how can I measure the value I place on learn
 What actions are consistent with this value?
 
 #+BEGIN_NOTES 
-What actions spring from living this value?
+What actions spring from living this value, in the context of Clojure and beyond?
 
 (NEXT SLIDE RIGHT)
 
@@ -341,12 +333,13 @@ What actions spring from living this value?
 #+END_NOTES
 
 * The question
-How much do I value learning?
+How do I value learning?
 
 ** Learning, the invisible value 
   #+BEGIN_QUOTE
   In all affairs it's a healthy thing now and then to hang a question mark on the things you have long taken for granted. -- Bertrand Russell
   #+END_QUOTE
+# TODO isaac question mark!
 
   #+BEGIN_NOTES
  Before we assess the central question of this talk, let me justify the question. /Education/, it seems, is among the most universally accepted of human values.
@@ -412,7 +405,7 @@ How much do I value learning?
  #+END_NOTES
 
 ** Understanding the question
-How much do I value learning?
+How do I value learning?
 
 #+BEGIN_NOTES 
 Let's illuminate the question by looking at the meaning and history of the words /value/ & /learning/.
@@ -543,6 +536,9 @@ As far back as the 13th century, the word /learn/ was also used to mean "teach".
 
 Today this alternative meaning is relegated to speech, because it's *not* considered proper grammar.  
 
+“Tell me and I forget, teach me and I may remember, involve me and I learn.” 
+― Benjamin Franklin
+
 (NEXT SLIDE RIGHT)
 
 .
@@ -555,10 +551,7 @@ Today this alternative meaning is relegated to speech, because it's *not* consid
 #+END_NOTES
 
 ** The history of learning
-:PROPERTIES:
-# :reveal_extra_attr: redpill-img-src="/resources/images/history-of-salt/grand-canyon-filled with-fog-todd-diemer_2017-01-13_09-53-33.jpg"
-:END:
-
+# TODO isaac img what does learning historically look like?
 #+BEGIN_NOTES 
 Let's quickly recap the history of learning.
 
@@ -571,7 +564,7 @@ Let's quickly recap the history of learning.
 #+END_NOTES
 
 *** Evolution
-We descend from, and are ,the very best learners in all of history, because we're here.
+We descend from, and are ,the very best learners in all of history, because we're here. (Although, and I can tell by just looking, a couple of you simply got lucky ;-)
 
 #+BEGIN_NOTES 
 Evolutionary biology teaches that our prime directive in life is to pass on our genes to future generations.
@@ -629,7 +622,7 @@ After the time of Socrates, humankind's progress in adult education experiences 
 
 The 1926 paper /The Meaning of Adult Education/, by Eduard C. Lindeman, reignited the subject of learning and established a scientific, research oriented approach to understanding how adults learn.  
 
-It's helpful to remember that the science of learning is a young science.
+It's helpful to remember that the science of learning is a young science (and yet also as old as Adam and Eve's grandmother smiling to herself as they reach for the hot potato before it's had time to cool).
 
 (NEXT SLIDE RIGHT)
 
@@ -651,7 +644,7 @@ It's helpful to remember that the science of learning is a young science.
 - Inside Out
 
 #+BEGIN_NOTES 
-The meaning of the word education is surrounded by scholarly debate, stemming from the two branches of its latin roots.
+The meaning of the word education is multifaceted, stemming from the two branches of its latin roots.
 
 These two faces of education can be generally described as /Outside In/ vs /Inside Out/. 
 
@@ -665,7 +658,9 @@ These two faces of education can be generally described as /Outside In/ vs /Insi
 
 .
 #+END_NOTES
-
+# 1. the process of receiving or giving systematic instruction, especially at a school or university
+# 2. an enlightening experience.
+# https://www.google.ch/?gfe_rd=cr&ei=YbiUWIKSEuPI8gfO4pHgDQ#safe=off&q=etymology+education
 
 *** Outside In
 educare: to train or mold
@@ -700,6 +695,9 @@ I definitely needed some "outside in" education!
 
 *** Inside Out
 educere: to lead out
+
+
+# Isaac: Suggest revision to Japan, Germany, test scores section. Would need multiple citations and tips a very large, very complex iceberg of education-theoretico-politico criticism that seems out of place. For example, Japan's parenting culture is notoriously, even beligerently, focused on SAT/standardized-test scores. Germany, like France, relies heavily on standardized en-masse tests to determine school/track placement (as of the 8th grade?). Not to mention citing standardized test score statistics in opposition to outside-in education...
 #+BEGIN_NOTES 
 The latin /educere/ means: to lead out.
 
@@ -717,7 +715,7 @@ The science and math scores in the U.S. over the past couple decades show an ove
 
 Students here in the U.S. are given a new problem, immediately followed by the recipe to solve the problem.
 
-In German, Japan and other high performing countries, students are challenged to think through the problem, after being reminded of recent supportive lessons.
+In Germany, Japan and other high performing countries, students are challenged to think through the problem, after being reminded of recent supportive lessons.
 
 Then students work in teams to try to solve the problem.
 
@@ -781,7 +779,7 @@ Inside-out, or outside-in? *Yes*.
 #+END_NOTES
 
 ** Review the question
-How +much+ do I value learning?
+How do I value learning?
 
 # Isaac: In light of needing to sculpt some mass away, this might be an area of reconsideration. 
 # A discussion of the historico-philosophico-logistics of axiology seems somewhat out of place, given a focus on "learning about learning"... perhaps leading unnecessarily towards "learning about valuation systems".
