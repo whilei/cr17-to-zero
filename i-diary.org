@@ -134,3 +134,16 @@ The problem with my solve is that our tools aren't formatted for it. Web pages d
 * Random access thoughts
 Like bl.ocks but for _____ &clojure
 Self portraits... #dubuffet #basquiat #hirst #hundertwasser #picasso.young/#picasso.picasso. You don't have to be an artist to be an artist.
+
+** Meeting notes
+- Polis 
+- Onyx
+
+w/r/t _Clojure_
+"aha!" vs "hmmmm"  <-- visualize ? - !
+your own limitations and leanring wrt to working with arachne...
+
+TODO:
+1. as an audience member, what makes sense? polls. 
+2. visuals - ? - !, github Issues, stackoverflow, side-by instead of stack-over flow 
+3. some awesome resources for learning how to learn
