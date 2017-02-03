@@ -176,24 +176,27 @@ A little hint: if you have a smart phone with a QR code scanner, you can be read
 
    I'm speaking to you today as a layperson.
 
-   As someone whose interested in the mysteries of the brain, our human potential, and the value of learning.
+   And if I've learned anything about this subject, its that learning is full of paradox.
 
-   Brain science is a young science, and the pace of discovery is breathtaking.   
-   
+   It often results from a process of reconciliation between competing ideas or ways of thinking.
+
+   Almost any statement of truth I might profess about learning, can probably be argued the other way as well.
+ 
+   This wasn't readily apparent to me when I began this project, but its crystal clear to me now.
+
+   And I'm more humble for the effort.
+
    Fortunately, I have a long and
 
-   (NEXT FRAG) documented history of putting my foot in my mouth, just in case you happen to be an actual neuroscientist.
+   (NEXT FRAG) documented history of putting my foot in my mouth.
 
-   I'm not an expert in programming, nor in the subject of learning.
-   
    This talk aims to kick start an ongoing conversation about our individual and shared experiences of learning.
 
    One of my favorite things about learning today is that when you start researching a topic, such as learning, all of sudden you start attracting related information to yourself, whether it's your YouTube feed suggesting videos or a friend telling you about a helpful idea.
 
-   I've experienced so many wonderful moments like that while researching this talk, thanks to all the people that have opened up about their own learning experiences.
+   I've experienced so many wonderful moments like that while researching this talk, thanks to so many generous people who've shared with me their own learning experiences with insight and candor.
 
-   My hope is that by opening up and sharing my experiences in a candid way, that other people might identify with my triumphs and struggles and that, together, we might be able find a better way of tackling some of our common problems around learning and teaching technical subjects.
-
+   My hope is that by candidly sharing my own learning experiences publicly, other people might identify with my learning triumphs and struggles, and that together we might be able find a better way of tackling some of our common problems around learning and teaching.
 
    (NEXT SLIDE DOWN)
 
@@ -211,7 +214,6 @@ A little hint: if you have a smart phone with a QR code scanner, you can be read
 
   #+ATTR_REVEAL: :frag t
   file:resources/images/red-pill.svg.png
-
 
 #+BEGIN_NOTES
 
@@ -282,7 +284,7 @@ I'll weave several stories about learning through the framework of this simple 3
 
 The question. The answer. The outline.
 
-All told, this is a story about success, about failure, about learning.
+All told, this is a story about success and failure, about trying and learning.
 
 (NEXT SLIDE DOWN)
 
@@ -344,8 +346,21 @@ What actions are consistent with this value?
 
 .
 #+END_NOTES
+
 * The question
-How much do I value learning?
+What is the value of learning?
+
+#+BEGIN_NOTES 
+Let's dig into this question!
+
+(NEXT SLIDE DOWN)
+
+.
+
+.
+
+.
+#+END_NOTES
 
 ** Learning, the invisible value 
   #+BEGIN_QUOTE
@@ -353,31 +368,32 @@ How much do I value learning?
   #+END_QUOTE
 
   #+BEGIN_NOTES
- Before we assess the central question of this talk, let me justify the question. /Education/, it seems, is among the most universally accepted of human values.
 
- At first glance the answer to the question, "Do I value learning?" appears to be so obvious that the question seems silly or trite, maybe even a complete waste of time.
+ Before we assess the central question of this talk, let me /try/ to clarify the question.
 
- In a few moments, I'll draw a subtle distinction between the words education and learning which will further justify the question.
+ /Education/ is often touted as a panacea to to the world's problems.
 
- Bertrand Russell said, "In all affairs it's a healthy thing now and then to hang a question mark on the things you have long taken for granted."
+ Over time, I've observed that different people mean different things when saying these exact same words.
 
- I believe that we have a lot to gain and nothing to lose by putting Bertrand Russell's wisdom to work on the subject of learning.
+ Learning is obviously important, but when we talk about learning, what do we mean?
 
- Invisible values risk becoming neglected values. My hope is that by thoughtfully assessing the value of learning for ourselves, we can mitigate this risk and reach our individual and collective learning potential.
+ School? College? Career? Breathing?
 
- At the very least, attempting to answer this question is in accord with the age old wisdom, "know thyself."
+ Okay, fortunately some things come to us quite naturally.
+
+ At first glance, the question "What is the value of learning?" appears to be quite basic. 
+
+ It was Bertrand Russell who said, "In all affairs it's a healthy thing now and then to hang a question mark on the things you have long taken for granted."
+
+ I believe that we have a lot to gain, and nothing to lose, by applying Russell's wisdom to the subject of learning.
+
+ Invisible values risk becoming neglected values.
+
+ If we persist in repeating the mantra "education is the answer", without periodically reflecting on it's meaning, the words begin to ring hollow and lose their power.
+
+ My hope is that by thoughtfully assessing the value of learning for ourselves, we can discover something new, something overlooked, and gain insight into the invisible value of learning.
 
 (NEXT SLIDE DOWN) 
-
-.
-
-.
-
-.
-
-.
-
-.
 
 .
 
@@ -821,8 +837,7 @@ Now it's time to look for an answer. And while we're at it, we'll discover how B
 #+END_NOTES
 
 * The answer
-How can I measure how much value I place on learning?
-
+How can I discover the value of learning?
 #+BEGIN_NOTES 
 So, how /*can*/ I measure how much value I place on learning?
 
