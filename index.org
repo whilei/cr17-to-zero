@@ -33,9 +33,9 @@ Title Slide
 * Welcome
 
  #+BEGIN_NOTES 
- Thank you Ryan for inviting me to speak at Clojure Remote 2017. And /*welcome*/ to everyone whose with us today to hear about /The Value of Learning/.
+ Thank you Ryan. I'm happy to be here at Clojure Remote 2017 and honored to speak to this group of enthusiastic Clojure folks.  Welcome to each of you that are with us today to hear about /The Value of Learning/.
 
- My name is Jay, and I'm enthralled by the subject of learning. Here's one example of why:
+ Lately, I've become enthralled by the subject of learning. Here's one example of why:
 
  (NEXT SLIDE DOWN)
 
@@ -44,12 +44,7 @@ Title Slide
 .
 
 .
-
-.
-
-.
- #+END_NOTES
-# Yes, these dots are intentional. They allow me to continue to scroll to place text directly over the lens of the camera.
+#+END_NOTES
  
 # Before+after(3)
 **  
@@ -118,17 +113,21 @@ And how long for this much improvement?
  # file:resources/images/twitter-bird-944px.svg.png
 
  #+BEGIN_NOTES
- 5 days. That's it. These people, people not unlike you or me, learned the technical fundamentals of drawing in only *5 days*. 
+ 5 days. These people, people not unlike you or me, learned the technical fundamentals of drawing in only 5 days. 
  
- Personally, I'm /*astonished*/ by these drawings.
+ Personally, I'm astonished by these drawings.
  
- It reminds of the scene in The Matrix, where Neo and Trinity see a helicopter. He asks her "Can you fly that thing?" and she replies, "Not yet". Moments later (NEXT FRAG) she is skillfully flying the aircraft.
+ The rapid progress of these students reminds of the scene in The Matrix, where Neo and Trinity see a helicopter. He asks her "Can you fly that thing?" and she replies, "Not yet". Moments later
+
+ (NEXT FRAG) she is skillfully flying the aircraft.
  
- How does their teacher (NEXT FRAG), Betty Edwards, facilitate such progress for *all* of her students, not just some?
+ How does their teacher
+
+ (NEXT FRAG), Betty Edwards, facilitate such efficient progress for *all* of her students, not just some?
  
  And how is her approach relevant to learning other highly technical skills, such as programming?
  
- We'll explore these, and other engaging questions, over the next hour.
+ We'll explore these, and other engaging questions, over the next hour, but first let's frame up the conversation.
 
  (NEXT SLIDE DOWN)
 
@@ -137,24 +136,26 @@ And how long for this much improvement?
 .
 
 .
-
-.
-
-.
-
-.
-
-.
- #+END_NOTES
+#+END_NOTES
  
-** Target Audience
-#+ATTR_REVEAL: :frag (roll-in) 
+** Audience
+#+ATTR_REVEAL: :frag t
+- Clojure programmers
 - programmers
 - aspiring programmers
 - curious minded people
 
 #+BEGIN_NOTES
-I wrote this talk with (NEXT FRAG) programmers *and* (NEXT FRAG) aspiring programmers in mind, but (NEXT FRAG) /*anyone*/ with an interest in learning will, /hopefully/, find the talk personally relevant.
+We're at a Clojure Conference, and I'm a Clojure enthusiast. We'll definitely be talking about Clojure, but you don't even have to know what Clojure is to get something out of this talk, or to participate.
+
+Are you interested in solving problems, making things, the subject of creativity, or learning?
+
+Whatever your interests, your presence and ideas are greatly valued.
+
+In a minute, I'll give you more instructions on how you can participate in this conversation, even if you're watching this on video 6 months, or even years from now.
+
+A little hint: if you have a smart phone with a QR code scanner, you can be ready to scan in a minute. If not, there will be other ways you can get involved.
+
 
 (NEXT SLIDE DOWN)
 
@@ -164,9 +165,6 @@ I wrote this talk with (NEXT FRAG) programmers *and* (NEXT FRAG) aspiring progra
 
 .
 
-.
-
-.
 #+END_NOTES
 
 ** My Credentials
@@ -176,9 +174,26 @@ I wrote this talk with (NEXT FRAG) programmers *and* (NEXT FRAG) aspiring progra
    #+BEGIN_NOTES
    What are my qualifications for giving this talk?
 
+   I'm speaking to you today as a layperson.
+
+   As someone whose interested in the mysteries of the brain, our human potential, and the value of learning.
+
    Brain science is a young science, and the pace of discovery is breathtaking.   
    
-   Fortunately, I have a long and (NEXT FRAG) documented history of putting my foot in my mouth, just in case you happen to be an /actual/ neuroscientist.
+   Fortunately, I have a long and
+
+   (NEXT FRAG) documented history of putting my foot in my mouth, just in case you happen to be an actual neuroscientist.
+
+   I'm not an expert in programming, nor in the subject of learning.
+   
+   This talk aims to kick start an ongoing conversation about our individual and shared experiences of learning.
+
+   One of my favorite things about learning today is that when you start researching a topic, such as learning, all of sudden you start attracting related information to yourself, whether it's your YouTube feed suggesting videos or a friend telling you about a helpful idea.
+
+   I've experienced so many wonderful moments like that while researching this talk, thanks to all the people that have opened up about their own learning experiences.
+
+   My hope is that by opening up and sharing my experiences in a candid way, that other people might identify with my triumphs and struggles and that, together, we might be able find a better way of tackling some of our common problems around learning and teaching technical subjects.
+
 
    (NEXT SLIDE DOWN)
 
@@ -187,13 +202,9 @@ I wrote this talk with (NEXT FRAG) programmers *and* (NEXT FRAG) aspiring progra
    .
 
    .
+   #+END_NOTES 
 
-   .
-
-   .
-    #+END_NOTES 
-
-** Stories of learning 
+** Audience Participation
   :PROPERTIES:
   :reveal_extra_attr: redpill-img-src="/resources/images/red-pill.svg.png" qr-data="http://webappzero.com"
   :END:
@@ -203,46 +214,32 @@ I wrote this talk with (NEXT FRAG) programmers *and* (NEXT FRAG) aspiring progra
 
 
 #+BEGIN_NOTES
-   I'm not an expert in programming, nor in the science of learning. 
-   
-   This talk is a slice of my life experiences around learning.
-   
-   Before we get started there's one more thing you need to know about this talk. 
 
-   It's not just a one-way talk. It's been designed to evolve into a dynamic, community driven, conversation.
+   This interactive talk is designed to be an ongoing conversation.
 
-   It began its life open to community as an open source github repository, and has evolved into an open-data project, driven by your anonymous, interactive input.
+   It began its life as an open source github repository, and has evolved into an open-data project, driven by your anonymous, interactive input.
 
-   Scattered throughout the talk, you'll notice a red pill appear on the lower right corner of the screen.
+   Scattered throughout the talk, you'll notice a red pill
+
+   (NEXT FRAG) appear on the lower right corner of the screen.
 
    Each pill contains a QR code.
 
-   If you want to particpate, please ready your smart phone to scan QR codes.
+   These red-pills lead to mini-polls, links to kick-start your research, or pre-filled tweets that will serve to network like minds around the subject of learning.
 
-   These red-pill qr codes are mini-polls, links to kick-start your research or pre-filled tweets that will serve to network like minds around the subject of learning.
+   Even if you're watching this on video, months or years from now, you can still participate by scanning the red pills with your smart phone.
 
-   Even if you're watching this on video, months or years from now, you can still participate by scanning the QR codes with your smart phone.
+   If you don't have a smart phone handy, or if you're watching this on your smart phone, you can relax and enjoy the show because we'll be converting the presentation into an interactive web site soon.
 
-   This is your red pill, blue pill moment!
+   This is it. This is your red pill, blue pill moment!
 
    Scan the red pill now if, like me, you were astonished by the drawings done by Betty Edward's students and are curious to learn more.
-
-   No pressure though, think of this talk as a garden and pick the fruit that appeals to your senses.
 
    We're going to explore many aspects of learning through the framework of learning's /*worth*/.
 
    Let's get started!
 
    (NEXT SLIDE RIGHT)
-
-.
-
-.
-
-.
-
-.
-
 .
 
 .
@@ -261,11 +258,11 @@ I wrote this talk with (NEXT FRAG) programmers *and* (NEXT FRAG) aspiring progra
 
    "The Value of Learning."
 
-   Just how much do I value learning? 
+   What is the value of learning? 
 
-   How can I determine how much value I place on something like learning?
+   How can I discover the value of learning?
 
-   If I discover that I value learning greatly, how can I live a life consistent with this core value?
+   How can I live a life consistent with this value?
 
    (NEXT SLIDE RIGHT)
 .
@@ -273,16 +270,19 @@ I wrote this talk with (NEXT FRAG) programmers *and* (NEXT FRAG) aspiring progra
 .
 
 .
-
-.
-
-.
    #+END_NOTES
 
-* Talk Outline
+* Outline
+- The Question
+- The Answer
+- The Action
 
 #+BEGIN_NOTES 
-I'm going to weave several stories about learning through the framework of this simple 3 part outline.
+I'll weave several stories about learning through the framework of this simple 3 part outline.
+
+The question. The answer. The outline.
+
+All told, this is a story about success, about failure, about learning.
 
 (NEXT SLIDE DOWN)
 
@@ -294,13 +294,12 @@ I'm going to weave several stories about learning through the framework of this 
 #+END_NOTES
 
 ** The question
-How much do I value learning?
+What is the value of learning?
 
 #+BEGIN_NOTES 
-What is the question?
+The question:
 
-How much /*do I*/ value learning?
-
+What is the value of learning?
 (NEXT SLIDE DOWN)
 
 .
@@ -311,10 +310,14 @@ How much /*do I*/ value learning?
 #+END_NOTES
 
 ** The answer
-How can I measure the value I place on learning?
+How can I discover the value of learning?
 
-#+BEGIN_NOTES 
-How can I know the answer? That is, how can I measure the value I place on learning?
+#+BEGIN_NOTES
+
+The answer.
+
+How can I discover the value of learning?
+
 
 (NEXT SLIDE DOWN)
 
@@ -325,11 +328,13 @@ How can I know the answer? That is, how can I measure the value I place on learn
 .
 #+END_NOTES
 
-** The actions
+** The action
 What actions are consistent with this value?
 
 #+BEGIN_NOTES 
-What actions spring from living this value?
+The action.
+
+What actions are consistent with this value?
 
 (NEXT SLIDE RIGHT)
 
@@ -339,7 +344,6 @@ What actions spring from living this value?
 
 .
 #+END_NOTES
-
 * The question
 How much do I value learning?
 
