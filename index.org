@@ -478,16 +478,14 @@ Latin
 _valēre_  *to be well, have strength*
 #+END_SRC
 
-Game of Thrones fans, please take note of the phonetic similarities to /Valyrian/ steel.
+#+REVEAL_HTML: <div class="citation">merriam-webster.com</div>
 
 #+BEGIN_NOTES 
-The history of the word value goes back through Middle English to the Anglo-French work /valu/, which means *worth* or *high quality*, and finally, all the way back to the Latin, /valēre/, which means *to be well* or *have strength*.
+The history of the word value goes back through Middle English to the Anglo-French word /valu/, which means *worth* or *high quality*, and finally, all the way back to the Latin, /valēre/, which means *to be well* or *have strength*.
 
 If you're a Game of Thrones fan, you've likely noticed how similar /valēre/ sounds to Valyria, home to the forges of Valyrian steel, which is renowned for its quality and strength.
 
 (NEXT SLIDE DOWN)
-
-.
 
 .
 
@@ -505,6 +503,13 @@ If you're a Game of Thrones fan, you've likely noticed how similar /valēre/ sou
 #+BEGIN_NOTES 
 /Learning/ means *the activity or process of gaining knowledge or skill by studying, practicing, being taught, or experiencing something*.
 
+According to the definition, gaining knowledge or skill is the goal of learning.
+
+Knowledge or skill. I like the simplicity of that.
+
+And, there are a handful of ways to gain knowledge or skill: study, practice, observation, and experience.
+
+
 (NEXT SLIDE DOWN)
 
 .
@@ -513,6 +518,7 @@ If you're a Game of Thrones fan, you've likely noticed how similar /valēre/ sou
 
 .
 #+END_NOTES
+
 *** Etymology of /learn/:
 
 #+BEGIN_SRC markdown
@@ -532,43 +538,14 @@ _lira_  *furrow, track*
 #+REVEAL_HTML: <div class="citation">merriam-webster.com</div>
 
 #+BEGIN_NOTES 
+
 The history of the word /learn/ goes back through the Middle English word /lernen/, which shares the meaning *to learn* with the Old English word /leornian/, and further back to the Old English word /last/ which means *foot print*, and finally, all the way back to the latin word /lira/ which means *furrow* or *track*.
 
-The word furrow really stuck out to me. Firstly because I didn't know what it meant in this context, which is *a long trench*. But not just any trench! *a long narrow trench in the ground made by a plow, especially for planting seeds*. 
+The word furrow really sticks out to me. A furrow is *a long trench*. But not just any trench! *a long narrow trench in the ground made by a plow, especially for planting seeds*. 
 
-The latin meaning has become my favorite way to think about learning -- planting a trail of seeds, seeds of knowledge and skill, which will grow and flourish in time! How cool is that!?!
+The latin meaning is my new, favorite way to think about learning -- planting a trail of seeds, seeds of knowledge and skill, which will grow and flourish in time! How cool is that!?!
 
 (NEXT SLIDE DOWN)
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-#+END_NOTES
-
-*** Learn as synonym for Teach
-
-Master blacksmiths learned their apprentices in the craft of sword forging.
-
-#+REVEAL_HTML: <div class="citation">merriam-webster.com</div>
-
-#+BEGIN_NOTES 
-As far back as the 13th century, the word /learn/ was also used to mean "teach". As in "Master blacksmiths learned their apprentices in the craft of sword forging." 
-
-Today this alternative meaning is relegated to speech, because it's *not* considered proper grammar.  
-
-(NEXT SLIDE RIGHT)
-
-.
 
 .
 
