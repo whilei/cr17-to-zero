@@ -781,7 +781,20 @@ Inside-out, or outside-in? *Yes*.
 #+END_NOTES
 
 ** Review the question
-How much do I value learning?
+How +much+ do I value learning?
+
+# Isaac: In light of needing to sculpt some mass away, this might be an area of reconsideration. 
+# A discussion of the historico-philosophico-logistics of axiology seems somewhat out of place, given a focus on "learning about learning"... perhaps leading unnecessarily towards "learning about valuation systems".
+ 
+# In light of this (and as background for my reasoning), I might offer that, in fact, learning is unavoidable. It a necessary and functionally fundamental part of being human (or even a mouse). Scientifically speaking, it might be considered that learning can be described as the brain "re-wiring" itself in response to stimulus. And the brain is _always_ rewiring, and we are never without stimulous.[fn:ft-wt] We are _essentially_ plastic (in the material-behavior sense).
+# [fn:ft-wt]: "Fire-together, wire-together," is a common neurosciency mantra. https://en.wikipedia.org/wiki/Hebbian_theory
+
+# Given this, the challenge of _valuing_ my own learning extends to the reaches of valuing my _self_, which seems out of context from a more tangible and pragmatic perspective on "learning about learning." 
+ 
+# Instead, it may be worth bringing attention to questions like "_How_ are you learning? What does that look like?", "How does that compare to how you worked in school (where 'learning' is the supposed _MO_)?", "When, and what do you teach?" "What challenges do you face as a student or a teacher in the context of Clojure?"
+ 
+# Which might lead nicely into The Actions, and open a door to considering learning in regard to Clojure and it's people.
+
 
 #+BEGIN_NOTES 
 We've discovered some new ways of thinking about education & learning. Now we can ask the question again, this time with a deeper sense of meaning:
