@@ -134,3 +134,17 @@ The problem with my solve is that our tools aren't formatted for it. Web pages d
 * Random access thoughts
 Like bl.ocks but for _____ &clojure
 Self portraits... #dubuffet #basquiat #hirst #hundertwasser #picasso.young/#picasso.picasso. You don't have to be an artist to be an artist.
+
+----
+
+Without learning, Clojure will not grow. Which is almost a syllogism; learning _is_ growth.
+
+It's a funny thing for someone to be an advocate of language, and yet, so common in the land of computational linguists.
+https://wiki.theory.org/YourLanguageSucks
+
+Perhaps the reason for it that in this realm, language is also a technology. And it's a technology that - at least in some part - suffers from many of the same weaknesses that its designs do; among them, the _Nightclub problem_, where usefulness and use are circularly dependent. Twitter is easy - getting users and keeping them is the weakness, and strength.
+
+
+
+
+
