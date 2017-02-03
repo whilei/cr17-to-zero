@@ -1,0 +1,3 @@
+| Slide | Question                             | Input options     | Google Form URL                        | Associated Google Spreadsheet URL                                                                    |
+| test  | "Do you prefer muffins or learning?" | learning, muffins | https://goo.gl/forms/leE8fYUa0M1yLGxb2 | https://docs.google.com/spreadsheets/d/1tdxUHeLVq4ogVDVULLe3mB8FuJuiHsvy6Xxca7c3CbU/edit?usp=sharing |
+|       |                                      |                   |                                        |                                                                                                      |
