@@ -17,7 +17,7 @@
 ;; Conclusion 5 min
 #+END_NOTES
 
-*
+* 
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video"
 :reveal_background_size: 100%
@@ -46,7 +46,7 @@ Title Slide
 #+END_NOTES
 
 # Before+after(3)
-**
+** 
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video"
 :reveal_background_size: 100%
@@ -60,7 +60,7 @@ These before and after self-portraits were drawn by the same person. How long do
 
 (NEXT SLIDE DOWN)
 #+END_NOTES
-**
+** 
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video"
 :reveal_background_size: 100%
@@ -75,7 +75,7 @@ How long for this degree of improvement?
 (NEXT SLIDE DOWN)
 #+END_NOTES
 
-**
+** 
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video"
 :reveal_background_size: 100%
@@ -93,8 +93,6 @@ And how long for this much improvement?
 
 ** 5 days
 :PROPERTIES:
-# :reveal_extra_attr: redpill-img-src="/resources/images/Introduction/bell212.jpg"
-# :reveal_extra_attr: redpill-img-src="/resources/images/twitter-bird-944px.svg.png" qr-data="http://twitter.com/intent/tweet?text=Can you fly that thing? Not yet...  &hashtags=valueoflearning,bettyedwards"
 :reveal_extra_attr: redpill-img-src="/resources/images/red-pill.svg.png" qr-data="http://twitter.com/intent/tweet?text=Can you fly that thing? Not yet...  &hashtags=valueoflearning,bettyedwards"
 :END:
 
@@ -244,10 +242,12 @@ file:resources/images/red-pill.svg.png
 .
 #+END_NOTES
 
-*
+*  
 :PROPERTIES:
 :reveal_extra_attr: video-size="full"
 :END:
+
+# Fullsize video here...
 
 #+BEGIN_NOTES
 
@@ -267,7 +267,7 @@ file:resources/images/red-pill.svg.png
 .
 
 .
-   #+END_NOTES
+#+END_NOTES
 
 * Outline
 :PROPERTIES:
