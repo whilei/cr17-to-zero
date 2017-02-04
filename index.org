@@ -543,7 +543,7 @@ The history of the word /learn/ goes back through the Middle English word /lerne
 
 The word furrow really sticks out to me. A furrow is *a long trench*. But not just any trench! *a long narrow trench in the ground made by a plow, especially for planting seeds*. 
 
-The latin meaning is my new, favorite way to think about learning -- planting a trail of seeds, seeds of knowledge and skill, which will grow and flourish in time! How cool is that!?!
+The latin meaning is my new, favorite way to think about learning -- planting a long trail of seeds, seeds of knowledge and skill, which will grow and flourish in time! How cool is that!?!
 
 (NEXT SLIDE DOWN)
 
@@ -580,13 +580,7 @@ The basic tool we use to accomplish this task is learning.
 
 We descend from, and are, the very best learners in all of history. 
 
-We know this because we are here!
-
 (NEXT SLIDE DOWN)
-
-.
-
-.
 
 .
 
@@ -638,12 +632,6 @@ It's helpful to remember that the science of learning is a young science.
 .
 
 .
-
-.
-
-.
-
-.
 #+END_NOTES
 
 ** Two faces of education
@@ -651,13 +639,11 @@ It's helpful to remember that the science of learning is a young science.
 - Inside Out
 
 #+BEGIN_NOTES 
-The meaning of the word education is surrounded by scholarly debate, stemming from the two branches of its latin roots.
+The meaning of the word education is multifaceted, stemming from the two branches of its latin roots.
 
-These two faces of education can be generally described as /Outside In/ vs /Inside Out/. 
+These two faces of education can be generally described as /Outside In/ & /Inside Out/. 
 
 (NEXT SLIDE DOWN)
-
-.
 
 .
 
@@ -677,19 +663,7 @@ Proponents of the "outside in" perspective of education seek to impart knowledge
 
 As in, "The University educates its students by giving them knowledge."
 
-When I first encountered the Clojure programming language, I'd never heard anyone distinguish between identity, values & time.
-
-I definitely needed some "outside in" education!
-
 (NEXT SLIDE DOWN)
-
-.
-
-.
-
-.
-
-.
 
 .
 
@@ -700,24 +674,23 @@ I definitely needed some "outside in" education!
 
 *** Inside Out
 educere: to lead out
+
 #+BEGIN_NOTES 
-The latin /educere/ means: to lead out.
+The latin /educere/ means: *to lead out*.
 
 Advocates of the "inside out" perspective of education seek to prepare the student for the unpredictable challenges of the future by focusing the pupil's attention on the process of acquiring new skills and knowledge.
 
 As in, "The students education is evident in their lifelong curiosity about the world in which they live."
 
-I have a personal bias toward inside-out education.
+Both faces of education likely have their ideal time and place.
 
-When I hear the word "learn", I typically associate it with the inside-out mode of education.
-
-Because I know I'm biased, I strive to return to the ideological position that both faces of education have their ideal time and place, and that we are in the early stages of discovering an ideal balance between the two.
+It seems we are in the early stages of discovering an ideal balance between the two, especially regarding our new information driven world.
 
 The science and math scores in the U.S. over the past couple decades show an over-reliance on outside-in education.
 
 Students here in the U.S. are given a new problem, immediately followed by the recipe to solve the problem.
 
-In German, Japan and other high performing countries, students are challenged to think through the problem, after being reminded of recent supportive lessons.
+In Germany, Japan and other countries with high technical performance, students are challenged to think through the problem, after being reminded of recent supportive lessons.
 
 Then students work in teams to try to solve the problem.
 
@@ -725,22 +698,12 @@ Only then, is the answer revealed, after which students compare their own strate
 
 Educators call this 'productive struggle'. 
 
-I like to call it 'structured struggle', but whatever you call it, at its heart it's a prime example of "Inside Out" learning.
+I prefer to call it 'structured struggle', but whatever you call it, at its heart it's a prime example of "Inside Out" learning.
 
 Even Socrates would be proud!
 
 
 (NEXT SLIDE DOWN)
-
-.
-
-.
-
-.
-
-.
-
-.
 
 .
 
@@ -761,7 +724,7 @@ Picasso painted the self portrait on the left at age 18.
 
 The one on the right, age 90.
 
-Techniques may vary... but so may we.
+Can you see the transition from 'outside in' to 'inside out' the progression of his life's work?
 #+END_NOTES
 ***  
 :PROPERTIES:
@@ -775,14 +738,14 @@ Dubuffet painted the self portrait on the left at age 35.
 
 On the right, 38 years later.
 
-Whatever learning is, it is nothing without change. And sometimes that change is in the form of adoption and growth within an established system, and sometimes it requires us to move beyond, and into an exploration of the unknown, unworthy, or invisible.
+Whatever learning is, it is nothing without change.
 
-Inside-out, or outside-in? *Yes*.
+Sometimes that change is in the form of adoption and growth within an established system, and sometimes it requires us to move beyond, into an exploration of the unknown, unworthy, or invisible.
+
 #+END_NOTES
 
 ** Review the question
-How +much+ do I value learning?
-
+What is the value of learning?
 # Isaac: In light of needing to sculpt some mass away, this might be an area of reconsideration. 
 # A discussion of the historico-philosophico-logistics of axiology seems somewhat out of place, given a focus on "learning about learning"... perhaps leading unnecessarily towards "learning about valuation systems".
  
@@ -795,19 +758,18 @@ How +much+ do I value learning?
  
 # Which might lead nicely into The Actions, and open a door to considering learning in regard to Clojure and it's people.
 
+# **************
+
+# Jay to Isaac. I really like the thrust of what you're driving at. I'll be incorporating the spirit of your ideas of 'how' within the context of telling the story of "trying" to measure value of learning, and treasuring the insights that failure led to more than some arbitary mathematical answer, such 42.
 
 #+BEGIN_NOTES 
 We've discovered some new ways of thinking about education & learning. Now we can ask the question again, this time with a deeper sense of meaning:
 
-How much do I value learning?
+What is the value of learning?
 
-Now it's time to look for an answer. And while we're at it, we'll discover how Betty Edwards accelerates the pace of her student's progress. 
+Now it's time to look for an answer. And while we're at it, we'll discover how Betty Edwards accelerates the pace of her student's progress so dramatically. 
 
 (NEXT SLIDE RIGHT)
-
-.
-
-.
 
 .
 
