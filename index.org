@@ -17,16 +17,24 @@
 ;; Conclusion 5 min
 #+END_NOTES
 
-*  
+*
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video"
 :reveal_background_size: 100%
 :reveal_background: /resources/images/title-screen_2017-01-16_16-18-34.png
 :END:
-#+BEGIN_NOTES 
- Thank you Ryan for inviting me to speak at Clojure Remote 2017. And /*welcome*/ to everyone whose with us today to hear about /The Value of Learning/.
+#+BEGIN_NOTES
+Title Slide
 
- My name is Jay, and I'm enthralled by the subject of learning. Here's one example of why:
+(NEXT SLIDE RIGHT)
+
+#+END_NOTES
+* Welcome
+
+ #+BEGIN_NOTES
+ Thank you Ryan. I'm happy to be here at Clojure Remote 2017 and honored to speak to this group of enthusiastic Clojure folks.  Welcome to each of you that are with us today to hear about /The Value of Learning/.
+
+ Lately, I've become enthralled by the subject of learning. Here's one example of why:
 
  (NEXT SLIDE DOWN)
 
@@ -35,29 +43,24 @@
 .
 
 .
-
-.
-
-.
 #+END_NOTES
-# Yes, these dots are intentional. They allow me to continue to scroll to place text directly over the lens of the camera.
 
 # Before+after(3)
-**  
+**
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video"
 :reveal_background_size: 100%
 :reveal_background: /resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged/03-montage.png
 :END:
-# (1/3) 
+# (1/3)
 #+BEGIN_NOTES
 These before and after self-portraits were drawn by the same person. How long do you think it took to acquire this improvement in skill?
- 
+
 (WAIT 5 seconds)
 
 (NEXT SLIDE DOWN)
 #+END_NOTES
-**  
+**
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video"
 :reveal_background_size: 100%
@@ -72,7 +75,7 @@ How long for this degree of improvement?
 (NEXT SLIDE DOWN)
 #+END_NOTES
 
-**  
+**
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video"
 :reveal_background_size: 100%
@@ -109,17 +112,21 @@ And how long for this much improvement?
  # file:resources/images/twitter-bird-944px.svg.png
 
  #+BEGIN_NOTES
- 5 days. That's it. These people, people not unlike you or me, learned the technical fundamentals of drawing in only *5 days*. 
- 
- Personally, I'm /*astonished*/ by these drawings.
- 
- It reminds of the scene in The Matrix, where Neo and Trinity see a helicopter. He asks her "Can you fly that thing?" and she replies, "Not yet". Moments later (NEXT FRAG) she is skillfully flying the aircraft.
- 
- How does their teacher (NEXT FRAG), Betty Edwards, facilitate such progress for *all* of her students, not just some?
- 
+ 5 days. These people, people not unlike you or me, learned the technical fundamentals of drawing in only 5 days.
+
+ Personally, I'm astonished by these drawings.
+
+ The rapid progress of these students reminds of the scene in The Matrix, where Neo and Trinity see a helicopter. He asks her "Can you fly that thing?" and she replies, "Not yet". Moments later
+
+ (NEXT FRAG) she is skillfully flying the aircraft.
+
+ How does their teacher
+
+ (NEXT FRAG), Betty Edwards, facilitate such efficient progress for *all* of her students, not just some?
+
  And how is her approach relevant to learning other highly technical skills, such as programming?
- 
- We'll explore these, and other engaging questions, over the next hour.
+
+ We'll explore these, and other engaging questions, over the next hour, but first let's frame up the conversation.
 
  (NEXT SLIDE DOWN)
 
@@ -128,65 +135,74 @@ And how long for this much improvement?
 .
 
 .
-
-.
-
-.
-
-.
-
-.
- #+END_NOTES
- 
-# ** Target Audience
-
-
-# #+ATTR_REVEAL: :frag (roll-in) 
-# - programmers
-# - aspiring programmers
-# - curious minded people
-
-# #+BEGIN_NOTES
-# I wrote this talk with (NEXT FRAG) programmers *and* (NEXT FRAG) aspiring programmers in mind, but (NEXT FRAG) /*anyone*/ with an interest in learning will, /hopefully/, find the talk personally relevant.
-
-# (NEXT SLIDE DOWN)
-
-# .
-
-# .
-
-# .
-
-# .
-
-# .
-# #+END_NOTES
-
-** My Credentials 
-#+ATTR_REVEAL: :frag t 
-file:resources/images/jayfootinmouth-x600.png
-
-#+BEGIN_NOTES 
-What are my qualifications for giving this talk? 
-
-Brain science is a young science, and the pace of discovery is breathtaking. 
-
-Fortunately, I have a long and 
-
-(NEXT FRAG) 
-
-documented history of putting my foot in my mouth, just in case you happen to be an /actual/ neuroscientist. 
-
-(NEXT SLIDE DOWN) 
-
-. 
-. 
-. 
-. 
-. 
 #+END_NOTES
 
-** Stories of learning 
+** Audience
+#+ATTR_REVEAL: :frag t
+- Clojure programmers
+- programmers
+- aspiring programmers
+- curious minded people
+
+#+BEGIN_NOTES
+We're at a Clojure Conference, and I'm a Clojure enthusiast. We'll definitely be talking about Clojure, but you don't even have to know what Clojure is to get something out of this talk, or to participate.
+
+Are you interested in solving problems, making things, the subject of creativity, or learning?
+
+Whatever your interests, your presence and ideas are greatly valued.
+
+In a minute, I'll give you more instructions on how you can participate in this conversation, even if you're watching this on video 6 months, or even years from now.
+
+A little hint: if you have a smart phone with a QR code scanner, you can be ready to scan in a minute. If not, there will be other ways you can get involved.
+
+
+(NEXT SLIDE DOWN)
+
+# .
+
+# .
+
+.
+
+#+END_NOTES
+
+** My Credentials
+#+ATTR_REVEAL: :frag t
+file:resources/images/jayfootinmouth-x600.png
+
+#+BEGIN_NOTES
+   I'm speaking to you today as a layperson.
+
+   And if I've learned anything about this subject, its that learning is full of paradox.
+
+   It often results from a process of reconciliation between competing ideas or ways of thinking.
+
+   Almost any statement of truth I might profess about learning, can probably be argued the other way as well.
+
+   This wasn't readily apparent to me when I began this project, but its crystal clear to me now.
+
+   And I'm more humble for the effort.
+
+   Fortunately, I have a long and
+
+   (NEXT FRAG) documented history of putting my foot in my mouth.
+
+   This talk aims to kick start an ongoing conversation about our individual and shared experiences of learning.
+
+   One of my favorite things about learning today is that when you start researching a topic, such as learning, all of sudden you start attracting related information to yourself, whether it's your YouTube feed suggesting videos or a friend telling you about a helpful idea.
+
+   I've experienced so many wonderful moments like that while researching this talk, thanks to so many generous people who've shared with me their own learning experiences with insight and candor.
+
+   My hope is that by candidly sharing my own learning experiences publicly, other people might identify with my learning triumphs and struggles, and that together we might be able find a better way of tackling some of our common problems around learning and teaching.
+
+   (NEXT SLIDE DOWN)
+
+.
+.
+.
+#+END_NOTES
+
+** Stories of learning
 :PROPERTIES:
 :reveal_extra_attr: redpill-img-src="/resources/images/red-pill.svg.png" qr-data="http://webappzero.com" video-size="normal"
 :END:
@@ -194,48 +210,33 @@ documented history of putting my foot in my mouth, just in case you happen to be
 #+ATTR_REVEAL: :frag t
 file:resources/images/red-pill.svg.png
 
-
 #+BEGIN_NOTES
-   I'm not an expert in programming, nor in the science of learning. 
-   
-   This talk is a slice of my life experiences around learning.
-   
-   Before we get started there's one more thing you need to know about this talk. 
 
-   It's not just a one-way talk. It's been designed to evolve into a dynamic, community driven, conversation.
+   This interactive talk is designed to be an ongoing conversation.
 
-   It began its life open to community as an open source github repository, and has evolved into an open-data project, driven by your anonymous, interactive input.
+   It began its life as an open source github repository, and has evolved into an open-data project, driven by your anonymous, interactive input.
 
-   Scattered throughout the talk, you'll notice a red pill appear on the lower right corner of the screen.
+   Scattered throughout the talk, you'll notice a red pill
+
+   (NEXT FRAG) appear on the lower right corner of the screen.
 
    Each pill contains a QR code.
 
-   If you want to particpate, please ready your smart phone to scan QR codes.
+   These red-pills lead to mini-polls, links to kick-start your research, or pre-filled tweets that will serve to network like minds around the subject of learning.
 
-   These red-pill qr codes are mini-polls, links to kick-start your research or pre-filled tweets that will serve to network like minds around the subject of learning.
+   Even if you're watching this on video, months or years from now, you can still participate by scanning the red pills with your smart phone.
 
-   Even if you're watching this on video, months or years from now, you can still participate by scanning the QR codes with your smart phone.
+   If you don't have a smart phone handy, or if you're watching this on your smart phone, you can relax and enjoy the show because we'll be converting the presentation into an interactive web site soon.
 
-   This is your red pill, blue pill moment!
+   This is it. This is your red pill, blue pill moment!
 
    Scan the red pill now if, like me, you were astonished by the drawings done by Betty Edward's students and are curious to learn more.
-
-   No pressure though, think of this talk as a garden and pick the fruit that appeals to your senses.
 
    We're going to explore many aspects of learning through the framework of learning's /*worth*/.
 
    Let's get started!
 
    (NEXT SLIDE RIGHT)
-
-.
-
-.
-
-.
-
-.
-
 .
 
 .
@@ -243,37 +244,45 @@ file:resources/images/red-pill.svg.png
 .
 #+END_NOTES
 
-*   
+*
 :PROPERTIES:
 :reveal_extra_attr: video-size="full"
 :END:
-   
+
 #+BEGIN_NOTES
 
    "The Value of Learning."
 
-   How do I value learning? 
+   What is the value of learning?
+
+   How can I discover the value of learning?
+
+   How can I live a life consistent with this value?
 
    What does learning look like in the context of Clojure, programming in general, and how might we learn from lessons outside this scope?
-   
+
    (NEXT SLIDE RIGHT)
 .
 
 .
 
 .
+   #+END_NOTES
 
-.
-
-.
-#+END_NOTES
-
-* Talk Outline
+* Outline
 :PROPERTIES:
 :reveal_extra_attr: video-size="normal"
 :END:
-#+BEGIN_NOTES 
-I'm going to weave several stories about learning through the framework of this simple 3 part outline.
+- The Question
+- The Answer
+- The Action
+
+#+BEGIN_NOTES
+I'll weave several stories about learning through the framework of this simple 3 part outline.
+
+The question. The answer. The outline.
+
+All told, this is a story about success and failure, about trying and learning.
 
 (NEXT SLIDE DOWN)
 
@@ -285,13 +294,12 @@ I'm going to weave several stories about learning through the framework of this 
 #+END_NOTES
 
 ** The question
-How do I value learning?
+What is the value of learning?
 
-#+BEGIN_NOTES 
-What is the question?
+#+BEGIN_NOTES
+The question:
 
-How /*do I*/ value learning?
-
+What is the value of learning?
 (NEXT SLIDE DOWN)
 
 .
@@ -302,11 +310,14 @@ How /*do I*/ value learning?
 #+END_NOTES
 
 ** The answer
-How can I develop the value I place on learning?
+How can I discover the value of learning?
 
-#+BEGIN_NOTES 
-+How can I know the answer? That is, how can I measure the value I place on learning?+
-What does learning look like? How can I cultivate it in myself and my community?
+#+BEGIN_NOTES
+
+The answer.
+
+How can I discover the value of learning?
+
 
 (NEXT SLIDE DOWN)
 
@@ -317,11 +328,13 @@ What does learning look like? How can I cultivate it in myself and my community?
 .
 #+END_NOTES
 
-** The actions
+** The action
 What actions are consistent with this value?
 
-#+BEGIN_NOTES 
-What actions spring from living this value, in the context of Clojure and beyond?
+#+BEGIN_NOTES
+The action.
+
+What actions are consistent with this value?
 
 (NEXT SLIDE RIGHT)
 
@@ -333,40 +346,53 @@ What actions spring from living this value, in the context of Clojure and beyond
 #+END_NOTES
 
 * The question
-How do I value learning?
+What is the value of learning?
 
-** Learning, the invisible value 
+#+BEGIN_NOTES
+Let's dig into this question!
+
+(NEXT SLIDE DOWN)
+
+.
+
+.
+
+.
+#+END_NOTES
+
+** Learning, the invisible value
   #+BEGIN_QUOTE
   In all affairs it's a healthy thing now and then to hang a question mark on the things you have long taken for granted. -- Bertrand Russell
   #+END_QUOTE
 # TODO isaac question mark!
 
   #+BEGIN_NOTES
- Before we assess the central question of this talk, let me justify the question. /Education/, it seems, is among the most universally accepted of human values.
 
- At first glance the answer to the question, "Do I value learning?" appears to be so obvious that the question seems silly or trite, maybe even a complete waste of time.
+ Before we assess the central question of this talk, let me /try/ to clarify the question.
 
- In a few moments, I'll draw a subtle distinction between the words education and learning which will further justify the question.
+ /Education/ is often touted as a panacea to to the world's problems.
 
- Bertrand Russell said, "In all affairs it's a healthy thing now and then to hang a question mark on the things you have long taken for granted."
+ Over time, I've observed that different people mean different things when saying these exact same words.
 
- I believe that we have a lot to gain and nothing to lose by putting Bertrand Russell's wisdom to work on the subject of learning.
+ Learning is obviously important, but when we talk about learning, what do we mean?
 
- Invisible values risk becoming neglected values. My hope is that by thoughtfully assessing the value of learning for ourselves, we can mitigate this risk and reach our individual and collective learning potential.
+ School? College? Career? Breathing?
 
- At the very least, attempting to answer this question is in accord with the age old wisdom, "know thyself."
+ Okay, fortunately some things come to us quite naturally.
 
-(NEXT SLIDE DOWN) 
+ At first glance, the question "What is the value of learning?" appears to be quite basic.
 
-.
+ It was Bertrand Russell who said, "In all affairs it's a healthy thing now and then to hang a question mark on the things you have long taken for granted."
 
-.
+ I believe that we have a lot to gain, and nothing to lose, by applying Russell's wisdom to the subject of learning.
 
-.
+ Invisible values risk becoming neglected values.
 
-.
+ If we persist in repeating the mantra "education is the answer", without periodically reflecting on it's meaning, the words begin to ring hollow and lose their power.
 
-.
+ My hope is that by thoughtfully assessing the value of learning for ourselves, we can discover something new, something overlooked, and gain insight into the invisible value of learning.
+
+(NEXT SLIDE DOWN)
 
 .
 
@@ -376,26 +402,29 @@ How do I value learning?
   #+END_NOTES
 
 ** Brain, the invisible organ
- #+BEGIN_NOTES 
- While learning may be the invisible value, the brain is the invisible organ. At least that's the excuse I use to explain why, in my youth, I was *not* very interested in the brain, or how I could use it to improve my life.
+ #+BEGIN_NOTES
 
- For all its potential power, surely there must be some explanation why I wasn't in awe of the brain in my youth.
+ While learning may be the invisible value, the brain is the invisible organ. At least that's my explanation of why, in my youth, I was *not* very interested in the brain, or how I could use it to improve my life.
+
+ For all its potential power, surely there /must be/ some explanation why I wasn't in awe of the brain.
 
  A couple of reasons have come to mind:
 
- In my case, the brain science of the day led my teachers to inform me that I was given a fixed number of brain cells, and no new cells would ever be produced. What I heard was "You can't get any smarter. You're either smart or you're not."
+ In my case, the brain science of the day said that once a human embryo was fully developed the brain had a fixed number of brain cells, and no new cells would ever be produced.
 
- And here's another simple observation -- the brain has to compete with a heartbeat. As a very young child, getting to know my own body, the heartbeat was a constant reminder, "I have a heart!" 
+ The message behind the message, to my ear, was "You can't get any smarter. You're either smart or you're not."
 
- Maybe the brain just needs better PR. This talk hopes to remedy that. 
+ And maybe there's another reason why the brain goes unappreciated to kids -- the brain has to compete with a heartbeat. As a very young child, the heartbeat was a constant reminder, "I have a heart!"
+
+ It's funny how as I child, I never really thought about my brain thinking. It was always "me thinking".
+
+ Truth is, even to this day its kind of weird for me to think about the brain thinking.
+
+ Is thinking for me, as me? I give up.
+
+ Maybe the brain just needs better PR. This talk hopes to remedy that.
 
 (NEXT SLIDE DOWN)
-
-.
-
-.
-
-.
 
 .
 
@@ -405,12 +434,12 @@ How do I value learning?
  #+END_NOTES
 
 ** Understanding the question
-How do I value learning?
+What is the value of learning?
 
-#+BEGIN_NOTES 
+#+BEGIN_NOTES
 Let's illuminate the question by looking at the meaning and history of the words /value/ & /learning/.
 
-(NEXT SLIDE DOWN) 
+(NEXT SLIDE DOWN)
 
 .
 
@@ -425,7 +454,7 @@ Let's illuminate the question by looking at the meaning and history of the words
 
 #+REVEAL_HTML: <div class="citation">merriam-webster.com</div>
 
-#+BEGIN_NOTES 
+#+BEGIN_NOTES
 /Value/ as used in our central question means *relative worth, utility, or importance*.
 
 
@@ -438,7 +467,7 @@ Let's illuminate the question by looking at the meaning and history of the words
 .
 #+END_NOTES
 
-*** Etymology of /value/: 
+*** Etymology of /value/:
 
 #+BEGIN_SRC markdown
 Anglo-French
@@ -448,16 +477,14 @@ Latin
 _valēre_  *to be well, have strength*
 #+END_SRC
 
-Game of Thrones fans, please take note of the phonetic similarities to /Valyrian/ steel.
+#+REVEAL_HTML: <div class="citation">merriam-webster.com</div>
 
-#+BEGIN_NOTES 
-The history of the word value goes back through Middle English to the Anglo-French work /valu/, which means *worth* or *high quality*, and finally, all the way back to the Latin, /valēre/, which means *to be well* or *have strength*.
+#+BEGIN_NOTES
+The history of the word value goes back through Middle English to the Anglo-French word /valu/, which means *worth* or *high quality*, and finally, all the way back to the Latin, /valēre/, which means *to be well* or *have strength*.
 
 If you're a Game of Thrones fan, you've likely noticed how similar /valēre/ sounds to Valyria, home to the forges of Valyrian steel, which is renowned for its quality and strength.
 
 (NEXT SLIDE DOWN)
-
-.
 
 .
 
@@ -472,8 +499,15 @@ If you're a Game of Thrones fan, you've likely noticed how similar /valēre/ sou
 
 #+REVEAL_HTML: <div class="citation">learnersdictionary.com</div>
 
-#+BEGIN_NOTES 
+#+BEGIN_NOTES
 /Learning/ means *the activity or process of gaining knowledge or skill by studying, practicing, being taught, or experiencing something*.
+
+According to the definition, gaining knowledge or skill is the goal of learning.
+
+Knowledge or skill. I like the simplicity of that.
+
+And, there are a handful of ways to gain knowledge or skill: study, practice, observation, and experience.
+
 
 (NEXT SLIDE DOWN)
 
@@ -483,6 +517,7 @@ If you're a Game of Thrones fan, you've likely noticed how similar /valēre/ sou
 
 .
 #+END_NOTES
+
 *** Etymology of /learn/:
 
 #+BEGIN_SRC markdown
@@ -501,47 +536,15 @@ _lira_  *furrow, track*
 
 #+REVEAL_HTML: <div class="citation">merriam-webster.com</div>
 
-#+BEGIN_NOTES 
+#+BEGIN_NOTES
+
 The history of the word /learn/ goes back through the Middle English word /lernen/, which shares the meaning *to learn* with the Old English word /leornian/, and further back to the Old English word /last/ which means *foot print*, and finally, all the way back to the latin word /lira/ which means *furrow* or *track*.
 
-The word furrow really stuck out to me. Firstly because I didn't know what it meant in this context, which is *a long trench*. But not just any trench! *a long narrow trench in the ground made by a plow, especially for planting seeds*. 
+The word furrow really sticks out to me. A furrow is *a long trench*. But not just any trench! *a long narrow trench in the ground made by a plow, especially for planting seeds*.
 
-The latin meaning has become my favorite way to think about learning -- planting a trail of seeds, seeds of knowledge and skill, which will grow and flourish in time! How cool is that!?!
+The latin meaning is my new, favorite way to think about learning -- planting a trail of seeds, seeds of knowledge and skill, which will grow and flourish in time! How cool is that!?!
 
 (NEXT SLIDE DOWN)
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-#+END_NOTES
-
-*** Learn as synonym for Teach
-
-Master blacksmiths learned their apprentices in the craft of sword forging.
-
-#+REVEAL_HTML: <div class="citation">merriam-webster.com</div>
-
-#+BEGIN_NOTES 
-As far back as the 13th century, the word /learn/ was also used to mean "teach". As in "Master blacksmiths learned their apprentices in the craft of sword forging." 
-
-Today this alternative meaning is relegated to speech, because it's *not* considered proper grammar.  
-
-“Tell me and I forget, teach me and I may remember, involve me and I learn.” 
-― Benjamin Franklin
-
-(NEXT SLIDE RIGHT)
-
-.
 
 .
 
@@ -552,7 +555,7 @@ Today this alternative meaning is relegated to speech, because it's *not* consid
 
 ** The history of learning
 # TODO isaac img what does learning historically look like?
-#+BEGIN_NOTES 
+#+BEGIN_NOTES
 Let's quickly recap the history of learning.
 
 (NEXT SLIDE DOWN)
@@ -566,12 +569,12 @@ Let's quickly recap the history of learning.
 *** Evolution
 We descend from, and are ,the very best learners in all of history, because we're here. (Although, and I can tell by just looking, a couple of you simply got lucky ;-)
 
-#+BEGIN_NOTES 
+#+BEGIN_NOTES
 Evolutionary biology teaches that our prime directive in life is to pass on our genes to future generations.
 
 The basic tool we use to accomplish this task is learning.
 
-We descend from, and are, the very best learners in all of history. 
+We descend from, and are, the very best learners in all of history.
 
 We know this because we are here!
 
@@ -593,10 +596,10 @@ We know this because we are here!
 I cannot teach anybody anything, I can only make them think. --Socrates
 #+end_quote
 
-#+BEGIN_NOTES 
+#+BEGIN_NOTES
 Socrates challenged his pupils with questions to stimulate their critical thinking and draw out contradictions in their own reasoning.
 
-The /socratic method/ remains as effective today as it was over 2400 years ago. 
+The /socratic method/ remains as effective today as it was over 2400 years ago.
 
 (NEXT SLIDE DOWN)
 
@@ -607,7 +610,7 @@ The /socratic method/ remains as effective today as it was over 2400 years ago.
 .
 #+END_NOTES
 
-*** Modern Learning  
+*** Modern Learning
 /The Meaning of Adult Education/
 Eduard C. Lindeman
 
@@ -615,12 +618,12 @@ Eduard C. Lindeman
  [[file:resources/images/history-of-salt/grand-canyon-filled with-fog-todd-diemer_2017-01-13_09-53-33.jpg]]
 
 
-#+BEGIN_NOTES 
+#+BEGIN_NOTES
 After the time of Socrates, humankind's progress in adult education experiences a small gap.
 
 (NEXT FRAG canyon)
 
-The 1926 paper /The Meaning of Adult Education/, by Eduard C. Lindeman, reignited the subject of learning and established a scientific, research oriented approach to understanding how adults learn.  
+The 1926 paper /The Meaning of Adult Education/, by Eduard C. Lindeman, reignited the subject of learning and established a scientific, research oriented approach to understanding how adults learn.
 
 It's helpful to remember that the science of learning is a young science (and yet also as old as Adam and Eve's grandmother smiling to herself as they reach for the hot potato before it's had time to cool).
 
@@ -643,10 +646,10 @@ It's helpful to remember that the science of learning is a young science (and ye
 - Outside In
 - Inside Out
 
-#+BEGIN_NOTES 
+#+BEGIN_NOTES
 The meaning of the word education is multifaceted, stemming from the two branches of its latin roots.
 
-These two faces of education can be generally described as /Outside In/ vs /Inside Out/. 
+These two faces of education can be generally described as /Outside In/ vs /Inside Out/.
 
 (NEXT SLIDE DOWN)
 
@@ -665,7 +668,7 @@ These two faces of education can be generally described as /Outside In/ vs /Insi
 *** Outside In
 educare: to train or mold
 
-#+BEGIN_NOTES 
+#+BEGIN_NOTES
 The latin /educare/ means: to train or mold.
 
 Proponents of the "outside in" perspective of education seek to impart knowledge and form students by shaping them according to templates of idealized virtues and skill.
@@ -698,7 +701,7 @@ educere: to lead out
 
 
 # Isaac: Suggest revision to Japan, Germany, test scores section. Would need multiple citations and tips a very large, very complex iceberg of education-theoretico-politico criticism that seems out of place. For example, Japan's parenting culture is notoriously, even beligerently, focused on SAT/standardized-test scores. Germany, like France, relies heavily on standardized en-masse tests to determine school/track placement (as of the 8th grade?). Not to mention citing standardized test score statistics in opposition to outside-in education...
-#+BEGIN_NOTES 
+#+BEGIN_NOTES
 The latin /educere/ means: to lead out.
 
 Advocates of the "inside out" perspective of education seek to prepare the student for the unpredictable challenges of the future by focusing the pupil's attention on the process of acquiring new skills and knowledge.
@@ -721,7 +724,7 @@ Then students work in teams to try to solve the problem.
 
 Only then, is the answer revealed, after which students compare their own strategies with the, quote "official answer".
 
-Educators call this 'productive struggle'. 
+Educators call this 'productive struggle'.
 
 I like to call it 'structured struggle', but whatever you call it, at its heart it's a prime example of "Inside Out" learning.
 
@@ -747,7 +750,7 @@ Even Socrates would be proud!
 .
 #+END_NOTES
 
-***  
+***
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video"
 :reveal_background_size: 100%
@@ -761,7 +764,7 @@ The one on the right, age 90.
 
 Techniques may vary... but so may we.
 #+END_NOTES
-***  
+***
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video"
 :reveal_background_size: 100%
@@ -781,25 +784,25 @@ Inside-out, or outside-in? *Yes*.
 ** Review the question
 How do I value learning?
 
-# Isaac: In light of needing to sculpt some mass away, this might be an area of reconsideration. 
+# Isaac: In light of needing to sculpt some mass away, this might be an area of reconsideration.
 # A discussion of the historico-philosophico-logistics of axiology seems somewhat out of place, given a focus on "learning about learning"... perhaps leading unnecessarily towards "learning about valuation systems".
- 
+
 # In light of this (and as background for my reasoning), I might offer that, in fact, learning is unavoidable. It a necessary and functionally fundamental part of being human (or even a mouse). Scientifically speaking, it might be considered that learning can be described as the brain "re-wiring" itself in response to stimulus. And the brain is _always_ rewiring, and we are never without stimulous.[fn:ft-wt] We are _essentially_ plastic (in the material-behavior sense).
 # [fn:ft-wt]: "Fire-together, wire-together," is a common neurosciency mantra. https://en.wikipedia.org/wiki/Hebbian_theory
 
-# Given this, the challenge of _valuing_ my own learning extends to the reaches of valuing my _self_, which seems out of context from a more tangible and pragmatic perspective on "learning about learning." 
- 
+# Given this, the challenge of _valuing_ my own learning extends to the reaches of valuing my _self_, which seems out of context from a more tangible and pragmatic perspective on "learning about learning."
+
 # Instead, it may be worth bringing attention to questions like "_How_ are you learning? What does that look like?", "How does that compare to how you worked in school (where 'learning' is the supposed _MO_)?", "When, and what do you teach?" "What challenges do you face as a student or a teacher in the context of Clojure?"
- 
+
 # Which might lead nicely into The Actions, and open a door to considering learning in regard to Clojure and it's people.
 
 
-#+BEGIN_NOTES 
+#+BEGIN_NOTES
 We've discovered some new ways of thinking about education & learning. Now we can ask the question again, this time with a deeper sense of meaning:
 
 How much do I value learning?
 
-Now it's time to look for an answer. And while we're at it, we'll discover how Betty Edwards accelerates the pace of her student's progress. 
+Now it's time to look for an answer. And while we're at it, we'll discover how Betty Edwards accelerates the pace of her student's progress.
 
 (NEXT SLIDE RIGHT)
 
@@ -815,9 +818,8 @@ Now it's time to look for an answer. And while we're at it, we'll discover how B
 #+END_NOTES
 
 * The answer
-How can I measure how much value I place on learning?
-
-#+BEGIN_NOTES 
+How can I discover the value of learning?
+#+BEGIN_NOTES
 So, how /*can*/ I measure how much value I place on learning?
 
 (NEXT SLIDE DOWN)
@@ -831,12 +833,12 @@ So, how /*can*/ I measure how much value I place on learning?
 
 ** Axiology
 The philosophical study of value.
-#+BEGIN_NOTES 
+#+BEGIN_NOTES
 Pursuing this question led me to the field of axiology, which is the philosophical study of value.
 
 This study dates back to the time of ancient Greece, when Plato first wrote about the distinction between intrinsic value and instrumental value.
 
-(NEXT SLIDE DOWN)   
+(NEXT SLIDE DOWN)
 
 (source: https://en.wikipedia.org/wiki/Value_theory)
 
@@ -852,7 +854,7 @@ This study dates back to the time of ancient Greece, when Plato first wrote abou
 #+END_NOTES
 
 *** Intrinsic vs Instrumental
-#+BEGIN_NOTES 
+#+BEGIN_NOTES
 According to axiology, learning has intrinsic value if it is valuable in and of itself.
 
 Learning has instrumental value if it serves as a means toward achieving something else.
@@ -869,7 +871,7 @@ As in, "Learning to speak German helped me make new friends in Berlin."
 #+END_NOTES
 
 *** Limitations of Axiology
-#+BEGIN_NOTES 
+#+BEGIN_NOTES
 Axiology provides a helpful framework for /thinking and talking/ about the value of something, because values are more nebulous than facts.
 
 If values were facts, we could seek an answer to our question scientifically. Is there a way to convert values into facts?
@@ -890,7 +892,7 @@ What other fields might help us?
  file:resources/images/maslows-heirarchy-wifi.jpg
  # file:resources/images/2000px-MaslowsHierarchyOfNeeds.svg.png # in case of seriousness
 
-#+BEGIN_NOTES 
+#+BEGIN_NOTES
 Value theory is a modern approach to understanding value. It stems from axiology, but seeks to determine value through scientific observation.
 
 What do people value and why? Psychology, sociology and economics each provide a unique lens through which to study value.
@@ -924,7 +926,7 @@ Value theory is encouraging us to find a quantifiable way of measuring the value
 
 ** Pragmatism
 
-#+BEGIN_NOTES 
+#+BEGIN_NOTES
 It's worth noting that some philosophers entirely reject the idea of intrinsic value.
 
 John Dewey, in his book /Theory of Valuation/, sees the process of valuation as a continuous balancing of objectives, which change over time with new information.
@@ -937,12 +939,12 @@ John Dewey, in his book /Theory of Valuation/, sees the process of valuation as 
 
 .
 
-.  
+.
 #+END_NOTES
 
 ** Flip the question
 
-#+BEGIN_NOTES 
+#+BEGIN_NOTES
 At this point in my research, I thought of a potential shortcut to answering the question. What if we could prove that learning was harmful?
 
 We're in the age of information. Knowledge streams across the internet at up to two thirds the speed of light. Isn't it possible that malicious actors could use this information destructively?
@@ -951,7 +953,7 @@ I'm learning to program, and I want to help others learn too. Are these actions 
 
 This is an important question! If they're hurting, I should cease and desist now.
 
- 
+
 
 
 (NEXT SLIDE DOWN)
@@ -971,7 +973,7 @@ This is an important question! If they're hurting, I should cease and desist now
 
 ** Is learning harmful?
 :PROPERTIES:
-:reveal_extra_attr: redpill-img-src="/resources/images/red-pill.svg.png" qr-data="https://www.supermemo.com/articles/goodness.htm" 
+:reveal_extra_attr: redpill-img-src="/resources/images/red-pill.svg.png" qr-data="https://www.supermemo.com/articles/goodness.htm"
 :END:
 
 #+ATTR_REVEAL: :frag t
@@ -982,7 +984,7 @@ This is an important question! If they're hurting, I should cease and desist now
 file:resources/images/red-pill.svg.png
 
 
-#+BEGIN_NOTES 
+#+BEGIN_NOTES
 So, /*is*/ learning harmful?
 
 Upon asking this question, I struck gold in finding the article (NEXT FRAG) /Is knowledge "good" or "neutral"?/
@@ -1029,7 +1031,7 @@ I'll just pause for a few seconds and let all of that sink in.
 - religion
 - scientific axiology
 
-#+BEGIN_NOTES 
+#+BEGIN_NOTES
 Wozniak's article also serves as a gentle introduction to axiology and value theory.
 
 There are three major systems of value: hedonism, religion and scientific axiology.
@@ -1038,7 +1040,7 @@ Hedonism values pleasure and devalues pain. It's been around since multi-celled 
 
 Religion uses faith and reason to ascribe value.
 
-And Scientific axiology strives to measure value using only the scientific method. 
+And Scientific axiology strives to measure value using only the scientific method.
 
 All other systems of value can be categorized in or among these three.
 
@@ -1059,8 +1061,8 @@ Most people apply a conglomeration of these three value systems to evaluate thei
 
 ** Method Formulation
 
-#+BEGIN_NOTES 
-Okay, we've covered the basics of value systems. Now its time for me to come up with a method to measure the value of learning. 
+#+BEGIN_NOTES
+Okay, we've covered the basics of value systems. Now its time for me to come up with a method to measure the value of learning.
 
 
 (NEXT SLIDE DOWN)
@@ -1077,7 +1079,7 @@ Okay, we've covered the basics of value systems. Now its time for me to come up 
 ** How would you go about it?
 How can I measure the value I place on learning?
 
-#+BEGIN_NOTES 
+#+BEGIN_NOTES
 Before I dive into how I answered this question, maybe you'd like to take a minute to think about the question for yourself:
 
 How can I measure how much value I place on learning?
@@ -1115,7 +1117,7 @@ How can I measure how much value I place on learning?
 - Personal Finance
 - Personal Development & Learning
 
-#+BEGIN_NOTES 
+#+BEGIN_NOTES
 How can I measure the value I place on learning?
 
 Before I reveal my method, I'd like to offer this disclaimer.
@@ -1154,7 +1156,7 @@ If a memory affects multiple categories, the home category of that memory will s
 
 For example, if a memory from the learning category about learning to ride my bike affects 3 categories, Fun, Family and Learning, then the home category of of learning will earn 300 points, and the other two categories Fun and Family will earn 100 points each.
 
-In this way, categories earn points for playing a role in my significant life memories. 
+In this way, categories earn points for playing a role in my significant life memories.
 
 The logic behind this strategy is that a memory which stands out in my mind is a valuable memory, otherwise I would have forgotten about it.
 
@@ -1201,7 +1203,7 @@ One evening the sun set down right behind an old barn on the horizon.
 
 This was an exciting event for me.
 
-I was convinced that the sun was hiding just behind that barn, just over the hill where it had disappeared. 
+I was convinced that the sun was hiding just behind that barn, just over the hill where it had disappeared.
 
 I remember, more than anything, just how badly I wanted to touch the sun!
 
@@ -1281,7 +1283,7 @@ Mrs. Peterson taught me more than I could summarize in 10 hours, much less one, 
 
 ** Childlike Wonder & Awe
 
-#+BEGIN_NOTES 
+#+BEGIN_NOTES
 This next story is great example of inside out vs outside in learning, as it spans both.
 
 When I was around 8 years old I had a subscription to a kid's science magazine.
@@ -1331,9 +1333,9 @@ Thanks again, Mom!
 .
 #+END_NOTES
 
-** Professor McKee 
+** Professor McKee
 
-#+BEGIN_NOTES 
+#+BEGIN_NOTES
 In college, I had one professor that came to mind instantly when thinking about the career category.
 
 Professor Jim McKee.
@@ -1387,7 +1389,7 @@ Professor McKee taught me just how much difference one teacher can in a person's
 #+END_NOTES
 
 ** Career in IT
-#+BEGIN_NOTES 
+#+BEGIN_NOTES
 
   After college, over 20 years ago, I wanted to pursue a career in IT.
 
@@ -1397,9 +1399,9 @@ Professor McKee taught me just how much difference one teacher can in a person's
 
   Despite 18 years of being a student, from pre-school to undergrad engineering degree, I had /*sparse*/ confidence in my own ability to efficiently learn.
 
-  I signed up for a 6 month certification program, but delayed starting by 2 months, in order to study the fundamentals of adult education. 
+  I signed up for a 6 month certification program, but delayed starting by 2 months, in order to study the fundamentals of adult education.
 
-  My brief studies about learning taught me to focus on demonstrating practical skill. 
+  My brief studies about learning taught me to focus on demonstrating practical skill.
 
   I purchased two computers from a trade show for $400, set them up with multiple boot configurations, and materialized every example in my text books into real world use cases.
 
@@ -1410,7 +1412,7 @@ Professor McKee taught me just how much difference one teacher can in a person's
   I executed two successful job interviews in a row, allowing me to choose a place to begin my career.
 
   These actions were inspired by /investing/ 2 months of my life in learning about adult education.
-   
+
   My shortcut driven efforts paid off in terms of personal finances, but were costly in another way.
 
   By succeeding at taking a shortcut, by taking the easy way, I reinforced a personal strategy that would cost precious time and money when I started to learn how to program, which I'll talk more about soon.
@@ -1438,14 +1440,14 @@ Professor McKee taught me just how much difference one teacher can in a person's
 #+END_NOTES
 
 
-** Finding Clojure 
+** Finding Clojure
 
- #+BEGIN_NOTES 
+ #+BEGIN_NOTES
     My path to finding Clojure has been long and sometimes emotionally painful.
 
     Instead of structured struggle, much of the path has felt like needless struggle.
 
-    I'd like to help other newcomers find their way before they suffer the bumps and bruises I've experienced. 
+    I'd like to help other newcomers find their way before they suffer the bumps and bruises I've experienced.
 
     I started programming at age 10.  By age 12, I was more interested in riding my bike than in staying inside the house.
 
@@ -1481,8 +1483,8 @@ Professor McKee taught me just how much difference one teacher can in a person's
 
     I will save time, not by finding the easy way, but by mastering the fundamentals that bring very difficult problems within the reach of studious practitioners.
 
-    Thank you Rich Hickey! 
- #+END_NOTES 
+    Thank you Rich Hickey!
+ #+END_NOTES
 
 
 ** Betty Edwards
@@ -1497,7 +1499,7 @@ relationship
 lights & shadows
 the gestalt
 
-#+BEGIN_NOTES 
+#+BEGIN_NOTES
 Discovering the work of Betty Edwards was a eureka moment in my life, so its no surprise that she holds a prominent spot in my life's memory bank, from the home category of learning.
 
 So how does Betty Edwards do it?
@@ -1543,7 +1545,7 @@ She's designed several unique exercises, such as drawing from a picture which is
 
 Looking at an upside-down picture disrupts the left brain's habit of naming what is seen, so it loses interest which allows the right brain to step in and do what it's good at -- perceiving visually.
 
-Betty Edwards' work ties in neatly with Rich Hickey's popular talk, /Hammock Driven Development/, in which he shares his process for solving big problems - engage the problem, then disengage, rinse and repeat. 
+Betty Edwards' work ties in neatly with Rich Hickey's popular talk, /Hammock Driven Development/, in which he shares his process for solving big problems - engage the problem, then disengage, rinse and repeat.
 
 In her book, /Drawing on the Artist Within/, Betty Edward's deeply explores the the five stages of creativity:
 
@@ -1600,18 +1602,18 @@ We'll talk more about her soon, but for now I want to thank Betty Edwards for op
 There's a parallel between the drawings we saw at the start of this talk and the skill of learning, both are technical skills. I could poke around at drawing for years, or I could absorb the fundamentals from a master and use that framework to accelerate my progress.
 
 That framework, as it turns out, is vitally important to genuine understanding. TODO University Study.
-#+BEGIN_NOTES 
- 
+#+BEGIN_NOTES
+
 #+END_NOTES
 *** University Study regression
 It's not just students that need to learn about learning!
 * The actions
 What actions are consistent with this value?
-** If we value learning, why not get better at it via Betty Edwards approach, instead of doodling. 
+** If we value learning, why not get better at it via Betty Edwards approach, instead of doodling.
   ** What if there was a subject you could study which would improve your ability to learn and master any other subject?
  There just might be!
   #+ATTR_REVEAL: :frag appear
-*** Power Hour 
+*** Power Hour
 *** Culture of Concentration
 **** Information, not an industrial age factory factory floor.
 **** Exception: different people
@@ -1620,7 +1622,7 @@ Don't remove drawing for schools.
 Use l-mode and r-mode for general problem solving.
 
 
-#+ATTR_REVEAL: :frag appear 
+#+ATTR_REVEAL: :frag appear
 [[file:resources/images/Opening & Overview/illustration-of-drawing-skill-improvement-in-5-days_2017-01-12_09-19-11.png]]
 *** Learning How to Learn
 *** Space Repetition etc.
@@ -1636,7 +1638,7 @@ Getting ready for this talk.
 inclusivity via learning
 helping others is helping myself
 informat
-** 
+**
 #+BEGIN_QUOTE
 Live as if you were to die tomorrow. Learn as if you were to live forever. -- Mahatma Gandhi
 #+END_QUOTE
@@ -1644,7 +1646,7 @@ Live as if you were to die tomorrow. Learn as if you were to live forever. -- Ma
 
 
 
-* ********** Beyond this point is all notes ************ 
+* ********** Beyond this point is all notes ************
 
 
 
@@ -1657,7 +1659,7 @@ Live as if you were to die tomorrow. Learn as if you were to live forever. -- Ma
 *** We are in the midst of a massive adaptation to the age of information.
 **** TODO (formate quote) Clojure just happens to specialize the processing information!
 "Clojure is a Swiss Army Knife of operations over data" -- Rich Hickey
-* Are we getting it? 
+* Are we getting it?
 ** How many objects are we juggling in our learning?
 ** [[https://www.farnamstreetblog.com/2013/01/how-people-learn/][How People Learn]] Empathy/Understanding of Expert that Learner doesn't possess rich mental model, or even capacity to organize rich mental model immediately. This is grown over time by ensuring that fundamental concepts are well understood. This should be the main objective, rather than conveying a deluge of facts, which have no meaningful place in the mind to be stored effectively.
 *** Bite-size definitions for reading fluency and verbose, technically correct definitions for accurate understanding.
@@ -1665,7 +1667,7 @@ Live as if you were to die tomorrow. Learn as if you were to live forever. -- Ma
 *** If we're really that smart we can make it better for others.
 *** Courage of honestly saying, "I'm not getting it". (Liberation from the weight of the expert mask)
 **** Creates more accurate feedback loop.
-**** 
+****
 * My story: Hero to Zero
 ** How I found Clojure, How I'd like others to find Clojure
 *** Clojure community leading the way technically- react
@@ -1674,8 +1676,8 @@ Live as if you were to die tomorrow. Learn as if you were to live forever. -- Ma
 
 
 * New goal
-#+BEGIN_NOTES 
-   I have an ambitious goal. I want to be skilled in all aspects of creating a web app, from the front end to the back, using Clojure technologies, including ClojureScript, Datomic, React Native, Arachne and so on. 
+#+BEGIN_NOTES
+   I have an ambitious goal. I want to be skilled in all aspects of creating a web app, from the front end to the back, using Clojure technologies, including ClojureScript, Datomic, React Native, Arachne and so on.
 
    But first, the fundamentals! Identity, values, time.
 
@@ -1687,7 +1689,7 @@ Live as if you were to die tomorrow. Learn as if you were to live forever. -- Ma
 
    After slowly going through the course over many months, branching my studies off of the main curriculum by following the compass of my curiosity, I can say unequivocally taking this course has super-charged my learning!
 
-   To my delight, it's helped me in ways I never expected. Yes, my learning skills are sharper and broader, and growing. 
+   To my delight, it's helped me in ways I never expected. Yes, my learning skills are sharper and broader, and growing.
 
    But I'm also sleeping better, eating better and enjoying playful breaks from my work to exercise in the back yard.
 
@@ -1695,7 +1697,7 @@ Live as if you were to die tomorrow. Learn as if you were to live forever. -- Ma
 
    But there's always room for improvement and as much as things have gotten better, its feels like this journey is just beginning.
 
-   What I'm trying to say is I'm a *big* fan. 
+   What I'm trying to say is I'm a *big* fan.
 
    If I could plant just one seed today, it would be *this* course.
 
@@ -1707,7 +1709,7 @@ Live as if you were to die tomorrow. Learn as if you were to live forever. -- Ma
 
    Fortunately, the brain comes pre-built to learn.
 
-   The challenge then is this: can we learn to work with the natural 'grain' of the brain, can we learn even more efficiently? And what would our world look like if we did this en masse? 
+   The challenge then is this: can we learn to work with the natural 'grain' of the brain, can we learn even more efficiently? And what would our world look like if we did this en masse?
 
    My hope is that you will find at least one thing in this talk that will help you in your own learning journey, whatever your goals may be.
 
@@ -1723,7 +1725,7 @@ Live as if you were to die tomorrow. Learn as if you were to live forever. -- Ma
 **** Machine Readable Curricula (aka Curriculums, Learning Paths, Paths) with well-defined learning outcomes
 **** Programming is like learning a tennis, highly technical takes years.
 ***** 'Start serving' is not helpful advice, so why do we persist with this advice.
-**** Metrics: time to competency, attention time, practice time. 
+**** Metrics: time to competency, attention time, practice time.
 *** Conceptual Support from Teachers without spoonfeeding.
 * Quotes
 #+begin_quote
@@ -1806,7 +1808,7 @@ The work is quite feasible, and is the only thing in our power.…Let go of the 
 ** http://lifehacker.com/top-10-ways-to-teach-yourself-to-code-1684250889A
 ** https://hackpledge.org/
 
-* Old Pitches 
+* Old Pitches
 ** How can we best support the needs of Clojure learners? Imagine a future where a person interested in learning Clojure was presented with a menu of learning paths, each leading to well defined learning outcomes and offering various 'on-ramps' for learners of varying skill levels, especially, for learners completely new to programming. Imagine a future where every learner feels welcome and supported through supportive human relationships, from participation in users groups, educational co-ops, and especially one-on-one apprentice/mentor pairings. How can we place the needs of the learner above all else and grow Clojure to the scale of its full potential? Much progress has already been made, but what more can we do, together, to reach this goal?
 ** A community-centered brainstorming session facilitated by vulnerably sharing my unconventional ideas about learning to program, and graciously inviting others to share their own. An experiment in group problem solving applied to the problem of learning 'Clojure'.
 *** 'Clojure' as used here is a heavily overloaded term, referring the body of knowledge encompassing Clojure(ish) technologies: ClojureScript, Datomic, React, React Native, bash/zshell, deployment technologies such as immutable infrastructure etc. etc. etc.
@@ -1818,8 +1820,8 @@ Questions are powerful on their own.
 
 I think this one is worth revisiting again and again.
 
-#+BEGIN_NOTES 
-This question could have been tackled any number of ways. I stumbled upon this one by following my nose and trying not to fall behind on my deadline. 
+#+BEGIN_NOTES
+This question could have been tackled any number of ways. I stumbled upon this one by following my nose and trying not to fall behind on my deadline.
 
 
 
@@ -1843,14 +1845,14 @@ I would enjoy revisiting the question anew, perhaps from a purely mathematical p
 
 * Why am I the person giving this talk?
 *** TODO Long and documented history of putting my foot in my mouth
-#+BEGIN_NOTES 
-Much of the talk is about the human brain, and almost anything I say about the brain that fits into an hour long talk will be grossly over-simplified. 
+#+BEGIN_NOTES
+Much of the talk is about the human brain, and almost anything I say about the brain that fits into an hour long talk will be grossly over-simplified.
 #+END_NOTES
 *** TODO And thinking inside the box.
-#+BEGIN_NOTES 
+#+BEGIN_NOTES
 Learning is like breathing -- we're always doing it. My thoughts on learning are being articulated through a lifetime of inherited and accumulated personal biases, many, if not most of which, I am probably unaware. That's why I need your help to unlock the potential discoveries of this fledgling research.
 #+END_NOTES
-*** Seriously though!  
+*** Seriously though!
 #+BEGIN_NOTES
 All joking aside, I'm deeply interested in this topic because learning to program, for me, has been a joy, but also a painful and lonely struggle. My experience and instincts tell that by the time most people discover Clojure, they've suffered needlessly for too long. I hope this talk can reach out and find aspiring learners at the outset of their learning journey. What can we do together to make learning Clojure a fantastic experience for everyone?
 #+END_NOTES
@@ -1864,7 +1866,7 @@ All joking aside, I'm deeply interested in this topic because learning to progra
 **** TODO https://www.brainpickings.org/2016/03/31/dostoyevsky-reason-emotion/ find quote
 *** Learning from failure yields long term success
 Therefore learning, not winning is the greater value.
-*** Know thyself, know others, 16 Personalities 
+*** Know thyself, know others, 16 Personalities
 *** Learning about learning
 There's a parallel between the drawings we saw at the start of this talk and the skill of learning, both are technical skills. I could poke around at drawing for years, or I could absorb the fundamentals from a master and use that framework to accelerate my progress.
 
@@ -1874,7 +1876,7 @@ And adapting is human. (Tie in Clojure connection)
 * Could the keys to unlocking our human potential be hidden in the mysteries of the human brain?
 *** Decide for yourself after we explore recent discoveries, including powerful new insights in motivation and procrastination.
 **** How can science's new understanding of the placebo effect dramatically increase our chances of successfully mastering highly technical skills?
-#+BEGIN_NOTES 
+#+BEGIN_NOTES
 That's just a taste of what we'll talk about in the next hour.
 #+END_NOTES
 * Research
@@ -1895,16 +1897,16 @@ That's just a taste of what we'll talk about in the next hour.
 *** DONE Talk, when viewed on video, will still allow people to tweet pre-defined statements or questions by scanning qr codes and submitting ideas.
     CLOSED: [2017-02-02 Thu 09:42]
 **** All data goes into open data system, as in open source for community benefit.
-* Jay & Isaac 
+* Jay & Isaac
 ** Org Mode notes
 *** After opening notes.org on my system, I usually ~SPC t l~ and then ~SPC t L~ to get things looking good.
     Truncating lines and visual breaks. Nice. If you want, you can establish those settings as defaults in your config file. Can use `SPC-?` (Helm describes bindings) to figure out the proper names.
-** Separation of TODOs 
+** Separation of TODOs
 *** Below I've tagged this todo with isaac10, meaning its for you with a priority of 10 (lower number is higher priority and they go up by 10. That's an old basic programming trick which makes it easy to stick other todos inbetween, after the fact).
 And it avoids the alphabetization problem of 0's! Sweet!
 *** DONE isaac10 Please study up on how to wrangle css for reveal.js so we can get page elements where we want them.
     CLOSED: [2017-02-02 Thu 09:40]
-**** DONE Page element most concerned about is title at top left, space for video top right, paragraph/bullets left aligned half way down from top for first line. 
+**** DONE Page element most concerned about is title at top left, space for video top right, paragraph/bullets left aligned half way down from top for first line.
      CLOSED: [2017-02-02 Thu 09:40]
 **** DONE These are subtasks under the main task, so they would also be for you unless my name is next the subtask.
      CLOSED: [2017-02-02 Thu 09:40]
@@ -1931,9 +1933,9 @@ See email question about p2p video streaming.
 ***** reach out and let me know how things are going, if they are unclear, or to ask any questions :)
 *** TODO isaac300 research doing footnotes in org-mode. There's something called Bibtex too. (notice low priority)
 *** Reveal notes
-Setting the REVEAL_ROOT as a relative path above works for me, but is inconsistent with https://github.com/yjwen/org-reveal. 
+Setting the REVEAL_ROOT as a relative path above works for me, but is inconsistent with https://github.com/yjwen/org-reveal.
 ;; #+OPTIONS: reveal_width:1920 reveal_height:1080
 ;; note: function: org-toggle-inline-images   (toggles between showing images in buffer and showing text url of images file)
-;; reveal_center:t 
+;; reveal_center:t
 note that I used two SPACES after the * to make the invisible heading for the non-title title slide.
 #+mynotes: Use Big John / Little Joe for Headings, Quicksand for normal type and lobster for marking up pictures (or any combination of these.
