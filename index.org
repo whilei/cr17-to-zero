@@ -211,8 +211,9 @@ A little hint: if you have a smart phone with a QR code scanner, you can be read
 
 ** Audience Participation
   :PROPERTIES:
-  :reveal_extra_attr: redpill-img-src="/resources/images/red-pill.svg.png" qr-data="http://webappzero.com"
+  :reveal_extra_attr: redpill-img-src="/resources/images/red-pill.svg.png" qr-data="https://github.com/webappzero/the-value-of-learning"
   :END:
+file:resources/images/Djembes.jpg
 
   #+ATTR_REVEAL: :frag t
   file:resources/images/red-pill.svg.png
