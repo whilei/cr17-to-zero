@@ -1613,8 +1613,21 @@ What actions are consistent with this value?
   #+ATTR_REVEAL: :frag appear
 *** Power Hour 
 *** Culture of Concentration
+:PROPERTIES:
+:reveal_extra_attr: redpill-img-src="/resources/images/red-pill.svg.png" qr-data="https://goo.gl/forms/Td2CKC2Xfpp5g1q13"
+:END:
+
 **** Information, not an industrial age factory factory floor.
 **** Exception: different people
+
+#+ATTR_REVEAL: :frag t
+file:resources/images/red-pill.svg.png
+
+#+BEGIN_NOTES
+
+... What does concentration look like for you? Scan the QR to fill a very short three-question Google Form poll and see your fellow attendees's repsonses as well.
+#+END_NOTES
+
 *** The science of learning.
 Don't remove drawing for schools.
 Use l-mode and r-mode for general problem solving.
