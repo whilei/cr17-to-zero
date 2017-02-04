@@ -211,7 +211,7 @@ A little hint: if you have a smart phone with a QR code scanner, you can be read
   :PROPERTIES:
   :reveal_extra_attr: redpill-img-src="/resources/images/red-pill.svg.png" qr-data="http://webappzero.com"
   :END:
-file:resources/images/classroom-hands-up.jpg
+file:resources/images/Djembes.jpg
 
   #+ATTR_REVEAL: :frag t
   file:resources/images/red-pill.svg.png
