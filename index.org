@@ -19,7 +19,7 @@
 
 * 
 :PROPERTIES:
-:reveal_extra_attr: data-state="hide-video"
+:reveal_extra_attr: data-state="hide-video" video-size="normal"
 :reveal_background_size: 100%
 :reveal_background: /resources/images/title-screen_2017-01-16_16-18-34.png
 :END:
@@ -30,8 +30,10 @@ Title Slide
 (NEXT SLIDE RIGHT)
 
 #+END_NOTES
-* Welcome
-
+* 
+:PROPERTIES:
+:reveal_extra_attr: video-size="full"
+:END:
  #+BEGIN_NOTES 
  Thank you Ryan. I'm happy to be here at Clojure Remote 2017 and honored to speak to this group of enthusiastic Clojure folks.  Welcome to each of you that are with us today to hear about /The Value of Learning/.
 
@@ -49,9 +51,9 @@ Title Slide
 # Before+after(3)
 **  
 :PROPERTIES:
-:reveal_extra_attr: data-state="hide-video"
+:reveal_extra_attr: data-state="hide-video" video-size="normal"
 :reveal_background_size: 100%
-:reveal_background: /resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged/03-montage.png
+:reveal_background: /resources/images/opening-and-overview/drawing-skills-cropped/montaged/03-montage.png
 :END:
 # (1/3) 
 #+BEGIN_NOTES
@@ -65,7 +67,7 @@ These before and after self-portraits were drawn by the same person. How long do
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video"
 :reveal_background_size: 100%
-:reveal_background: /resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged/01-montage.png
+:reveal_background: /resources/images/opening-and-overview/drawing-skills-cropped/montaged/01-montage.png
 :END:
 # (2/3)
 #+BEGIN_NOTES
@@ -80,7 +82,7 @@ How long for this degree of improvement?
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video"
 :reveal_background_size: 100%
-:reveal_background: /resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged/02-montage.png
+:reveal_background: /resources/images/opening-and-overview/drawing-skills-cropped/montaged/02-montage.png
 :END:
 # (3/3)
 #+BEGIN_NOTES
@@ -209,8 +211,9 @@ A little hint: if you have a smart phone with a QR code scanner, you can be read
 
 ** Audience Participation
   :PROPERTIES:
-  :reveal_extra_attr: redpill-img-src="/resources/images/red-pill.svg.png" qr-data="http://webappzero.com"
+  :reveal_extra_attr: redpill-img-src="/resources/images/red-pill.svg.png" qr-data="https://github.com/webappzero/the-value-of-learning"
   :END:
+file:resources/images/Djembes.jpg
 
   #+ATTR_REVEAL: :frag t
   file:resources/images/red-pill.svg.png
@@ -348,6 +351,8 @@ What actions are consistent with this value?
 #+END_NOTES
 
 * The question
+
+
 What is the value of learning?
 
 #+BEGIN_NOTES 
@@ -362,7 +367,17 @@ Let's dig into this question!
 .
 #+END_NOTES
 
-** Learning, the invisible value 
+**  
+:PROPERTIES:
+:reveal_extra_attr: data-state="hide-video"
+:reveal_background_size: 60%
+:reveal_background: /resources/images/windmills/at-windmills-white.png
+:END:
+
+# Ole! Onward to La Mancha! 
+
+
+** Learning, the invisible value
   #+BEGIN_QUOTE
   In all affairs it's a healthy thing now and then to hang a question mark on the things you have long taken for granted. -- Bertrand Russell
   #+END_QUOTE
@@ -1449,16 +1464,15 @@ Professor McKee taught me just how much difference one teacher can in a person's
 
 
 ** Betty Edwards
-TODO isacc frag this:
-/resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged/02-montage.png
+#+ATTR_REVEAL: :frag t
+file:resources/images/opening-and-overview/drawing-skills-cropped/montaged/02-montage.png
 
-TODO isaac frag this all at once, not individually :)
-
-edges
-spaces
-relationship
-lights & shadows
-the gestalt
+#+ATTR_REVEAL: :frag t
+- edges
+- spaces
+- relationship
+- lights & shadows
+- the gestalt
 
 #+BEGIN_NOTES 
 Discovering the work of Betty Edwards was a eureka moment in my life, so its no surprise that she holds a prominent spot in my life's memory bank, from the home category of learning.
@@ -1576,15 +1590,28 @@ What actions are consistent with this value?
   #+ATTR_REVEAL: :frag appear
 *** Power Hour 
 *** Culture of Concentration
+:PROPERTIES:
+:reveal_extra_attr: redpill-img-src="/resources/images/red-pill.svg.png" qr-data="https://goo.gl/forms/Td2CKC2Xfpp5g1q13"
+:END:
+
 **** Information, not an industrial age factory factory floor.
 **** Exception: different people
+
+#+ATTR_REVEAL: :frag t
+file:resources/images/red-pill.svg.png
+
+#+BEGIN_NOTES
+
+... What does concentration look like for you? Scan the QR to fill a very short three-question Google Form poll and see your fellow attendees's repsonses as well.
+#+END_NOTES
+
 *** The science of learning.
 Don't remove drawing for schools.
 Use l-mode and r-mode for general problem solving.
 
 
 #+ATTR_REVEAL: :frag appear 
-[[file:resources/images/Opening & Overview/illustration-of-drawing-skill-improvement-in-5-days_2017-01-12_09-19-11.png]]
+[[file:resources/images/opening-and-overview/illustration-of-drawing-skill-improvement-in-5-days_2017-01-12_09-19-11.png]]
 *** Learning How to Learn
 *** Space Repetition etc.
 ** Information age, but we're still in an industrial age mode
