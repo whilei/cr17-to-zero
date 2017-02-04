@@ -51,7 +51,7 @@ Title Slide
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video"
 :reveal_background_size: 100%
-:reveal_background: /resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged/03-montage.png
+:reveal_background: /resources/images/opening-and-overview/drawing-skills-cropped/montaged/03-montage.png
 :END:
 # (1/3) 
 #+BEGIN_NOTES
@@ -65,7 +65,7 @@ These before and after self-portraits were drawn by the same person. How long do
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video"
 :reveal_background_size: 100%
-:reveal_background: /resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged/01-montage.png
+:reveal_background: /resources/images/opening-and-overview/drawing-skills-cropped/montaged/01-montage.png
 :END:
 # (2/3)
 #+BEGIN_NOTES
@@ -80,7 +80,7 @@ How long for this degree of improvement?
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video"
 :reveal_background_size: 100%
-:reveal_background: /resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged/02-montage.png
+:reveal_background: /resources/images/opening-and-overview/drawing-skills-cropped/montaged/02-montage.png
 :END:
 # (3/3)
 #+BEGIN_NOTES
@@ -1487,16 +1487,15 @@ Professor McKee taught me just how much difference one teacher can in a person's
 
 
 ** Betty Edwards
-TODO isacc frag this:
-/resources/images/Opening\ &\ Overview/drawing-skills-cropped/montaged/02-montage.png
+#+ATTR_REVEAL: :frag t
+file:resources/images/opening-and-overview/drawing-skills-cropped/montaged/02-montage.png
 
-TODO isaac frag this all at once, not individually :)
-
-edges
-spaces
-relationship
-lights & shadows
-the gestalt
+#+ATTR_REVEAL: :frag t
+- edges
+- spaces
+- relationship
+- lights & shadows
+- the gestalt
 
 #+BEGIN_NOTES 
 Discovering the work of Betty Edwards was a eureka moment in my life, so its no surprise that she holds a prominent spot in my life's memory bank, from the home category of learning.
@@ -1622,7 +1621,7 @@ Use l-mode and r-mode for general problem solving.
 
 
 #+ATTR_REVEAL: :frag appear 
-[[file:resources/images/Opening & Overview/illustration-of-drawing-skill-improvement-in-5-days_2017-01-12_09-19-11.png]]
+[[file:resources/images/opening-and-overview/illustration-of-drawing-skill-improvement-in-5-days_2017-01-12_09-19-11.png]]
 *** Learning How to Learn
 *** Space Repetition etc.
 ** Information age, but we're still in an industrial age mode
