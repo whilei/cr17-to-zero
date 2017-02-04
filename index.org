@@ -348,6 +348,8 @@ What actions are consistent with this value?
 #+END_NOTES
 
 * The question
+
+
 What is the value of learning?
 
 #+BEGIN_NOTES 
@@ -362,7 +364,17 @@ Let's dig into this question!
 .
 #+END_NOTES
 
-** Learning, the invisible value 
+**  
+:PROPERTIES:
+:reveal_extra_attr: data-state="hide-video"
+:reveal_background_size: 60%
+:reveal_background: /resources/images/windmills/at-windmills-white.png
+:END:
+
+# Ole! Onward to La Mancha! 
+
+
+** Learning, the invisible value
   #+BEGIN_QUOTE
   In all affairs it's a healthy thing now and then to hang a question mark on the things you have long taken for granted. -- Bertrand Russell
   #+END_QUOTE
