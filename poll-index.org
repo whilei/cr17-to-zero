@@ -1,4 +1,17 @@
+* Polls
 | Slide                    | Question                                     | Input options      | Google Form URL                        | Associated Google Spreadsheet URL                                                                       |
 | test                     | "Do you prefer muffins or learning?"         | learning, muffins  | https://goo.gl/forms/leE8fYUa0M1yLGxb2 | https://docs.google.com/spreadsheets/d/1tdxUHeLVq4ogVDVULLe3mB8FuJuiHsvy6Xxca7c3CbU/edit?usp=sharing    |
 | Culture of Concentration | "Describe your ideal environment for focus." | [multipleQ/choice] | https://goo.gl/forms/Td2CKC2Xfpp5g1q13 | https://docs.google.com/spreadsheets/d/1HhE2PKJsp0268IR5Sg41Dbxcv3BCZ_cYoccfNXZ4mIQ/edit#gid=1613966334 |
 |                          |                                              |                    |                                        |                                                                                                         |
+
+* QR Links
+| Slide                                                                                           | Link                                                                                                            |
+| 5 days                                                                                          | http://twitter.com/intent/tweet?text=Can you fly that thing? Not yet...  &hashtags=valueoflearning,bettyedwards |
+| Audience Participation                                                                          | https://github.com/webappzero/the-value-of-learning                                                             |
+| Is Learning Harmful?                                                                            | https://www.supermemo.com/articles/goodness.htm                                                                 |
+| If we value learning, why not get better at it via Betty Edwards approach, instead of doodling. | https://goo.gl/forms/Td2CKC2Xfpp5g1q13                                                                          |
+|                                                                                                 |                                                                                                                 |
+
+
+
+
