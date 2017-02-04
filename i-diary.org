@@ -134,3 +134,42 @@ The problem with my solve is that our tools aren't formatted for it. Web pages d
 * Random access thoughts
 Like bl.ocks but for _____ &clojure
 Self portraits... #dubuffet #basquiat #hirst #hundertwasser #picasso.young/#picasso.picasso. You don't have to be an artist to be an artist.
+
+** Meeting notes
+- Polis 
+- Onyx
+
+w/r/t _Clojure_
+"aha!" vs "hmmmm"  <-- visualize ? - !
+your own limitations and leanring wrt to working with arachne...
+
+TODO:
+1. as an audience member, what makes sense? polls. 
+2. visuals - ? - !, github Issues, stackoverflow, side-by instead of stack-over flow 
+3. some awesome resources for learning how to learn
+
+# Things that might be slated for inclusion in index.org...
+* Simple is, as simple does.
+"It's simple, really." 
+
+How many times have you heard that infuriating remark from a teacher?
+
+_Learning_, in the scope of a community (or classroom) begins with an ideal of accessibility. Public education. No child left behind (yikes!... hm.). The aim, of course, is to extend the material at hand (as immaterial as it may be) to the student. To create a opening, a possibility, a bridge. 
+
+In (now) very material terms, the public-facing Github is something of a pinnacle and ideal of accessibility. Not only does embody open-source, but it is coming to iconify it as well (at least in our computational discourse), like Google iconifies _The Search_.
+
+When, two years ago, I began to learn (to?) code, I was actually quite intimidated by the whole thing. I raised exactly 0 Issues and 0 PR's in my first... year. _Year_. I didn't open source my projects. I was embarrassed (and embarrassed about that), mostly illiterate, and very wary of making a fool of myself. So if Github's the reigning champ of open-source, in what ways were it's doors not opening for me? 
+
+Simple is as simple does.
+
+An hour ago I had a feeling (and I don't think I'm the first but haven't right now the time or patient to research it) that Githubbers might be over-using and over-estimating the word "simple." That was my hypothesis. My first (and very primitive) test of it would be to read descriptions of repositories, and see how many described themselves as 'simple'. 
+
+I used the Github API to request all of my starred respoitories and match against a `/simple/i` regex. I was rather disappointed, it appeared my hypothesis failed. Of 480 starred repos, only 24 of them self-described as 'simple'. That's 0.05%. But there are lot of words out there, and it's surely not fair to pit 'simple' again 'the' or 'javascript'. They're different kinds of words. So, let's do adjectives.
+
+From a list of 1467 adjectives (again, very primitive and limited and all that jazz #TODOMAYBE) I cross-referenced the words in the descriptions. The most common adjective in my starred Github repos? _Simple_. Beating out the runner up 'open' by almost 2x.
+
+Turns out, I do like simple repositories.[fn:1]
+
+The problem I see with so many self-described "simplers" is that it's diminutive. If it doesn't seem so simple to you now, it might be years before pride will allow to you pipe up and ask a simple question.
+
+[fn:1]:TODO yet of course remains to see if stars in general (beyond just my own) correlate to simplicity. Call that Hypothesis #2. 
