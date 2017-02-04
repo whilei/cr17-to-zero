@@ -484,13 +484,9 @@ Let's illuminate the question by looking at the meaning and history of the words
 
 *** Etymology of /value/: 
 
-#+BEGIN_SRC markdown
-Anglo-French
-_valu_    *worth, high quality*
+| Anglo-French | /valu/   | worth, high quality       |
+| Latin        | /valēre/ | to be well, have strength |
 
-Latin
-_valēre_  *to be well, have strength*
-#+END_SRC
 
 #+REVEAL_HTML: <div class="citation">merriam-webster.com</div>
 
@@ -535,19 +531,11 @@ And, there are a handful of ways to gain knowledge or skill: study, practice, ob
 
 *** Etymology of /learn/:
 
-#+BEGIN_SRC markdown
-Middle English
-_lernen_  *to learn*
+| Middle English | /lernen/   | to learn      |
+| Old English    | /leornian/ | to learn      |
+| Old English    | /last/     | foot print    |
+| Latin          | /lira/     | furrow, track |
 
-Old English
-_leornian_  *to learn*
-
-Old English
-_last_  *foot print*
-
-Latin
-_lira_  *furrow, track*
-#+END_SRC
 
 #+REVEAL_HTML: <div class="citation">merriam-webster.com</div>
 
