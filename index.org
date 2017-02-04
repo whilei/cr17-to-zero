@@ -19,7 +19,7 @@
 
 * 
 :PROPERTIES:
-:reveal_extra_attr: data-state="hide-video"
+:reveal_extra_attr: data-state="hide-video" video-size="normal"
 :reveal_background_size: 100%
 :reveal_background: /resources/images/title-screen_2017-01-16_16-18-34.png
 :END:
@@ -30,8 +30,10 @@ Title Slide
 (NEXT SLIDE RIGHT)
 
 #+END_NOTES
-* Welcome
-
+* 
+:PROPERTIES:
+:reveal_extra_attr: video-size="full"
+:END:
  #+BEGIN_NOTES 
  Thank you Ryan. I'm happy to be here at Clojure Remote 2017 and honored to speak to this group of enthusiastic Clojure folks.  Welcome to each of you that are with us today to hear about /The Value of Learning/.
 
@@ -49,7 +51,7 @@ Title Slide
 # Before+after(3)
 **  
 :PROPERTIES:
-:reveal_extra_attr: data-state="hide-video"
+:reveal_extra_attr: data-state="hide-video" video-size="normal"
 :reveal_background_size: 100%
 :reveal_background: /resources/images/opening-and-overview/drawing-skills-cropped/montaged/03-montage.png
 :END:
