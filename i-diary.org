@@ -20,19 +20,19 @@ Org-mode is about _content_. It's for this reason that it's encouraging and intu
 
 With that said, both frameworks - if I can call them that - are highly opinionated beasts, and while org-reveal does an excellent job of shipping one to the other (respectively), there will come a time in a developer's life when some customization is required, and from there... opinions may differ.
 
-The first hurdle is that since you're porting an org document to an html document, you're working with a relatively black-boxy metamorphosis,[fn:1] and it can feel at times like working on an airplane that keeps taking off. If it would just hold still! With that said, the developer's challenge here is also one of the great powers of the process. Org-reveal is providing a comprehensive way to ship _dynamic_ text content to a slideshow-formatted html doc. 
+The first hurdle is that since you're porting an org document to an html document, you're working with a relatively black-boxy metamorphosis,[fn:1] and it can feel at times like working on an airplane that keeps taking off. If it would just hold still! With that said, the developer's challenge here is also one of the great powers of the process. Org-reveal is providing a comprehensive way to ship _dynamic_ text content to a slideshow-formatted html doc.
 
-Our project involves a moderate degree of customization. Generally speaking, we want to format each slide in quadrants, with the left 2 quadrants (the left half) comprising the majority of the slide content, the top-right leaving room for a live-video stream, and the bottom-right holding a place for supplementary images and audience-oriented content. 
+Our project involves a moderate degree of customization. Generally speaking, we want to format each slide in quadrants, with the left 2 quadrants (the left half) comprising the majority of the slide content, the top-right leaving room for a live-video stream, and the bottom-right holding a place for supplementary images and audience-oriented content.
 
 *** Getting customize-able.
-First things first: You want to customize a template? Where and how are you going to fit your changes in? 
+First things first: You want to customize a template? Where and how are you going to fit your changes in?
 
-Org-reveal provides document-specific variable precisely for this job: 
+Org-reveal provides document-specific variable precisely for this job:
 ```
 #+REVEAL_EXTRA_JS
 #+REVEAL_EXTRA_CSS
 ```
-Great! 
+Great!
 
 Now, hold your horses here for a second. Before you go swinging away into a custom .css sheet, I urge you to also note that Reveal.js on its own is prepared for this kind of thing. The instructions on the [Reveal.js README](linkhere) direct us to custom template pattern in which we can write SCSS :clap: and use the provided grunt tasks to build the css for us.
 
@@ -41,14 +41,14 @@ Which brings me to the issue of reckoning parentage with regard to your director
 
 So there's a decision to be made here. Is your org project something that is going to live beyond the Reveal.js show? Does it have a lot of extra relative resources? Is it a part of a larger whole, of other docs and projects? If it is, your best bet is probably to keep reveal.js/ where org-reveal expects it to be - as a ~~sub~~sibling directory ~~below~~akin to your .org file. However, if your idea is to write a single presentation and to use org mode to do it, then your best best is likely to take the reveal.js/ as your root dir, and locate your .org file alongside `./demo.html`. If this is the case, you'll need to correct where org-reveal is going to look to find the reveal.js/ directory structure it expects (don't think I forgot!). Good thing there's a variable for that! Set `#+REVEAL_ROOT: ./`, and you're off to the races.
 
-As for your custom JavaScript, use `#+REVEAL_EXTRA_JS: {src: './js/custom.js'}`, pointing, of course, to wherever your actual .js is. 
+As for your custom JavaScript, use `#+REVEAL_EXTRA_JS: {src: './js/custom.js'}`, pointing, of course, to wherever your actual .js is.
 :TODO: because show where org-reveal actually sticks this nugget
 
 
 [fn:1] I'm sure for many the box is less than black for many. For yours truly, it was more opaque than not. Our project is - at this point - a one-off, and it's the first of it's kind in my experience.
 
 * Learning Language
-When we're toddlers, we make a lot of mistakes. We bump into walls, scrape our knees, accidentally spill pasta all over our heads. Some are simple misunderstandings - or, alternate interpretations - of established conventions, and others less intentional. Perhaps the most important mistakes we can make as children is in our mumblings and cryings, our manglings, simplifications, and contortions of language. 
+When we're toddlers, we make a lot of mistakes. We bump into walls, scrape our knees, accidentally spill pasta all over our heads. Some are simple misunderstandings - or, alternate interpretations - of established conventions, and others less intentional. Perhaps the most important mistakes we can make as children is in our mumblings and cryings, our manglings, simplifications, and contortions of language.
 
 I would pause here - mistakes is the wrong word. Children do not regret their words, nor parents regret that "mo miks" actually means "More milk, please." Language is forgiving like that. Language is plastic, and can finds its most critical and characteristic triumphs in it's being able to bend without breaking.
 
@@ -78,19 +78,19 @@ When you develop with the attitude that "errors should be avoided," one is likel
 We need teachers, not instruction-manual authors. We need students, not copycats. We need hackers who can use their computer in the name of play.
 
 
-** Language likes to grow. 
+** Language likes to grow.
 * Clojure, meet Learning
-Clojure has a lot going for it on the learning front. A vibrant, welcoming community. A charasmatic and sharp key figure, Rich Hickey. And REPL. 
+Clojure has a lot going for it on the learning front. A vibrant, welcoming community. A charasmatic and sharp key figure, Rich Hickey. And REPL.
 
-REPL! **REPL!!** 
+REPL! **REPL!!**
 
-Among doctors, anathesiologists have the relatively highest measurable accuracy of 'intuition,' more so than surgeons, therapists, ENT's, GI's... the list goes on. It's not because they are cleverer or that they self-select as scientifically- abstractly(math)-oriented. It's because they get feedback quickly. In fact, they weren't always so adept. Anathesia used be a _very_ clumsy science; whiskey and bullets, chloroform and morphine were about as good as it got. And, yes, those tools still work! But, aside from improved chemistry, what anathesiologists have today that they didn't 100 or even 20 years ago is exceptionally responsive monitoring devices. They can watch a patient's blood levels, cardiac rhythms, and a variety of other bio-feedback variables in realtime. While on the other hand, a surgeon's feedback comes hours, days, or even months after the fact. Leave some pliers in the abdomen? Better check your email... But anathesiologists have REPLs. 
+Among doctors, anathesiologists have the relatively highest measurable accuracy of 'intuition,' more so than surgeons, therapists, ENT's, GI's... the list goes on. It's not because they are cleverer or that they self-select as scientifically- abstractly(math)-oriented. It's because they get feedback quickly. In fact, they weren't always so adept. Anathesia used be a _very_ clumsy science; whiskey and bullets, chloroform and morphine were about as good as it got. And, yes, those tools still work! But, aside from improved chemistry, what anathesiologists have today that they didn't 100 or even 20 years ago is exceptionally responsive monitoring devices. They can watch a patient's blood levels, cardiac rhythms, and a variety of other bio-feedback variables in realtime. While on the other hand, a surgeon's feedback comes hours, days, or even months after the fact. Leave some pliers in the abdomen? Better check your email... But anathesiologists have REPLs.
 
 Immediate feedback is critical for learning. And that's what a REPL does.
 
 And not only does almost every Clojure tutorial I've found begin with _Setting up your IDE and trying out the nREPL_, but the language itself is built to support inline feedback and tests, ie `(comment)`. The only other evironment I've found with similarly dynamic feedback space is XCode's Playgrounds. Let's not understate this!
 
-One of the things I love about code is that it brings abstraction to life. It gives math tangibility. You get the same feeling when your router misbehaves as if the transmission dropped out of your car. _Thunk. Yep, nope, we're not going anywhere._ Math for me (at least in school) was different. You're presented with a problem - you offer a possible, plausibly, hopefully-probably approximately solve for it, then you turn it and go home for the weekend. Monday morning you get a note on your desk saying "Yes, close, but `5.0` should have been `0.5`." But I meant that! I made a typo! Or: "Yes, but here's a another - faster/more-elegant/more-legible way of doing it." Oh, I though of that, but wasn't sure it would run... 
+One of the things I love about code is that it brings abstraction to life. It gives math tangibility. You get the same feeling when your router misbehaves as if the transmission dropped out of your car. _Thunk. Yep, nope, we're not going anywhere._ Math for me (at least in school) was different. You're presented with a problem - you offer a possible, plausibly, hopefully-probably approximately solve for it, then you turn it and go home for the weekend. Monday morning you get a note on your desk saying "Yes, close, but `5.0` should have been `0.5`." But I meant that! I made a typo! Or: "Yes, but here's a another - faster/more-elegant/more-legible way of doing it." Oh, I though of that, but wasn't sure it would run...
 
 Feedback is an issue for math; a red pen is not the same as a stalled engine.
 
@@ -99,7 +99,7 @@ By my account, Clojure looks - weird. As a strictly functional language it's som
 * The shape of teaching code.
 Problem: tutorials (99% of them) looks like this:
 ---
-1. Alright, now we're going to add this piece of the puzzle: 
+1. Alright, now we're going to add this piece of the puzzle:
 ```
 (funny (looking (+ shape shape)))
 ```
@@ -109,42 +109,67 @@ Got it? Good. Next step:
 ```
 (knock :as knockknock (:equals? (or password token handshake eyecontact)))
 ```
-And now look! No bad guys. Great. 
+And now look! No bad guys. Great.
 
 Oh yea, it's on Github. Copy and paste at will.
 ---
 
-- Problem 1: It's chunked. I have a hard time frame-by-frame. For me, it's like watching a slideshow instead of a movie, or reading an iPad instead of flipping through a book. 
+- Problem 1: It's chunked. I have a hard time frame-by-frame. For me, it's like watching a slideshow instead of a movie, or reading an iPad instead of flipping through a book.
 - Problem 2: It's over-under. I spend too long wondering Wait? Does that commentary-prose text apply to the code fence above... or below? And what was that thing we did two steps early? How does this piece fit with that one? And what was that thing we did 4 window heights above?
 
 One hypothesis I've got for why so many tutorials look like this is that I've got a suspicion that the free-agent independent-thinker how-the-hell-do-we-measure-or-find-great-or-at-least-semi-competent-coders orientation of the capital-I Industry genartes a possibly-sub-conscious attitude or inclination to use so-called tutorials to demonstrate that Yes, indeed, I do know what the hell I'm talking about. See all these fancy words? See how friendly my prose is? I'm hirable! Or the tutorials are articles in blog, inclined to take up mass and imply substance for a virtual personality. My bone to pick is not with the attitudes of bloggers and tutorialists. By and large I'm convinced that these authors are _generous_, _curious_, and _inventive_ humans. My problem is not so much with the prose, but with the material format of the things. Call me a formalist.
 
 My solution is simple: side-by instead of top-bottom. Two birds, one stone. Page 1: the code; Page 2: the commentary. Left, meet right. This'll let you render a full snippet of code on the left and inline the comments at their relevant lines on the right. Prose-commentary can then walk through the code, referencing any line you want along the way, and I can see the whole and the parts at the same time.
 
-It might look something like this (although I'm not going to spend the time to set up a org-table for it and so it's just going to look like a code-commenting sometimes-antipattern): 
+It might look something like this (although I'm not going to spend the time to set up a org-table for it and so it's just going to look like a code-commenting sometimes-antipattern):
 ---
 
 (funny (looking (+ shape shape))) ;; See how funny that thing is? What it's going to do for us is mitiage the fluxatron...
 
 (knock :as knockknock (:equals? (or password token handshake eyecontact))) ;; Since the fluxatron relies on capacitation, and capacitation makes noise which attracts rodents, we've got make sure the rodents can actually get in through the flux-tubes.
 
---- 
+---
 
 The problem with my solve is that our tools aren't formatted for it. Web pages don't particularly incline to horizontally-aware layouts - they're built to stack. Our editors are too! Now that you mention it, so it our whole... language. We have very good excuses for such chunky code-prose. But we also have the tools to move beyond them.
 * Random access thoughts
 Like bl.ocks but for _____ &clojure
 Self portraits... #dubuffet #basquiat #hirst #hundertwasser #picasso.young/#picasso.picasso. You don't have to be an artist to be an artist.
 
-----
+** Meeting notes
+- Polis
+- Onyx
 
-Without learning, Clojure will not grow. Which is almost a syllogism; learning _is_ growth.
+w/r/t _Clojure_
+"aha!" vs "hmmmm"  <-- visualize ? - !
+your own limitations and leanring wrt to working with arachne...
 
-It's a funny thing for someone to be an advocate of language, and yet, so common in the land of computational linguists.
-https://wiki.theory.org/YourLanguageSucks
+TODO:
+1. as an audience member, what makes sense? polls.
+2. visuals - ? - !, github Issues, stackoverflow, side-by instead of stack-over flow
+3. some awesome resources for learning how to learn
 
-Perhaps the reason for it that in this realm, language is also a technology. And it's a technology that - at least in some part - suffers from many of the same weaknesses that its designs do; among them, the _Nightclub problem_, where usefulness and use are circularly dependent. Twitter is easy - getting users and keeping them is the weakness, and strength.
+# Things that might be slated for inclusion in index.org...
+* Simple is, as simple does.
+"It's simple, really."
 
+How many times have you heard that infuriating remark from a teacher?
 
+_Learning_, in the scope of a community (or classroom) begins with an ideal of accessibility. Public education. No child left behind (yikes!... hm.). The aim, of course, is to extend the material at hand (as immaterial as it may be) to the student. To create a opening, a possibility, a bridge.
 
+In (now) very material terms, the public-facing Github is something of a pinnacle and ideal of accessibility. Not only does embody open-source, but it is coming to iconify it as well (at least in our computational discourse), like Google iconifies _The Search_.
 
+When, two years ago, I began to learn (to?) code, I was actually quite intimidated by the whole thing. I raised exactly 0 Issues and 0 PR's in my first... year. _Year_. I didn't open source my projects. I was embarrassed (and embarrassed about that), mostly illiterate, and very wary of making a fool of myself. So if Github's the reigning champ of open-source, in what ways were it's doors not opening for me?
 
+Simple is as simple does.
+
+An hour ago I had a feeling (and I don't think I'm the first but haven't right now the time or patient to research it) that Githubbers might be over-using and over-estimating the word "simple." That was my hypothesis. My first (and very primitive) test of it would be to read descriptions of repositories, and see how many described themselves as 'simple'.
+
+I used the Github API to request all of my starred respoitories and match against a `/simple/i` regex. I was rather disappointed, it appeared my hypothesis failed. Of 480 starred repos, only 24 of them self-described as 'simple'. That's 0.05%. But there are lot of words out there, and it's surely not fair to pit 'simple' again 'the' or 'javascript'. They're different kinds of words. So, let's do adjectives.
+
+From a list of 1467 adjectives (again, very primitive and limited and all that jazz #TODOMAYBE) I cross-referenced the words in the descriptions. The most common adjective in my starred Github repos? _Simple_. Beating out the runner up 'open' by almost 2x.
+
+Turns out, I do like simple repositories.[fn:1]
+
+The problem I see with so many self-described "simplers" is that it's diminutive. If it doesn't seem so simple to you now, it might be years before pride will allow to you pipe up and ask a simple question.
+
+[fn:1]:TODO yet of course remains to see if stars in general (beyond just my own) correlate to simplicity. Call that Hypothesis #2.
