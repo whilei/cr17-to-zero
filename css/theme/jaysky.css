@@ -69,6 +69,28 @@
   width: 100% !important;
   margin: 20px auto 40px auto !important; }
 
+.reveal table {
+  margin: 0 !important;
+  border: none !important;
+  border-color: #545f66 !important;
+  border-top-color: none !important;
+  border-top-style: none !important;
+  border-top-width: none !important;
+  border-right-color: none !important;
+  border-right-style: none !important;
+  border-right-width: none !important;
+  border-bottom-color: none !important;
+  border-bottom-style: none !important;
+  border-bottom-width: none !important;
+  border-left-color: none !important;
+  border-left-style: none !important;
+  border-left-width: none !important;
+  border-image-source: none !important;
+  border-image-slice: none !important;
+  border-image-width: none !important;
+  border-image-outset: none !important;
+  border-image-repeat: none !important; }
+
 .reveal p {
   max-width: 95% !important; }
 
