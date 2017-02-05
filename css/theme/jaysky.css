@@ -39,7 +39,7 @@
   /* right: $controlScaleDelta * $controlOriginalPos; */
   /* bottom: $controlScaleDelta * $controlOriginalPos; */ }
   .reveal .controls > {
-    border-color: #E3C567 !important; }
+    border-color: #eaa518 !important; }
 
 .reveal .slides h1,
 .reveal .slides h2,
