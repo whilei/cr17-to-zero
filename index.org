@@ -277,6 +277,13 @@ file:resources/images/opening-and-overview/drawing-skills-cropped/montaged/02-mo
 - the gestalt
 
 
+# Isaac says:
+# Betty Edwards is substantive proof-of-concept, but I've got a sneaking suspicion this section will need to trim up.
+# What does it mean to look at code upside down? 
+# What might the implications be of reeevaluating how we learn code?
+# ... What are the limitations of Betty's approach? (From what I see from a cursory Googley overview, focus is mostly on representational/imitative drawing...)
+# Would you want to dive into a fullscreen video at any point during this? 
+
 #+BEGIN_NOTES 
 
 So how does Betty Edwards do it?
