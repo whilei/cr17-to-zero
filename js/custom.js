@@ -138,7 +138,7 @@ function hideEmptyTitles() {
     }
     // for good measure
     document.querySelectorAll("h1,h2,h3,h4,h5").forEach(function (el, i) {
-        console.log("header", i, el); 
+        // console.log("header", i, el); 
 
         var t = el.textContent;
         if (t.length === 0) {

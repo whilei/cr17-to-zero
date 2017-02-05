@@ -1132,7 +1132,7 @@ How can I measure how much value I place on learning?
 # unset fullsize (before, in case of moving backwards)
 :reveal_extra_attr: video-size="normal"
 :END:
-#+ATTR_REVEAL: :frag (roll-in)
+#+ATTR_REVEAL: :frag t
 - Health
 - Family
 - Friends
