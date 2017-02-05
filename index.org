@@ -37,6 +37,8 @@ Title Slide
  #+BEGIN_NOTES 
  Thank you Ryan. I'm happy to be here at Clojure Remote 2017 and honored to speak to this group of enthusiastic Clojure folks.  Welcome to each of you that are with us today to hear about /The Value of Learning/.
 
+ This talk is a conversation about learning in the age of information.
+
  Lately, I've become enthralled by the subject of learning. Here's one example of why:
 
  (NEXT SLIDE DOWN)
@@ -109,10 +111,6 @@ And how long for this much improvement?
  - drawright.com
  - ~@DRSB_Edwards~
 
- #+ATTR_REVEAL: :frag t
- file:resources/images/red-pill.svg.png
-
- # file:resources/images/twitter-bird-944px.svg.png
 
  #+BEGIN_NOTES
  5 days. These people, people not unlike you or me, learned the technical fundamentals of drawing in only 5 days. 
@@ -141,7 +139,7 @@ And how long for this much improvement?
 #+END_NOTES
  
 ** Audience
-#+ATTR_REVEAL: :frag t
+# I rmoved frag on purpose :) 
 - Clojure programmers
 - programmers
 - aspiring programmers
@@ -236,9 +234,13 @@ file:resources/images/Djembes.jpg
 
    If you don't have a smart phone handy, or if you're watching this on your smart phone, you can relax and enjoy the show because we'll be converting the presentation into an interactive web site soon.
 
-   This is it. This is your red pill, blue pill moment!
+   If you're curious about the tech stack behind the talk, it was written in emacs org mode and exported to reveal.js using org-reveal.
 
-   Scan the red pill now if, like me, you were astonished by the drawings done by Betty Edward's students and are curious to learn more.
+   Isaac Ardis, a web developer and new friend, has been a tremendous help with the development and content you'll see.
+
+   All of our work is available at the-value-of-learning github repository.
+
+   Scan the red pill now if you'd like to get the URL of our github repository saved in your browser history.
 
    We're going to explore many aspects of learning through the framework of learning's /*worth*/.
 
@@ -285,7 +287,7 @@ file:resources/images/Djembes.jpg
 #+BEGIN_NOTES 
 I'll weave several stories about learning through the framework of this simple 3 part outline.
 
-The question. The answer. The outline.
+The question. The answer. The action.
 
 All told, this is a story about success and failure, about trying and learning.
 
@@ -697,9 +699,7 @@ Then students work in teams to try to solve the problem.
 
 Only then, is the answer revealed, after which students compare their own strategies with the, quote "official answer".
 
-Educators call this 'productive struggle'. 
-
-I prefer to call it 'structured struggle', but whatever you call it, at its heart it's a prime example of "Inside Out" learning.
+Educators call this 'productive struggle', and at its heart it's a prime example of "Inside Out" learning.
 
 Even Socrates would be proud!
 
@@ -863,13 +863,7 @@ For example, a sociologist might be interested in how different groups of people
 
 An economist might choose to measure the value of learning in terms of goods and services related to learning which are sold in the marketplace.
 
-They might also point out 'opportunity cost' as a means of assessing the value of learning.
-
-If I choose to learn to speak German, what return on investment could've been realized with an alternate and equal investment in time and money?
-
 A psychologist might seek to measure the value of learning by categorizing learning subjects according to Maslow's hierarchy of needs.
-
-Value theory is encouraging us to find a quantifiable way of measuring the value of learning.
 
 (NEXT SLIDE DOWN)
 
@@ -882,26 +876,6 @@ Value theory is encouraging us to find a quantifiable way of measuring the value
 .
 
 .
-
-.
-#+END_NOTES
-
-** Pragmatism
-
-#+BEGIN_NOTES 
-It's worth noting that some philosophers entirely reject the idea of intrinsic value.
-
-John Dewey, in his book /Theory of Valuation/, sees the process of valuation as a continuous balancing of objectives, which change over time with new information.
-
-(NEXT SLIDE DOWN)
-
-.
-
-.
-
-.
-
-.  
 #+END_NOTES
 
 ** Flip the question
@@ -915,22 +889,13 @@ I'm learning to program, and I want to help others learn too. Are these actions 
 
 This is an important question! If they're hurting, I should cease and desist now.
 
- 
-
-
 (NEXT SLIDE DOWN)
-
-.
-
-.
-
-.
-
-.
-
 .
 
 (source: https://techcrunch.com/2015/11/08/data-the-speed-of-light-and-you/)
+.
+
+.
 #+END_NOTES
 
 ** Is learning harmful?
@@ -959,27 +924,23 @@ The article supports this claim by elaborating in great detail over a simple fiv
 
 Wozniak argues that humans benefit through cooperation and lose out on conflict, and claims this truth can be demonstrated mathematically with the tools of game theory.
 
-This article was chiefly responsible for justifying my natural instinct to help others learn.
-
 We don't have time to walk through his reasoning in detail, but I highly recommend this article as an exercise in critical thinking.
 
 After reading the article, I noticed that I felt a bit more lighthearted in my work.
 
-I'm convinced it helped relieve my cognitive dissonance about facilitating technological advances for our society.
+I feel like its helped relieve my cognitive dissonance about facilitating technological advances for our society.
 
-You can scan (NEXT FRAG) the red pill below which includes a link to the article, so you'll have it in your phone.
+Although I'm still quite curious about how this line of reasoning will hold up against artificial intelligence.
 
-The talk will also be available as a video and a web page if you prefer to just relax and listen.
+(NEXT FRAG)
+
+You can scan the red pill below which includes a link to the article, so you'll have it in your phone.
 
 I'll just pause for a few seconds and let all of that sink in.
 
 (WAIT 12 seconds)
 
 (NEXT SLIDE)
-
-.
-
-.
 
 .
 
@@ -1004,7 +965,7 @@ Religion uses faith and reason to ascribe value.
 
 And Scientific axiology strives to measure value using only the scientific method. 
 
-All other systems of value can be categorized in or among these three.
+All other systems of value can be categorized within or among these three.
 
 Most people apply a conglomeration of these three value systems to evaluate their goals.
 
@@ -1015,10 +976,6 @@ Most people apply a conglomeration of these three value systems to evaluate thei
 .
 
 .
-
-.
-
-.
 #+END_NOTES
 
 ** Method Formulation
@@ -1026,11 +983,7 @@ Most people apply a conglomeration of these three value systems to evaluate thei
 #+BEGIN_NOTES 
 Okay, we've covered the basics of value systems. Now its time for me to come up with a method to measure the value of learning. 
 
-
 (NEXT SLIDE DOWN)
-
-.
-
 .
 
 .
@@ -1050,11 +1003,6 @@ How can I measure how much value I place on learning?
 
 
 (NEXT SLIDE DOWN)
-
-.
-
-.
-
 .
 
 .
@@ -1150,191 +1098,79 @@ Where should we start? How about near the beginning?
 
 #+END_NOTES
 
-** Worldview
+** My valuation method
 :PROPERTIES:
-:reveal_extra_attr: video-size="full"
-:END:
-#+BEGIN_NOTES
-My first story stems from the family category
-
-At the age of 3, I lived with my Mother in an apartment on the outskirts of Lincoln, Nebraska.
-
-In the evenings we sat on the balcony and watched the sunset over the golden wheat fields and countryside.
-
-One evening the sun set down right behind an old barn on the horizon.
-
-This was an exciting event for me.
-
-I was convinced that the sun was hiding just behind that barn, just over the hill where it had disappeared. 
-
-I remember, more than anything, just how badly I wanted to touch the sun!
-
-My mother, instead of telling me that that's just not the way the world works, drove me out to that barn the very next day at sunset.
-
-I could see for myself that we were at the barn, and still the sun was setting yet a long ways off.
-
-I learned something that day about how sunsets work, but I learned a far more important lesson about the power of demonstration and involving the pupil smack dab in the middle of a lesson, or a barn in the middle of nowhere in this case. Thanks Mom!
-(NEXT SLIDE DOWN)
-
-(todo jay score this and use score as an example)
-.
-(time 1.5 min)
-.
-
-.
-
-.
-
-.
-#+END_NOTES
-
-** Imagination
-:PROPERTIES:
-# unset fullsize (after)
+# unset fullsize (before, in case of moving backwards)
 :reveal_extra_attr: video-size="normal"
 :END:
-#+BEGIN_NOTES
-
-My next story is about imagination.
-
-At the age 6 my best friend was Steve Peterson.
-
-Steve and I met at the apartments where I lived in Columbia, SC.
-
-He had a single Mom and so did I.
-
-The four of us were practically inseparable, and remain lifelong friends to this day.
-
-His mother Barbara Peterson was a kindergarten teacher. She was very good at her job.
-
-So good in fact, that she found herself being interviewed by Mr. Rogers on PBS. Mr Rogers!
-
-Playing at Steve's house was the best.
-
-Mrs. Peterson was masterful at sparking imagination.
-
-She encouraged us to use our imaginations often.
-
-She sewed super hero and other costumes for us to wear.
-
-The memory that came to mind instantly when I challenged myself to recall a life memory from the friends category is the day Steve and I went into a restaurant to order a hamburger.
-
-Steve and I were 5 and 6 years old, dressed up as college football players, each of us donning a uniform of the big local rivalry here in SC, the Carolina Gamecocks and Clemson Tigers.
-
-What makes the moment so memorable is that just before we got out of the car to go inside the local Wendy's, we turned to Mrs. Peterson and pleaded with her not tell anyone we weren't really college football players.
-
-"Oh no, of course I wouldn't give you away!" she said.
-
-It makes me smile to this day to think that we actually thought we'd be mistaken for college athletes.
-
-Mrs. Peterson taught me more than I could summarize in 10 hours, much less one, but that day I learned how to pretend which it turns out is a great skill to have.
-
-(NEXT SLIDE DOWN)
-
-(todo jay score this)
-.
-
-.
-(time 2 min)
-.
-
-.
-
-.
-#+END_NOTES
-
-** Childlike Wonder & Awe
+#+ATTR_REVEAL: :frag (roll-in)
+- Health
+- Family
+- Friends
+- Community
+- Romance / Art
+- Career / Business
+- Fun / Hobbies / Recreation
+- Philosophical / Spiritual
+- Personal Finance
+- Personal Development & Learning
 
 #+BEGIN_NOTES 
-This next story is great example of inside out vs outside in learning, as it spans both.
+How can I measure the value I place on learning?
 
-When I was around 8 years old I had a subscription to a kid's science magazine.
+Before I reveal my method, I'd like to offer this disclaimer.
 
-I remember how amazed I was at learning new facts about the world.
+This is my first stab at the problem and the method is far from perfect.
 
-Animals were often my favorite subjects.
+There are simpler methods, but they would require more time, time I didn't have in preparing for this talk.
 
-Like how a blue whale's arteries are so large in diameter that a small child could swim through them. You know, cool stuff!
+The simplest method I could think of would be to measure how much time in a given month do I dedicate specifically to learning.
 
-I loved getting a new magazine at the beginning of the month, and would devour it within days, completely self-motivated to learn, a classic example of inside-out education.
+Unfortunately, I don't have a month to spare, so please excuse the complexity of my next best solution. Drum roll please...
 
-The other thing I loved to do was share these facts with other people, and watch their faces light up with amazement, shock or awe.
+The method I've chosen aims to quantify the role of learning in my life.
 
-Sometimes though, my timing was terrible.
+My general strategy is to look back over my life, identify significant memories, and try to assign a quantifiable value to that memory somehow.
 
-It was Thanksgiving day at Mrs. Peterson's and the table was set with Turkey and fixings.
+How can I break this big problem up in to smaller pieces?
 
-Everyone was hungry and we were ready to dig in, but first I needed to share an important fact with everyone!
+Inspired by Maslow's hierarchical pyramid of needs, I've divided my life into 10 major categories.
 
-"Did you guys know that black pepper contains the highest percentage of insect parts, according the FDA?"
+(NEXT FRAG)
 
-I'll never forget the look on my Mom's face.
+These are: Health, Family, Friends, Community, Romance / Art, Career / Business, Fun / Hobbies/ Recreation, Philosophical / Spiritual, Personal Finance, Personal Development & Learning.
 
-She had some outside-in educating to do! And she did it.
+These categories serve a dual purpose.
 
-I'll never forget the joy of reading those magazines.
+First, they serve as a way for me to look back on my life memories and recall stories that relate to a given category, which I will call the home category.
 
-I treasure the child-like sense of awe & wonder that I learned to cultivate by reading through those pages. And, of course, I always watch my manners at the dinner table! :O
+Second, they serve as a way to quantify value, where each category will be worth 100 points.
 
-Thanks again, Mom!
+In fairness, I want to recall the same number of stories from each category.
 
-(NEXT SLIDE DOWN)
+Each memory has the potential to impact between 1 and 10 life categories.
 
-.
+If a memory affects multiple categories, the home category of that memory will score 100 points for each affected category, and each affected category will score 100 points for being "tagged" by that memory.
 
-.
+For example, if a memory from the learning category about learning to ride my bike affects 3 categories, Fun, Family and Learning, then the home category of of learning will earn 300 points, and the other two categories Fun and Family will earn 100 points each.
 
-.
+In this way, categories earn points for playing a role in my significant life memories. 
 
-.
+The logic behind this strategy is that a memory which stands out in my mind is a valuable memory, otherwise I would have forgotten about it.
 
-.
+The obvious exceptions are painful memories, like when I broke my arm, which will be filtered out, unless they have some obvious life value.
 
-.
+As you can imagine, this process has the potential to bring up deeply personal memories, and lucky for you we don't have time for my entire life story.
 
-.
-#+END_NOTES
+Instead I've curated a short list of memories which are relevant to this talk.
 
-** Professor McKee 
+I'll use 2 or 3 of the following stories as examples of how I scored memories according to described method.
 
-#+BEGIN_NOTES 
-In college, I had one professor that came to mind instantly when thinking about the career category.
-
-Professor Jim McKee.
-
-Professor McKee was a consummate professional.
-
-Being in his class felt more like participating in a job interview than it did a classroom.
-
-His sayings still echo in my head:
-
-"If you're not 5 minutes early, you're 5 minutes late!"
-
-"You never get a second chance to make a first impression!"
-
-And the arm length rule:
-
-"If you're within arms length of someone, stick out your hand and introduce yourself."
-
-Professor McKee told a story of his first big job break.
-
-He had an interview in an office building down town.
-
-He applied the arm length rule and introduced himself to the person riding the elevator with him.
-
-Turns out that person was his interviewer for the job, which of course he got.
-
-But the image of professor McKee I'll never get out of my head is the day he taught us how to draw cash flow diagrams in our engineering economics class.
-
-"The day of your investment you draw the arrow down because you have to part with your money so you're feeling low, low, low," he said as he drooped his torso, arms practically mopping the floor.
-
-"The day of your return on investment, you draw the arrow up, up, up!" he shouted as hopped on top his his desk and jumped up and down to the rhythm of his mantra.
-
-Professor McKee taught me just how much difference one teacher can in a person's life. Thanks Professor McKee.
+Where should we start? How about near the beginning?
 
 (NEXT SLIDE DOWN)
 
-.
+(time estimated 25 minutes)
 
 .
 
@@ -1349,57 +1185,9 @@ Professor McKee taught me just how much difference one teacher can in a person's
 .
 
 #+END_NOTES
+* The actions
+What actions are consistent with this value?
 
-** Career in IT
-#+BEGIN_NOTES 
-
-  After college, over 20 years ago, I wanted to pursue a career in IT.
-
-  I decided to try a shortcut to breaking into the industry. I would get /*'certified'*/.
-
-  There was just one problem.
-
-  Despite 18 years of being a student, from pre-school to undergrad engineering degree, I had /*sparse*/ confidence in my own ability to efficiently learn.
-
-  I signed up for a 6 month certification program, but delayed starting by 2 months, in order to study the fundamentals of adult education. 
-
-  My brief studies about learning taught me to focus on demonstrating practical skill. 
-
-  I purchased two computers from a trade show for $400, set them up with multiple boot configurations, and materialized every example in my text books into real world use cases.
-
-  I also got a job at the certification office on the weekends, setting up workstations for the next week's courses, where I logged just over 2400 system installations.
-
-  I was the first student to complete the local training program. I passed my tests with flying colors.
-
-  I executed two successful job interviews in a row, allowing me to choose a place to begin my career.
-
-  These actions were inspired by /investing/ 2 months of my life in learning about adult education.
-   
-  My shortcut driven efforts paid off in terms of personal finances, but were costly in another way.
-
-  By succeeding at taking a shortcut, by taking the easy way, I reinforced a personal strategy that would cost precious time and money when I started to learn how to program, which I'll talk more about soon.
-
-  The experience of learning about adult education was my first brush with learning about learning itself, but the profundity of it didn't sink in at the   time.
-
-  It would be years later that I would look back and really glean wisdom from the experience.
-
-(NEXT SLIDE DOWN)
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-#+END_NOTES
 
 
 ** Finding Clojure 
@@ -1407,7 +1195,7 @@ Professor McKee taught me just how much difference one teacher can in a person's
  #+BEGIN_NOTES 
     My path to finding Clojure has been long and sometimes emotionally painful.
 
-    Instead of structured struggle, much of the path has felt like needless struggle.
+    Instead of productive struggle, much of the path has felt like needless struggle.
 
     I'd like to help other newcomers find their way before they suffer the bumps and bruises I've experienced. 
 
@@ -1445,11 +1233,66 @@ Professor McKee taught me just how much difference one teacher can in a person's
 
     I will save time, not by finding the easy way, but by mastering the fundamentals that bring very difficult problems within the reach of studious practitioners.
 
-    Thank you Rich Hickey! 
- #+END_NOTES 
 
 
+#+END_NOTES
+
+
+** Clojure's Learning Curve
+
+#+BEGIN_NOTES 
+    There is something special about the Clojure community to me.
+
+    There's a very strong focus on learning and teaching in this community. From Russ Olsen's keynote, /Eloquent Explanations/ to 
+
+    Rich Hickey's talk /Hammock Driven Development/, which is what got me started on this whole chain of research about learning in the first place.
+
+    Not to mention that to a person, each and every one of you that I've met, share your knowledge generously. And I gotta say it, you're just some darn interesting people!
+
+    I believe our community has a great challenge in front of us.
+
+    Rich Hickey himself acknowledges that Clojure has a higher learning curve than other languages.
+
+    Of course, those of us here today believe the extra effort is worth it. 
+
+    We don't just love Clojure. We love what it does for us.
+
+    Clojure has a lot in common with human learning. As a hosted language, Clojure not only adapts to any general problem imaginable, it adapts to all the right platforms, the JVM, the CLR, Node.js, the browser! Thank you Clojure Script!
+    
+    Even so, all this greatness is at risk of not being widely adopted if new programmers and entrepreneurs are turned off at square one.
+
+    I met a fellow entrepreneur at a recent Clojure Conj.
+
+    She and I have similar projects and are considering joining forces to split up the work.
+
+    After playing around with Elixir, she's considering going that route for her MVP.
+
+    Why? Because its easier to learn.
+
+    Clojure could do a better job of attracting and retaining greenfield entrepreneurs like her.
+
+    Lowering the barrier to entry would be good for everyone, not just entrepreneurs. 
+
+    I know many of you have been working on this for years and the progress you've made is beyond commendable.
+
+    If there's a group of people in the world who can solve this problem, it's you.
+
+    Just as Rich Hickey and friends are disentangling the problem of software, learning experts are doing the same in their field.
+
+    Can we leverage their discoveries to make learning Clojure the absolute best learning experience for programmers around the planet?
+
+    I think we can.
+
+    (NEXT SLIDE DOWN)
+
+    .
+
+    .
+    
+    . 
+ #+END_NOTES
 ** Betty Edwards
+
 #+ATTR_REVEAL: :frag t
 file:resources/images/opening-and-overview/drawing-skills-cropped/montaged/02-montage.png
 
@@ -1459,6 +1302,7 @@ file:resources/images/opening-and-overview/drawing-skills-cropped/montaged/02-mo
 - relationship
 - lights & shadows
 - the gestalt
+
 
 #+BEGIN_NOTES 
 Discovering the work of Betty Edwards was a eureka moment in my life, so its no surprise that she holds a prominent spot in my life's memory bank, from the home category of learning.
@@ -1557,6 +1401,7 @@ We'll talk more about her soon, but for now I want to thank Betty Edwards for op
 .
 #+END_NOTES
 
+
 ** Learning How to Learn
 
 
@@ -1568,8 +1413,6 @@ That framework, as it turns out, is vitally important to genuine understanding. 
 #+END_NOTES
 *** University Study regression
 It's not just students that need to learn about learning!
-* The actions
-What actions are consistent with this value?
 ** If we value learning, why not get better at it via Betty Edwards approach, instead of doodling. 
   ** What if there was a subject you could study which would improve your ability to learn and master any other subject?
  There just might be!
@@ -1608,6 +1451,26 @@ There's only so much I can learn watching T.V. (tie in to the sunset story)
 Being informed without becoming malformed.
 Setting my own agenda.
 Getting ready for this talk.
+
+** TODO isaac tweet for Betty Edwards
+
+file:resources/images/opening-and-overview/drawing-skills-cropped/montaged/02-montage.png
+
+# Let's replace the QR code in the frag below with the following:
+
+# "@DRSB_Edwards teaching method is astonishing! I'm intrigued to learn more. #valueoflearning"
+
+# This slide can be solely Betty Edwards montage and tweet
+
+# Reason I moved this from opening screens about Betty Edwards is because we hadn't introduced concept of red pills yet.
+
+#+ATTR_REVEAL: :frag t
+file:resources/images/red-pill.svg.png
+
+#+BEGIN_NOTES 
+
+   Scan the red pill now if, like me, you were astonished by the drawings done by Betty Edward's students and are curious to learn more about her work.
+#+END_NOTES
 * Closing
 inclusivity via learning
 helping others is helping myself
@@ -1736,7 +1599,7 @@ The work is quite feasible, and is the only thing in our power.…Let go of the 
 * Learning Methods
 ** Project based learning vs theory & lecture
 ** When is helping hurting?
-*** Structured Struggle - Goldilocks learning.
+*** Productive Struggle - Goldilocks learning.
 * Learning Paths
 ** Interstate vs back roads
 ** Machine Readable Curricula and Defined Learning Outcomes
@@ -1749,7 +1612,7 @@ The work is quite feasible, and is the only thing in our power.…Let go of the 
 * Apprenticeship/Mentor Relationships
 ** What are the wants, needs and aspirations of both apprentices and mentors?
 *** Apprentices
-**** Structured Struggle vs Unstructured Struggle (Defeated Exasperation).
+**** Productive Struggle vs Unproductive Struggle (Defeated Exasperation).
 **** (Source: [[https://www.farnamstreetblog.com/2013/01/how-people-learn/][How People Learn]]) Empathy/Understanding of Mentor that Learner doesn't possess rich mental model, or even capacity to organize rich mental model immediately. This is grown over time by ensuring that fundamental concepts are well understood. This should be the main objective, rather than conveying a deluge of facts, which have no meaningful place in the mind to be stored effectively.
 *** Mentors
 **** Support in achieving high impact community goals.
@@ -1830,6 +1693,261 @@ Learning is like breathing -- we're always doing it. My thoughts on learning are
 #+BEGIN_NOTES
 All joking aside, I'm deeply interested in this topic because learning to program, for me, has been a joy, but also a painful and lonely struggle. My experience and instincts tell that by the time most people discover Clojure, they've suffered needlessly for too long. I hope this talk can reach out and find aspiring learners at the outset of their learning journey. What can we do together to make learning Clojure a fantastic experience for everyone?
 #+END_NOTES
+
+* Life Stories
+
+*** Worldview
+    :PROPERTIES:
+    :reveal_extra_attr: video-size="full"
+    :END:
+ #+BEGIN_NOTES
+ My first story stems from the family category
+
+ At the age of 3, I lived with my Mother in an apartment on the outskirts of Lincoln, Nebraska.
+
+ In the evenings we sat on the balcony and watched the sunset over the golden wheat fields and countryside.
+
+ One evening the sun set down right behind an old barn on the horizon.
+
+ This was an exciting event for me.
+
+ I was convinced that the sun was hiding just behind that barn, just over the hill where it had disappeared. 
+
+ I remember, more than anything, just how badly I wanted to touch the sun!
+
+ My mother, instead of telling me that that's just not the way the world works, drove me out to that barn the very next day at sunset.
+
+ I could see for myself that we were at the barn, and still the sun was setting yet a long ways off.
+
+ I learned something that day about how sunsets work, but I learned a far more important lesson about the power of demonstration and involving the pupil smack dab in the middle of a lesson, or a barn in the middle of nowhere in this case. Thanks Mom!
+ (NEXT SLIDE DOWN)
+
+ (todo jay score this and use score as an example)
+ .
+ (time 1.5 min)
+ .
+
+ .
+
+ .
+
+ .
+ #+END_NOTES
+
+*** Imagination
+ :PROPERTIES:
+ # unset fullsize (after)
+ :reveal_extra_attr: video-size="normal"
+ :END:
+ #+BEGIN_NOTES
+
+ My next story is about imagination.
+
+ At the age 6 my best friend was Steve Peterson.
+
+ Steve and I met at the apartments where I lived in Columbia, SC.
+
+ He had a single Mom and so did I.
+
+ The four of us were practically inseparable, and remain lifelong friends to this day.
+
+ His mother Barbara Peterson was a kindergarten teacher. She was very good at her job.
+
+ So good in fact, that she found herself being interviewed by Mr. Rogers on PBS. Mr Rogers!
+
+ Playing at Steve's house was the best.
+
+ Mrs. Peterson was masterful at sparking imagination.
+
+ She encouraged us to use our imaginations often.
+
+ She sewed super hero and other costumes for us to wear.
+
+ The memory that came to mind instantly when I challenged myself to recall a life memory from the friends category is the day Steve and I went into a restaurant to order a hamburger.
+
+ Steve and I were 5 and 6 years old, dressed up as college football players, each of us donning a uniform of the big local rivalry here in SC, the Carolina Gamecocks and Clemson Tigers.
+
+ What makes the moment so memorable is that just before we got out of the car to go inside the local Wendy's, we turned to Mrs. Peterson and pleaded with her not tell anyone we weren't really college football players.
+
+ "Oh no, of course I wouldn't give you away!" she said.
+
+ It makes me smile to this day to think that we actually thought we'd be mistaken for college athletes.
+
+ Mrs. Peterson taught me more than I could summarize in 10 hours, much less one, but that day I learned how to pretend which it turns out is a great skill to have.
+
+ (NEXT SLIDE DOWN)
+
+ (todo jay score this)
+ .
+
+ .
+ (time 2 min)
+ .
+
+ .
+
+ .
+ #+END_NOTES
+
+*** Childlike Wonder & Awe
+
+ #+BEGIN_NOTES 
+ This next story is great example of inside out vs outside in learning, as it spans both.
+
+ When I was around 8 years old I had a subscription to a kid's science magazine.
+
+ I remember how amazed I was at learning new facts about the world.
+
+ Animals were often my favorite subjects.
+
+ Like how a blue whale's arteries are so large in diameter that a small child could swim through them. You know, cool stuff!
+
+ I loved getting a new magazine at the beginning of the month, and would devour it within days, completely self-motivated to learn, a classic example of inside-out education.
+
+ The other thing I loved to do was share these facts with other people, and watch their faces light up with amazement, shock or awe.
+
+ Sometimes though, my timing was terrible.
+
+ It was Thanksgiving day at Mrs. Peterson's and the table was set with Turkey and fixings.
+
+ Everyone was hungry and we were ready to dig in, but first I needed to share an important fact with everyone!
+
+ "Did you guys know that black pepper contains the highest percentage of insect parts, according the FDA?"
+
+ I'll never forget the look on my Mom's face.
+
+ She had some outside-in educating to do! And she did it.
+
+ I'll never forget the joy of reading those magazines.
+
+ I treasure the child-like sense of awe & wonder that I learned to cultivate by reading through those pages. And, of course, I always watch my manners at the dinner table! :O
+
+ Thanks again, Mom!
+
+ (NEXT SLIDE DOWN)
+
+ .
+
+ .
+
+ .
+
+ .
+
+ .
+
+ .
+
+ .
+ #+END_NOTES
+
+*** Professor McKee 
+
+
+ #+BEGIN_NOTES 
+ In college, I had one professor that came to mind instantly when thinking about the career category.
+
+ Professor Jim McKee.
+
+ Professor McKee was a consummate professional.
+
+ Being in his class felt more like participating in a job interview than it did a classroom.
+
+ His sayings still echo in my head:
+
+ "If you're not 5 minutes early, you're 5 minutes late!"
+
+ "You never get a second chance to make a first impression!"
+
+ And the arm length rule:
+
+ "If you're within arms length of someone, stick out your hand and introduce yourself."
+
+ Professor McKee told a story of his first big job break.
+
+ He had an interview in an office building down town.
+
+ He applied the arm length rule and introduced himself to the person riding the elevator with him.
+
+ Turns out that person was his interviewer for the job, which of course he got.
+
+ But the image of professor McKee I'll never get out of my head is the day he taught us how to draw cash flow diagrams in our engineering economics class.
+
+ "The day of your investment you draw the arrow down because you have to part with your money so you're feeling low, low, low," he said as he drooped his torso, arms practically mopping the floor.
+
+ "The day of your return on investment, you draw the arrow up, up, up!" he shouted as hopped on top his his desk and jumped up and down to the rhythm of his mantra.
+
+ Professor McKee taught me just how much difference one teacher can in a person's life. Thanks Professor McKee.
+
+ (NEXT SLIDE DOWN)
+
+ .
+
+ .
+
+ .
+
+ .
+
+ .
+
+ .
+
+ .
+
+ #+END_NOTES
+
+*** Career in IT
+
+  #+BEGIN_NOTES 
+
+    After college, over 20 years ago, I wanted to pursue a career in IT.
+
+    I decided to try a shortcut to breaking into the industry. I would get /*'certified'*/.
+
+    There was just one problem.
+
+    Despite 18 years of being a student, from pre-school to undergrad engineering degree, I had /*sparse*/ confidence in my own ability to efficiently learn.
+
+    I signed up for a 6 month certification program, but delayed starting by 2 months, in order to study the fundamentals of adult education. 
+
+    My brief studies about learning taught me to focus on demonstrating practical skill. 
+
+    I purchased two computers from a trade show for $400, set them up with multiple boot configurations, and materialized every example in my text books into real world use cases.
+
+    I also got a job at the certification office on the weekends, setting up workstations for the next week's courses, where I logged just over 2400 system installations.
+
+    I was the first student to complete the local training program. I passed my tests with flying colors.
+
+    I executed two successful job interviews in a row, allowing me to choose a place to begin my career.
+
+    These actions were inspired by /investing/ 2 months of my life in learning about adult education.
+   
+    My shortcut driven efforts paid off in terms of personal finances, but were costly in another way.
+
+    By succeeding at taking a shortcut, by taking the easy way, I reinforced a personal strategy that would cost precious time and money when I started to learn how to program, which I'll talk more about soon.
+
+    The experience of learning about adult education was my first brush with learning about learning itself, but the profundity of it didn't sink in at the   time.
+
+    It would be years later that I would look back and really glean wisdom from the experience.
+
+  (NEXT SLIDE DOWN)
+
+  .
+
+  .
+
+  .
+
+  .
+
+  .
+
+  .
+
+  .
+
+  #+END_NOTES
 
 * Clojure
 **** Why Clojure - React Native holism etc.

@@ -1,6 +1,8 @@
-## cr17-to-zero
+# The Value of Learning
 
-# Optimal Remote Learning, learning how to learn, teach and grow Clojure
+# Welcome, your presence and participation is valued here. Come as you are.
+
+## A Conversation about learning the Age of Information.
 
 This project is place where we, the Clojure Community, can document our conversation and code relating to a 'conversation' I have proposed for [Clojure Remote 2017](https://clojureremote.com/).
 
