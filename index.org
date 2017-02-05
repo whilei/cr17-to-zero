@@ -17,6 +17,7 @@
 ;; Conclusion 5 min
 #+END_NOTES
 
+# title slide
 * 
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video" video-size="normal"
@@ -25,11 +26,14 @@
 :END:
 
 #+BEGIN_NOTES 
+
 Title Slide
 
 (NEXT SLIDE RIGHT)
 
 #+END_NOTES
+
+* Thank you Ryan                                                   :noexport:
 * 
 :PROPERTIES:
 :reveal_extra_attr: video-size="full"
@@ -186,6 +190,8 @@ A little hint: if you have a smart phone with a QR code scanner, you can be read
 
    And I'm more humble for the effort.
 
+   I expect this talk will generate much controversy.
+
    Fortunately, I have a long and
 
    (NEXT FRAG) documented history of putting my foot in my mouth.
@@ -208,6 +214,8 @@ A little hint: if you have a smart phone with a QR code scanner, you can be read
    #+END_NOTES 
 
 ** Audience Participation
+
+
   :PROPERTIES:
   :reveal_extra_attr: redpill-img-src="/resources/images/red-pill.svg.png" qr-data="https://github.com/webappzero/the-value-of-learning"
   :END:
@@ -244,9 +252,118 @@ file:resources/images/Djembes.jpg
 
    We're going to explore many aspects of learning through the framework of learning's /*worth*/.
 
-   Let's get started!
+   But first, find out how Betty Edwards teaches drawing.
 
    (NEXT SLIDE RIGHT)
+.
+
+.
+
+.
+#+END_NOTES
+
+** Betty Edwards
+
+#+ATTR_REVEAL: :frag t
+file:resources/images/opening-and-overview/drawing-skills-cropped/montaged/02-montage.png
+
+#+ATTR_REVEAL: :frag t
+- edges
+- spaces
+- relationship
+- lights & shadows
+- the gestalt
+
+
+#+BEGIN_NOTES 
+
+So how does Betty Edwards do it?
+
+(NEXT FRAG 02-montage)
+
+How does she accelerate the learning process of her drawing students so dramatically?
+
+Betty Edwards teaches people 5 fundamental /seeing/ skills:
+
+(NEXT FRAG)
+How to *perceive* edges, spaces, relationship, lights & shadows and the gestalt (or whole).
+
+Just as Rich Hickey, after years of studious practice, identified the fundamentals of software, Betty disentangled the basic building blocks of skill within the global skill of drawing.
+
+After much practice and study, she had an aha! moment. These 5 subskills were it.
+
+She researched the literature and found no additional fundamental components of the global skill of basic realistic drawing.
+
+What if drawing could be taught and learned quickly, not over the course years?
+
+Thus, with the help of her colleagues, Edwards developed a 5 day workshop to test her method.
+
+The method was immediately validated by the workshop student's rapid progress.
+
+Even more fascinating than what Edward's teaches her students is how she teaches it!
+
+Edward's techniques revolve around understanding each brain hemisphere's role in the creative process, and employing the best suited hemisphere for the task at hand.
+
+Her book, /Drawing on the Right Side of the Brain/, covers this subject with the detail it deserves, but I'll do my best to summarize.
+
+Seeing is the domain of the right brain hemisphere.
+
+This presents a unique challenge because, as the evidence Edward's compiles in her book indicates, the right brain is constantly being drowned out by left-brain activity, stimulated by our modern, technical, language-driven society.
+
+This not only stymies our ability to draw, it dulls our general problem solving skills too.
+
+Of course, the brain never really shuts half of itself completely off, but one half can be more active than the other.
+
+Edward's calls these L-mode and R-mode to indicate which half is more active.
+
+She's designed several unique exercises, such as drawing from a picture which is upside-down to trigger the R-mode.
+
+Looking at an upside-down picture disrupts the left brain's habit of naming what is seen, so it loses interest which allows the right brain to step in and do what it's good at -- perceiving visually.
+
+Betty Edwards' work ties in neatly with Rich Hickey's popular talk, /Hammock Driven Development/, in which he shares his process for solving big problems - engage the problem, then disengage, rinse and repeat. 
+
+In her book, /Drawing on the Artist Within/, Betty Edward's deeply explores the the five stages of creativity:
+
+First Insight, Saturation, Incubation, Illumination, and Verification.
+
+First Insight is largely a right brain activity, where problems are identified and examined in a wordless, visual way.
+
+This surveying of the surrounding world typically results in a question, such as "I wonder why ...?", or "I wonder if" etc.
+
+This verbal articulation of a problem snaps the left-brain to attention in the second phase Saturation, so named because the left-brain saturates the brain with information and data that could be in any way related to the problem.
+
+People have a tendency to hold onto a problem with an over-reliance on their conscious mental faculty.
+
+Hence Rich Hickey's advice to try taking a nap in a Hammock once in a while.
+
+When we finally do 'let go' of the problem, the right brain is able to resume work, only now with more information at hand.
+
+This third phase is called Incubation, wherein the right brain, using it's spacial mapping prowess, connects the dots, and usually while the person is doing something else.
+
+Aha! The illumination phase is a joint celebration between the left and right hemisphere's of the brain.
+
+Some people report rapid heart rates and a profound sense of "things coming together".
+
+As Betty Edward's states, "It is perhaps a moment when the whole human brain is suffused with joy."
+
+Einstein described one his aha moments about gravity as "the happiest moment in my life". (source: Betty Edwards DRSOB pg 247, The cosmic Code, Hans Pagel)
+
+Before we break out the dance music, there's work to do, hard work -- the final phase called Verification.
+
+Both hemispheres play an active role in Verification, forming the creative epiphany into a finished product: whether that's an architectural model for a software system, a business plan or a report for school.
+
+The left-brain methodically structures the product step by step, while the right-brain keeps an eye on the big picture.
+
+Betty Edward's work was ahead of the formal brain science of the day when she began this journey.
+
+We'll talk more about her soon, but for now I want to thank Betty Edwards for opening my eyes and helping me see the world more clearly!
+
+(NEXT SLIDE DOWN)
+
+.
+
+.
+
 .
 
 .
@@ -1098,93 +1215,14 @@ Where should we start? How about near the beginning?
 
 #+END_NOTES
 
-** My valuation method
-:PROPERTIES:
-# unset fullsize (before, in case of moving backwards)
-:reveal_extra_attr: video-size="normal"
-:END:
-#+ATTR_REVEAL: :frag (roll-in)
-- Health
-- Family
-- Friends
-- Community
-- Romance / Art
-- Career / Business
-- Fun / Hobbies / Recreation
-- Philosophical / Spiritual
-- Personal Finance
-- Personal Development & Learning
+** Answers must come from within
+Answers create, but they also kill possibilities.https://youtu.be/GfgLGGAkc9g
 
-#+BEGIN_NOTES 
-How can I measure the value I place on learning?
+http://www.values.com/inspirational-quotes/6072-keep-on-beginning-and-failing-each-time-you
 
-Before I reveal my method, I'd like to offer this disclaimer.
-
-This is my first stab at the problem and the method is far from perfect.
-
-There are simpler methods, but they would require more time, time I didn't have in preparing for this talk.
-
-The simplest method I could think of would be to measure how much time in a given month do I dedicate specifically to learning.
-
-Unfortunately, I don't have a month to spare, so please excuse the complexity of my next best solution. Drum roll please...
-
-The method I've chosen aims to quantify the role of learning in my life.
-
-My general strategy is to look back over my life, identify significant memories, and try to assign a quantifiable value to that memory somehow.
-
-How can I break this big problem up in to smaller pieces?
-
-Inspired by Maslow's hierarchical pyramid of needs, I've divided my life into 10 major categories.
-
-(NEXT FRAG)
-
-These are: Health, Family, Friends, Community, Romance / Art, Career / Business, Fun / Hobbies/ Recreation, Philosophical / Spiritual, Personal Finance, Personal Development & Learning.
-
-These categories serve a dual purpose.
-
-First, they serve as a way for me to look back on my life memories and recall stories that relate to a given category, which I will call the home category.
-
-Second, they serve as a way to quantify value, where each category will be worth 100 points.
-
-In fairness, I want to recall the same number of stories from each category.
-
-Each memory has the potential to impact between 1 and 10 life categories.
-
-If a memory affects multiple categories, the home category of that memory will score 100 points for each affected category, and each affected category will score 100 points for being "tagged" by that memory.
-
-For example, if a memory from the learning category about learning to ride my bike affects 3 categories, Fun, Family and Learning, then the home category of of learning will earn 300 points, and the other two categories Fun and Family will earn 100 points each.
-
-In this way, categories earn points for playing a role in my significant life memories. 
-
-The logic behind this strategy is that a memory which stands out in my mind is a valuable memory, otherwise I would have forgotten about it.
-
-The obvious exceptions are painful memories, like when I broke my arm, which will be filtered out, unless they have some obvious life value.
-
-As you can imagine, this process has the potential to bring up deeply personal memories, and lucky for you we don't have time for my entire life story.
-
-Instead I've curated a short list of memories which are relevant to this talk.
-
-I'll use 2 or 3 of the following stories as examples of how I scored memories according to described method.
-
-Where should we start? How about near the beginning?
-
-(NEXT SLIDE DOWN)
-
-(time estimated 25 minutes)
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-#+END_NOTES
+Keep on beginning and failing. Each time you fail, start all over again, and you will grow stronger until you have accomplished a purpose ... not the one you began with perhaps, but one you'll be glad to remember.
+Anne Sullivan Macy
+Teacher
 * The actions
 What actions are consistent with this value?
 
@@ -1291,116 +1329,6 @@ What actions are consistent with this value?
     
     . 
  #+END_NOTES
-** Betty Edwards
-
-#+ATTR_REVEAL: :frag t
-file:resources/images/opening-and-overview/drawing-skills-cropped/montaged/02-montage.png
-
-#+ATTR_REVEAL: :frag t
-- edges
-- spaces
-- relationship
-- lights & shadows
-- the gestalt
-
-
-#+BEGIN_NOTES 
-Discovering the work of Betty Edwards was a eureka moment in my life, so its no surprise that she holds a prominent spot in my life's memory bank, from the home category of learning.
-
-So how does Betty Edwards do it?
-
-(NEXT FRAG 02-montage)
-
-How does she accelerate the learning process of her drawing students so dramatically?
-
-Betty Edwards teaches people 5 fundamental /seeing/ skills:
-
-(NEXT FRAG)
-How to *perceive* edges, spaces, relationship, lights & shadows and the gestalt (or whole).
-
-Just as Rich Hickey, after years of studious practice, identified the fundamentals of software, Betty disentangled the basic building blocks of skill within the global skill of drawing.
-
-After much practice and study, she had an aha! moment. These 5 subskills were it.
-
-She researched the literature and found no additional fundamental components of the global skill of basic realistic drawing.
-
-What if drawing could be taught and learned quickly, not over the course years?
-
-Thus, with the help of her colleagues, Edwards developed a 5 day workshop to test her method.
-
-The method was immediately validated by the workshop student's rapid progress.
-
-Even more fascinating than what Edward's teaches her students is how she teaches it!
-
-Edward's techniques revolve around understanding each brain hemisphere's role in the creative process, and employing the best suited hemisphere for the task at hand.
-
-Her book, /Drawing on the Right Side of the Brain/, covers this subject with the detail it deserves, but I'll do my best to summarize.
-
-Seeing is the domain of the right brain hemisphere.
-
-This presents a unique challenge because, as the evidence Edward's compiles in her book indicates, the right brain is constantly being drowned out by left-brain activity, stimulated by our modern, technical, language-driven society.
-
-This not only stymies our ability to draw, it dulls our general problem solving skills too.
-
-Of course, the brain never really shuts half of itself completely off, but one half can be more active than the other.
-
-Edward's calls these L-mode and R-mode to indicate which half is more active.
-
-She's designed several unique exercises, such as drawing from a picture which is upside-down to trigger the R-mode.
-
-Looking at an upside-down picture disrupts the left brain's habit of naming what is seen, so it loses interest which allows the right brain to step in and do what it's good at -- perceiving visually.
-
-Betty Edwards' work ties in neatly with Rich Hickey's popular talk, /Hammock Driven Development/, in which he shares his process for solving big problems - engage the problem, then disengage, rinse and repeat. 
-
-In her book, /Drawing on the Artist Within/, Betty Edward's deeply explores the the five stages of creativity:
-
-First Insight, Saturation, Incubation, Illumination, and Verification.
-
-First Insight is largely a right brain activity, where problems are identified and examined in a wordless, visual way.
-
-This surveying of the surrounding world typically results in a question, such as "I wonder why ...?", or "I wonder if" etc.
-
-This verbal articulation of a problem snaps the left-brain to attention in the second phase Saturation, so named because the left-brain saturates the brain with information and data that could be in any way related to the problem.
-
-People have a tendency to hold onto a problem with an over-reliance on their conscious mental faculty.
-
-Hence Rich Hickey's advice to try taking a nap in a Hammock once in a while.
-
-When we finally do 'let go' of the problem, the right brain is able to resume work, only now with more information at hand.
-
-This third phase is called Incubation, wherein the right brain, using it's spacial mapping prowess, connects the dots, and usually while the person is doing something else.
-
-Aha! The illumination phase is a joint celebration between the left and right hemisphere's of the brain.
-
-Some people report rapid heart rates and a profound sense of "things coming together".
-
-As Betty Edward's states, "It is perhaps a moment when the whole human brain is suffused with joy."
-
-Einstein described one his aha moments about gravity as "the happiest moment in my life". (source: Betty Edwards DRSOB pg 247, The cosmic Code, Hans Pagel)
-
-Before we break out the dance music, there's work to do, hard work -- the final phase called Verification.
-
-Both hemispheres play an active role in Verification, forming the creative epiphany into a finished product: whether that's an architectural model for a software system, a business plan or a report for school.
-
-The left-brain methodically structures the product step by step, while the right-brain keeps an eye on the big picture.
-
-Betty Edward's work was ahead of the formal brain science of the day when she began this journey.
-
-We'll talk more about her soon, but for now I want to thank Betty Edwards for opening my eyes and helping me see the world more clearly!
-
-(NEXT SLIDE DOWN)
-
-.
-
-.
-
-.
-
-.
-
-.
-#+END_NOTES
-
 
 ** Learning How to Learn
 
@@ -1413,40 +1341,23 @@ That framework, as it turns out, is vitally important to genuine understanding. 
 #+END_NOTES
 *** University Study regression
 It's not just students that need to learn about learning!
-** If we value learning, why not get better at it via Betty Edwards approach, instead of doodling. 
-  ** What if there was a subject you could study which would improve your ability to learn and master any other subject?
- There just might be!
-  #+ATTR_REVEAL: :frag appear
-*** Power Hour 
-*** Culture of Concentration
-:PROPERTIES:
-:reveal_extra_attr: redpill-img-src="/resources/images/red-pill.svg.png" qr-data="https://goo.gl/forms/Td2CKC2Xfpp5g1q13"
-:END:
-
-**** Information, not an industrial age factory factory floor.
-**** Exception: different people
-
-#+ATTR_REVEAL: :frag t
-file:resources/images/red-pill.svg.png
-
-#+BEGIN_NOTES
-
-... What does concentration look like for you? Scan the QR to fill a very short three-question Google Form poll and see your fellow attendees's repsonses as well.
-#+END_NOTES
-
-*** The science of learning.
-Don't remove drawing for schools.
-Use l-mode and r-mode for general problem solving.
+* Closing
+inclusivity via learning
+helping others is helping myself
+If RH can give 3 years off to us, what can I do?
+** Closing Quote
+#+BEGIN_QUOTE
+Live as if you were to die tomorrow. Learn as if you were to live forever. -- Mahatma Gandhi
+#+END_QUOTE
 
 
-#+ATTR_REVEAL: :frag appear 
-[[file:resources/images/opening-and-overview/illustration-of-drawing-skill-improvement-in-5-days_2017-01-12_09-19-11.png]]
-*** Learning How to Learn
-*** Space Repetition etc.
-** Information age, but we're still in an industrial age mode
-*** Sharing knowledge with others is a way of helping ourselves, and the people we love. Life saving ideas are lying dormant. (reference back to game theory)
-*** Everyone a teacher, video, microphone, record and publish.
-*** Information Diet
+
+
+* ********** Beyond this point is all notes ************ 
+* Information age, but we're still in an industrial age mode
+** Sharing knowledge with others is a way of helping ourselves, and the people we love. Life saving ideas are lying dormant. (reference back to game theory)
+** Everyone a teacher, video, microphone, record and publish.
+** Information Diet
 There's only so much I can learn watching T.V. (tie in to the sunset story)
 Being informed without becoming malformed.
 Setting my own agenda.
@@ -1471,19 +1382,124 @@ file:resources/images/red-pill.svg.png
 
    Scan the red pill now if, like me, you were astonished by the drawings done by Betty Edward's students and are curious to learn more about her work.
 #+END_NOTES
-* Closing
-inclusivity via learning
-helping others is helping myself
-informat
-** 
-#+BEGIN_QUOTE
-Live as if you were to die tomorrow. Learn as if you were to live forever. -- Mahatma Gandhi
-#+END_QUOTE
+* If we value learning, why not get better at it via Betty Edwards approach, instead of doodling.
+ ** What if there was a subject you could study which would improve your ability to learn and master any other subject?
+There just might be!
+ #+ATTR_REVEAL: :frag appear
+** Power Hour 
+** Culture of Concentration
+   :PROPERTIES:
+   :reveal_extra_attr: redpill-img-src="/resources/images/red-pill.svg.png" qr-data="https://goo.gl/forms/Td2CKC2Xfpp5g1q13"
+   :END:
+
+*** Information, not an industrial age factory factory floor.
+*** Exception: different people
+
+#+ATTR_REVEAL: :frag t
+file:resources/images/red-pill.svg.png
+
+#+BEGIN_NOTES
+
+... What does concentration look like for you? Scan the QR to fill a very short three-question Google Form poll and see your fellow attendees's repsonses as well.
+#+END_NOTES
+
+** The science of learning.
+Don't remove drawing for schools.
+Use l-mode and r-mode for general problem solving.
 
 
+#+ATTR_REVEAL: :frag appear 
+[[file:resources/images/opening-and-overview/illustration-of-drawing-skill-improvement-in-5-days_2017-01-12_09-19-11.png]]
+** Learning How to Learn
+** Space Repetition etc.
 
+* My valuation method
+:PROPERTIES:
+# unset fullsize (before, in case of moving backwards)
+:reveal_extra_attr: video-size="normal"
+:END:
+#+ATTR_REVEAL: :frag (roll-in)
+- Health
+- Family
+- Friends
+- Community
+- Romance / Art
+- Career / Business
+- Fun / Hobbies / Recreation
+- Philosophical / Spiritual
+- Personal Finance
+- Personal Development & Learning
 
-* ********** Beyond this point is all notes ************ 
+#+BEGIN_NOTES 
+How can I measure the value I place on learning?
+
+Before I reveal my method, I'd like to offer this disclaimer.
+
+This is my first stab at the problem and the method is far from perfect.
+
+There are simpler methods, but they would require more time, time I didn't have in preparing for this talk.
+
+The simplest method I could think of would be to measure how much time in a given month do I dedicate specifically to learning.
+
+Unfortunately, I don't have a month to spare, so please excuse the complexity of my next best solution. Drum roll please...
+
+The method I've chosen aims to quantify the role of learning in my life.
+
+My general strategy is to look back over my life, identify significant memories, and try to assign a quantifiable value to that memory somehow.
+
+How can I break this big problem up in to smaller pieces?
+
+Inspired by Maslow's hierarchical pyramid of needs, I've divided my life into 10 major categories.
+
+(NEXT FRAG)
+
+These are: Health, Family, Friends, Community, Romance / Art, Career / Business, Fun / Hobbies/ Recreation, Philosophical / Spiritual, Personal Finance, Personal Development & Learning.
+
+These categories serve a dual purpose.
+
+First, they serve as a way for me to look back on my life memories and recall stories that relate to a given category, which I will call the home category.
+
+Second, they serve as a way to quantify value, where each category will be worth 100 points.
+
+In fairness, I want to recall the same number of stories from each category.
+
+Each memory has the potential to impact between 1 and 10 life categories.
+
+If a memory affects multiple categories, the home category of that memory will score 100 points for each affected category, and each affected category will score 100 points for being "tagged" by that memory.
+
+For example, if a memory from the learning category about learning to ride my bike affects 3 categories, Fun, Family and Learning, then the home category of of learning will earn 300 points, and the other two categories Fun and Family will earn 100 points each.
+
+In this way, categories earn points for playing a role in my significant life memories. 
+
+The logic behind this strategy is that a memory which stands out in my mind is a valuable memory, otherwise I would have forgotten about it.
+
+The obvious exceptions are painful memories, like when I broke my arm, which will be filtered out, unless they have some obvious life value.
+
+As you can imagine, this process has the potential to bring up deeply personal memories, and lucky for you we don't have time for my entire life story.
+
+Instead I've curated a short list of memories which are relevant to this talk.
+
+I'll use 2 or 3 of the following stories as examples of how I scored memories according to described method.
+
+Where should we start? How about near the beginning?
+
+(NEXT SLIDE DOWN)
+
+(time estimated 25 minutes)
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+#+END_NOTES
 
 
 
@@ -1565,6 +1581,7 @@ Live as if you were to die tomorrow. Learn as if you were to live forever. -- Ma
 **** Metrics: time to competency, attention time, practice time. 
 *** Conceptual Support from Teachers without spoonfeeding.
 * Quotes
+http://www.values.com/inspirational-quotes/6140-we-can-learn-nothing-except-by-going-from-the
 #+begin_quote
 Learning is a growth exponentiator
 #+end_quote
