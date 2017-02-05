@@ -18,7 +18,7 @@
 #+END_NOTES
 
 # title slide
-* Fullscreen: Title slide "The Value of Learning." :noexport:
+* _ Fullscreen: Title slide "The Value of Learning."               :noexport:
 *  
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video" video-size="normal"
@@ -34,15 +34,17 @@ Title Slide
 
 #+END_NOTES
 
-* Thank you Ryan                                                   :noexport:
+* _ Greeting thru Edwards                                          :noexport:
 * 
-:PROPERTIES:
-:reveal_extra_attr: video-size="full"
-:END:
+  :PROPERTIES:
+  :reveal_extra_attr: video-size="full"
+  :END:
  #+BEGIN_NOTES 
- Thank you Ryan. I'm happy to be here at Clojure Remote 2017 and honored to speak to this group of enthusiastic Clojure folks.  Welcome to each of you that are with us today to hear about /The Value of Learning/.
+ Thank you Ryan. I'm happy to be here at Clojure Remote 2017.  Welcome to each of you that are with us today to hear about /The Value of Learning/.
 
- This talk is a conversation about learning in the age of information.
+ My goal for this talk is to foster an ongoing conversation about the art and science of learning.
+
+ What impact would it have on Clojure's growth if each of us were as fluent in the language of learning as we are in our programming language of choice?
 
  Lately, I've become enthralled by the subject of learning. Here's one example of why:
 
@@ -55,8 +57,7 @@ Title Slide
 .
 #+END_NOTES
  
-# Before+after(3)
-** Three slides of before+after Betty Edwards's students's drawings. :noexport:
+** _ Three slides of before+after Betty Edwards's students's drawings. :noexport:
 **  
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video" video-size="normal"
@@ -103,6 +104,7 @@ And how long for this much improvement?
 
 
 ** 5 days
+
 :PROPERTIES:
 # :reveal_extra_attr: redpill-img-src="/resources/images/Introduction/bell212.jpg"
 # :reveal_extra_attr: redpill-img-src="/resources/images/twitter-bird-944px.svg.png" qr-data="http://twitter.com/intent/tweet?text=Can you fly that thing? Not yet...  &hashtags=valueoflearning,bettyedwards"
@@ -123,17 +125,19 @@ And how long for this much improvement?
  
  Personally, I'm astonished by these drawings.
  
- The rapid progress of these students reminds of the scene in The Matrix, where Neo and Trinity see a helicopter. He asks her "Can you fly that thing?" and she replies, "Not yet". Moments later
+ This rapid learning reminds of a scene in The Matrix, where Neo and Trinity see a helicopter. He asks her "Can you fly that thing?" With stoic confidence she replies, "Not yet". 
 
- (NEXT FRAG) she is skillfully flying the aircraft.
- 
- How does Betty Edwards
+ (NEXT FRAG) 
 
- (NEXT FRAG) facilitate such efficient progress for *all* of her students, not just some?
+ Moments later she is skillfully flying the aircraft.
+
+ (NEXT FRAG)
+
+ How does Betty Edwards facilitate such efficient progress for her students?
  
  And how is her approach relevant to learning other highly technical skills, such as programming?
  
- We'll explore these, and other engaging questions, over the next hour, but first let's frame up the conversation.
+ We'll explore these, and other questions, over the next hour, but first let's frame up the conversation.
 
  (NEXT SLIDE DOWN)
 
@@ -145,14 +149,17 @@ And how long for this much improvement?
 #+END_NOTES
  
 ** Audience
-# I rmoved frag on purpose :) 
+
 - Clojure programmers
 - programmers
 - aspiring programmers
 - curious minded people
+- entrepreneurs
+- makers
+- anyone with an idea for an app
 
 #+BEGIN_NOTES
-We're at a Clojure Conference, and I'm a Clojure enthusiast. We'll definitely be talking about Clojure, but you don't even have to know what Clojure is to get something out of this talk, or to participate.
+We're at a Clojure Conference, and I'm a Clojure enthusiast, so we'll definitely be talking about Clojure, but you don't even have to know what Clojure is to get something out of this talk, or to participate.
 
 Are you interested in solving problems, making things, the subject of creativity, or learning?
 
@@ -297,19 +304,13 @@ Betty Edwards teaches people 5 fundamental /seeing/ skills:
 (NEXT FRAG)
 How to *perceive* edges, spaces, relationship, lights & shadows and the gestalt (or whole).
 
-Just as Rich Hickey, after years of studious practice, identified the fundamentals of software, Betty disentangled the basic building blocks of skill within the global skill of drawing.
+Just as Rich Hickey, after years of studious practice, identified the fundamentals of software, Betty identified the basic building blocks within the skill of drawing.
 
 After much practice and study, she had an aha! moment. These 5 subskills were it.
 
-She researched the literature and found no additional fundamental components of the global skill of basic realistic drawing.
-
 What if drawing could be taught and learned quickly, not over the course years?
 
-Thus, with the help of her colleagues, Edwards developed a 5 day workshop to test her method.
-
-The method was immediately validated by the workshop student's rapid progress.
-
-Even more fascinating than what Edward's teaches her students is how she teaches it!
+Her method was validated by the rapid progress of her students.
 
 Edward's techniques revolve around understanding each brain hemisphere's role in the creative process, and employing the best suited hemisphere for the task at hand.
 
@@ -323,13 +324,9 @@ This not only stymies our ability to draw, it dulls our general problem solving 
 
 Of course, the brain never really shuts half of itself completely off, but one half can be more active than the other.
 
-Edward's calls these L-mode and R-mode to indicate which half is more active.
-
-She's designed several unique exercises, such as drawing from a picture which is upside-down to trigger the R-mode.
+She's designed several unique exercises, such as drawing from a picture which is upside-down to enhance right brain activity.
 
 Looking at an upside-down picture disrupts the left brain's habit of naming what is seen, so it loses interest which allows the right brain to step in and do what it's good at -- perceiving visually.
-
-Betty Edwards' work ties in neatly with Rich Hickey's popular talk, /Hammock Driven Development/, in which he shares his process for solving big problems - engage the problem, then disengage, rinse and repeat. 
 
 In her book, /Drawing on the Artist Within/, Betty Edward's deeply explores the the five stages of creativity:
 
@@ -343,8 +340,6 @@ This verbal articulation of a problem snaps the left-brain to attention in the s
 
 People have a tendency to hold onto a problem with an over-reliance on their conscious mental faculty.
 
-Hence Rich Hickey's advice to try taking a nap in a Hammock once in a while.
-
 When we finally do 'let go' of the problem, the right brain is able to resume work, only now with more information at hand.
 
 This third phase is called Incubation, wherein the right brain, using it's spacial mapping prowess, connects the dots, and usually while the person is doing something else.
@@ -357,15 +352,21 @@ As Betty Edward's states, "It is perhaps a moment when the whole human brain is 
 
 Einstein described one his aha moments about gravity as "the happiest moment in my life". (source: Betty Edwards DRSOB pg 247, The cosmic Code, Hans Pagel)
 
-Before we break out the dance music, there's work to do, hard work -- the final phase called Verification.
+After the brain celebrates its aha moment, there's work to do, hard work -- the final phase called Verification.
 
 Both hemispheres play an active role in Verification, forming the creative epiphany into a finished product: whether that's an architectural model for a software system, a business plan or a report for school.
 
 The left-brain methodically structures the product step by step, while the right-brain keeps an eye on the big picture.
 
-Betty Edward's work was ahead of the formal brain science of the day when she began this journey.
+What does her work imply for programmers? Are we supposed to turn our code upside and stare at it?
 
-We'll talk more about her soon, but for now I want to thank Betty Edwards for opening my eyes and helping me see the world more clearly!
+According to Edward's perceptual skills translate to general problem solving skills.
+
+Perceiving edges and relationships between the conceptual components of any problem are vital skills toward solving that problem. As are seeing the whole and subtleties, i.e. the lights and shadows.
+
+Let's put a pin in this line of thinking and pick it up later.
+
+For now the main point we can summarize from the work of Betty Edward's is that her students progress so rapidly because they are learning the essential fundamental skills of seeing.
 
 (NEXT SLIDE DOWN)
 
@@ -374,13 +375,9 @@ We'll talk more about her soon, but for now I want to thank Betty Edwards for op
 .
 
 .
-
-.
-
-.
 #+END_NOTES
 
-* Fullscreen: Webcam, Jay introduces the talk.                     :noexport:
+* _ Fullscreen: Webcam, Jay introduces the talk.                   :noexport:
 * 
  :PROPERTIES:
  :reveal_extra_attr: data-state="hide-video"
@@ -407,26 +404,14 @@ We'll talk more about her soon, but for now I want to thank Betty Edwards for op
    #+END_NOTES
 
 * Outline
-- The Question
-- The Answer
-- The Action
-# Isaac says: These are very abstract. What about swapping for a more concrete exemplification of each?
-# Perhaps something like
-# - What good is a reconsideration of the value of learning?
-# - How might I come to understand my own value of learning?
-# - In which ways might I attend to those values?
-#
-# ... or more succinctly and perhaps more congruent:
-# - What is the value of learning?
-# - Discovering the value of learning.
-# - Learning in action.
+- What is the value of learning?
+- Discovering the value of learning
+- Learning in action
 
 #+BEGIN_NOTES 
 I'll weave several stories about learning through the framework of this simple 3 part outline.
 
-The question. The answer. The action.
-
-All told, this is a story about success and failure, about trying and learning.
+All told, this is a story about discovery, about trying and learning.
 
 (NEXT SLIDE DOWN)
 
@@ -437,13 +422,11 @@ All told, this is a story about success and failure, about trying and learning.
 .
 #+END_NOTES
 
-** The question
-What is the value of learning?
+** Discovering the value of learning
 
 #+BEGIN_NOTES 
-The question:
+How can I discover the value learning?
 
-What is the value of learning?
 (NEXT SLIDE DOWN)
 
 .
@@ -847,20 +830,6 @@ It seems we are in the early stages of discovering an ideal balance between the 
 # 3. Germany also places a great emphasisis on individual standardized test performance, and initiates 'tracking' very early (from 8th grade?) based on scores. France similarly.
 # 4. Perhaps Finland is a more effective example? http://www.smithsonianmag.com/innovation/why-are-finlands-schools-successful-49859555/
 # 5. You may be pointing to a very deep rift. Some extreme collegiate examples: a.) Reed College vs. b.) MIT. Or... a Waldof+/Montessori methods vs. some of the magnet+charter schools in New York (think uniforms, discipline, per-second schedules). There are examples of both outperforming peers, despite widely varying methods. There are two challenges being adressed: one is cultivating independent, creative, resourceful and innovative thinking, the other developing technical, formal, and canonical precision and regularity. In any case, these couple of sentences below bely challenges and reminiscences worth book, even lifetimes of them. I would be careful about hard-and-fast conclusions. Forgive me if I'm being too forward.
-
-The science and math scores in the U.S. over the past couple decades show an over-reliance on outside-in education.
-
-Students here in the U.S. are given a new problem, immediately followed by the recipe to solve the problem.
-
-In Germany, Japan and other countries with high technical performance, students are challenged to think through the problem, after being reminded of recent supportive lessons.
-
-Then students work in teams to try to solve the problem.
-
-Only then, is the answer revealed, after which students compare their own strategies with the, quote "official answer".
-
-Educators call this 'productive struggle', and at its heart it's a prime example of "Inside Out" learning.
-
-Even Socrates would be proud!
 
 
 (NEXT SLIDE DOWN)
