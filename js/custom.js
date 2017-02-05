@@ -136,6 +136,17 @@ function hideEmptyTitles() {
 
         }
     }
+    // for good measure
+    document.querySelectorAll("h1,h2,h3,h4,h5").forEach(function (el, i) {
+        console.log("header", i, el); 
+
+        var t = el.textContent;
+        if (t.length === 0) {
+            el.style.border = "none";
+            el.style.visibility = "hidden";
+            el.style.textDecoration = "none";
+        }
+    });
 }
 
 var videoIsHiding = false;
@@ -329,9 +340,9 @@ Reveal.addEventListener('slidechanged', function(event) {
     var state = Reveal.getState();
     location.hash = state.indexh.toString();
 
-    videoShouldHide(false);
-
     hideEmptyTitles(); // becuase not all are rendered upfront --
+
+    videoShouldHide(false);
 
     formatRedpillFigures(event);
 
