@@ -17,7 +17,6 @@
 ;; Conclusion 5 min
 #+END_NOTES
 
-# title slide
 * _ Fullscreen: Title slide "The Value of Learning."               :noexport:
 *  
 :PROPERTIES:
