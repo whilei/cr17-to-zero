@@ -18,7 +18,8 @@
 #+END_NOTES
 
 # title slide
-* 
+* Fullscreen: Title slide "The Value of Learning." :noexport:
+*  
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video" video-size="normal"
 :reveal_background_size: 100%
@@ -55,6 +56,7 @@ Title Slide
 #+END_NOTES
  
 # Before+after(3)
+** Three slides of before+after Betty Edwards's students's drawings. :noexport:
 **  
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video" video-size="normal"
@@ -125,6 +127,9 @@ And how long for this much improvement?
 
  (NEXT FRAG) she is skillfully flying the aircraft.
  
+ --- 
+ # Isaac: sounds a little here like Betty Edwards is Morpheus ;-)... 
+ ---
  How does their teacher
 
  (NEXT FRAG), Betty Edwards, facilitate such efficient progress for *all* of her students, not just some?
@@ -217,6 +222,7 @@ A little hint: if you have a smart phone with a QR code scanner, you can be read
 :PROPERTIES:
 :reveal_extra_attr: redpill-img-src="/resources/images/red-pill.svg.png" qr-data="https://github.com/webappzero/the-value-of-learning"
 :END:
+# Image of drum circle.
 file:resources/images/Djembes.jpg
 
 #+ATTR_REVEAL: :frag t
@@ -262,6 +268,7 @@ file:resources/images/red-pill.svg.png
 
 ** Betty Edwards
 
+# Image of one of the Betty Edwards before/after montages.
 #+ATTR_REVEAL: :frag t
 file:resources/images/opening-and-overview/drawing-skills-cropped/montaged/02-montage.png
 
@@ -369,6 +376,7 @@ We'll talk more about her soon, but for now I want to thank Betty Edwards for op
 .
 #+END_NOTES
 
+* Fullscreen: Webcam, Jay introduces the talk.                     :noexport:
 * 
  :PROPERTIES:
  :reveal_extra_attr: data-state="hide-video"
@@ -484,6 +492,7 @@ Let's dig into this question!
 .
 #+END_NOTES
 
+** Fullscreen image: Don Quixote charges his windmills. :noexport:
 **  
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video"
