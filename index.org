@@ -127,12 +127,9 @@ And how long for this much improvement?
 
  (NEXT FRAG) she is skillfully flying the aircraft.
  
- --- 
- # Isaac: sounds a little here like Betty Edwards is Morpheus ;-)... 
- ---
- How does their teacher
+ How does Betty Edwards
 
- (NEXT FRAG), Betty Edwards, facilitate such efficient progress for *all* of her students, not just some?
+ (NEXT FRAG) facilitate such efficient progress for *all* of her students, not just some?
  
  And how is her approach relevant to learning other highly technical skills, such as programming?
  
@@ -232,7 +229,7 @@ file:resources/images/red-pill.svg.png
 
    This interactive talk is designed to be an ongoing conversation.
 
-   It began its life as an open source github repository, and has evolved into an open-data project, driven by your anonymous, interactive input.
+   It began its life as an open source github repository, and has evolved to include an open-data project, driven by your anonymous, interactive input.
 
    Scattered throughout the talk, you'll notice a red pill
 
@@ -279,6 +276,13 @@ file:resources/images/opening-and-overview/drawing-skills-cropped/montaged/02-mo
 - lights & shadows
 - the gestalt
 
+
+# Isaac says:
+# Betty Edwards is substantive proof-of-concept, but I've got a sneaking suspicion this section will need to trim up.
+# What does it mean to look at code upside down? 
+# What might the implications be of reeevaluating how we learn code?
+# ... What are the limitations of Betty's approach? (From what I see from a cursory Googley overview, focus is mostly on representational/imitative drawing...)
+# Would you want to dive into a fullscreen video at any point during this? 
 
 #+BEGIN_NOTES 
 
@@ -406,6 +410,16 @@ We'll talk more about her soon, but for now I want to thank Betty Edwards for op
 - The Question
 - The Answer
 - The Action
+# Isaac says: These are very abstract. What about swapping for a more concrete exemplification of each?
+# Perhaps something like
+# - What good is a reconsideration of the value of learning?
+# - How might I come to understand my own value of learning?
+# - In which ways might I attend to those values?
+#
+# ... or more succinctly and perhaps more congruent:
+# - What is the value of learning?
+# - Discovering the value of learning.
+# - Learning in action.
 
 #+BEGIN_NOTES 
 I'll weave several stories about learning through the framework of this simple 3 part outline.
@@ -499,9 +513,21 @@ Let's dig into this question!
 :reveal_background_size: 60%
 :reveal_background: /resources/images/windmills/at-windmills-white.png
 :END:
-
 # Ole! Onward to La Mancha! 
 
+#+BEGIN_NOTES
+For those of you not familiar with this image, let me give some context.
+
+This is a man charging a windmill on his horse. At least, that's what we see.
+
+Don Quixote, the man on the horse, sees something very different.
+
+.
+
+.
+
+.
+#+END_NOTES
 
 ** Learning, the invisible value
   #+BEGIN_QUOTE
@@ -746,6 +772,8 @@ Eduard C. Lindeman
 #+BEGIN_NOTES 
 After the time of Socrates, humankind's progress in adult education experiences a small gap.
 
+# Isaac says: Hey, wait, but what about... Plato, Aristotle, Aquinas, Erasmus, Galileo, Luther, Descartes, Gutenberg, Newton, The Jesuit tradition, University of Bologna, Rousseau, Waldorf, Franklin's (and Jefferson's) public libraries, William James.
+
 (NEXT FRAG canyon)
 
 The 1926 paper /The Meaning of Adult Education/, by Eduard C. Lindeman, reignited the subject of learning and established a scientific, research oriented approach to understanding how adults learn.  
@@ -813,6 +841,13 @@ Both faces of education likely have their ideal time and place.
 
 It seems we are in the early stages of discovering an ideal balance between the two, especially regarding our new information driven world.
 
+# Isaac says:
+# 1. Citing falling standardize test scores in critique of outside-in learning is self-contradictory.
+# 2. Japan is not exactly known to be a student's paradise. http://www.huffingtonpost.com/uloop/japans-education-disaster_b_8691650.html
+# 3. Germany also places a great emphasisis on individual standardized test performance, and initiates 'tracking' very early (from 8th grade?) based on scores. France similarly.
+# 4. Perhaps Finland is a more effective example? http://www.smithsonianmag.com/innovation/why-are-finlands-schools-successful-49859555/
+# 5. You may be pointing to a very deep rift. Some extreme collegiate examples: a.) Reed College vs. b.) MIT. Or... a Waldof+/Montessori methods vs. some of the magnet+charter schools in New York (think uniforms, discipline, per-second schedules). There are examples of both outperforming peers, despite widely varying methods. There are two challenges being adressed: one is cultivating independent, creative, resourceful and innovative thinking, the other developing technical, formal, and canonical precision and regularity. In any case, these couple of sentences below bely challenges and reminiscences worth book, even lifetimes of them. I would be careful about hard-and-fast conclusions. Forgive me if I'm being too forward.
+
 The science and math scores in the U.S. over the past couple decades show an over-reliance on outside-in education.
 
 Students here in the U.S. are given a new problem, immediately followed by the recipe to solve the problem.
@@ -837,7 +872,8 @@ Even Socrates would be proud!
 .
 #+END_NOTES
 
-***  
+*** Fullscreen, 2 slides: Picasso+Dubuffet before+after paintings. :noexport:
+*** 
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video"
 :reveal_background_size: 100%
@@ -851,7 +887,7 @@ The one on the right, age 90.
 
 Can you see the transition from 'outside in' to 'inside out' the progression of his life's work?
 #+END_NOTES
-***  
+*** 
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video"
 :reveal_background_size: 100%
