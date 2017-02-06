@@ -149,6 +149,15 @@ function hideEmptyTitles() {
     });
 }
 
+// fix default table style, frame="hsides", border="2"
+function hideTableBorders() {
+    var tables = document.querySelectorAll("table");
+    tables.forEach(function (el, i) {
+        el.setAttribute("frame", "none");
+        el.setAttribute("border", "0");
+    });
+}
+
 var videoIsHiding = false;
 
 function videoShouldHide(yes) {
@@ -341,6 +350,7 @@ Reveal.addEventListener('slidechanged', function(event) {
     location.hash = state.indexh.toString();
 
     hideEmptyTitles(); // becuase not all are rendered upfront --
+    hideTableBorders();
 
     videoShouldHide(false);
 

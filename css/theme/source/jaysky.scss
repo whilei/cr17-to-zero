@@ -155,19 +155,21 @@ $controlBorderColor: rgb(234,165,24); // $mainColor; // sets color of arrows
 }
 
 .reveal table {
+    max-width: 95%;
+    border-collapse: separate !important;
     margin: 0 !important; // default auto;
     border: none !important;
     border-color: $backgroundColor !important;
-    border-top-color: none !important;
+    border-top-color: $backgroundColor !important;
     border-top-style: none !important;
     border-top-width: none !important;
-    border-right-color: none !important;
+    border-right-color: $backgroundColor !important;
     border-right-style: none !important;
     border-right-width: none !important;
-    border-bottom-color: none !important;
+    border-bottom-color: $backgroundColor !important;
     border-bottom-style: none !important;
     border-bottom-width: none !important;
-    border-left-color: none !important;
+    border-left-color: $backgroundColor !important;
     border-left-style: none !important;
     border-left-width: none !important;
     border-image-source: none !important;
@@ -175,6 +177,10 @@ $controlBorderColor: rgb(234,165,24); // $mainColor; // sets color of arrows
     border-image-width: none !important;
     border-image-outset: none !important;
     border-image-repeat: none !important;
+}
+
+.org-left {
+    border: none !important;
 }
 
 .reveal p {
