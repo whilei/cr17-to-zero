@@ -374,6 +374,22 @@ Her method was validated by the rapid progress of her students.
 
 Edward's techniques revolve around understanding each brain hemisphere's role in the creative process, and employing the best suited hemisphere for the task at hand.
 
+--- NEXT FRAG/SLIDE - Book Cover of /Drawing on the Right Side of the Brain/ (DaVinci portrait)
+.
+
+.
+
+.
+
+.
+#+END_NOTES
+
+#+REVEAL: split
+
+file:resources/images/betty-edwards/drawing-on-the-right-side-book-cover-amazon-800.jpg
+
+#+BEGIN_NOTES
+
 Her book, /Drawing on the Right Side of the Brain/, covers this subject with the detail it deserves, but I'll do my best to summarize.
 
 Seeing is the domain of the right brain hemisphere.
@@ -386,35 +402,27 @@ Of course, the brain never really shuts half of itself completely off, but one h
 
 She's designed several unique exercises, such as drawing from a picture which is upside-down to enhance right brain activity.
 
+--- NEXT FRAG/SLIDE - Fullsize upside-down drawing Picasso/Edwards
+.
+
+.
+
+.
+
+.
+#+END_NOTES
+
+** _ Fullscreen image of upside-down Picasso/Edwards               :noexport:
+**  
+:PROPERTIES:
+:reveal_extra_attr: data-state="hide-video"
+:reveal_background_size: 80%
+:reveal_background: /resources/images/betty-edwards/edwards-picasso.jpg
+:END:
+
+#+BEGIN_NOTES
+
 Looking at an upside-down picture disrupts the left brain's habit of naming what is seen, so it loses interest which allows the right brain to step in and do what it's good at -- perceiving visually.
-
-In her book, /Drawing on the Artist Within/, Betty Edward's deeply explores the the five stages of creativity:
-
-First Insight, Saturation, Incubation, Illumination, and Verification.
-
-First Insight is largely a right brain activity, where problems are identified and examined in a wordless, visual way.
-
-This surveying of the surrounding world typically results in a question, such as "I wonder why ...?", or "I wonder if" etc.
-
-This verbal articulation of a problem snaps the left-brain to attention in the second phase Saturation, so named because the left-brain saturates the brain with information and data that could be in any way related to the problem.
-
-People have a tendency to hold onto a problem with an over-reliance on their conscious mental faculty.
-
-When we finally do 'let go' of the problem, the right brain is able to resume work, only now with more information at hand.
-
-This third phase is called Incubation, wherein the right brain, using it's spacial mapping prowess, connects the dots, and usually while the person is doing something else.
-
-Aha! The illumination phase is a joint celebration between the left and right hemisphere's of the brain.
-
-Some people report rapid heart rates and a profound sense of "things coming together".
-
-As Betty Edward's states, "It is perhaps a moment when the whole human brain is suffused with joy."
-
-Einstein described one his aha moments about gravity as "the happiest moment in my life". (source: Betty Edwards DRSOB pg 247, The cosmic Code, Hans Pagel)
-
-After the brain celebrates its aha moment, there's work to do, hard work -- the final phase called Verification.
-
-Both hemispheres play an active role in Verification, forming the creative epiphany into a finished product: whether that's an architectural model for a software system, a business plan or a report for school.
 
 The left-brain methodically structures the product step by step, while the right-brain keeps an eye on the big picture.
 
@@ -436,6 +444,37 @@ For now the main point we can summarize from the work of Betty Edward's is that 
 
 .
 #+END_NOTES
+
+ 
+# In her book, /Drawing on the Artist Within/, Betty Edward's deeply explores the the five stages of creativity:
+# 
+# First Insight, Saturation, Incubation, Illumination, and Verification.
+# 
+# First Insight is largely a right brain activity, where problems are identified and examined in a wordless, visual way.
+# 
+# This surveying of the surrounding world typically results in a question, such as "I wonder why ...?", or "I wonder if" etc.
+# 
+# This verbal articulation of a problem snaps the left-brain to attention in the second phase Saturation, so named because the left-brain saturates the brain with information and data that could be in any way related to the problem.
+# 
+# People have a tendency to hold onto a problem with an over-reliance on their conscious mental faculty.
+# 
+# When we finally do 'let go' of the problem, the right brain is able to resume work, only now with more information at hand.
+# 
+# This third phase is called Incubation, wherein the right brain, using it's spacial mapping prowess, connects the dots, and usually while the person is doing something else.
+# 
+# Aha! The illumination phase is a joint celebration between the left and right hemisphere's of the brain.
+# 
+# Some people report rapid heart rates and a profound sense of "things coming together".
+# 
+# As Betty Edward's states, "It is perhaps a moment when the whole human brain is suffused with joy."
+# 
+# Einstein described one his aha moments about gravity as "the happiest moment in my life". (source: Betty Edwards DRSOB pg 247, The cosmic Code, Hans Pagel)
+# 
+# After the brain celebrates its aha moment, there's work to do, hard work -- the final phase called Verification.
+# 
+# Both hemispheres play an active role in Verification, forming the creative epiphany into a finished product: whether that's an architectural model for a software system, a business plan or a report for school.
+
+
 
 * _ Fullscreen: Webcam, Jay introduces the talk.                   :noexport:
 * 
