@@ -152,7 +152,9 @@ And how long for this much improvement?
 #+END_NOTES
  
 ** Audience
-
+:PROPERTIES:
+:reveal_extra_attr: video-size="normal"
+:END:
 - Clojure programmers
 - programmers
 - aspiring programmers
@@ -186,7 +188,9 @@ But first, please let me tell you about a problem I need your help with.
 
 
 ** Clojure's Learning Curve
-# TODO isaac Full Screen this slide please.
+:PROPERTIES:
+:reveal_extra_attr: video-size="full"
+:END:
 #+BEGIN_NOTES 
 
     Rich Hickey, in his talk /Simple Made Easy/ acknowledges that Clojure has a higher learning curve than other languages. Fortunately, learning and teaching already define the essence of this community, from the mind-expanding talks, to the daily exchanges of thinking through a problem with a peer, in person or online, its really one big, ongoing conversation. 
@@ -241,6 +245,9 @@ But first, please let me tell you about a problem I need your help with.
  #+END_NOTES
 
 ** My Credentials
+   :PROPERTIES:
+   :reveal_extra_attr: video-size="normal"
+   :END:
    #+ATTR_REVEAL: :frag t
    file:resources/images/jayfootinmouth-x600.png
 
