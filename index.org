@@ -124,7 +124,11 @@ And how long for this much improvement?
  
  Personally, I'm astonished by these drawings.
  
- This rapid learning reminds of a scene in The Matrix, where Neo and Trinity see a helicopter. He asks her "Can you fly that thing?" With stoic confidence she replies, "Not yet". 
+ This rapid learning reminds of a scene in The Matrix, where Neo and Trinity see a helicopter.
+
+ He asks her "Can you fly that thing?"
+
+ With stoic confidence she replies, "Not yet". 
 
  (NEXT FRAG) 
 
@@ -166,8 +170,9 @@ Whatever your interests, your presence and ideas are greatly valued.
 
 In a minute, I'll give you more instructions on how you can participate in this conversation, even if you're watching this on video 6 months, or even years from now.
 
-A little hint: if you have a smart phone with a QR code scanner, you can be ready to scan in a minute. If not, there will be other ways you can get involved.
+A little hint: if you have a smart phone with a QR code scanner, you can be ready to scan in a few minutes. If not, there will be other ways you can get involved.
 
+But first, please let me tell you about a problem I need your help with.
 
 (NEXT SLIDE DOWN)
 
@@ -178,6 +183,62 @@ A little hint: if you have a smart phone with a QR code scanner, you can be read
 .
 
 #+END_NOTES
+
+
+** Clojure's Learning Curve
+# TODO isaac Full Screen this slide please.
+#+BEGIN_NOTES 
+
+    Rich Hickey, in his talk /Simple Made Easy/ acknowledges that Clojure has a higher learning curve than other languages. Fortunately, learning and teaching already define the essence of this community, from the mind-expanding talks, to the daily exchanges of thinking through a problem with a peer, in person or online, its really one big, ongoing conversation. 
+
+    To a person, everyone in this community that I've asked for help has generously shared their knowledge to help me learn. And to a person, everyone I've met is pretty keen on Clojure. 
+    
+    We don't just love Clojure. We love what it does for us. Clojure has a lot in common with human learning. As a hosted language, Clojure not only *adapts* to most any general problem imaginable, it adapts to all the right platforms: from the Java Virtual Machine to the Common Language Runtime, the browser and beyond.
+ 
+    Clojure's reach and generality are among its greatest strengths, but they are also the reason it has a higher learning curve than other *individual* languages. I stress individual languages because there's a strong case to be made that Clojure's generality, which brings Clojure's powerful idioms to the server and browser, is a steadily increasing advantage in Clojure's favor. 
+
+    Whatever the actual case, those of us here today believe any extra effort is worth it.
+
+    There's a palpable buzz going on in the community right now, and the pace of innovation is awe inspiring to see and be a part of.
+
+    This past year I've met several Clojure developers who looked me in the eye and said, "Clojure is the reason I now enjoy doing what I'm doing. I'm not sure I'd still be doing this without it".
+
+    I met someone who maintains a popular open source project. I asked him how much work it was to maintain. He said calmly, 'it just works.' These conversations have been very reassuring to me as an open source enthusiast and aspiring entrepreneur.
+    
+    There's a world full of interesting and vital problems out there, waiting to be solved. How much of Clojure's awesomeness will get put to use on these problems? How much will go to waste? 
+
+    I believe that we have a great challenge in front of us, and I have a quick story of why.    
+
+    It appears to me that Clojure's is at risk of not being widely adopted if new programmers and entrepreneurs are turned away by its learning curve. These are potential Clojure projects and jobs walking out the door, day after day.
+
+    I met a fellow entrepreneur at a recent Clojure Conference.
+
+    Our projects have similar technology needs, so we decided to collaborate on a core Clojure stack that would meet our shared needs. We've both done a lot of research on different languages and approaches, but I'm a year into my part-time Clojure studies, whereas she is a couple of months in.
+
+    Upon leaving the Clojure conference, both of us were really excited to work together and to use Clojure.
+
+    Recently though she's expressed an interest in using Elixir for her MVP.
+
+    Why? Because its easier to learn.
+
+    I have the utmost respect for her discernment, and I trust she has way more information about her situation than I do, which is why, even though I was disappointed at the idea of not working on our Clojure stack together, I replied, "Hey, we can vet two separate paths and get twice as much feedback if Elixir ends up making more sense for you." 
+
+    Lowering the barrier to entry into our community is a vital task, and I know that many of you have been working on this problem for years, which is why its easier to get started now than its ever been.
+
+    Sometimes though, I think we can get so close to a problem that we get stuck in our thinking. This talk is designed to help you turn this problem upside down and look at, really look at it, in a new light.
+
+    If you're an experienced Clojure developer, you can add wisdom and experience to my raw naivete. If you're new to the community, you're fresh perspective and feedback are valuable assets.
+
+    If there's a group of people in the world who can solve this problem, it's you. If you're up for the challenge, please listen to the talk with the problem of Clojure's learning curve in the back of your mind. Are we missing something obvious?
+
+    (NEXT SLIDE DOWN)
+
+    .
+     (time 4:48 this section)
+    .
+    
+    . 
+ #+END_NOTES
 
 ** My Credentials
    #+ATTR_REVEAL: :frag t
@@ -198,19 +259,15 @@ A little hint: if you have a smart phone with a QR code scanner, you can be read
 
    And I'm more humble for the effort.
 
-   I expect this talk will generate much controversy.
-
    Fortunately, I have a long and
 
    (NEXT FRAG) documented history of putting my foot in my mouth.
 
    This talk aims to kick start an ongoing conversation about our individual and shared experiences of learning.
 
-   One of my favorite things about learning today is that when you start researching a topic, such as learning, all of sudden you start attracting related information to yourself, whether it's your YouTube feed suggesting videos or a friend telling you about a helpful idea.
+   While researching this talk, many people have shared with me their own learning experiences with insight and candor.
 
-   I've experienced so many wonderful moments like that while researching this talk, thanks to so many generous people who've shared with me their own learning experiences with insight and candor.
-
-   My hope is that by candidly sharing my own learning experiences publicly, other people might identify with my learning triumphs and struggles, and that together we might be able find a better way of tackling some of our common problems around learning and teaching.
+   My hope is that by candidly sharing my learning experiences publicly, other people might identify with my learning triumphs and struggles, and that together we might be able find a better way of tackling some of our common problems around learning and teaching.
 
    (NEXT SLIDE DOWN)
 
@@ -237,9 +294,9 @@ file:resources/images/red-pill.svg.png
 
    It began its life as an open source github repository, and has evolved to include an open-data project, driven by your anonymous, interactive input.
 
-   Scattered throughout the talk, you'll notice a red pill
+   (NEXT FRAG)
 
-   (NEXT FRAG) appear on the lower right corner of the screen.
+   Scattered throughout the talk, you'll notice a red pill appear on the lower right corner of the screen.
 
    Each pill contains a QR code.
 
@@ -257,9 +314,9 @@ file:resources/images/red-pill.svg.png
 
    Scan the red pill now if you'd like to get the URL of our github repository saved in your browser history.
 
-   We're going to explore many aspects of learning through the framework of learning's /*worth*/.
+   We're going to explore several aspects of learning through the framework of learning's /*worth*/.
 
-   But first, find out how Betty Edwards teaches drawing.
+   But first, let's find out how Betty Edwards teaches drawing, so that we can begin to practice her techniques to visualize the problem at hand!
 
    (NEXT SLIDE RIGHT)
 .
@@ -283,12 +340,9 @@ file:resources/images/opening-and-overview/drawing-skills-cropped/montaged/02-mo
 - the gestalt
 
 
-# Isaac says:
-# Betty Edwards is substantive proof-of-concept, but I've got a sneaking suspicion this section will need to trim up.
-# What does it mean to look at code upside down? 
-# What might the implications be of reeevaluating how we learn code?
-# ... What are the limitations of Betty's approach? (From what I see from a cursory Googley overview, focus is mostly on representational/imitative drawing...)
 # Would you want to dive into a fullscreen video at any point during this? 
+
+# jay says: we could dive into full screen, and split this one slide up as per the ticket you created for split brain images.
 
 #+BEGIN_NOTES 
 
@@ -1286,8 +1340,34 @@ What actions are consistent with this value?
 
 #+END_NOTES
 
+** Learning How to Learn
 
-** Clojure's Learning Curve
+
+There's a parallel between the drawings we saw at the start of this talk and the skill of learning, both are technical skills. I could poke around at drawing for years, or I could absorb the fundamentals from a master and use that framework to accelerate my progress.
+
+That framework, as it turns out, is vitally important to genuine understanding. TODO University Study.
+#+BEGIN_NOTES 
+ 
+#+END_NOTES
+*** University Study regression
+It's not just students that need to learn about learning!
+* Closing
+inclusivity via learning
+helping others is helping myself
+If RH can give 3 years off to us, what can I do?
+might feel like running at a windmill sometimes, but we keep charging, attack the problem
+** Closing Quote
+#+BEGIN_QUOTE
+Live as if you were to die tomorrow. Learn as if you were to live forever. -- Mahatma Gandhi
+#+END_QUOTE
+
+
+
+
+* ********** Beyond this point is all notes ************ 
+
+
+* Clojure's Learning Curve
 
 #+BEGIN_NOTES 
     There is something special about the Clojure community to me.
@@ -1340,31 +1420,6 @@ What actions are consistent with this value?
     
     . 
  #+END_NOTES
-
-** Learning How to Learn
-
-
-There's a parallel between the drawings we saw at the start of this talk and the skill of learning, both are technical skills. I could poke around at drawing for years, or I could absorb the fundamentals from a master and use that framework to accelerate my progress.
-
-That framework, as it turns out, is vitally important to genuine understanding. TODO University Study.
-#+BEGIN_NOTES 
- 
-#+END_NOTES
-*** University Study regression
-It's not just students that need to learn about learning!
-* Closing
-inclusivity via learning
-helping others is helping myself
-If RH can give 3 years off to us, what can I do?
-** Closing Quote
-#+BEGIN_QUOTE
-Live as if you were to die tomorrow. Learn as if you were to live forever. -- Mahatma Gandhi
-#+END_QUOTE
-
-
-
-
-* ********** Beyond this point is all notes ************ 
 * Information age, but we're still in an industrial age mode
 ** Sharing knowledge with others is a way of helping ourselves, and the people we love. Life saving ideas are lying dormant. (reference back to game theory)
 ** Everyone a teacher, video, microphone, record and publish.
