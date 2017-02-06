@@ -1466,7 +1466,7 @@ There just might be!
 ** Power Hour 
 ** Culture of Concentration
    :PROPERTIES:
-   :reveal_extra_attr: redpill-img-src="/resources/images/red-pill-googleform-green.png" qr-data="https://goo.gl/forms/Td2CKC2Xfpp5g1q13"
+   :reveal_extra_attr: redpill-img-src="/resources/images/red-pill-form-white.png" qr-data="https://goo.gl/forms/Td2CKC2Xfpp5g1q13"
 
    :END:
 
