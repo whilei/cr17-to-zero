@@ -492,6 +492,12 @@ For now the main point we can summarize from the work of Betty Edward's is that 
 
    How can I live a life consistent with this value?
 
+
+
+I'll weave several stories about learning through the framework of this simple 3 part outline.
+
+All told, this is a story about discovery, about trying and learning.
+
    (NEXT SLIDE RIGHT)
 .
 
@@ -500,79 +506,10 @@ For now the main point we can summarize from the work of Betty Edward's is that 
 .
    #+END_NOTES
 
-* Outline
+* The question
  :PROPERTIES:
  :reveal_extra_attr: video-size="normal"
  :END:
-- What is the value of learning?
-- Discovering the value of learning
-- Learning in action
-
-#+BEGIN_NOTES 
-I'll weave several stories about learning through the framework of this simple 3 part outline.
-
-All told, this is a story about discovery, about trying and learning.
-
-(NEXT SLIDE DOWN)
-
-.
-
-.
-
-.
-#+END_NOTES
-
-** Discovering the value of learning
-
-#+BEGIN_NOTES 
-How can I discover the value learning?
-
-(NEXT SLIDE DOWN)
-
-.
-
-.
-
-.
-#+END_NOTES
-
-** The answer
-How can I discover the value of learning?
-
-#+BEGIN_NOTES
-
-The answer.
-
-How can I discover the value of learning?
-
-
-(NEXT SLIDE DOWN)
-
-.
-
-.
-
-.
-#+END_NOTES
-
-** The action
-What actions are consistent with this value?
-
-#+BEGIN_NOTES 
-The action.
-
-What actions are consistent with this value?
-
-(NEXT SLIDE RIGHT)
-
-.
-
-.
-
-.
-#+END_NOTES
-
-* The question
 
 
 What is the value of learning?
