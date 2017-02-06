@@ -402,7 +402,7 @@ Of course, the brain never really shuts half of itself completely off, but one h
 
 She's designed several unique exercises, such as drawing from a picture which is upside-down to enhance right brain activity.
 
---- NEXT FRAG/SLIDE - Fullsize upside-down drawing Picasso/Edwards
+--- NEXT FRAG/SLIDE [Fullsize upside-down drawing Picasso/Edwards]
 .
 
 .
@@ -432,9 +432,6 @@ According to Edward's perceptual skills translate to general problem solving ski
 
 Perceiving edges and relationships between the conceptual components of any problem are vital skills toward solving that problem. As are seeing the whole and subtleties, i.e. the lights and shadows.
 
-Let's put a pin in this line of thinking and pick it up later.
-
-For now the main point we can summarize from the work of Betty Edward's is that her students progress so rapidly because they are learning the essential fundamental skills of seeing.
 
 (NEXT SLIDE DOWN)
 
@@ -473,8 +470,33 @@ For now the main point we can summarize from the work of Betty Edward's is that 
 # After the brain celebrates its aha moment, there's work to do, hard work -- the final phase called Verification.
 # 
 # Both hemispheres play an active role in Verification, forming the creative epiphany into a finished product: whether that's an architectural model for a software system, a business plan or a report for school.
+# Let's put a pin in this line of thinking and pick it up later.
+#
+# For now the main point we can summarize from the work of Betty Edward's is that her students progress so rapidly because they are learning the essential fundamental skills of seeing.
 
+** Making sense?
+:PROPERTIES:
+:reveal_extra_attr: redpill-img-src="/resources/images/red-pill-twitter-white.png" qr-data="http://twitter.com/intent/tweet?text=@DRSB_Edwards teaching method is astonishing! I'm intrigued to learn more. &hashtags=valueoflearning"
+:END:
 
+file:resources/images/brains/brains-diagram.png
+
+#+ATTR_REVEAL: :frag (roll-in)
+file:resources/images/red-pill-twitter-white.png
+
+#+BEGIN_NOTES
+One extensible situtation that Betty deals with very remarkably with is the confrontation of the Unknown. 
+
+In fact, it seems like a big part of her work focuses on provoking ever more ways of... getting confused!
+
+And getting confused is weird, hard, and... well, uncomfortable. For good reason, too; it can be a vulnerable, even dangerous position. And it takes effort and intention to move towards unshaped places like that.
+
+But I think Betty's work and that of her students makes it clear that whether closing your own eyes, looking at the world upside down, or steadying your gaze on something unusual, there may indeed be triumphs worth working towards.
+
+(NEXT FRAG) 
+
+If you'd like to give a shout-out to Betty Edwards, this QR code will link you to an oh-so-conveniently pre-filled tweet.
+#+END_NOTES
 
 * _ Fullscreen: Webcam, Jay introduces the talk.                   :noexport:
 * 
@@ -486,13 +508,14 @@ For now the main point we can summarize from the work of Betty Edward's is that 
 
    #+BEGIN_NOTES
 
-   "The Value of Learning."
+   Let's broaden our scope for a moment. Before we dive back in, I'd like to briefly give you a roadmap for where we're headed. I've three big questions lined up, with the intention that a consierdation of one will lead naturally to the next. Ladies and gentlemen, please buckle your seatbelts. They are as follows:
 
-   What is the value of learning? 
 
-   How can I discover the value of learning?
+   - What is the value of learning? 
 
-   How can I live a life consistent with this value?
+   - How can I discover the value of learning?
+
+   - How can I live a life consistent with this value?
 
    (NEXT SLIDE RIGHT)
 .
@@ -501,6 +524,8 @@ For now the main point we can summarize from the work of Betty Edward's is that 
 
 .
    #+END_NOTES
+
+# "The Value of Learning."
 
 * Outline
 - What is the value of learning?
@@ -588,7 +613,7 @@ Let's dig into this question!
 .
 #+END_NOTES
 
-** Fullscreen image: Don Quixote charges his windmills. :noexport:
+** _ Fullscreen image: Don Quixote charges his windmills.          :noexport:
 **  
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video"
@@ -940,7 +965,7 @@ It seems we are in the early stages of discovering an ideal balance between the 
 .
 #+END_NOTES
 
-*** Fullscreen, 2 slides: Picasso+Dubuffet before+after paintings. :noexport:
+*** _ Fullscreen, 2 slides: Picasso+Dubuffet before+after paintings. :noexport:
 *** 
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video"
