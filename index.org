@@ -107,7 +107,7 @@ And how long for this much improvement?
 :PROPERTIES:
 # :reveal_extra_attr: redpill-img-src="/resources/images/Introduction/bell212.jpg"
 # :reveal_extra_attr: redpill-img-src="/resources/images/twitter-bird-944px.svg.png" qr-data="http://twitter.com/intent/tweet?text=Can you fly that thing? Not yet...  &hashtags=valueoflearning,bettyedwards"
-:reveal_extra_attr: redpill-img-src="/resources/images/red-pill.svg.png" qr-data="http://twitter.com/intent/tweet?text=Can you fly that thing? Not yet...  &hashtags=valueoflearning,bettyedwards"
+# :reveal_extra_attr: redpill-img-src="/resources/images/red-pill-twitter-white.png" qr-data="http://twitter.com/intent/tweet?text=Can you fly that thing? Not yet...  &hashtags=valueoflearning,bettyedwards"
 :END:
 
  #+ATTR_REVEAL: :frag t
@@ -280,13 +280,13 @@ But first, please let me tell you about a problem I need your help with.
 
 ** Audience Participation
 :PROPERTIES:
-:reveal_extra_attr: redpill-img-src="/resources/images/red-pill.svg.png" qr-data="https://github.com/webappzero/the-value-of-learning"
+:reveal_extra_attr: redpill-img-src="/resources/images/red-pill-github-white.png" qr-data="https://github.com/webappzero/the-value-of-learning"
 :END:
 # Image of drum circle.
 file:resources/images/Djembes.jpg
 
 #+ATTR_REVEAL: :frag t
-file:resources/images/red-pill.svg.png
+file:resources/images/red-pill-github-white.png
 
 #+BEGIN_NOTES
 
@@ -1082,7 +1082,7 @@ This is an important question! If they're hurting, I should cease and desist now
 
 ** Is learning harmful?
 :PROPERTIES:
-:reveal_extra_attr: redpill-img-src="/resources/images/red-pill.svg.png" qr-data="https://www.supermemo.com/articles/goodness.htm" 
+:reveal_extra_attr: redpill-img-src="/resources/images/red-pill-link-white.png" qr-data="https://www.supermemo.com/articles/goodness.htm" 
 :END:
 
 #+ATTR_REVEAL: :frag t
@@ -1090,7 +1090,7 @@ This is an important question! If they're hurting, I should cease and desist now
 - supermemo.com
 
 #+ATTR_REVEAL: :frag t
-file:resources/images/red-pill.svg.png
+file:resources/images/red-pill-link-white.png
 
 
 #+BEGIN_NOTES 
@@ -1431,8 +1431,10 @@ Being informed without becoming malformed.
 Setting my own agenda.
 Getting ready for this talk.
 
-** TODO isaac tweet for Betty Edwards
-
+** DONE isaac tweet for Betty Edwards
+:PROPERTIES:
+:reveal_extra_attr: redpill-img-src="/resources/images/red-pill-twitter-white.png" qr-data="http://twitter.com/intent/tweet?text=@DRSB_Edwards teaching method is astonishg! I'm intrigued to learn more. &hashtags=valueoflearning"
+:END:
 file:resources/images/opening-and-overview/drawing-skills-cropped/montaged/02-montage.png
 
 # Let's replace the QR code in the frag below with the following:
@@ -1444,7 +1446,7 @@ file:resources/images/opening-and-overview/drawing-skills-cropped/montaged/02-mo
 # Reason I moved this from opening screens about Betty Edwards is because we hadn't introduced concept of red pills yet.
 
 #+ATTR_REVEAL: :frag t
-file:resources/images/red-pill.svg.png
+file:resources/images/red-pill-twitter-white.png
 
 #+BEGIN_NOTES 
 
@@ -1457,14 +1459,15 @@ There just might be!
 ** Power Hour 
 ** Culture of Concentration
    :PROPERTIES:
-   :reveal_extra_attr: redpill-img-src="/resources/images/red-pill.svg.png" qr-data="https://goo.gl/forms/Td2CKC2Xfpp5g1q13"
+   :reveal_extra_attr: redpill-img-src="/resources/images/red-pill-googleform-green.png" qr-data="https://goo.gl/forms/Td2CKC2Xfpp5g1q13"
+
    :END:
 
 *** Information, not an industrial age factory factory floor.
 *** Exception: different people
 
 #+ATTR_REVEAL: :frag t
-file:resources/images/red-pill.svg.png
+file:resources/images/red-pill-googleform-green.png
 
 #+BEGIN_NOTES
 
