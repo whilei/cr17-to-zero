@@ -115,13 +115,9 @@ And how long for this much improvement?
 
 
 ** 5 days
-
 :PROPERTIES:
-# :reveal_extra_attr: redpill-img-src="/resources/images/Introduction/bell212.jpg"
-# :reveal_extra_attr: redpill-img-src="/resources/images/twitter-bird-944px.svg.png" qr-data="http://twitter.com/intent/tweet?text=Can you fly that thing? Not yet...  &hashtags=valueoflearning,bettyedwards"
-# :reveal_extra_attr: redpill-img-src="/resources/images/red-pill-twitter-white.png" qr-data="http://twitter.com/intent/tweet?text=Can you fly that thing? Not yet...  &hashtags=valueoflearning,bettyedwards"
+:reveal_extra_attr: redpill-img-src="/resources/images/red-pill-twitter-white.png" qr-data="https://google.com"
 :END:
-
  #+ATTR_REVEAL: :frag t
  [[file:resources/images/Introduction/bell212.jpg]]
 
@@ -129,6 +125,10 @@ And how long for this much improvement?
  - Betty Edwards, author of /Drawing on the Right Side of the Brain/
  - drawright.com
  - ~@DRSB_Edwards~
+
+
+#+ATTR_REVEAL: :frag (roll-in)
+file:resources/images/red-pill-twitter-white.png
 
 
  #+BEGIN_NOTES
