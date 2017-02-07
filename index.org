@@ -398,7 +398,7 @@ Edward's techniques revolve around understanding each brain hemisphere's role in
 
 #+REVEAL: split
 
-file:resources/images/betty-edwards/drawing-on-the-right-side-book-cover-amazon-800.jpg
+file:resources/images/betty-edwards/drawing-on-the-right-side-book-cover2-800.jpg
 
 #+BEGIN_NOTES
 
