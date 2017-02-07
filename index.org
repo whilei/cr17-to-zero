@@ -43,15 +43,17 @@ Title Slide
 
  My goal for this talk is to foster an ongoing conversation about the art and science of learning.
 
- What impact would it have on Clojure's growth if each of us were as fluent in the language of learning as we are in our programming language of choice?
+ What impact would it have on Clojure's growth if each of us were as fluent in the language of learning as we are in Clojure itself?
 
- How attractive would Clojure be to the next wave of programmers, if each of us were expert teachers? 
+ How attractive would Clojure be to the next wave of new programmers, if each of us were expert teachers? 
 
- Learning and teaching are technical skills which can be honed like any other skill. This is a new way of thinking about learning for me. And it's also really good news. You see, even after 19 years of education, from pre-k to an engineering degree, I had sparse confidence in my ability to learn technical knowledge and skills, like programming.
+ Learning and teaching are technical skills which can be honed like any other skill. This is a new way of thinking about learning for me. And it's also really good news. You see, even after 19 years of education, from pre-school to a degree in engineering, I had sparse confidence in my ability to learn technical knowledge and skills, like programming. Why is that?
 
  Today, I'm learning more effectively than ever before, but more importantly I'm preserving my emotional energy for enjoying life more, by worrying less about my next learning challenge.
 
- Now I firmly believe that anyone can dramatically improve their ability to learn any subject, relative to their current ability. You might think you're just not good at math, or you're not athletic, you can't draw, or hum a tune and that's that. Simply put, brain science says otherwise, and invest the next hour of our time to explore the nuance of this claim. 
+ Today, I firmly believe that anyone can dramatically improve their ability to learn any subject, relative to their current ability. You might think you're just not good at math, or you're not athletic, you can't draw, or hum a tune and that's that.
+
+ Simply put, brain science says otherwise. We'll invest the next hour of our time to explore the nuance of this claim. 
 
  Being a part of the Clojure community has really inspired me to up my learning game. Rich Hickey's talk /Hammock Driven Development/, which is laden with learning wisdom, led me to the /Learning How to Learn/ online course, which we'll talk about in the third and final part of the talk.  
 
