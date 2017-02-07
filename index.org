@@ -198,6 +198,47 @@ But first, please let me tell you about a problem I need your help with.
 
 #+END_NOTES
 
+** Clojure and me
+I enjoy the challenge of programming, but for me programming is a means to an end. I want to invent. Daily. I want to solve problems big and small. As a newish programmer I will cut my teeth on many small acorn projects before trying to grow an oak tree on my first go.
+
+At heart I'm either an inventor, or an entrepreneur and I'm figuring out which side of the line I favor, as I duck walk straddling the two. My heart is also in open source, and I want to join in the solving of big, existentially relevant problems, but first I'm cutting my teeth on the fundamentals of programming, thanks to Rich Hickey.
+
+In a rather chaotic fashion, I'm learning Basic Student Language in Dr. Racket, Clojure, Datomic, Arachne, ClojureScript, Reactive Native, Datsys, HTML, CSS, Git, Github, JavaScript, Docker, Boxfuse, Drawing, Design, Subform and a handful of other things. No wonder the github logo is an octopus!
+
+That's a lot of stuff to learn, and I've discovered that I'm not as organized as I could be, but part of that is that I've expended great energy and time in just finding the way of programming that solves the problems I've grown to care about.
+
+By the time I heard Rich Hickey's talk, Simple Made Easy, I was totally receptive to his message.
+ 
+Datomic was the reason I chose Clojure. In my limited experience working with an object oriented language, I didn't like having to flatten nested data beyond recognition, functionally, just to fit it into tables and rows to satisfy the query performance requirements, which froze the computer of the expert programmer I hired to help me build the prototype at hand. Most of my ideas involve nested data structures of at least 7 or 8, user-relevant domain entities, such as meals comprising recipes comprising ingredients. 
+
+My main goal is to work with code and technology which facilitates understanding, allowing the team to focus on the domain problem at hand.
+
+To my business spidey-senses, this is the most obvious way to get and keep costs low. Adding another language into the mix, brings in a largely different way of handling package management, documenation etc.
+
+But I also don't want to be constrained down the road of the project by choosing technologies based solely on aesthetics. My early choices must not severely limit the scope of future, yet unknown problems and needs.
+
+Success for me is never having to say no to myself or customers based on my core technology stack.
+
+By the time I heard Rich Hickey's talk, Simple Made Easy, I was totally receptive to his message.
+  
+In my own words, what I learned from him is that many approaches appear easy at first glance. But most /easy/ systems are actually highly complicated systems masquerading behind a thin veil of superficial usability.
+
+These systems will consume more time and resources the further a team gets into a greenfield project, before eventually grinding the progress of customization requests to a near halt.
+
+
+
+The reason biggest reason I chose Clojure is that I want to learn to think about the fundamentals of programming in the same way that Rich Hickey does - identities, values, time, these are his fundamental building blocks.
+
+Masters of a craft, discover, not only its essence, but how to practice it with great efficiency.
+
+While its true that professionals perform difficult tasks, they most certainly aren't doing them the hard way.
+
+    Who are the professionals? What results are they achieving? And how are they achieving those results.
+
+    I will save time, not by finding the easy way, but by mastering the fundamentals that bring very difficult problems within the reach of studious practitioners.
+
+
+
 
 ** Clojure's Learning Curve
 :PROPERTIES:
