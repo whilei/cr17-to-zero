@@ -51,7 +51,7 @@ Title Slide
 
  Today, I'm learning more effectively than ever before, but more importantly I'm preserving my emotional energy for enjoying life more, by worrying less about my next learning challenge.
 
- Today, I firmly believe that anyone can dramatically improve their ability to learn any subject, relative to their current ability. You might think you're just not good at math, or you're not athletic, you can't draw, or hum a tune and that's that.
+ After my own experience, I now believe that anyone can dramatically improve their ability to learn any subject, relative to their current ability. You might think you're just not good at math, or you're not athletic, you can't draw, or hum a tune and that's that.
 
  Simply put, brain science says otherwise. We'll invest the next hour of our time to explore the nuance of this claim. 
 
@@ -2203,3 +2203,27 @@ Setting the REVEAL_ROOT as a relative path above works for me, but is inconsiste
 ;; reveal_center:t 
 note that I used two SPACES after the * to make the invisible heading for the non-title title slide.
 #+mynotes: Use Big John / Little Joe for Headings, Quicksand for normal type and lobster for marking up pictures (or any combination of these.
+* keystone aha! moment
+After talking things over with Isaac yesterday, and building on his insightful feedback and original ideas, I rose this morning at 1:45 AM, and after 2 hours of naturally alternating between active & passive thought, I experienced the "keystone aha! moment" of this work.
+
+The final valuation of learning is as deeply personal as is religious belief, as inextricable from living as is the air we breath from the wind that purifies it.
+
+My gut tells me, that any quantifiable number yielding from a formal method of the valuation of learning, will be near meaningless when comparing the lives of individual people or groups.
+
+This chief problem of apples to apples, oranges to oranges, derives from the identification problem. How do you and I agree on what is learning and what is not? I'm perfectly willing to try, as an exercise of discovery if anyone ever wants to talk and think this through together in more detail for our mutual benefit, but my present striving and failing to prove otherwise has left me deeply skeptical after open-mindedly pursuing the truth of the problem to the limit my deadline, and personal mental energy, would allow.
+
+The value of learning about learning, however, when viewed in the context of any person or group of people, has a more concrete value, which paradoxically approaches intrinsic value, as much perhaps as any other thing, but never quite touching the mark, owing to the infinite progression of infinitesimally smaller and smaller gaps which bookend the bell curve of opinion to the answer of the above identification problem, like t approaching zero in the calculus of the area of these two ever-diverging, bookend slopes. To pour this concrete, I claim, that as long as you and I can agree that learning exists, that it is vitally important to our mutual survival and potential to flourish, then pure logic dictates that an investment in time (not that we can, must or should agree on how much time) is a wise investment.
+
+How so? Just as the brain may be the only matter in the physical universe capable of self-analysis, the act of learning about learning is also singularly unique. I claim it is the only identifiable activity which, by its intrinsic nature, embodies the potential to impact each and every aspect of individual and group life, these our most precious gift, of infinite love or infinite time, take your pick, the product of a 'singular' event, leading to a second (itself shaping all of time and naming the clock's second hand), theorized to be an outward expanding burst of energy so active, so hot, that the first atom could not form before 400,000 years of cooling, itself a cosmic seed of stardust, stardust -- the seed of our bones, and sinew and brain matter.
+
+Vita contemplativa fueling vita activa, a life of action, a life of learning, justified through reason.
+
+And lest we forget it is the heart which manufactures the electricity which powers the gray matter, offering each person astounding computation power, for a price of only 10 to 100 millivolts of consumption.
+
+The left and right sides of our brain are mirrors, or sources, of the cooperating reason and intuition which 'we', whatever we are, reconcile in a continuing saga of transcendent mystery.
+
+So carry on, learning as you do, for, in the word's of Rich Hickey, "learning, it's what we do".
+
+And never, ever let another tell you you're doing it wrong. You arrived here, grew into the person you are, as you are, as only you can be, learning along the way, trying, and trying and trying. Again, again, again. Learning, I boldly declare, should always be considered more art than science, lest a 'learning scientist' arrive upon your doorstep (ignorant of who you are, a learner through and through) to renounce your effort, and in kind, you're very being.
+
+For when I nod, and smile and wish you my best, please know that this is the person I see, you at your very, very best. Let us reconcile the truth for ourselves, each to their own, but let us reconcile with each other today. Time waits not! For only will you and I, one with the other, supporting each other, as art and science, intuition and reason, love and law, solve our collective and existentially relevant problems. Today, I will hold as an ideal, humbly knowing that a great many times I will fall, and fall, and fall again, each time rising, with your help, to try my very best to give no offense, and take no offense as we reset, wipe the blackboard clean and break out a new box of chalk to 'see and science' the daylights out of this thing.
