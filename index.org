@@ -45,7 +45,17 @@ Title Slide
 
  What impact would it have on Clojure's growth if each of us were as fluent in the language of learning as we are in our programming language of choice?
 
- Lately, I've become enthralled by the subject of learning. Here's one example of why:
+ How attractive would Clojure be to the next wave of programmers, if each of us were expert teachers? 
+
+ Learning and teaching are technical skills which can be honed like any other skill. This is a new way of thinking about learning for me. And it's also really good news. You see, even after 19 years of education, from pre-k to an engineering degree, I had sparse confidence in my ability to learn technical knowledge and skills, like programming.
+
+ Today, I'm learning more effectively than ever before, but more importantly I'm preserving my emotional energy for enjoying life more, by worrying less about my next learning challenge.
+
+ Now I firmly believe that anyone can dramatically improve their ability to learn any subject, relative to their current ability. You might think you're just not good at math, or you're not athletic, you can't draw, or hum a tune and that's that. Simply put, brain science says otherwise, and invest the next hour of our time to explore the nuance of this claim. 
+
+ Being a part of the Clojure community has really inspired me to up my learning game. Rich Hickey's talk /Hammock Driven Development/, which is laden with learning wisdom, led me to the /Learning How to Learn/ online course, which we'll talk about in the third and final part of the talk.  
+
+ We'll get back to Clojure in a minute but first I want to /draw/ you into this whole learning thing. Check this out:
 
  (NEXT SLIDE DOWN)
 
@@ -506,7 +516,7 @@ If you'd like to give a shout-out to Betty Edwards, this QR code will link you t
 
    #+BEGIN_NOTES
 
-   Let's broaden our scope for a moment. Before we dive back in, I'd like to briefly give you a roadmap for where we're headed. I've three big questions lined up, with the intention that a consierdation of one will lead naturally to the next. Ladies and gentlemen, please buckle your seatbelts. They are as follows:
+   Let's broaden our scope for a moment. Before we dive back in, I'd like to briefly give you a roadmap for where we're headed. I've three big questions lined up, with the intention that a consierdation of one will lead naturally to the next. Please buckle your seatbelts. They are as follows:
 
 
    - What is the value of learning? 
