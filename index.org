@@ -1141,6 +1141,13 @@ This study dates back to the time of ancient Greece, when Plato first wrote abou
 #+END_NOTES
 
 *** Intrinsic vs Instrumental
+
+#+ATTR_REVEAL: :frag t
+file:resources/images/tao/bee-icon-100-trans.png
+
+#+ATTR_REVEAL: :frag t
+file:resources/images/tao/hive-trans.png
+
 #+BEGIN_NOTES 
 According to axiology, learning has intrinsic value if it is valuable in and of itself.
 
@@ -1437,6 +1444,9 @@ What actions are consistent with this value?
 
 
 ** Finding Clojure 
+
+#+ATTR_REVEAL: :frag t
+file:resources/images/st-louis-arch-logan-troxell-500.jpg
 
  #+BEGIN_NOTES 
     My path to finding Clojure has been long and sometimes emotionally painful.
