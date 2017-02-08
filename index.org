@@ -39,9 +39,19 @@ Title Slide
 :reveal_extra_attr: video-size="full"
 :END:
  #+BEGIN_NOTES 
- Thank you Ryan. I'm happy to be here at Clojure Remote 2017.  Welcome to each of you that are with us today to hear about /The Value of Learning/.
+ Thank you Ryan. I'm super happy to be here at Clojure Remote 2017.  Welcome to each of you that are with us today to talk about /The Value of Learning/.
 
- My goal for this talk is to foster an ongoing conversation about the art and science of learning.
+ My goal is to /*start*/, not finish, an ongoing conversation about the art and science of learning.
+
+ I see myself as more of a facilitator than a leader. What if the group of us here today could co-create an experience, over the next hour, that would serve the Clojure community for years to come? Attracting people to Clojure who've never even heard of it?
+
+ Imagine someone finding the /Value of Learning/ video on YouTube, the video you and I are already making together right now. How will they find us? Probably a search about learning, right? So we know something about these people we've never met. I think that's pretty cool, and I think its even cooler that so many people are interested in this topic. X millions people have taken the learning how to learn course. How many of them want to write an app?
+
+
+
+ We could think of this searcher of learning as an honored guest. What is it that we have to offer our them? 
+
+
 
  What impact would it have on Clojure's growth if each of us were as fluent in the language of learning as we are in Clojure itself?
 
@@ -542,7 +552,7 @@ If you'd like to give a shout-out to Betty Edwards, this QR code will link you t
 
    #+BEGIN_NOTES
 
-   Okay, context established. Let's talk about the value of learning.
+   It's been great getting to know each other. Let's talk about the value of learning.
 
 
    - What is the value of learning? 
@@ -1451,6 +1461,7 @@ What actions are consistent with this value?
 ** Learning How to Learn
 
 
+
 There's a parallel between the drawings we saw at the start of this talk and the skill of learning, both are technical skills. I could poke around at drawing for years, or I could absorb the fundamentals from a master and use that framework to accelerate my progress.
 
 That framework, as it turns out, is vitally important to genuine understanding. TODO University Study.
@@ -1459,6 +1470,15 @@ That framework, as it turns out, is vitally important to genuine understanding. 
 #+END_NOTES
 *** University Study regression
 It's not just students that need to learn about learning!
+
+** Human Readable Curriculum Paths
+Melody and freecodecamp.com
+#+BEGIN_NOTES 
+
+#+END_NOTES
+** Machine Readable Curriculum Paths
+Degreed, but not open format.
+** Conceptual Pathways
 * Closing
 inclusivity via learning
 helping others is helping myself
