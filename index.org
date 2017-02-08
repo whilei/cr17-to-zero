@@ -280,10 +280,6 @@ Right now, most don't make it to Clojure's front door, but the ones that do are 
     
     There's a world full of interesting and vital problems out there, waiting to be solved. How much of Clojure's awesomeness will get put to use on these problems? How much will go to waste? 
 
-    I believe that we have a great challenge in front of us, and I have a quick story of why.    
-
-    It appears to me that Clojure's is at risk of not being widely adopted if new programmers and entrepreneurs are turned away by its learning curve. These are potential Clojure projects and jobs walking out the door, day after day.
-
     I met a fellow entrepreneur at a recent Clojure Conference.
 
     Our projects have similar technology needs, so we decided to collaborate on a core Clojure stack that would meet our shared needs. We've both done a lot of research on different languages and approaches, but I'm a year into my part-time Clojure studies, whereas she is a couple of months in.
@@ -294,9 +290,7 @@ Right now, most don't make it to Clojure's front door, but the ones that do are 
 
     Why? Because its easier to learn.
 
-    I have the utmost respect for her discernment, and I trust she has way more information about her situation than I do, which is why, even though I was disappointed at the idea of not working on our Clojure stack together, I replied, "Hey, we can vet two separate paths and get twice as much feedback if Elixir ends up making more sense for you." 
-
-    Lowering the barrier to entry into our community is a vital task, and I know that many of you have been working on this problem for years, which is why its easier to get started now than its ever been.
+    Lowering the barrier to entry into our community is a vital task, and I know that many of you have been working on this problem for years, which is why its easier to get started now than ever.
 
     Sometimes though, I think we can get so close to a problem that we get stuck in our thinking. This talk is designed to help you turn this problem upside down and look at, really look at it, in a new light.
 
@@ -497,7 +491,7 @@ The left-brain methodically structures the product step by step, while the right
 
 What does her work imply for programmers? Are we supposed to turn our code upside and stare at it?
 
-According to Edward's perceptual skills translate to general problem solving skills.
+According to Edward's, perceptual skills translate to general problem solving skills.
 
 Perceiving edges and relationships between the conceptual components of any problem are vital skills toward solving that problem. As are seeing the whole and subtleties, i.e. the lights and shadows.
 
@@ -512,38 +506,7 @@ Perceiving edges and relationships between the conceptual components of any prob
 #+END_NOTES
 
  
-# In her book, /Drawing on the Artist Within/, Betty Edward's deeply explores the the five stages of creativity:
-# 
-# First Insight, Saturation, Incubation, Illumination, and Verification.
-# 
-# First Insight is largely a right brain activity, where problems are identified and examined in a wordless, visual way.
-# 
-# This surveying of the surrounding world typically results in a question, such as "I wonder why ...?", or "I wonder if" etc.
-# 
-# This verbal articulation of a problem snaps the left-brain to attention in the second phase Saturation, so named because the left-brain saturates the brain with information and data that could be in any way related to the problem.
-# 
-# People have a tendency to hold onto a problem with an over-reliance on their conscious mental faculty.
-# 
-# When we finally do 'let go' of the problem, the right brain is able to resume work, only now with more information at hand.
-# 
-# This third phase is called Incubation, wherein the right brain, using it's spacial mapping prowess, connects the dots, and usually while the person is doing something else.
-# 
-# Aha! The illumination phase is a joint celebration between the left and right hemisphere's of the brain.
-# 
-# Some people report rapid heart rates and a profound sense of "things coming together".
-# 
-# As Betty Edward's states, "It is perhaps a moment when the whole human brain is suffused with joy."
-# 
-# Einstein described one his aha moments about gravity as "the happiest moment in my life". (source: Betty Edwards DRSOB pg 247, The cosmic Code, Hans Pagel)
-# 
-# After the brain celebrates its aha moment, there's work to do, hard work -- the final phase called Verification.
-# 
-# Both hemispheres play an active role in Verification, forming the creative epiphany into a finished product: whether that's an architectural model for a software system, a business plan or a report for school.
-# Let's put a pin in this line of thinking and pick it up later.
-#
-# For now the main point we can summarize from the work of Betty Edward's is that her students progress so rapidly because they are learning the essential fundamental skills of seeing.
-
-** Making sense?
+** Questions and Aha! moments
 :PROPERTIES:
 :reveal_extra_attr: redpill-img-src="/resources/images/red-pill-twitter-white.png" qr-data="http://twitter.com/intent/tweet?text=@DRSB_Edwards teaching method is astonishing! I'm intrigued to learn more. &hashtags=valueoflearning"
 :END:
@@ -554,13 +517,17 @@ file:resources/images/brains/brains-diagram.png
 file:resources/images/red-pill-twitter-white.png
 
 #+BEGIN_NOTES
-One extensible situtation that Betty deals with very remarkably with is the confrontation of the Unknown. 
+In her book, /Drawing on the Artist Within/, Betty Edward's deeply explores the the five stages of creativity which initiate from a question held in mind and crescendo in the /Illumination/ phase, more widely known as the aha! moment :
 
-In fact, it seems like a big part of her work focuses on provoking ever more ways of... getting confused!
+The illumination phase is a joint celebration between the left and right hemisphere's of the brain.
 
-And getting confused is weird, hard, and... well, uncomfortable. For good reason, too; it can be a vulnerable, even dangerous position. And it takes effort and intention to move towards unshaped places like that.
+Some people report rapid heart rates and a profound sense of "things coming together".
 
-But I think Betty's work and that of her students makes it clear that whether closing your own eyes, looking at the world upside down, or steadying your gaze on something unusual, there may indeed be triumphs worth working towards.
+As Betty Edward's states, "It is perhaps a moment when the whole human brain is suffused with joy."
+
+Einstein described one of his aha moments about gravity as "the happiest moment in my life". 
+
+We can summarize the work of Betty Edward's by saying that her students progress so rapidly because they are learning the essential fundamental skills of seeing.
 
 (NEXT FRAG) 
 
@@ -575,7 +542,7 @@ If you'd like to give a shout-out to Betty Edwards, this QR code will link you t
 
    #+BEGIN_NOTES
 
-   Let's broaden our scope for a moment. Before we dive back in, I'd like to briefly give you a roadmap for where we're headed. I've three big questions lined up, with the intention that a consierdation of one will lead naturally to the next. Please buckle your seatbelts. They are as follows:
+   Okay, context established. Let's talk about the value of learning.
 
 
    - What is the value of learning? 
