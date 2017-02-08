@@ -35,9 +35,9 @@ Title Slide
 
 * _ Greeting thru Edwards                                          :noexport:
 * 
-  :PROPERTIES:
-  :reveal_extra_attr: video-size="full"
-  :END:
+:PROPERTIES:
+:reveal_extra_attr: video-size="full"
+:END:
  #+BEGIN_NOTES 
  Thank you Ryan. I'm happy to be here at Clojure Remote 2017.  Welcome to each of you that are with us today to hear about /The Value of Learning/.
 
