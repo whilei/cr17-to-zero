@@ -87,10 +87,16 @@
         .speaker-controls-time {
             border-bottom: 1px solid rgba( 200, 200, 200, 0.5);
             margin-bottom: 10px;
-            padding: 10px 16px;
-            padding-bottom: 20px;
+            padding: 1px 8px;
             cursor: pointer;
-            display: none;
+          /* font-size: 0.55em; */
+          position: fixed;
+          z-index: 1000;
+          top: 0;
+          left: 0;
+          right: 0;
+          background: aliceblue;
+          /* display: none; */
         }
 
         .speaker-controls-time .reset-button {
@@ -117,6 +123,7 @@
         .speaker-controls-time .clock {
             float: right;
             text-align: right;
+          color: lightgray;
         }
 
         .speaker-controls-time span.mute {
@@ -124,8 +131,10 @@
         }
 
         .speaker-controls-notes {
+          margin-top: 25px;
             border-top: 1px solid lightblue;
-            padding: 5px 16px;
+            padding: 5px 16px 5px 16px;
+          overflow-y: scroll;
         }
 
         .speaker-controls-notes .value {
@@ -164,7 +173,7 @@
   <div id="upcoming-slide"><span class="label">UPCOMING:</span></div>
     <div id="speaker-controls">
       <div class="speaker-controls-time">
-        <h4 class="label">Time <span class="reset-button">Click to Reset</span></h4>
+        <!-- <h4 class="label">Time <span class="reset-button">Click to Reset</span></h4> -->
         <div class="clock">
           <span class="clock-value">0:00 AM</span>
         </div>
