@@ -1,3 +1,4 @@
+* print checklist
 * Silence cell phone
 * Turn off desktop notifications ~alt~ ~click~ icon
 * Turn on onxy microphone
@@ -10,6 +11,7 @@
 ** Record Audio from: Onyx-i(3274)
 ** Record Computer Audio: Yes! (Ryan's voice)
 ** Start recording !!!
+* Do the clap trick
 * Open Presentation
 * Open Notes Window ~t~ key and resize to git teleprompter
 * webcam setting

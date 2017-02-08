@@ -41,17 +41,28 @@ Title Slide
  #+BEGIN_NOTES 
  Thank you Ryan. I'm super happy to be here at Clojure Remote 2017.  Welcome to each of you that are with us today to talk about /The Value of Learning/.
 
- My goal is to /*start*/, not finish, an ongoing conversation about the art and science of learning.
+ My goal today is to /*start*/ an ongoing conversation, within the Clojure community and beyond, about the /*art and science*/ of learning.
 
  I see myself as more of a facilitator than a leader. What if the group of us here today could co-create an experience, over the next hour, that would serve the Clojure community for years to come? Attracting people to Clojure who've never even heard of it?
 
- Imagine someone finding the /Value of Learning/ video on YouTube, the video you and I are already making together right now. How will they find us? Probably a search about learning, right? So we know something about these people we've never met. I think that's pretty cool, and I think its even cooler that so many people are interested in this topic. X millions people have taken the learning how to learn course. How many of them want to write an app?
+ Imagine someone finding the /Value of Learning/ video on YouTube, the video you and I are already making together right this very minute. How will they find us? Probably a search about learning, right? So we know something about these people we've never met. They're interested in learning! And so are you or wouldn't be here right now. So we all have something in common, we value learning.
+
+ Turns out, that many people are interested in this topic. Millions and millions of people have taken the learning how to learn course. How many of them want to write an app? Or learn to program. Probably most!
 
 
+ As a community, we in Clojure, should think of this searcher of learning as an honored guest. What is it that we have to offer them? We could start with the basics:
 
- We could think of this searcher of learning as an honored guest. What is it that we have to offer our them? 
+ "Clojure is a general-purpose programming language, which means you can use it to do almost anything you can imagine." According to clojure.org "Clojure has a set of useful features that together form a simple, coherent, and powerful tool."
+
+ I might follow this up by saying, "Have you noticed lately how a lot of the technology we use today doesn't always behave the way we expect it to. Trust me it's not you. Software isn't anywhere near as reliable as it should be. In Clojure, we believe you increase reliability by building software in a fundamentally simpler way. This simplicity doesn't mean Clojure is easier to learn than other languages. It might not be. But it's an incredibly powerful language. And here's one big reason why:
+
+  Clojure's a hosted language which means it  adapts to its host environments, which also include any web browser, like the one on that phone in your pocket, and also Java and .NET environments. These three places are where most software in the entire world gets built to run which means Clojure can run alongside these languages or instead of them in the host environment.
+
+ Clojure has a reputation of rock solid reliability, while remaining super flexible. This may be its greatest unsung superpower. You see, languages come in two types, static and dynamic. Static languages are very safe because the system knows what type of thing every /*thing*/ in the system is. Dynamic languages allow things to change more fluidly in the system, and as the name implies they allow a lot more cool stuff to happen while the program is running; dynamic stuff, like changing the innards of the running program itself. Rick Hickey, Clojure's author, came up with a 3rd way, heretofore undiscovered in the field of language design. We call it Spec which is short for specify and it allows to you to 'specify' which things in the system need you care to quality check, and which you don't.
 
 
+ You don't need to understand everything I'm about to say to appreciate the point I'm driving at, that 
+Clojure is a community which fosters high impact innovation.
 
  What impact would it have on Clojure's growth if each of us were as fluent in the language of learning as we are in Clojure itself?
 
@@ -70,6 +81,8 @@ Title Slide
  We'll get back to Clojure in a minute but first I want to /draw/ you into this whole learning thing. Check this out:
 
  (NEXT SLIDE DOWN)
+
+ 
 
 .
 
@@ -796,9 +809,9 @@ Let's illuminate the question by looking at the meaning and history of the words
 #+REVEAL_HTML: <div class="citation">merriam-webster.com</div>
 
 #+BEGIN_NOTES 
-The history of the word value goes back through Middle English to the Anglo-French word /valu/, which means *worth* or *high quality*, and finally, all the way back to the Latin, /valēre/, which means *to be well* or *have strength*.
+The history of the word value goes all the way back to the Latin, /valēre/, which means *to be well* or *have strength*.
 
-If you're a Game of Thrones fan, you've likely noticed how similar /valēre/ sounds to Valyria, home to the forges of Valyrian steel, which is renowned for its quality and strength.
+If you're a Game of Thrones fan, you've might've noticed how similar /valēre/ sounds to Valyria, home to the forges of Valyrian steel, which is renowned for its quality and strength.
 
 (NEXT SLIDE DOWN)
 
@@ -820,9 +833,9 @@ If you're a Game of Thrones fan, you've likely noticed how similar /valēre/ sou
 
 According to the definition, gaining knowledge or skill is the goal of learning.
 
-Knowledge or skill. I like the simplicity of that.
+Knowledge or skill. I like how simple that sounds, but is it too simple. Can we learn new ways of being or behaving. For example, can I raise my 'average mood' or lower my anxiety?  These might considered skills too, I suppose.
 
-And, there are a handful of ways to gain knowledge or skill: study, practice, observation, and experience.
+Also according to the definition, there are a handful of ways to gain knowledge or skill: study, practice, observation, and experience.
 
 
 (NEXT SLIDE DOWN)
@@ -846,7 +859,7 @@ And, there are a handful of ways to gain knowledge or skill: study, practice, ob
 
 #+BEGIN_NOTES 
 
-The history of the word /learn/ goes back through the Middle English word /lernen/, which shares the meaning *to learn* with the Old English word /leornian/, and further back to the Old English word /last/ which means *foot print*, and finally, all the way back to the latin word /lira/ which means *furrow* or *track*.
+The history of the word /learn/ goes back all the way back to the latin word /lira/ which means *furrow* or *track*.
 
 The word furrow really sticks out to me. A furrow is *a long trench*. But not just any trench! *a long narrow trench in the ground made by a plow, especially for planting seeds*. 
 
@@ -1471,6 +1484,7 @@ That framework, as it turns out, is vitally important to genuine understanding. 
 *** University Study regression
 It's not just students that need to learn about learning!
 
+
 ** Human Readable Curriculum Paths
 Melody and freecodecamp.com
 #+BEGIN_NOTES 
@@ -1478,7 +1492,8 @@ Melody and freecodecamp.com
 #+END_NOTES
 ** Machine Readable Curriculum Paths
 Degreed, but not open format.
-** Conceptual Pathways
+** Conceptually Rich Pathways
+Back to Betty to tie it all together : )
 * Closing
 inclusivity via learning
 helping others is helping myself
