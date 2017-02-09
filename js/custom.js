@@ -11,6 +11,9 @@ vp.setAttribute("autoplay", "");
 var redpillBox = document.createElement("div");
 redpillBox.id = "redpill-box";
 
+var bluepillBox = document.createElement("div");
+bluepillBox.id = "bluepill-box";
+
 // insert our placeholder for where the video will go
 // (placement and style attributes handled in css)
 // and I think we want to have this only inserted once, vs appended to each section(aka slide)
@@ -18,6 +21,7 @@ var rev = document.getElementsByClassName("slides")[0]; //("reveal")[0]; // ther
 
 // first insert redpillbox, then video before that
 rev.insertBefore(redpillBox, rev.firstChild);
+rev.insertBefore(bluepillBox, rev.firstChild);
 // rev.insertBefore(vp, rev.firstChild); //vs slides
 
 var usingVideo = false;
@@ -358,6 +362,106 @@ function formatRedpillFigures(event) {
 }
 
 
+function formatBluepillFigures(event) {
+    var curSlide = event.currentSlide;
+    // Here are the data attribute names for bluepill!
+    var redImgSrc = curSlide.getAttribute("bluepill-img-src");
+    var qrData = curSlide.getAttribute("bluepill-qr-data");
+    if (redImgSrc !== null) {
+        // get all images in slide
+        var slideImages = curSlide.getElementsByTagName("img");
+
+        // iterate through images
+        for (var i = 0; i < slideImages.length; i++) {
+
+            var image = slideImages[i];
+
+            //prepend / if not present, avoid a gotcha <--- cuz is live url
+            if (redImgSrc.search("/") !== 0) {
+                redImgSrc = "/" + redImgSrc;
+            }
+
+            var imageSrc = image.src;
+            imageSrc = decodeURI(imageSrc); // and clear out pesky %'s
+
+            //check amended img source is the redpill source we're looking for
+            if (imageSrc === "http://" + window.location.host + redImgSrc) {
+
+                // redpillBox --> bluepillBox // "global"
+                var rpBoxCoords = getOffset(bluepillBox);
+                console.log("rpBoxCoords", rpBoxCoords);
+
+                var imageFigure = findAncestor(image, ".figure");
+                console.log("figure", imageFigure);
+
+                var imageFigureCoords = getOffset(imageFigure);
+                console.log("figureCoords", imageFigureCoords);
+
+                var deltaTop, deltaLeft;
+                // check if we've been through this already so not to dupe..
+                if (alreadyFormatted(event, redImgSrc)) {
+                    deltaTop = rpBoxCoords.top - imageFigureCoords.top;
+                    deltaLeft = rpBoxCoords.left - imageFigureCoords.left;
+                } else {
+
+                    imageFigure.className += " bluepill ";
+
+                    // no idea why have to do this extra spacing...
+                    deltaTop = (rpBoxCoords.top - imageFigureCoords.top) + 20;
+                    deltaLeft = (rpBoxCoords.left - imageFigureCoords.left) + 76;
+
+                    setAsFormatted(event, redImgSrc); // so don't have to add the extra spacer if there is a next time
+
+                    if (qrData !== null && typeof(qrData) !== "undefined" && qrData !== "") {
+
+                        var qrHere = document.createElement("div");
+                        qrHere.id = getUniqueFigureID(event, redImgSrc);
+                        qrHere.className += " qrcode ";
+                        imageFigure.children[0].append(qrHere); // div.figure > p > img[redpill]
+
+                        // var size = image.height < image.width ? image.height : image.width;
+                        // size += -40; // smaller than smallest side of image by this much
+                        // size = size > 192 ? 192 : size; //max size 256square
+
+                        // var size = 192;
+                        var size = image.height < image.width ? image.height : image.width;
+                        size -= 40;
+
+                        // size/2 half of qr. imageFigure.width/2 half of redpill bb
+                        var l = imageFigure.width / 2;
+                        var t = imageFigure.height / 2;
+                        l -= size/2;
+                        t -= size/2;
+
+                        // use redpillimage as a reference for qr style
+                        // have absolute position
+
+                        var qr = createQRImage(qrHere, {
+                            text: qrData,
+                            height: size,
+                            width: size
+                        });
+
+                        var qrImg = qrHere.firstChild;
+                        qrImg.style.top = t;
+                        qrImg.style.left = l;
+                    }
+                }
+
+                imageFigure.style.position = "absolute";
+                imageFigure.style.width = bluepillBox.offsetWidth + "px";
+                imageFigure.style.transform = "translate(" + deltaLeft + "px," + deltaTop + "px)";
+
+            } else {
+                console.log(image.src + " <- image.src doesn't match bluepillsrc -> " + redImgSrc);
+            }
+
+        }
+    } else {
+        console.log("No bluepill. As you were.");
+    }
+}
+
 
 
 // reset func // this is ugly but...
@@ -371,6 +475,7 @@ Reveal.addEventListener('slidechanged', function(event) {
 
     // videoShouldHide(false);
 
+    formatBluepillFigures(event);
     formatRedpillFigures(event);
 
     // need to set, and then unset video size for full-normal toggling

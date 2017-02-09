@@ -118,6 +118,9 @@
 .figure.redpill p {
   max-width: 100% !important; }
 
+.figure.bluepill p {
+  max-width: 100% !important; }
+
 .citation {
   position: absolute;
   bottom: 20px;
@@ -191,10 +194,22 @@ div#redpill-box {
   display: inline-block;
   /* float: right !important; */
   width: 26%;
-  top: 38%;
-  /* height: 100% - $videoHeight - $slidesPadding*2; */
+  top: 58%;
+  height: 25%;
   bottom: 8%;
-  right: 4%; }
+  right: 4%;
+  /* border: 1px dashed red; */ }
+
+div#bluepill-box {
+  position: absolute;
+  display: inline-block;
+  /* float: right !important; */
+  width: 26%;
+  top: 29%;
+  height: 25%;
+  bottom: 8%;
+  right: 4%;
+  /* border: 1px dashed blue; */ }
 
 /* // redpill v1, where redpill/twitter image are icon-ish and fall above distinct qr below */
 /* .figure.redpill { */
@@ -277,6 +292,40 @@ div#redpill-box {
   transition: opacity 500ms; }
 
 .figure.redpill > p > img.fragment.visible + div.qrcode {
+  opacity: 1; }
+
+.figure.bluepill {
+  max-height: 38%; }
+  .figure.bluepill p > img {
+    /* position: absolute; */
+    /* max-height: 100% !important; */
+    max-height: 256px !important;
+    max-width: 100% !important; }
+  .figure.bluepill p .qrcode {
+    /* @include vertical-align-at(relative, 100%); */
+    margin-left: auto;
+    margin-right: auto;
+    /* position: absolute; */
+    /* bottom: 0; */ }
+    .figure.bluepill p .qrcode img {
+      /* border: 2px solid $backgroundColor; */
+      /* margin: auto; */
+      border: 10px solid white !important;
+      border-radius: 3px;
+      margin: auto;
+      position: absolute;
+      /* top: 51px; */
+      /* left: 170px; */
+      /* height: 128px; */
+      top: 50px;
+      left: 115px;
+      height: 110px; }
+
+.figure.bluepill > p > img.fragment + div.qrcode {
+  opacity: 0;
+  transition: opacity 500ms; }
+
+.figure.bluepill > p > img.fragment.visible + div.qrcode {
   opacity: 1; }
 
 /* .qrcode { */

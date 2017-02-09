@@ -205,7 +205,9 @@ $controlBorderColor: rgb(234,165,24); // $mainColor; // sets color of arrows
 .figure.redpill p {
     max-width: 100% !important;
 }
-
+.figure.bluepill p {
+    max-width: 100% !important;
+}
 .citation {
     position: absolute;
     bottom:20px;
@@ -309,12 +311,23 @@ div#redpill-box {
     display: inline-block;
     /* float: right !important; */
     width: $videoWidth - $slidesPadding;
-    top: $videoHeight + $slidesPadding*2;
-    /* height: 100% - $videoHeight - $slidesPadding*2; */
+    top: 66% - $slidesPadding*2;
+    height: 33% - $slidesPadding*2; // 100% - $videoHeight - $slidesPadding*2;
     bottom: $slidesPadding * 2;
     right: $slidesPadding;
+    /* border: 1px dashed red; */
 }
-
+div#bluepill-box {
+    position: absolute;
+    display: inline-block;
+    /* float: right !important; */
+    width: $videoWidth - $slidesPadding;
+    top: 33% - $slidesPadding;
+    height: 33% - $slidesPadding*2;
+    bottom: $slidesPadding * 2;
+    right: $slidesPadding;
+    /* border: 1px dashed blue; */
+}
 /* // redpill v1, where redpill/twitter image are icon-ish and fall above distinct qr below */
 /* .figure.redpill { */
 /*     max-height: $videoHeight - $slidesPadding*2; */
@@ -393,9 +406,9 @@ div#redpill-box {
             /* top: 51px; */
             /* left: 170px; */
             /* height: 128px; */
-    top: 50px;
-    left: 115px;
-    height: 110px;
+            top: 50px;
+            left: 115px;
+            height: 110px;
         }
     }
 }
@@ -410,6 +423,49 @@ div#redpill-box {
 }
 
 
+// BLUEPILL!
+/////////////////////////////////////////
+// redpill v3, where redpill image exists without video and at a different place
+.figure.bluepill {
+    max-height: $videoHeight + $slidesPadding*2;
+    // the "original" image from the .figure, ie bluepill.png
+    p > img {
+        /* position: absolute; */
+        /* max-height: 100% !important; */
+        max-height: 256px !important;
+        max-width: 100% !important;
+    }
+    p .qrcode {
+        /* @include vertical-align-at(relative, 100%); */
+        margin-left: auto;
+        margin-right: auto;
+        /* position: absolute; */
+        /* bottom: 0; */
+        img {
+            /* border: 2px solid $backgroundColor; */
+            /* margin: auto; */
+            border: 10px solid white !important; //#545f66 !important;
+            border-radius: 3px;
+            margin: auto;
+            position: absolute;
+            /* top: 51px; */
+            /* left: 170px; */
+            /* height: 128px; */
+            top: 50px;
+            left: 115px;
+            height: 110px;
+        }
+    }
+}
+
+// ensure qr show up with and only with sibling image (ie bluepill)
+.figure.bluepill > p > img.fragment + div.qrcode {
+    opacity: 0;
+    transition: opacity 500ms;
+}
+.figure.bluepill > p > img.fragment.visible + div.qrcode {
+    opacity: 1;
+}
 
 /* .qrcode { */
 /*     z-index: 50; */
