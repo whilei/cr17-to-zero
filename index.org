@@ -1495,6 +1495,9 @@ Melody and freecodecamp.com
 #+END_NOTES
 ** Machine Readable Curriculum Paths
 Degreed, but not open format.
+
+ One arbitrary example of the kind of work we can do, together.
+
 ** Conceptually Rich Pathways
 Back to Betty to tie it all together : )
 * Closing
