@@ -176,9 +176,9 @@ The problem I see with so many self-described "simplers" is that it's diminutive
 
 ---- 
 
-Ex-fullscreen-vid slides use ":smile: Operator, beam me up."
-Index of links for those without QR scanners to chat
+x Ex-fullscreen-vid slides use ":smile: Operator, beam me up."
+x Index of links for those without QR scanners to chat
 Build more forms
-Redpill/blue to link to Discuss.valueoflearning.org
+x Redpill/blue to link to Discuss.valueoflearning.org
 Freecodecamp screenshot -- curriculum path
 
