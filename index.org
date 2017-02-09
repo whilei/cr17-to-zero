@@ -36,12 +36,16 @@ Title Slide
 * _ Greeting thru Edwards                                          :noexport:
 
 * 
-** Operator: fullsize me please :)
-   :PROPERTIES:
-   :reveal_extra_attr: video-size="full"
-   :END:
-  #+BEGIN_NOTES 
-  Thank you Ryan. I'm super happy be a part of Clojure Remote 2017.  Welcome to each of you that are with us today to talk about /The Value of Learning/.
+** Operator: Full size please :noexport:
+** 
+:PROPERTIES:
+:reveal_extra_attr: data-state="hide-video" video-size="normal"
+:reveal_background_size: 100%
+:reveal_background: /resources/images/operator-fullscreen.png
+:END:
+# :reveal_extra_attr: video-size="full"
+ #+BEGIN_NOTES 
+ Thank you Ryan. I'm super happy to be here at Clojure Remote 2017.  Welcome to each of you that are with us today to talk about /The Value of Learning/.
 
   My goal is to /*start*/ an ongoing conversation, within the Clojure community and beyond, about the /*art and science*/ of learning.
 
@@ -86,6 +90,9 @@ I propose we revisit this future scenario often, as a community, and ask ourselv
 
   How attractive would Clojure be to our next guest if each of us were expert teachers? 
 
+ [Operator, please refocus my screen share.]
+
+ (NEXT SLIDE DOWN)
 
  #+END_NOTES
 ** Audience as co-creators
@@ -164,12 +171,6 @@ And how long for this much improvement?
 
 
 ** 5 days
-
-:PROPERTIES:
-# :reveal_extra_attr: redpill-img-src="/resources/images/Introduction/bell212.jpg"
-# :reveal_extra_attr: redpill-img-src="/resources/images/twitter-bird-944px.svg.png" qr-data="http://twitter.com/intent/tweet?text=Can you fly that thing? Not yet...  &hashtags=valueoflearning,bettyedwards"
-# :reveal_extra_attr: redpill-img-src="/resources/images/red-pill-twitter-white.png" qr-data="http://twitter.com/intent/tweet?text=Can you fly that thing? Not yet...  &hashtags=valueoflearning,bettyedwards"
-:END:
 
  #+ATTR_REVEAL: :frag t
  [[file:resources/images/Introduction/bell212.jpg]]
@@ -250,6 +251,7 @@ But first, please let me tell you about a problem I need your help with. The nex
 #+END_NOTES
 
 ** Clojure and me
+
 #+BEGIN_NOTES
 I enjoy the challenge of programming, but for me programming is a means to an end. I want to invent. Daily. I want to solve problems big and small. As a new-ish programmer I will cut my teeth on many small acorn projects before trying to grow an oak tree on my first go.
 
@@ -305,9 +307,14 @@ Right now, most don't make it to Clojure's front door, but the ones that do are 
 
 .
 #+END_NOTES
-** Clojure's Learning Curve
+
+** Clojure's Learning Curve :noexport:
+** 
 :PROPERTIES:
-:reveal_extra_attr: video-size="full"
+# :reveal_extra_attr: video-size="full"
+:reveal_extra_attr: data-state="hide-video" video-size="normal"
+:reveal_background_size: 100%
+:reveal_background: /resources/images/operator-fullscreen.png
 :END:
 #+BEGIN_NOTES 
 
@@ -346,6 +353,8 @@ Right now, most don't make it to Clojure's front door, but the ones that do are 
     If you're an experienced Clojure developer, you can add wisdom and experience to my raw naivete. If you're new to the community, you're fresh perspective and feedback are valuable assets.
 
     If there's a group of people in the world who can solve this problem, it's you. If you're up for the challenge, please listen to the talk with the problem of Clojure's learning curve in the back of your mind. Are we missing something obvious?
+
+    [Operator, please refocus my screen share.]
 
     (NEXT SLIDE DOWN)
 
@@ -596,7 +605,10 @@ If you'd like to give a shout-out to Betty Edwards, this QR code will link you t
 * _ Fullscreen: Webcam, Jay introduces the talk.                   :noexport:
 * 
  :PROPERTIES:
- :reveal_extra_attr: video-size="full"
+ # :reveal_extra_attr: video-size="full"
+ :reveal_extra_attr: data-state="hide-video" video-size="normal"
+ :reveal_background_size: 100%
+ :reveal_background: /resources/images/operator-fullscreen.png
  :END:
 
    #+BEGIN_NOTES
@@ -609,6 +621,8 @@ If you'd like to give a shout-out to Betty Edwards, this QR code will link you t
    - How can I discover the value of learning?
 
    - How can I live a life consistent with this value?
+
+   [Operator, please refocus my screen share.]
 
    (NEXT SLIDE RIGHT)
 .
@@ -1511,15 +1525,26 @@ What actions are consistent with this value?
 #+END_NOTES
 
 ** Learning How to Learn
+:PROPERTIES:
+:reveal_extra_attr: bluepill-img-src="/resources/images/blue-pill.svg.png" bluepill-qr-data="http://www.theverylastpageontheinternet.com/" redpill-img-src="/resources/images/red-pill-link-white.png" qr-data="http://discuss.thevalueoflearning.org"
+:END:
 
 
 
 There's a parallel between the drawings we saw at the start of this talk and the skill of learning, both are technical skills. I could poke around at drawing for years, or I could absorb the fundamentals from a master and use that framework to accelerate my progress.
 
 That framework, as it turns out, is vitally important to genuine understanding. TODO University Study.
-#+BEGIN_NOTES 
+
+#+ATTR_REVEAL: :frag t
+file:resources/images/blue-pill.svg.png
+
+#+ATTR_REVEAL: :frag t
+file:resources/images/red-pill-link-white.png
+
+#+BEGIN_NOTES
  
 #+END_NOTES
+
 *** University Study regression
 It's not just students that need to learn about learning!
 
