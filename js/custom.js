@@ -18,7 +18,7 @@ var rev = document.getElementsByClassName("slides")[0]; //("reveal")[0]; // ther
 
 // first insert redpillbox, then video before that
 rev.insertBefore(redpillBox, rev.firstChild);
-rev.insertBefore(vp, rev.firstChild); //vs slides
+// rev.insertBefore(vp, rev.firstChild); //vs slides
 
 var usingVideo = false;
 var video = document.querySelector('video');
@@ -116,7 +116,7 @@ window.onload = function() {
 
     //see if you want to look at yourself
     // if (confirm("Want to use webcam video?")) {
-    setUpVideo();
+    // setUpVideo();
     // } else {
     //     vp.style.background = "white"; // for now
     // }
@@ -352,11 +352,11 @@ Reveal.addEventListener('slidechanged', function(event) {
     hideEmptyTitles(); // becuase not all are rendered upfront --
     hideTableBorders();
 
-    videoShouldHide(false);
+    // videoShouldHide(false);
 
     formatRedpillFigures(event);
 
     // need to set, and then unset video size for full-normal toggling
-    checkVideoSize(event);
+    // checkVideoSize(event);
 
 });
