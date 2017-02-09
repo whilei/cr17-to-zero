@@ -1,0 +1,18 @@
+* print checklist
+* use switchresx profile ~keynoting~
+* Silence cell phone
+* Turn off desktop notifications ~alt~ ~click~ icon
+* Turn on onxy microphone
+* Start audio hijack and move to top display
+* Place Screenlflow Recording Monitor on top display
+* Screenflow: Configure Recording
+** New Document 1080p
+** Record Desktop from: Color LCD
+** Record Video from: HD Pro Webcam C920
+** Record Audio from: Onyx-i(3274)
+** Record Computer Audio: Yes! (Ryan's voice)
+** Start recording !!!
+* Do the clap trick
+* Open Presentation
+* Open Notes Window ~t~ key and resize to git teleprompter
+* webcam setting
