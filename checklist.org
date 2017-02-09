@@ -1,4 +1,5 @@
 * print checklist
+* use switchresx profile ~keynoting~
 * Silence cell phone
 * Turn off desktop notifications ~alt~ ~click~ icon
 * Turn on onxy microphone

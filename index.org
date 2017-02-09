@@ -1508,6 +1508,36 @@ Live as if you were to die tomorrow. Learn as if you were to live forever. -- Ma
 
 
 * ********** Beyond this point is all notes ************ 
+* Information age, but we're still in an industrial age mode
+** Sharing knowledge with others is a way of helping ourselves, and the people we love. Life saving ideas are lying dormant. (reference back to game theory)
+** Everyone a teacher, video, microphone, record and publish.
+** Information Diet
+There's only so much I can learn watching T.V. (tie in to the sunset story)
+Being informed without becoming malformed.
+Setting my own agenda.
+Getting ready for this talk.
+
+** DONE isaac tweet for Betty Edwards
+:PROPERTIES:
+:reveal_extra_attr: redpill-img-src="/resources/images/red-pill-twitter-white.png" qr-data="http://twitter.com/intent/tweet?text=@DRSB_Edwards teaching method is astonishg! I'm intrigued to learn more. &hashtags=valueoflearning"
+:END:
+file:resources/images/opening-and-overview/drawing-skills-cropped/montaged/02-montage.png
+
+# Let's replace the QR code in the frag below with the following:
+
+# "@DRSB_Edwards teaching method is astonishing! I'm intrigued to learn more. #valueoflearning"
+
+# This slide can be solely Betty Edwards montage and tweet
+
+# Reason I moved this from opening screens about Betty Edwards is because we hadn't introduced concept of red pills yet.
+
+#+ATTR_REVEAL: :frag t
+file:resources/images/red-pill-twitter-white.png
+
+#+BEGIN_NOTES 
+
+   Scan the red pill now if, like me, you were astonished by the drawings done by Betty Edward's students and are curious to learn more about her work.
+#+END_NOTES
 
 
 * Clojure's Learning Curve
@@ -1565,36 +1595,6 @@ Live as if you were to die tomorrow. Learn as if you were to live forever. -- Ma
     
     . 
  #+END_NOTES
-* Information age, but we're still in an industrial age mode
-** Sharing knowledge with others is a way of helping ourselves, and the people we love. Life saving ideas are lying dormant. (reference back to game theory)
-** Everyone a teacher, video, microphone, record and publish.
-** Information Diet
-There's only so much I can learn watching T.V. (tie in to the sunset story)
-Being informed without becoming malformed.
-Setting my own agenda.
-Getting ready for this talk.
-
-** DONE isaac tweet for Betty Edwards
-:PROPERTIES:
-:reveal_extra_attr: redpill-img-src="/resources/images/red-pill-twitter-white.png" qr-data="http://twitter.com/intent/tweet?text=@DRSB_Edwards teaching method is astonishg! I'm intrigued to learn more. &hashtags=valueoflearning"
-:END:
-file:resources/images/opening-and-overview/drawing-skills-cropped/montaged/02-montage.png
-
-# Let's replace the QR code in the frag below with the following:
-
-# "@DRSB_Edwards teaching method is astonishing! I'm intrigued to learn more. #valueoflearning"
-
-# This slide can be solely Betty Edwards montage and tweet
-
-# Reason I moved this from opening screens about Betty Edwards is because we hadn't introduced concept of red pills yet.
-
-#+ATTR_REVEAL: :frag t
-file:resources/images/red-pill-twitter-white.png
-
-#+BEGIN_NOTES 
-
-   Scan the red pill now if, like me, you were astonished by the drawings done by Betty Edward's students and are curious to learn more about her work.
-#+END_NOTES
 * If we value learning, why not get better at it via Betty Edwards approach, instead of doodling.
  ** What if there was a subject you could study which would improve your ability to learn and master any other subject?
 There just might be!
