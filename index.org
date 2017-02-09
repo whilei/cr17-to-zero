@@ -36,8 +36,11 @@ Title Slide
 * _ Greeting thru Edwards                                          :noexport:
 * 
 :PROPERTIES:
-:reveal_extra_attr: video-size="full"
+:reveal_extra_attr: data-state="hide-video" video-size="normal"
+:reveal_background_size: 100%
+:reveal_background: /resources/images/operator-fullscreen.png
 :END:
+# :reveal_extra_attr: video-size="full"
  #+BEGIN_NOTES 
  Thank you Ryan. I'm super happy to be here at Clojure Remote 2017.  Welcome to each of you that are with us today to talk about /The Value of Learning/.
 
@@ -79,6 +82,8 @@ Clojure is a community which fosters high impact innovation.
  Being a part of the Clojure community has really inspired me to up my learning game. Rich Hickey's talk /Hammock Driven Development/, which is laden with learning wisdom, led me to the /Learning How to Learn/ online course, which we'll talk about in the third and final part of the talk.  
 
  We'll get back to Clojure in a minute but first I want to /draw/ you into this whole learning thing. Check this out:
+
+ [Operator, please refocus my screen share.]
 
  (NEXT SLIDE DOWN)
 
@@ -224,6 +229,7 @@ But first, please let me tell you about a problem I need your help with. The nex
 #+END_NOTES
 
 ** Clojure and me
+
 #+BEGIN_NOTES
 I enjoy the challenge of programming, but for me programming is a means to an end. I want to invent. Daily. I want to solve problems big and small. As a new-ish programmer I will cut my teeth on many small acorn projects before trying to grow an oak tree on my first go.
 
@@ -279,9 +285,14 @@ Right now, most don't make it to Clojure's front door, but the ones that do are 
 
 .
 #+END_NOTES
-** Clojure's Learning Curve
+
+** Clojure's Learning Curve :noexport:
+** 
 :PROPERTIES:
-:reveal_extra_attr: video-size="full"
+# :reveal_extra_attr: video-size="full"
+:reveal_extra_attr: data-state="hide-video" video-size="normal"
+:reveal_background_size: 100%
+:reveal_background: /resources/images/operator-fullscreen.png
 :END:
 #+BEGIN_NOTES 
 
@@ -320,6 +331,8 @@ Right now, most don't make it to Clojure's front door, but the ones that do are 
     If you're an experienced Clojure developer, you can add wisdom and experience to my raw naivete. If you're new to the community, you're fresh perspective and feedback are valuable assets.
 
     If there's a group of people in the world who can solve this problem, it's you. If you're up for the challenge, please listen to the talk with the problem of Clojure's learning curve in the back of your mind. Are we missing something obvious?
+
+    [Operator, please refocus my screen share.]
 
     (NEXT SLIDE DOWN)
 
@@ -570,7 +583,10 @@ If you'd like to give a shout-out to Betty Edwards, this QR code will link you t
 * _ Fullscreen: Webcam, Jay introduces the talk.                   :noexport:
 * 
  :PROPERTIES:
- :reveal_extra_attr: video-size="full"
+ # :reveal_extra_attr: video-size="full"
+ :reveal_extra_attr: data-state="hide-video" video-size="normal"
+ :reveal_background_size: 100%
+ :reveal_background: /resources/images/operator-fullscreen.png
  :END:
 
    #+BEGIN_NOTES
@@ -583,6 +599,8 @@ If you'd like to give a shout-out to Betty Edwards, this QR code will link you t
    - How can I discover the value of learning?
 
    - How can I live a life consistent with this value?
+
+   [Operator, please refocus my screen share.]
 
    (NEXT SLIDE RIGHT)
 .
