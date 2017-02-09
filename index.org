@@ -45,30 +45,31 @@ Title Slide
 :END:
 # :reveal_extra_attr: video-size="full"
  #+BEGIN_NOTES 
- Thank you Ryan. I'm super happy to be here at Clojure Remote 2017.  Welcome to each of you that are with us today to talk about /The Value of Learning/.
+ Thank you Ryan. I am super happy to be here at Clojure Remote 2017.  Welcome to each of you that are with us today to talk about /The Value of Learning/.
 
  Learning is important to me. I see it as the /*best way*/ to include the greatest number of people in the software dependent world in which we find ourselves.
 
   My goal for us today is to /*start*/ an ongoing conversation, within the Clojure community and beyond, about the /*art and science*/ of learning.
 
-  In a group setting, I typically gravitate toward the role of facilitator. Let me put that hat on now to rev up our group think engine.
+  In a group setting, I typically gravitate toward the role of facilitator. Let me put that hat on now to rev up our group-think engine.
 
-  What if the group of us here today could co-create an experience, over the next hour, that would serve the Clojure community for years to come? Attracting people to Clojure who've never even heard of it? 
+  What if? What if we, this small, yet enthusiastic group of Clojure developers, could co-create an experience, over the next hour, that would serve the Clojure community for years to come? Attracting people to Clojure who've never even heard of it? 
 
-  Imagine someone finding the /Value of Learning/ video on YouTube, the video you and I are already making together right this very minute. How will they find us? Probably a search about learning, right? So we already know something about this person we've never met. They're interested in learning! And so are you or wouldn't be here right now. So we all have something in common, we value learning!
+  Imagine someone finding the /Value of Learning/ video on YouTube, the video you and I are already making together right this very minute. How will they find us? Probably a search about learning! So we already know something about this person we've never met. They're interested in learning. And so are you or wouldn't be here right now. So we all have something in common, we value learning!
 
   Turns out, that many people are interested in this topic. Millions and millions of people have taken the free online course, /Learning How to Learn/. How many of them want to write an app? Or learn to program. Probably most!
 
+  As a community, we in Clojure, should think of this person as an honored guest. What is it that we have to offer them?
 
-  As a community, we in Clojure, should think of this person as an honored guest. What is it that we have to offer them? We could start with the basics:
+   We could start with the basics:
 
   "Welcome! Clojure is a general-purpose programming language, which means you can use it to do almost anything you can imagine."
 
   I might follow this up by saying, "Have you noticed lately how a lot of the technology we are so dependent on these days doesn't always behave the way we expect it to? Well, trust me it's not just you it's picking on. Software isn't anywhere near as reliable as it should be. In Clojure, we believe you increase reliability by building software in a fundamentally simpler way. This simplicity doesn't mean Clojure is easier to learn than other languages. It might not be. But it is a powerful language. And here's one big reason why:
 
-   Clojure's a hosted language which means it adapts to its host environments, which also includes any web browser, like the one on that phone in your pocket, and also Java and .NET environments. These three places are where the vast majority of software in the entire world gets built to run which means Clojure can run alongside these languages, or instead of them, in the host environment.
+   Clojure's a hosted language which means it adapts to its host environments, which includes any web browser, like the one on that phone in your pocket, and also Java and .NET environments. These three places are where the vast majority of software in the entire world gets built to run. This means Clojure can run alongside these languages, or instead of them, within the host environment.
 
-  Clojure has a reputation of rock solid reliability. Which is why its flexibility and adaptability or that much more impressive. This may be its greatest unsung superpower. You don't need to understand the technical details of what I'm about to say to get a feel for Clojure's value...
+  Clojure has a reputation of rock solid reliability. Which is why its flexibility and adaptability are that much more impressive. This may be its greatest unsung superpower. You don't need to understand the technical details of what I'm about to say to get a feel for Clojure's value...
 
   You see, languages come in two types, static and dynamic. Static languages are very safe because the system knows what kind of thing every /*thing*/ in the system is. Dynamic languages allow things to change more fluidly in the system, and as the name implies they allow a lot more cool stuff to happen while the program is running; dynamic stuff, like changing the innards of the running program itself.
 
@@ -78,7 +79,7 @@ Title Slide
 
  Clojure is a community which fosters high impact innovation.
 
- But Clojure's website captures the essence of Clojure perfectly: 'Clojure has a set of useful features that together form a simple, coherent, and powerful tool.'
+ Clojure's website captures the essence of Clojure perfectly: 'Clojure has a set of useful features that together form a simple, coherent, and powerful tool.'
 
  Simple, coherent, powerful. That's Clojure.
 
@@ -86,13 +87,13 @@ Title Slide
 
  Okay so we're back to the present moment, and that's what I would say to our guest. 
 
-I propose we revisit this future scenario often, as a community, and ask ourselves, how can we serve the next person's need even better than we the last's?
+I propose we revisit this future scenario often, as a community, and ask ourselves, how can we serve the next person's needs even better than we the last's?
  
  My answer to that question today, would be another question, or two:
  
   What impact would it have on Clojure's growth if each of us were as fluent in the language of learning as we are in Clojure itself?
 
-  How attractive would Clojure be to our next guest if each of us were expert teachers? 
+  How attractive would Clojure be to our next guest if each of us were /*expert teachers*/? 
 
  [Operator, please refocus my screen share.]
 
