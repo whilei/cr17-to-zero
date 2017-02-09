@@ -144,12 +144,6 @@ And how long for this much improvement?
 
 ** 5 days
 
-:PROPERTIES:
-# :reveal_extra_attr: redpill-img-src="/resources/images/Introduction/bell212.jpg"
-# :reveal_extra_attr: redpill-img-src="/resources/images/twitter-bird-944px.svg.png" qr-data="http://twitter.com/intent/tweet?text=Can you fly that thing? Not yet...  &hashtags=valueoflearning,bettyedwards"
-# :reveal_extra_attr: redpill-img-src="/resources/images/red-pill-twitter-white.png" qr-data="http://twitter.com/intent/tweet?text=Can you fly that thing? Not yet...  &hashtags=valueoflearning,bettyedwards"
-:END:
-
  #+ATTR_REVEAL: :frag t
  [[file:resources/images/Introduction/bell212.jpg]]
 
@@ -1503,15 +1497,26 @@ What actions are consistent with this value?
 #+END_NOTES
 
 ** Learning How to Learn
+:PROPERTIES:
+:reveal_extra_attr: bluepill-img-src="/resources/images/blue-pill.svg.png" bluepill-qr-data="http://www.theverylastpageontheinternet.com/" redpill-img-src="/resources/images/red-pill-link-white.png" qr-data="http://discuss.thevalueoflearning.org"
+:END:
 
 
 
 There's a parallel between the drawings we saw at the start of this talk and the skill of learning, both are technical skills. I could poke around at drawing for years, or I could absorb the fundamentals from a master and use that framework to accelerate my progress.
 
 That framework, as it turns out, is vitally important to genuine understanding. TODO University Study.
-#+BEGIN_NOTES 
+
+#+ATTR_REVEAL: :frag t
+file:resources/images/blue-pill.svg.png
+
+#+ATTR_REVEAL: :frag t
+file:resources/images/red-pill-link-white.png
+
+#+BEGIN_NOTES
  
 #+END_NOTES
+
 *** University Study regression
 It's not just students that need to learn about learning!
 
