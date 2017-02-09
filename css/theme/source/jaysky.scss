@@ -69,6 +69,21 @@ $mainFont: 'Open Sans', sans-serif;
 /* $mainFont: 'Quicksand', sans-serif; */
 /* $mainColor: #333; */
 
+// Font sizes
+/* $mainFontSize: 36px; //default */
+/* $heading1Size: 2.0em; */
+/* $heading2Size: 1.33em; */
+/* $heading3Size: 1.11em; */
+/* $heading4Size: 1.00em; */
+
+/* $mainFontSize: 40px; //default */
+/* $heading1Size: 2.2em; */
+/* $heading2Size: 1.5em; */
+/* $heading3Size: 1.2em; */
+/* $heading4Size: 1.1em; */
+
+
+
 $mainColor: #E3C567; //#C1AE7C;
 $headingFont: 'bigjohn', sans-serif;
 /* $headingFont: 'Muli', sans-serif; */
@@ -90,7 +105,8 @@ $videoWidth: 30%;
 $videoHeight: 30%;
 
 $headerMarginLTR: 20px;
-$headerMarginB: 100px;
+/* $headerMarginB: 100px; */
+$headerMarginB: 60px;
 $slidesPadding: 4%;
 
 $headerMaxWidth: 90%;

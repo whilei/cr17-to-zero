@@ -3,9 +3,14 @@
  *
  * By Hakim El Hattab, http://hakim.se
  */
+/* $mainFontSize: 36px; */
 /* $heading1Size: 3.77em; */
 /* $heading2Size: 2.11em; */
 /* $heading3Size: 1.55em; */
+/* $heading4Size: 1.00em; */
+/* $heading1Size: 2.0em; */
+/* $heading2Size: 1.33em; */
+/* $heading3Size: 1.11em; */
 /* $heading4Size: 1.00em; */
 @import url(../../lib/font/source-sans-pro/source-sans-pro.css);
 section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
