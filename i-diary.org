@@ -173,3 +173,11 @@ Turns out, I do like simple repositories.[fn:1]
 The problem I see with so many self-described "simplers" is that it's diminutive. If it doesn't seem so simple to you now, it might be years before pride will allow to you pipe up and ask a simple question.
 
 [fn:1]:TODO yet of course remains to see if stars in general (beyond just my own) correlate to simplicity. Call that Hypothesis #2. 
+
+---- 
+
+Index of links for those without QR scanners to chat
+Build more forms
+Redpill/blue to link to Discuss.valueoflearning.org
+Freecodecamp screenshot -- curriculum path
+
