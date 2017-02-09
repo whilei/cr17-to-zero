@@ -87,20 +87,20 @@ Title Slide
 
  Okay so we're back to the present moment, and that's what I would say to our guest. 
 
-I propose we revisit this future scenario often, as a community, and ask ourselves, how can we serve the next person's needs even better than we the last's?
+I propose we revisit this future scenario often, as a community, and ask ourselves, how can we serve the next person's needs even better than we did the last's?
  
- My answer to that question today, would be another question, or two:
+ My answer to that question today, would be another question or two:
  
   What impact would it have on Clojure's growth if each of us were as fluent in the language of learning as we are in Clojure itself?
 
-  How attractive would Clojure be to our next guest if each of us were /*expert teachers*/? 
+  And how attractive would Clojure be to our next guest if each of us were /*expert teachers*/? 
 
  [Operator, please refocus my screen share.]
 
  (NEXT SLIDE DOWN)
 
 .
-
+(time: slide: 6:30)
 .
 
 .
@@ -1573,6 +1573,7 @@ Degreed, but not open format.
 ** Conceptually Rich Pathways
 Back to Betty to tie it all together : )
 * Closing
+The ability to try is the one thing each living creature is given, and guaranteed to possess, for the duration of our stay.
 Software has parallel to learning, it touches nearly all fields of human endeavor as we move into our shared future. We must get it right.
 inclusivity via learning
 helping others is helping myself
