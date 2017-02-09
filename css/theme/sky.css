@@ -3,9 +3,14 @@
  *
  * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
+/* $mainFontSize: 36px; */
 /* $heading1Size: 3.77em; */
 /* $heading2Size: 2.11em; */
 /* $heading3Size: 1.55em; */
+/* $heading4Size: 1.00em; */
+/* $heading1Size: 2.0em; */
+/* $heading2Size: 1.33em; */
+/* $heading3Size: 1.11em; */
 /* $heading4Size: 1.00em; */
 @import url(https://fonts.googleapis.com/css?family=Quicksand:400,700,400italic,700italic);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
@@ -27,7 +32,7 @@ body {
 
 .reveal {
   font-family: "Open Sans", sans-serif;
-  font-size: 36px;
+  font-size: 40px;
   font-weight: normal;
   color: #333; }
 
@@ -61,16 +66,16 @@ body {
   word-wrap: break-word; }
 
 .reveal h1 {
-  font-size: 2em; }
+  font-size: 2.4em; }
 
 .reveal h2 {
-  font-size: 1.33em; }
+  font-size: 1.63em; }
 
 .reveal h3 {
-  font-size: 1.11em; }
+  font-size: 1.41em; }
 
 .reveal h4 {
-  font-size: 1em; }
+  font-size: 1.2em; }
 
 .reveal h1 {
   text-shadow: none; }

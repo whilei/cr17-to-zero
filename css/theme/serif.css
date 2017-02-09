@@ -4,9 +4,14 @@
  *
  * This theme is Copyright (C) 2012-2013 Owen Versteeg, http://owenversteeg.com - it is MIT licensed.
  */
+/* $mainFontSize: 36px; */
 /* $heading1Size: 3.77em; */
 /* $heading2Size: 2.11em; */
 /* $heading3Size: 1.55em; */
+/* $heading4Size: 1.00em; */
+/* $heading1Size: 2.0em; */
+/* $heading2Size: 1.33em; */
+/* $heading3Size: 1.11em; */
 /* $heading4Size: 1.00em; */
 .reveal a {
   line-height: 1.3em; }
@@ -20,7 +25,7 @@ body {
 
 .reveal {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
-  font-size: 36px;
+  font-size: 40px;
   font-weight: normal;
   color: #000; }
 
@@ -54,16 +59,16 @@ body {
   word-wrap: break-word; }
 
 .reveal h1 {
-  font-size: 2em; }
+  font-size: 2.4em; }
 
 .reveal h2 {
-  font-size: 1.33em; }
+  font-size: 1.63em; }
 
 .reveal h3 {
-  font-size: 1.11em; }
+  font-size: 1.41em; }
 
 .reveal h4 {
-  font-size: 1em; }
+  font-size: 1.2em; }
 
 .reveal h1 {
   text-shadow: none; }

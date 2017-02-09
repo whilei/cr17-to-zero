@@ -6,7 +6,8 @@ $backgroundColor: #2b2b2b;
 
 // Primary/body text
 $mainFont: 'Lato', sans-serif;
-$mainFontSize: 36px;
+/* $mainFontSize: 36px; */
+$mainFontSize: 40px;
 $mainColor: #eee;
 
 // Vertical spacing between blocks of text
@@ -28,11 +29,15 @@ $heading1TextShadow: $headingTextShadow;
 /* $heading3Size: 1.55em; */
 /* $heading4Size: 1.00em; */
 
-$heading1Size: 2.0em;
-$heading2Size: 1.33em;
-$heading3Size: 1.11em;
-$heading4Size: 1.00em;
+/* $heading1Size: 2.0em; */
+/* $heading2Size: 1.33em; */
+/* $heading3Size: 1.11em; */
+/* $heading4Size: 1.00em; */
 
+$heading1Size: 2.4em;
+$heading2Size: 1.63em;
+$heading3Size: 1.41em;
+$heading4Size: 1.20em;
 
 // Links and actions
 $linkColor: #13DAEC;

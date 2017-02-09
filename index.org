@@ -350,10 +350,13 @@ Right now, most don't make it to Clojure's front door, but the ones that do are 
 
 ** Audience Participation
 :PROPERTIES:
-:reveal_extra_attr: redpill-img-src="/resources/images/red-pill-github-white.png" qr-data="https://github.com/webappzero/the-value-of-learning"
+:reveal_extra_attr: bluepill-img-src="/resources/images/blue-pill.svg.png" bluepill-qr-data="http://www.theverylastpageontheinternet.com/" redpill-img-src="/resources/images/red-pill-github-white.png" qr-data="https://github.com/webappzero/the-value-of-learning"
 :END:
 # Image of drum circle.
 file:resources/images/Djembes.jpg
+
+#+ATTR_REVEAL: :frag t
+file:resources/images/blue-pill.svg.png
 
 #+ATTR_REVEAL: :frag t
 file:resources/images/red-pill-github-white.png

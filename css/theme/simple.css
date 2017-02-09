@@ -5,9 +5,14 @@
  * This theme is Copyright (C) 2012 Owen Versteeg, https://github.com/StereotypicalApps. It is MIT licensed.
  * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
+/* $mainFontSize: 36px; */
 /* $heading1Size: 3.77em; */
 /* $heading2Size: 2.11em; */
 /* $heading3Size: 1.55em; */
+/* $heading4Size: 1.00em; */
+/* $heading1Size: 2.0em; */
+/* $heading2Size: 1.33em; */
+/* $heading3Size: 1.11em; */
 /* $heading4Size: 1.00em; */
 @import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
@@ -20,7 +25,7 @@ body {
 
 .reveal {
   font-family: "Lato", sans-serif;
-  font-size: 36px;
+  font-size: 40px;
   font-weight: normal;
   color: #000; }
 
@@ -54,16 +59,16 @@ body {
   word-wrap: break-word; }
 
 .reveal h1 {
-  font-size: 2em; }
+  font-size: 2.4em; }
 
 .reveal h2 {
-  font-size: 1.33em; }
+  font-size: 1.63em; }
 
 .reveal h3 {
-  font-size: 1.11em; }
+  font-size: 1.41em; }
 
 .reveal h4 {
-  font-size: 1em; }
+  font-size: 1.2em; }
 
 .reveal h1 {
   text-shadow: none; }
