@@ -72,9 +72,12 @@ But Clojure's website captures the essence of Clojure perfectly: 'Clojure has a 
 
 Simple, coherent, powerful. That's Clojure.
 
+Oh and by the way, the people in Clojure's community are eager to help you learn and succeed in your endeavors. When would you like to get together again to learn more?"
 
-
-
+So, that's what I would say to our guest. I propose we revisit this future scenario often, as a community, and ask ourselves, how can serve the next person's need even better than we the last's?
+ 
+My answer to that question today, would be another question, or two:
+ 
  What impact would it have on Clojure's growth if each of us were as fluent in the language of learning as we are in Clojure itself?
 
  How attractive would Clojure be to the next wave of new programmers, entrepreneurs and open source authors, if each of us were expert teachers? 
