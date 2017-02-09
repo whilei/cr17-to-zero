@@ -308,6 +308,7 @@ function formatRedpillFigures(event) {
                     setAsFormatted(event, redImgSrc); // so don't have to add the extra spacer if there is a next time
 
                     if (qrData !== null && typeof(qrData) !== "undefined" && qrData !== "") {
+
                         var qrHere = document.createElement("div");
                         qrHere.id = getUniqueFigureID(event, redImgSrc);
                         qrHere.className += " qrcode ";
@@ -316,13 +317,29 @@ function formatRedpillFigures(event) {
                         // var size = image.height < image.width ? image.height : image.width;
                         // size += -40; // smaller than smallest side of image by this much
                         // size = size > 192 ? 192 : size; //max size 256square
-                        var size = 192;
+
+                        // var size = 192;
+                        var size = image.height < image.width ? image.height : image.width;
+                        size -= 40;
+
+                        // size/2 half of qr. imageFigure.width/2 half of redpill bb
+                        var l = imageFigure.width / 2;
+                        var t = imageFigure.height / 2;
+                        l -= size/2;
+                        t -= size/2;
+
+                        // use redpillimage as a reference for qr style
+                        // have absolute position
 
                         var qr = createQRImage(qrHere, {
                             text: qrData,
                             height: size,
                             width: size
                         });
+
+                        var qrImg = qrHere.firstChild;
+                        qrImg.style.top = t;
+                        qrImg.style.left = l;
                     }
                 }
 
