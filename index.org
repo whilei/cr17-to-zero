@@ -37,7 +37,7 @@ Title Slide
 
 * 
 ** Operator: Full size please :noexport:
-** 
+*** 
 :PROPERTIES:
 :reveal_extra_attr: data-state="hide-video" video-size="normal"
 :reveal_background_size: 100%
@@ -47,9 +47,13 @@ Title Slide
  #+BEGIN_NOTES 
  Thank you Ryan. I'm super happy to be here at Clojure Remote 2017.  Welcome to each of you that are with us today to talk about /The Value of Learning/.
 
-  My goal is to /*start*/ an ongoing conversation, within the Clojure community and beyond, about the /*art and science*/ of learning.
+ Learning is important to me. I see it as the /*best way*/ to include the greatest number of people in the software dependent world in which we find ourselves.
 
-  In a group setting, I see myself as more of a facilitator than a leader. What if the group of us here today could co-create an experience, over the next hour, that would serve the Clojure community for years to come? Attracting people to Clojure who've never even heard of it? 
+  My goal for us today is to /*start*/ an ongoing conversation, within the Clojure community and beyond, about the /*art and science*/ of learning.
+
+  In a group setting, I typically gravitate toward the role of facilitator. Let me put that hat on now to rev up our group think engine.
+
+  What if the group of us here today could co-create an experience, over the next hour, that would serve the Clojure community for years to come? Attracting people to Clojure who've never even heard of it? 
 
   Imagine someone finding the /Value of Learning/ video on YouTube, the video you and I are already making together right this very minute. How will they find us? Probably a search about learning, right? So we already know something about this person we've never met. They're interested in learning! And so are you or wouldn't be here right now. So we all have something in common, we value learning!
 
@@ -93,6 +97,12 @@ I propose we revisit this future scenario often, as a community, and ask ourselv
  [Operator, please refocus my screen share.]
 
  (NEXT SLIDE DOWN)
+
+.
+
+.
+
+.
 
  #+END_NOTES
 ** Audience as co-creators
@@ -1562,6 +1572,7 @@ Degreed, but not open format.
 ** Conceptually Rich Pathways
 Back to Betty to tie it all together : )
 * Closing
+Software has parallel to learning, it touches nearly all fields of human endeavor as we move into our shared future. We must get it right.
 inclusivity via learning
 helping others is helping myself
 If RH can give 3 years off to us, what can I do?
