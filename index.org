@@ -34,40 +34,89 @@ Title Slide
 #+END_NOTES
 
 * _ Greeting thru Edwards                                          :noexport:
+
 * 
-:PROPERTIES:
-:reveal_extra_attr: video-size="full"
-:END:
- #+BEGIN_NOTES 
- Thank you Ryan. I'm happy to be here at Clojure Remote 2017.  Welcome to each of you that are with us today to hear about /The Value of Learning/.
+** Operator: fullsize me please :)
+   :PROPERTIES:
+   :reveal_extra_attr: video-size="full"
+   :END:
+  #+BEGIN_NOTES 
+  Thank you Ryan. I'm super happy be a part of Clojure Remote 2017.  Welcome to each of you that are with us today to talk about /The Value of Learning/.
 
- My goal for this talk is to foster an ongoing conversation about the art and science of learning.
+  My goal is to /*start*/ an ongoing conversation, within the Clojure community and beyond, about the /*art and science*/ of learning.
 
- What impact would it have on Clojure's growth if each of us were as fluent in the language of learning as we are in Clojure itself?
+  In a group setting, I see myself as more of a facilitator than a leader. What if the group of us here today could co-create an experience, over the next hour, that would serve the Clojure community for years to come? Attracting people to Clojure who've never even heard of it? 
 
- How attractive would Clojure be to the next wave of new programmers, entrepreneurs and open source authors, if each of us were expert teachers? 
+  Imagine someone finding the /Value of Learning/ video on YouTube, the video you and I are already making together right this very minute. How will they find us? Probably a search about learning, right? So we already know something about this person we've never met. They're interested in learning! And so are you or wouldn't be here right now. So we all have something in common, we value learning!
 
- Learning and teaching are technical skills which can be honed like any other skill. This is a new way of thinking about learning for me. And it's also really good news. You see, even after 19 years of education, from pre-school to a degree in engineering, I had sparse confidence in my ability to learn technical knowledge and skills, like programming. Why is that?
+  Turns out, that many people are interested in this topic. Millions and millions of people have taken the free online course, /Learning How to Learn/. How many of them want to write an app? Or learn to program. Probably most!
 
- Today, I'm learning more effectively than ever before, but more importantly I'm preserving my emotional energy for enjoying life more, by worrying less about my next learning challenge.
 
- After my own experience, I now believe that anyone can dramatically improve their ability to learn any subject, relative to their current ability. You might think you're just not inherently good at drawing, or writing, or math, or you're not athletic, or you can't sing or hum a tune. That's the way it is and that's that.
+  As a community, we in Clojure, should think of this person as an honored guest. What is it that we have to offer them? We could start with the basics:
 
- Simply put, brain science says otherwise. We'll invest the next hour of our time to explore the nuance of this claim. 
+  "Welcome! Clojure is a general-purpose programming language, which means you can use it to do almost anything you can imagine."
 
- Being a part of the Clojure community has really inspired me to up my learning game. Rich Hickey's talk /Hammock Driven Development/, which is laden with learning wisdom, led me to the /Learning How to Learn/ online course, which we'll talk about in the third and final part of the talk.  
+  I might follow this up by saying, "Have you noticed lately how a lot of the technology we are so dependent on these days doesn't always behave the way we expect it to? Well, trust me it's not just you it's picking on. Software isn't anywhere near as reliable as it should be. In Clojure, we believe you increase reliability by building software in a fundamentally simpler way. This simplicity doesn't mean Clojure is easier to learn than other languages. It might not be. But it is a powerful language. And here's one big reason why:
 
- We'll get back to Clojure in a minute but first I want to /draw/ you into this whole learning thing. Check this out:
+   Clojure's a hosted language which means it adapts to its host environments, which also includes any web browser, like the one on that phone in your pocket, and also Java and .NET environments. These three places are where the vast majority of software in the entire world gets built to run which means Clojure can run alongside these languages, or instead of them, in the host environment.
 
- (NEXT SLIDE DOWN)
+  Clojure has a reputation of rock solid reliability. Which is why its flexibility and adaptability or that much more impressive. This may be its greatest unsung superpower. You don't need to understand the technical details of what I'm about to say to get a feel for Clojure's value...
 
-.
+  You see, languages come in two types, static and dynamic. Static languages are very safe because the system knows what kind of thing every /*thing*/ in the system is. Dynamic languages allow things to change more fluidly in the system, and as the name implies they allow a lot more cool stuff to happen while the program is running; dynamic stuff, like changing the innards of the running program itself.
 
-.
+ Now here's the good stuff: Rick Hickey, Clojure's author, came up with a 3rd way, heretofore undiscovered in the field of language design. We call it Spec which is short for specify and it allows to you to 'specify' which things in the system you want to quality check, and which you don't.
 
-.
-#+END_NOTES
+ Spec is just one example, albeit quintessential, of the ground breaking innovation that's happening in Clojure. 
+
+ Clojure is a community which fosters high impact innovation.
+
+ But Clojure's website captures the essence of Clojure perfectly: 'Clojure has a set of useful features that together form a simple, coherent, and powerful tool.'
+
+ Simple, coherent, powerful. That's Clojure.
+
+ Oh and by the way, the people in Clojure's community are eager to help you learn and succeed in your endeavors. When would you like to get together again to learn more?"
+
+ Okay so we're back to the present moment, and that's what I would say to our guest. 
+
+I propose we revisit this future scenario often, as a community, and ask ourselves, how can we serve the next person's need even better than we the last's?
  
+ My answer to that question today, would be another question, or two:
+ 
+  What impact would it have on Clojure's growth if each of us were as fluent in the language of learning as we are in Clojure itself?
+
+  How attractive would Clojure be to our next guest if each of us were expert teachers? 
+
+
+ #+END_NOTES
+** Audience as co-creators
+#+BEGIN_NOTES 
+
+#+END_NOTES
+** Launch into learning  
+ #+BEGIN_NOTES 
+  Learning and teaching are skills. They too can be learned, practiced and mastered like any other skill. Learning about learning is a new way of thinking for me. And it's also really good news. You see, even after 19 years of education, from pre-school to a degree in engineering, I had little confidence in my ability to learn technical knowledge and skills, like programming. Why is that?
+
+  Today, I'm learning more effectively than ever before, but more importantly I'm preserving my emotional energy for enjoying life more, because worrying less about my next learning challenge.
+
+  After my own experience, I now believe that anyone can dramatically improve their ability to learn any subject, relative to their current ability. You might think you're just not inherently good at drawing, or writing, or math, or you're not athletic, or you can't sing or hum a tune. That's the way it is and that's that.
+
+  Simply put, brain science says otherwise. We'll invest the next hour of our time to explore the nuance of this claim. 
+
+  Being a part of the Clojure community has really inspired me to up my learning game. Rich Hickey's talk /Hammock Driven Development/, which is laden with learning wisdom, led me to the /Learning How to Learn/ online course, which we'll talk about in the third and final part of the talk.
+
+  We'll get back to Clojure in a minute but first I want to /draw/ you into this whole learning thing. Check this out:
+
+  (NEXT SLIDE DOWN)
+
+ 
+
+ .
+
+ .
+
+ .
+ #+END_NOTES
+
 ** _ Three slides of before+after Betty Edwards's students's drawings. :noexport:
 **  
 :PROPERTIES:
@@ -552,7 +601,7 @@ If you'd like to give a shout-out to Betty Edwards, this QR code will link you t
 
    #+BEGIN_NOTES
 
-   Okay, context established. Let's talk about the value of learning.
+   It's been great getting to know each other. Let's talk about the value of learning.
 
 
    - What is the value of learning? 
@@ -796,9 +845,9 @@ Let's illuminate the question by looking at the meaning and history of the words
 #+REVEAL_HTML: <div class="citation">merriam-webster.com</div>
 
 #+BEGIN_NOTES 
-The history of the word value goes back through Middle English to the Anglo-French word /valu/, which means *worth* or *high quality*, and finally, all the way back to the Latin, /valēre/, which means *to be well* or *have strength*.
+The history of the word value goes all the way back to the Latin, /valēre/, which means *to be well* or *have strength*.
 
-If you're a Game of Thrones fan, you've likely noticed how similar /valēre/ sounds to Valyria, home to the forges of Valyrian steel, which is renowned for its quality and strength.
+If you're a Game of Thrones fan, you've might've noticed how similar /valēre/ sounds to Valyria, home to the forges of Valyrian steel, which is renowned for its quality and strength.
 
 (NEXT SLIDE DOWN)
 
@@ -820,9 +869,9 @@ If you're a Game of Thrones fan, you've likely noticed how similar /valēre/ sou
 
 According to the definition, gaining knowledge or skill is the goal of learning.
 
-Knowledge or skill. I like the simplicity of that.
+Knowledge or skill. I like how simple that sounds, but is it too simple. Can we learn new ways of being or behaving. For example, can I raise my 'average mood' or lower my anxiety?  These might considered skills too, I suppose.
 
-And, there are a handful of ways to gain knowledge or skill: study, practice, observation, and experience.
+Also according to the definition, there are a handful of ways to gain knowledge or skill: study, practice, observation, and experience.
 
 
 (NEXT SLIDE DOWN)
@@ -846,7 +895,7 @@ And, there are a handful of ways to gain knowledge or skill: study, practice, ob
 
 #+BEGIN_NOTES 
 
-The history of the word /learn/ goes back through the Middle English word /lernen/, which shares the meaning *to learn* with the Old English word /leornian/, and further back to the Old English word /last/ which means *foot print*, and finally, all the way back to the latin word /lira/ which means *furrow* or *track*.
+The history of the word /learn/ goes back all the way back to the latin word /lira/ which means *furrow* or *track*.
 
 The word furrow really sticks out to me. A furrow is *a long trench*. But not just any trench! *a long narrow trench in the ground made by a plow, especially for planting seeds*. 
 
@@ -1464,6 +1513,7 @@ What actions are consistent with this value?
 ** Learning How to Learn
 
 
+
 There's a parallel between the drawings we saw at the start of this talk and the skill of learning, both are technical skills. I could poke around at drawing for years, or I could absorb the fundamentals from a master and use that framework to accelerate my progress.
 
 That framework, as it turns out, is vitally important to genuine understanding. TODO University Study.
@@ -1472,6 +1522,20 @@ That framework, as it turns out, is vitally important to genuine understanding. 
 #+END_NOTES
 *** University Study regression
 It's not just students that need to learn about learning!
+
+
+** Human Readable Curriculum Paths
+Melody and freecodecamp.com
+#+BEGIN_NOTES 
+
+#+END_NOTES
+** Machine Readable Curriculum Paths
+Degreed, but not open format.
+
+ One arbitrary example of the kind of work we can do, together.
+
+** Conceptually Rich Pathways
+Back to Betty to tie it all together : )
 * Closing
 inclusivity via learning
 helping others is helping myself
@@ -1486,6 +1550,36 @@ Live as if you were to die tomorrow. Learn as if you were to live forever. -- Ma
 
 
 * ********** Beyond this point is all notes ************ 
+* Information age, but we're still in an industrial age mode
+** Sharing knowledge with others is a way of helping ourselves, and the people we love. Life saving ideas are lying dormant. (reference back to game theory)
+** Everyone a teacher, video, microphone, record and publish.
+** Information Diet
+There's only so much I can learn watching T.V. (tie in to the sunset story)
+Being informed without becoming malformed.
+Setting my own agenda.
+Getting ready for this talk.
+
+** DONE isaac tweet for Betty Edwards
+:PROPERTIES:
+:reveal_extra_attr: redpill-img-src="/resources/images/red-pill-twitter-white.png" qr-data="http://twitter.com/intent/tweet?text=@DRSB_Edwards teaching method is astonishg! I'm intrigued to learn more. &hashtags=valueoflearning"
+:END:
+file:resources/images/opening-and-overview/drawing-skills-cropped/montaged/02-montage.png
+
+# Let's replace the QR code in the frag below with the following:
+
+# "@DRSB_Edwards teaching method is astonishing! I'm intrigued to learn more. #valueoflearning"
+
+# This slide can be solely Betty Edwards montage and tweet
+
+# Reason I moved this from opening screens about Betty Edwards is because we hadn't introduced concept of red pills yet.
+
+#+ATTR_REVEAL: :frag t
+file:resources/images/red-pill-twitter-white.png
+
+#+BEGIN_NOTES 
+
+   Scan the red pill now if, like me, you were astonished by the drawings done by Betty Edward's students and are curious to learn more about her work.
+#+END_NOTES
 
 
 * Clojure's Learning Curve
@@ -1543,36 +1637,6 @@ Live as if you were to die tomorrow. Learn as if you were to live forever. -- Ma
     
     . 
  #+END_NOTES
-* Information age, but we're still in an industrial age mode
-** Sharing knowledge with others is a way of helping ourselves, and the people we love. Life saving ideas are lying dormant. (reference back to game theory)
-** Everyone a teacher, video, microphone, record and publish.
-** Information Diet
-There's only so much I can learn watching T.V. (tie in to the sunset story)
-Being informed without becoming malformed.
-Setting my own agenda.
-Getting ready for this talk.
-
-** DONE isaac tweet for Betty Edwards
-:PROPERTIES:
-:reveal_extra_attr: redpill-img-src="/resources/images/red-pill-twitter-white.png" qr-data="http://twitter.com/intent/tweet?text=@DRSB_Edwards teaching method is astonishg! I'm intrigued to learn more. &hashtags=valueoflearning"
-:END:
-file:resources/images/opening-and-overview/drawing-skills-cropped/montaged/02-montage.png
-
-# Let's replace the QR code in the frag below with the following:
-
-# "@DRSB_Edwards teaching method is astonishing! I'm intrigued to learn more. #valueoflearning"
-
-# This slide can be solely Betty Edwards montage and tweet
-
-# Reason I moved this from opening screens about Betty Edwards is because we hadn't introduced concept of red pills yet.
-
-#+ATTR_REVEAL: :frag t
-file:resources/images/red-pill-twitter-white.png
-
-#+BEGIN_NOTES 
-
-   Scan the red pill now if, like me, you were astonished by the drawings done by Betty Edward's students and are curious to learn more about her work.
-#+END_NOTES
 * If we value learning, why not get better at it via Betty Edwards approach, instead of doodling.
  ** What if there was a subject you could study which would improve your ability to learn and master any other subject?
 There just might be!
