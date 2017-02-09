@@ -95,7 +95,6 @@ I propose we revisit this future scenario often, as a community, and ask ourselv
 
   And how attractive would Clojure be to our next guest if each of us were /*expert teachers*/? 
 
- [Operator, please refocus my screen share.]
 
  (NEXT SLIDE DOWN)
 
@@ -108,7 +107,102 @@ I propose we revisit this future scenario often, as a community, and ask ourselv
  #+END_NOTES
 ** Audience as co-creators
 #+BEGIN_NOTES 
+ You, my audience, are the heart and soul of today's conversation. You're also its right brain.
 
+ The left brain, that would be me, is highly verbal, orderly, and information rich. The right brain keeps an eye on the big picture, drawing relationships between disparate bits of information. It offers massive creative potential by counterbalancing the left-brains orderliness with a healthy dose of chaos.
+
+ I have the script for this talk and you're holding the monkey wrench, needed make it something more, something different, something better than it could ever be without you.
+
+ If we were an actual brain you wouldn't be able to see or hear me. There's a thingamijiggy in the brain, a conduit, which controls the communication that goes back and forth between the hemispheres. It let's information flow and it also filters information to allow one side to focus when its concentrating on its work. 
+ 
+ Isaac is going to act as our conduit by listening to everything you say and handing me priority signals. But before we get into that mode, let's meet Issac. Ryan, please invite Isaac to speak.
+
+ Isaac is many things, including a web developer, and a new friend of mine. Isaac has been a tremendous help in preparing for this event, and he's new to Clojure, so he's great person to practice our hospitality skills on, please join me in welcoming Isaac. Isaac, hi, how are you?
+
+... (isaac speaks)
+
+Awesome, glad to hear it. Isaac, you're new to Clojure, you've heard my spiel. What's the first question that comes to mind for you regarding Clojure?
+
+... (isaac asks question)
+
+That's a great question, unfortunately my prepared script has no answer. Let's see what our right brain has to say about that. Thanks for dropping in and saying hello, Isaac. I'll see you later.
+
+... (isaac says ciao)
+
+Would someone more experienced than me please volunteer to drop in and answer Isaac's question?
+
+... (Jay picks person or listens out for Isaacs pick)
+
+Okay great, <name here>, is going to help me out. Ryan, please invite <name here> to speak for a minute or two.
+
+... (Jay interacts with guest speaker)
+
+Thank you for dropping in and helping us out. Isaac, see I told you Clojure folks were ready to help!
+
+<name here> isn't the only one of you who can make a difference today. 
+
+ [Ryan,please refocus my screen share.]
+
+
+(NEXT SLIDE DOWN
+
+.
+(time: slide: 5:00)
+.
+
+.
+#+END_NOTES
+
+** Audience as co-creators 
+:PROPERTIES:
+:reveal_extra_attr: bluepill-img-src="/resources/images/blue-pill.svg.png" bluepill-qr-data="http://www.theverylastpageontheinternet.com/" redpill-img-src="/resources/images/red-pill-github-white.png" qr-data="https://github.com/webappzero/the-value-of-learning"
+:END:
+# Image of drum circle.
+file:resources/images/Djembes.jpg
+
+#+ATTR_REVEAL: :frag t
+file:resources/images/blue-pill.svg.png
+
+#+ATTR_REVEAL: :frag t
+file:resources/images/red-pill-github-white.png
+
+#+BEGIN_NOTES
+   
+
+     
+
+   It began its life as an open source github repository, and has evolved to include an open-data project, driven by your anonymous, interactive input.
+
+   (NEXT FRAG)
+
+   Scattered throughout the talk, you'll notice a red pill appear on the lower right corner of the screen.
+
+   Each pill contains a QR code.
+
+   These red-pills lead to mini-polls, links to kick-start your research, or pre-filled tweets that will serve to network like minds around the subject of learning.
+
+   Even if you're watching this on video, months or years from now, you can still participate by scanning the red pills with your smart phone.
+
+   If you don't have a smart phone handy, or if you're watching this on your smart phone, you can relax and enjoy the show because we'll be converting the presentation into an interactive web site soon.
+
+   If you're curious about the tech stack behind the talk, it was written in emacs org mode and exported to reveal.js using org-reveal.
+
+   Isaac Ardis, a web developer and new friend, has been a tremendous help with the development and content you'll see.
+
+   All of our work is available at the-value-of-learning github repository.
+
+   Scan the red pill now if you'd like to get the URL of our github repository saved in your browser history.
+
+   We're going to explore several aspects of learning through the framework of learning's /*worth*/.
+
+   But first, let's find out how Betty Edwards teaches drawing, so that we can begin to practice her techniques to visualize the problem at hand!
+
+   (NEXT SLIDE RIGHT)
+.
+
+.
+
+.
 #+END_NOTES
 ** Launch into learning  
  #+BEGIN_NOTES 
@@ -224,43 +318,6 @@ And how long for this much improvement?
 .
 #+END_NOTES
  
-** Audience
-:PROPERTIES:
-:reveal_extra_attr: video-size="normal"
-:END:
-- Clojure programmers
-- programmers
-- aspiring programmers
-- curious minded people
-- entrepreneurs
-- makers
-- anyone with an idea for an app
-
-#+BEGIN_NOTES
-We're at a Clojure Conference, and I'm a Clojure enthusiast, so we'll definitely be talking about Clojure, but you don't even have to know what Clojure is to get something out of this talk, or to participate.
-
-Are you interested in solving problems, making things, the subject of creativity, or learning? 
-
-Whatever your interests, your presence and ideas are greatly valued.
-
-For the sake of today's conversation I'll refer this audience as falling in one of 2 broad categories: programmers and makers.  This programmer persona learns several programming languages rather deeply, while the maker wants to narrow the scope of their learning focus to the immediate business or open source project. Please forgive the over generalizations.
-
-In 10 minutes, I'll give you more instructions on how you can participate in this conversation, even if you're watching this on video months or years from now.
-
-A little hint: Have your smart device handy if it has a QR code scanner. If not, there will be other ways you can get involved.
-
-But first, please let me tell you about a problem I need your help with. The next 10 minutes of context building will help you better understand the problem, as I see it.
-
-(NEXT SLIDE DOWN)
-
-.
-
-.
-
-.
-
-#+END_NOTES
-
 ** Clojure and me
 
 #+BEGIN_NOTES
@@ -416,57 +473,6 @@ Right now, most don't make it to Clojure's front door, but the ones that do are 
 
    .
    #+END_NOTES 
-
-** Audience Participation
-:PROPERTIES:
-:reveal_extra_attr: bluepill-img-src="/resources/images/blue-pill.svg.png" bluepill-qr-data="http://www.theverylastpageontheinternet.com/" redpill-img-src="/resources/images/red-pill-github-white.png" qr-data="https://github.com/webappzero/the-value-of-learning"
-:END:
-# Image of drum circle.
-file:resources/images/Djembes.jpg
-
-#+ATTR_REVEAL: :frag t
-file:resources/images/blue-pill.svg.png
-
-#+ATTR_REVEAL: :frag t
-file:resources/images/red-pill-github-white.png
-
-#+BEGIN_NOTES
-
-   This interactive talk is designed to be an ongoing conversation.
-
-   It began its life as an open source github repository, and has evolved to include an open-data project, driven by your anonymous, interactive input.
-
-   (NEXT FRAG)
-
-   Scattered throughout the talk, you'll notice a red pill appear on the lower right corner of the screen.
-
-   Each pill contains a QR code.
-
-   These red-pills lead to mini-polls, links to kick-start your research, or pre-filled tweets that will serve to network like minds around the subject of learning.
-
-   Even if you're watching this on video, months or years from now, you can still participate by scanning the red pills with your smart phone.
-
-   If you don't have a smart phone handy, or if you're watching this on your smart phone, you can relax and enjoy the show because we'll be converting the presentation into an interactive web site soon.
-
-   If you're curious about the tech stack behind the talk, it was written in emacs org mode and exported to reveal.js using org-reveal.
-
-   Isaac Ardis, a web developer and new friend, has been a tremendous help with the development and content you'll see.
-
-   All of our work is available at the-value-of-learning github repository.
-
-   Scan the red pill now if you'd like to get the URL of our github repository saved in your browser history.
-
-   We're going to explore several aspects of learning through the framework of learning's /*worth*/.
-
-   But first, let's find out how Betty Edwards teaches drawing, so that we can begin to practice her techniques to visualize the problem at hand!
-
-   (NEXT SLIDE RIGHT)
-.
-
-.
-
-.
-#+END_NOTES
 
 ** Betty Edwards
 
