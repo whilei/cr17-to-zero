@@ -5,13 +5,15 @@
 |                          |                                              |                    |                                        |                                                                                                         |
 
 * QR Links
-| Slide                                                                                           | Link                                                                                                            |
-| 5 days                                                                                          | http://twitter.com/intent/tweet?text=Can you fly that thing? Not yet...  &hashtags=valueoflearning,bettyedwards |
-| Audience Participation                                                                          | https://github.com/webappzero/the-value-of-learning                                                             |
-| Is Learning Harmful?                                                                            | https://www.supermemo.com/articles/goodness.htm                                                                 |
-| If we value learning, why not get better at it via Betty Edwards approach, instead of doodling. | https://goo.gl/forms/Td2CKC2Xfpp5g1q13                                                                          |
-|                                                                                                 |                                                                                                                 |
+| Slide                             | Link                                                                                                                                      | Shorthand             |
+| Questions and Aha! moments        | http://twitter.com/intent/tweet?text=@DRSB_Edwards teaching method is astonishing! I'm intrigued to learn more. &hashtags=valueoflearning | http://bit.ly/2lrLPTx |
+| Audience Participation            | https://github.com/webappzero/the-value-of-learning                                                                                       |                       |
+| Is Learning Harmful?              | https://www.supermemo.com/articles/goodness.htm                                                                                           |                       |
+| The Actions/Learning How to Learn | http://discuss.thevalueoflearning.org                                                                                                     |                       |
+# | Culture of Concentration   | https://goo.gl/forms/Td2CKC2Xfpp5g1q13                                                                                                    |                       |
 
+http://discuss.thevalueoflearning.org
+http://www.theverylastpageontheinternet.com/
 
 
 
