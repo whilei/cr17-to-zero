@@ -534,13 +534,20 @@ Perceiving edges and relationships between the conceptual components of any prob
  
 ** Questions and Aha! moments
 :PROPERTIES:
-:reveal_extra_attr: redpill-img-src="/resources/images/red-pill-twitter-white.png" qr-data="http://twitter.com/intent/tweet?text=@DRSB_Edwards teaching method is astonishing! I'm intrigued to learn more. &hashtags=valueoflearning"
+# http://twitter.com/intent/tweet?text=@DRSB_Edwards teaching method is astonishing! I'm intrigued to learn more. &hashtags=valueoflearning
+# http://bit.ly/2lrLPTx
+:reveal_extra_attr: bluepill-img-src="/resources/images/blue-pill.svg.png" bluepill-qr-data="http://www.theverylastpageontheinternet.com/" redpill-img-src="/resources/images/red-pill-twitter-white.png" qr-data="http://bit.ly/2lrLPTx"
 :END:
 
 file:resources/images/brains/brains-diagram.png
 
+#+ATTR_REVEAL: :frag t
+file:resources/images/blue-pill.svg.png
+
 #+ATTR_REVEAL: :frag (roll-in)
 file:resources/images/red-pill-twitter-white.png
+
+
 
 #+BEGIN_NOTES
 In her book, /Drawing on the Artist Within/, Betty Edward's deeply explores the the five stages of creativity which initiate from a question held in mind and crescendo in the /Illumination/ phase, more widely known as the aha! moment :
@@ -1216,12 +1223,15 @@ This is an important question! If they're hurting, I should cease and desist now
 
 ** Is learning harmful?
 :PROPERTIES:
-:reveal_extra_attr: redpill-img-src="/resources/images/red-pill-link-white.png" qr-data="https://www.supermemo.com/articles/goodness.htm" 
+:reveal_extra_attr: bluepill-img-src="/resources/images/blue-pill.svg.png" bluepill-qr-data="http://www.theverylastpageontheinternet.com/" redpill-img-src="/resources/images/red-pill-link-white.png" qr-data="https://www.supermemo.com/articles/goodness.htm" 
 :END:
 
 #+ATTR_REVEAL: :frag t
 - Piotr Wozniak, /Is knowledge "good" or "neutral"?/
 - supermemo.com
+
+#+ATTR_REVEAL: :frag t
+file:resources/images/blue-pill.svg.png
 
 #+ATTR_REVEAL: :frag t
 file:resources/images/red-pill-link-white.png
