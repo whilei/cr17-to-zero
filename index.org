@@ -314,63 +314,6 @@ And how long for this much improvement?
 .
 #+END_NOTES
 
-** Clojure's Learning Curve :noexport:
-** 
-:PROPERTIES:
-# :reveal_extra_attr: video-size="full"
-:reveal_extra_attr: data-state="hide-video" video-size="normal"
-:reveal_background_size: 100%
-:reveal_background: /resources/images/operator-fullscreen.png
-:END:
-#+BEGIN_NOTES 
-
-    Rich Hickey, in his talk /Simple Made Easy/ acknowledges that Clojure has a higher learning curve than other languages. Fortunately, learning and teaching already define the essence of this community, from the mind-expanding talks, to the daily exchanges of thinking through a problem with a peer, in person or online, its really one big, ongoing conversation. 
-
-    To a person, everyone in this community that I've asked for help has generously shared their knowledge to help me learn. And to a person, everyone I've met is pretty keen on Clojure. 
-    
-    We don't just love Clojure. We love what it does for us. Clojure has a lot in common with human learning. As a hosted language, Clojure not only *adapts* to most any general problem imaginable, it adapts to all the right platforms: from the Java Virtual Machine to the Common Language Runtime, the browser and beyond.
- 
-    Clojure's reach and generality are among its greatest strengths, but they are also the reason it has a higher learning curve than other *individual* languages. I stress individual languages because there's a strong case to be made that Clojure's generality, which brings Clojure's powerful idioms to the server and browser, is a steadily increasing advantage in Clojure's favor. 
-
-    Whatever the actual case, those of us here today believe any extra effort is worth it.
-
-    There's a palpable buzz going on in the community right now, and the pace of innovation is awe inspiring to see and be a part of.
-
-    This past year I've met several Clojure developers who looked me in the eye and said, "Clojure is the reason I now enjoy doing what I'm doing. I'm not sure I'd still be doing this without it".
-
-    I met someone who maintains a popular open source project. I asked him how much work it was to maintain. He said calmly, 'it just works.' These conversations have been very reassuring to me as an open source enthusiast and aspiring entrepreneur.
-    
-    There's a world full of interesting and vital problems out there, waiting to be solved. How much of Clojure's awesomeness will get put to use on these problems? How much will go to waste? 
-
-    I met a fellow entrepreneur at a recent Clojure Conference.
-
-    Our projects have similar technology needs, so we decided to collaborate on a core Clojure stack that would meet our shared needs. We've both done a lot of research on different languages and approaches, but I'm a year into my part-time Clojure studies, whereas she is a couple of months in.
-
-    Upon leaving the Clojure conference, both of us were really excited to work together and to use Clojure.
-
-    Recently though she's expressed an interest in using Elixir for her MVP.
-
-    Why? Because its easier to learn.
-
-    Lowering the barrier to entry into our community is a vital task, and I know that many of you have been working on this problem for years, which is why its easier to get started now than ever.
-
-    Sometimes though, I think we can get so close to a problem that we get stuck in our thinking. This talk is designed to help you turn this problem upside down and look at, really look at it, in a new light.
-
-    If you're an experienced Clojure developer, you can add wisdom and experience to my raw naivete. If you're new to the community, you're fresh perspective and feedback are valuable assets.
-
-    If there's a group of people in the world who can solve this problem, it's you. If you're up for the challenge, please listen to the talk with the problem of Clojure's learning curve in the back of your mind. Are we missing something obvious?
-
-    [Operator, please refocus my screen share.]
-
-    (NEXT SLIDE DOWN)
-
-    .
-     (time 4:48 this section)
-    .
-    
-    . 
- #+END_NOTES
-
 ** My Credentials
    :PROPERTIES:
    :reveal_extra_attr: video-size="normal"
@@ -1419,14 +1362,9 @@ Where should we start? How about near the beginning?
 
 #+END_NOTES
 
-** Answers must come from within
-Answers create, but they also kill possibilities.https://youtu.be/GfgLGGAkc9g
+** TODO The Value of Learning
 
-http://www.values.com/inspirational-quotes/6072-keep-on-beginning-and-failing-each-time-you
-
-Keep on beginning and failing. Each time you fail, start all over again, and you will grow stronger until you have accomplished a purpose ... not the one you began with perhaps, but one you'll be glad to remember.
-Anne Sullivan Macy
-Teacher
+** TODO The Value of learning about learning
 * The actions
 What actions are consistent with this value?
 
@@ -1479,7 +1417,64 @@ What actions are consistent with this value?
 
 #+END_NOTES
 
-** Learning How to Learn
+** Clojure's Learning Curve                                        :noexport:
+*** 
+ :PROPERTIES:
+ # :reveal_extra_attr: video-size="full"
+ :reveal_extra_attr: data-state="hide-video" video-size="normal"
+ :reveal_background_size: 100%
+ :reveal_background: /resources/images/operator-fullscreen.png
+ :END:
+ #+BEGIN_NOTES 
+
+     Rich Hickey, in his talk /Simple Made Easy/ acknowledges that Clojure has a higher learning curve than other languages. Fortunately, learning and teaching already define the essence of this community, from the mind-expanding talks, to the daily exchanges of thinking through a problem with a peer, in person or online, its really one big, ongoing conversation. 
+
+     To a person, everyone in this community that I've asked for help has generously shared their knowledge to help me learn. And to a person, everyone I've met is pretty keen on Clojure. 
+    
+     We don't just love Clojure. We love what it does for us. Clojure has a lot in common with human learning. As a hosted language, Clojure not only *adapts* to most any general problem imaginable, it adapts to all the right platforms: from the Java Virtual Machine to the Common Language Runtime, the browser and beyond.
+ 
+     Clojure's reach and generality are among its greatest strengths, but they are also the reason it has a higher learning curve than other *individual* languages. I stress individual languages because there's a strong case to be made that Clojure's generality, which brings Clojure's powerful idioms to the server and browser, is a steadily increasing advantage in Clojure's favor. 
+
+     Whatever the actual case, those of us here today believe any extra effort is worth it.
+
+     There's a palpable buzz going on in the community right now, and the pace of innovation is awe inspiring to see and be a part of.
+
+     This past year I've met several Clojure developers who looked me in the eye and said, "Clojure is the reason I now enjoy doing what I'm doing. I'm not sure I'd still be doing this without it".
+
+     I met someone who maintains a popular open source project. I asked him how much work it was to maintain. He said calmly, 'it just works.' These conversations have been very reassuring to me as an open source enthusiast and aspiring entrepreneur.
+    
+     There's a world full of interesting and vital problems out there, waiting to be solved. How much of Clojure's awesomeness will get put to use on these problems? How much will go to waste? 
+
+     I met a fellow entrepreneur at a recent Clojure Conference.
+
+     Our projects have similar technology needs, so we decided to collaborate on a core Clojure stack that would meet our shared needs. We've both done a lot of research on different languages and approaches, but I'm a year into my part-time Clojure studies, whereas she is a couple of months in.
+
+     Upon leaving the Clojure conference, both of us were really excited to work together and to use Clojure.
+
+     Recently though she's expressed an interest in using Elixir for her MVP.
+
+     Why? Because its easier to learn.
+
+     Lowering the barrier to entry into our community is a vital task, and I know that many of you have been working on this problem for years, which is why its easier to get started now than ever.
+
+     Sometimes though, I think we can get so close to a problem that we get stuck in our thinking. This talk is designed to help you turn this problem upside down and look at, really look at it, in a new light.
+
+     If you're an experienced Clojure developer, you can add wisdom and experience to my raw naivete. If you're new to the community, you're fresh perspective and feedback are valuable assets.
+
+     If there's a group of people in the world who can solve this problem, it's you. If you're up for the challenge, please listen to the talk with the problem of Clojure's learning curve in the back of your mind. Are we missing something obvious?
+
+     [Operator, please refocus my screen share.]
+
+     (NEXT SLIDE DOWN)
+
+     .
+      (time 4:48 this section)
+     .
+    
+     . 
+  #+END_NOTES
+
+** TODO Learning How to Learn
 :PROPERTIES:
 :reveal_extra_attr: bluepill-img-src="/resources/images/blue-pill.svg.png" bluepill-qr-data="http://www.theverylastpageontheinternet.com/" redpill-img-src="/resources/images/red-pill-link-white.png" qr-data="http://discuss.thevalueoflearning.org"
 :END:
@@ -1514,9 +1509,9 @@ Degreed, but not open format.
 
  One arbitrary example of the kind of work we can do, together.
 
-** Conceptually Rich Pathways
+** TODO Conceptually Rich Pathways
 Back to Betty to tie it all together : )
-* Closing
+* TODO Closing
 The ability to try is the one thing each living creature is given, and guaranteed to possess, for the duration of our stay.
 Software has parallel to learning, it touches nearly all fields of human endeavor as we move into our shared future. We must get it right.
 inclusivity via learning
@@ -1540,6 +1535,15 @@ leftovers:
 
 
 * ********** Beyond this point is all notes ************ 
+
+* Answers must come from within
+Answers create, but they also kill possibilities.https://youtu.be/GfgLGGAkc9g
+
+http://www.values.com/inspirational-quotes/6072-keep-on-beginning-and-failing-each-time-you
+
+Keep on beginning and failing. Each time you fail, start all over again, and you will grow stronger until you have accomplished a purpose ... not the one you began with perhaps, but one you'll be glad to remember.
+Anne Sullivan Macy
+Teacher
  
 * Clojure and me
 
