@@ -33,16 +33,12 @@ Title Slide
 
 #+END_NOTES
 
-* _ Greeting thru Edwards                                          :noexport:
-
-** 
-** Operator: Full size please :noexport:
-*** 
-:PROPERTIES:
-:reveal_extra_attr: data-state="hide-video" video-size="normal"
-:reveal_background_size: 100%
-:reveal_background: /resources/images/operator-fullscreen.png
-:END:
+** Welcome
+   :PROPERTIES:
+   :reveal_extra_attr: data-state="hide-video" video-size="normal"
+   :reveal_background_size: 100%
+   :reveal_background: /resources/images/operator-fullscreen.png
+   :END:
 # :reveal_extra_attr: video-size="full"
  #+BEGIN_NOTES 
  Thank you Ryan. I am super happy to be here at Clojure Remote 2017.  Welcome to each of you that are with us today to talk about /The Value of Learning/.
@@ -532,13 +528,13 @@ If you'd like to give a shout-out to Betty Edwards, this QR code will link you t
 
 # "The Value of Learning."
 
-* Outline
+* Guiding Questions
  :PROPERTIES:
  :reveal_extra_attr: video-size="normal"
  :END:
 - What is the value of learning?
-- Discovering the value of learning
-- Learning in action
+- How can we discover the value of learning?
+- What actions spring from the value of learning?
 
 #+BEGIN_NOTES 
 I'll weave several stories about learning through the framework of this simple 3 part outline.
@@ -1365,6 +1361,8 @@ Where should we start? How about near the beginning?
 ** TODO The Value of Learning
 
 ** TODO The Value of learning about learning
+
+** TODO The Value of Values 
 * The actions
 What actions are consistent with this value?
 
