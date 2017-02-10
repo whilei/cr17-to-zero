@@ -1203,14 +1203,11 @@ How would you go about measuring the value you place on learing?
 (time estimated 25 minutes)
 
 .
-
+(time: slide: 2:00)
 .
-
+(elapsed time: 37:55)
 .
 #+END_NOTES
-
-** TODO The Value of Learning
-
 *** _ Fullscreen image: Don Quixote charges his windmills.         :noexport:
 ***  
     :PROPERTIES:
@@ -1233,6 +1230,8 @@ How would you go about measuring the value you place on learing?
 
  .
  #+END_NOTES
+
+** The Value of Learning
 
 ** TODO The Value of learning about learning
 
