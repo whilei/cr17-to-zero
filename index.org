@@ -115,7 +115,11 @@ I propose we revisit this future scenario often, as a community, and ask ourselv
 
  If we were an actual brain you wouldn't be able to see or hear me. There's a thingamijiggy in the brain, a conduit, which controls the communication that goes back and forth between the hemispheres. It let's information flow and it also filters information to allow one side to focus when its concentrating on its work. 
  
- Isaac is going to act as our conduit by listening to everything you say and handing me priority signals. But before we get into that mode, let's meet Issac. Ryan, please invite Isaac to speak.
+ Isaac is going to act as our conduit by listening to everything you say and handing me priority signals.
+
+ What this means is that you have a significant role in the outcome of today's video: Am I going to fast? Too slow? Is the current slide boring you? Speak up and let your voice be heard! Isaacmajiggy will relay the group wisdom on, and filter out the noise.
+
+ But before we get into that mode, let's meet Issac. Ryan, please invite Isaac to speak.
 
  Isaac is many things, including a web developer, and a new friend of mine. Isaac has been a tremendous help in preparing for this event, and he's new to Clojure, so he's great person to practice our hospitality skills on, please join me in welcoming Isaac. Isaac, hi, how are you?
 
@@ -198,24 +202,22 @@ file:resources/images/red-pill-github-white.png
 #+END_NOTES
 ** Launch into learning  
  #+BEGIN_NOTES 
-  Learning and teaching are skills. They too can be learned, practiced and mastered like any other skill. Learning about learning is a new way of thinking for me. And it's also really good news. You see, even after 19 years of education, from pre-school to a degree in engineering, I had little confidence in my ability to learn technical knowledge and skills, like programming. Why is that?
+  Learning and teaching are skills. They too can be learned, practiced, and mastered, like any other skill. Learning about learning is a new way of thinking for me. And it's also really good news. You see, even after 19 years of education, from pre-school to a degree in engineering, I had little confidence in my ability to learn technical knowledge and skills, like programming. This life experience is the source of my firm conviction that there is a subtle, yet profoundly important difference between learning, and learning how to learn. 
 
-  Today, I'm learning more effectively than ever before, but more importantly I'm preserving my emotional energy for enjoying life more, because worrying less about my next learning challenge.
+  Today, I'm learning more effectively than ever before, but more importantly I'm preserving my emotional energy for enjoying life more, because now I'm worrying less about my next learning challenge.
 
-  After my own experience, I now believe that anyone can dramatically improve their ability to learn any subject, relative to their current ability. You might think you're just not inherently good at drawing, or writing, or math, or you're not athletic, or you can't sing or hum a tune. That's the way it is and that's that.
+  After my own experience, I now believe that anyone can dramatically improve their ability to learn any subject, relative to their current ability. You might think you're just not naturally gifted  at drawing, or writing, or math, or you're not athletic, or you can't sing or hum a tune. That's the way it is, and that's that.
 
   Simply put, brain science says otherwise. We'll invest the next hour of our time to explore the nuance of this claim. 
 
   Being a part of the Clojure community has really inspired me to up my learning game. Rich Hickey's talk /Hammock Driven Development/, which is laden with learning wisdom, led me to the /Learning How to Learn/ online course, which we'll talk about in the third and final part of the talk.
 
-  We'll get back to Clojure in a minute but first I want to /draw/ you into this whole learning thing. Check this out:
+  We'll get back to Clojure later but now I want to /draw you in/ to this whole learning thing. Check this out:
 
   (NEXT SLIDE DOWN)
 
- 
-
  .
-
+(time: slide: 2:00)
  .
 
  .
@@ -299,13 +301,14 @@ And how long for this much improvement?
  
  And how is her approach relevant to learning other highly technical skills, such as programming?
  
- We'll explore these, and other questions, over the next hour, but first let's frame up the conversation.
+ We'll dig into these questions, but first let me clarify my credentials.
 
  (NEXT SLIDE DOWN)
 
 .
-
+(time: slide: 1:30)
 .
+(elapsed: 16:00)
 
 .
 #+END_NOTES
@@ -338,9 +341,9 @@ And how long for this much improvement?
 
    This talk aims to kick start an ongoing conversation about our individual and shared experiences of learning.
 
-   While researching this talk, many people have shared with me their own learning experiences with insight and candor.
+   While researching this talk, many people have shared with me, their own learning experiences, with insight and candor.
 
-   My hope is that by candidly sharing my learning experiences publicly, other people might identify with my learning triumphs and struggles, and that together we might be able find a better way of tackling some of our common problems around learning and teaching.
+   My hope is that by candidly sharing my learning experiences, publicly, other people might identify with both my learning struggles and triumphs, and that together we might be able find a better way of tackling some of our common problems around learning and teaching.
 
    (NEXT SLIDE DOWN)
 
