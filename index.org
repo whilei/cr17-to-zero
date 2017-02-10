@@ -339,6 +339,8 @@ And how long for this much improvement?
 
    (NEXT FRAG) documented history of putting my foot in my mouth.
 
+   Yes, that's me at 10 months.  
+
    This talk aims to kick start an ongoing conversation about our individual and shared experiences of learning.
 
    While researching this talk, many people have shared with me, their own learning experiences, with insight and candor.
@@ -348,9 +350,9 @@ And how long for this much improvement?
    (NEXT SLIDE DOWN)
 
    .
-
+(time: slide: 1:00)
    .
-
+(elapsed: 17:00)
    .
    #+END_NOTES 
 
@@ -367,11 +369,6 @@ file:resources/images/opening-and-overview/drawing-skills-cropped/montaged/02-mo
 - lights & shadows
 - the gestalt
 
-
-# Would you want to dive into a fullscreen video at any point during this? 
-
-# jay says: we could dive into full screen, and split this one slide up as per the ticket you created for split brain images.
-
 #+BEGIN_NOTES 
 
 So how does Betty Edwards do it?
@@ -383,9 +380,10 @@ How does she accelerate the learning process of her drawing students so dramatic
 Betty Edwards teaches people 5 fundamental /seeing/ skills:
 
 (NEXT FRAG)
+
 How to *perceive* edges, spaces, relationship, lights & shadows and the gestalt (or whole).
 
-Just as Rich Hickey, after years of studious practice, identified the fundamentals of software, Betty identified the basic building blocks within the skill of drawing.
+Just as Rich Hickey, after years of studious practice, discovered identity, values & time as the core fundamentals of software, Betty identified the basic building blocks within the skill of drawing.
 
 After much practice and study, she had an aha! moment. These 5 subskills were it.
 
@@ -397,9 +395,9 @@ Edward's techniques revolve around understanding each brain hemisphere's role in
 
 --- NEXT FRAG/SLIDE - Book Cover of /Drawing on the Right Side of the Brain/ (DaVinci portrait)
 .
-
+(time: slide: 1:15)
 .
-
+(elapsed 18:15)
 .
 
 .
@@ -415,13 +413,13 @@ Her book, /Drawing on the Right Side of the Brain/, covers this subject with the
 
 Seeing is the domain of the right brain hemisphere.
 
-This presents a unique challenge because, as the evidence Edward's compiles in her book indicates, the right brain is constantly being drowned out by left-brain activity, stimulated by our modern, technical, language-driven society.
+This presents a unique challenge because, as the evidence Edward's compiles in her book suggests, the right brain is constantly being drowned out by left-brain activity, stimulated by our modern, technical, language-driven society.
 
 This not only stymies our ability to draw, it dulls our general problem solving skills too.
 
 Of course, the brain never really shuts half of itself completely off, but one half can be more active than the other.
 
-She's designed several unique exercises, such as drawing from a picture which is upside-down to enhance right brain activity.
+She's designed several unique exercises, such as drawing from a picture which is upside-down to trigger right brain activity.
 
 --- NEXT FRAG/SLIDE [Fullsize upside-down drawing Picasso/Edwards]
 .
@@ -497,6 +495,14 @@ We can summarize the work of Betty Edward's by saying that her students progress
 (NEXT FRAG) 
 
 If you'd like to give a shout-out to Betty Edwards, this QR code will link you to an oh-so-conveniently pre-filled tweet.
+
+(NEXT SLIDE)
+
+.
+(time: multi-slides: 3:00)
+.
+(21:15)
+.
 #+END_NOTES
 
 * _ Fullscreen: Webcam, Jay introduces the talk.                   :noexport:
@@ -509,9 +515,8 @@ If you'd like to give a shout-out to Betty Edwards, this QR code will link you t
  :END:
 
    #+BEGIN_NOTES
-
-   It's been great getting to know each other. Let's talk about the value of learning.
-
+   
+   We opened this section on learning with a focus on the right brain, to offer some balance to our shared topic of interest, programming. Now, let's talk about the value of learning.
 
    - What is the value of learning? 
 
@@ -522,6 +527,7 @@ If you'd like to give a shout-out to Betty Edwards, this QR code will link you t
    [Operator, please refocus my screen share.]
 
    (NEXT SLIDE RIGHT)
+
 .
 
 .
@@ -540,61 +546,11 @@ If you'd like to give a shout-out to Betty Edwards, this QR code will link you t
 - What actions spring from the value of learning?
 
 #+BEGIN_NOTES 
-I'll weave several stories about learning through the framework of this simple 3 part outline.
+Let's follow these questions wherever they lead and see if we can learn something new about learning, itself.
 
-All told, this is a story about discovery, about trying and learning.
-
-(NEXT SLIDE DOWN)
-
-.
-
-.
-
-.
-#+END_NOTES
-
-** Discovering the value of learning
-
-#+BEGIN_NOTES 
-How can I discover the value learning?
+All told, this is a story about curiosity, about discovery, but more than anything it's about /trying/.
 
 (NEXT SLIDE DOWN)
-
-.
-
-.
-
-.
-#+END_NOTES
-
-** The answer
-How can I discover the value of learning?
-
-#+BEGIN_NOTES
-
-The answer.
-
-How can I discover the value of learning?
-
-
-(NEXT SLIDE DOWN)
-
-.
-
-.
-
-.
-#+END_NOTES
-
-** The action
-What actions are consistent with this value?
-
-#+BEGIN_NOTES 
-The action.
-
-What actions are consistent with this value?
-
-(NEXT SLIDE RIGHT)
 
 .
 
@@ -612,29 +568,6 @@ What is the value of learning?
 Let's dig into this question!
 
 (NEXT SLIDE DOWN)
-
-.
-
-.
-
-.
-#+END_NOTES
-
-** _ Fullscreen image: Don Quixote charges his windmills.          :noexport:
-**  
-:PROPERTIES:
-:reveal_extra_attr: data-state="hide-video"
-:reveal_background_size: 60%
-:reveal_background: /resources/images/windmills/at-windmills-white.png
-:END:
-# Ole! Onward to La Mancha! 
-
-#+BEGIN_NOTES
-For those of you not familiar with this image, let me give some context.
-
-This is a man charging a windmill on his horse. At least, that's what we see.
-
-Don Quixote, the man on the horse, sees something very different.
 
 .
 
@@ -707,9 +640,9 @@ Don Quixote, the man on the horse, sees something very different.
 (NEXT SLIDE DOWN)
 
 .
-
+(time: multi-slides: 3:45)
 .
-
+(elapsed: 25:00)
 .
  #+END_NOTES
 
@@ -806,7 +739,7 @@ Also according to the definition, there are a handful of ways to gain knowledge 
 
 #+BEGIN_NOTES 
 
-The history of the word /learn/ goes back all the way back to the latin word /lira/ which means *furrow* or *track*.
+The history of the word /learn/ goes back to the latin word /lira/ which means *furrow* or *track*.
 
 The word furrow really sticks out to me. A furrow is *a long trench*. But not just any trench! *a long narrow trench in the ground made by a plow, especially for planting seeds*. 
 
@@ -879,14 +812,13 @@ The /socratic method/ remains as effective today as it was over 2400 years ago.
 /The Meaning of Adult Education/
 Eduard C. Lindeman
 
- #+ATTR_REVEAL: :frag t
+#+ATTR_REVEAL: :frag t
  [[file:resources/images/history-of-salt/grand-canyon-filled with-fog-todd-diemer_2017-01-13_09-53-33.jpg]]
 
-
+ Isaac says: Hey, wait, but what about... Plato, Aristotle, Aquinas, Erasmus, Galileo, Luther, Descartes, Gutenberg, Newton, The Jesuit tradition, University of Bologna, Rousseau, Waldorf, Franklin's (and Jefferson's) public libraries, William James.
+# it's okay that this doesn't fit. looks cool that way!
 #+BEGIN_NOTES 
 After the time of Socrates, humankind's progress in adult education experiences a small gap.
-
-# Isaac says: Hey, wait, but what about... Plato, Aristotle, Aquinas, Erasmus, Galileo, Luther, Descartes, Gutenberg, Newton, The Jesuit tradition, University of Bologna, Rousseau, Waldorf, Franklin's (and Jefferson's) public libraries, William James.
 
 (NEXT FRAG canyon)
 
@@ -985,7 +917,7 @@ Picasso painted the self portrait on the left at age 18.
 
 The one on the right, age 90.
 
-Can you see the transition from 'outside in' to 'inside out' the progression of his life's work?
+Can you see the transition from 'outside in' to 'inside out' in the progression of his life's work?
 #+END_NOTES
 *** 
 :PROPERTIES:
@@ -999,50 +931,35 @@ Dubuffet painted the self portrait on the left at age 35.
 
 On the right, 38 years later.
 
-Whatever learning is, it is nothing without change.
-
-Sometimes that change is in the form of adoption and growth within an established system, and sometimes it requires us to move beyond, into an exploration of the unknown, unworthy, or invisible.
+Sometimes that learning is in the form of adoption and growth within an established system, and sometimes it requires us to move beyond, into an exploration of the unknown, unworthy, or invisible.
 
 #+END_NOTES
 
 ** Review the question
 What is the value of learning?
-# Isaac: In light of needing to sculpt some mass away, this might be an area of reconsideration. 
-# A discussion of the historico-philosophico-logistics of axiology seems somewhat out of place, given a focus on "learning about learning"... perhaps leading unnecessarily towards "learning about valuation systems".
- 
-# In light of this (and as background for my reasoning), I might offer that, in fact, learning is unavoidable. It a necessary and functionally fundamental part of being human (or even a mouse). Scientifically speaking, it might be considered that learning can be described as the brain "re-wiring" itself in response to stimulus. And the brain is _always_ rewiring, and we are never without stimulous.[fn:ft-wt] We are _essentially_ plastic (in the material-behavior sense).
-# [fn:ft-wt]: "Fire-together, wire-together," is a common neurosciency mantra. https://en.wikipedia.org/wiki/Hebbian_theory
-
-# Given this, the challenge of _valuing_ my own learning extends to the reaches of valuing my _self_, which seems out of context from a more tangible and pragmatic perspective on "learning about learning." 
- 
-# Instead, it may be worth bringing attention to questions like "_How_ are you learning? What does that look like?", "How does that compare to how you worked in school (where 'learning' is the supposed _MO_)?", "When, and what do you teach?" "What challenges do you face as a student or a teacher in the context of Clojure?"
- 
-# Which might lead nicely into The Actions, and open a door to considering learning in regard to Clojure and it's people.
-
-# **************
-
-# Jay to Isaac. I really like the thrust of what you're driving at. I'll be incorporating the spirit of your ideas of 'how' within the context of telling the story of "trying" to measure value of learning, and treasuring the insights that failure led to more than some arbitary mathematical answer, such 42.
 
 #+BEGIN_NOTES 
-We've discovered some new ways of thinking about education & learning. Now we can ask the question again, this time with a deeper sense of meaning:
+We've discovered some new ways of thinking about education & learning. Now we can ask ourselves the question again, this time with a deeper sense of meaning:
 
 What is the value of learning?
 
-Now it's time to look for an answer. And while we're at it, we'll discover how Betty Edwards accelerates the pace of her student's progress so dramatically. 
+It's time to look for an answer. 
 
 (NEXT SLIDE RIGHT)
 
 .
-
+(time: multi: 5:45)
 .
-
+(elapsed: 30:45)
 .
 #+END_NOTES
 
 * The answer
-How can I discover the value of learning?
+How can we discover the value of learning?
 #+BEGIN_NOTES 
 So, how /*can*/ I measure how much value I place on learning?
+
+How can we?
 
 (NEXT SLIDE DOWN)
 
@@ -1054,6 +971,7 @@ So, how /*can*/ I measure how much value I place on learning?
 #+END_NOTES
 
 ** Axiology
+
 The philosophical study of value.
 #+BEGIN_NOTES 
 Pursuing this question led me to the field of axiology, which is the philosophical study of value.
@@ -1121,9 +1039,12 @@ What do people value and why? Psychology, sociology and economics each provide a
 
 For example, a sociologist might be interested in how different groups of people value learning similarly or differently.
 
+A psychologist might seek to measure the value of learning by categorizing learning subjects according to Maslow's hierarchy of needs.
+
+(NEXT FRAG)
+
 An economist might choose to measure the value of learning in terms of goods and services related to learning which are sold in the marketplace.
 
-A psychologist might seek to measure the value of learning by categorizing learning subjects according to Maslow's hierarchy of needs.
 
 (NEXT SLIDE DOWN)
 
@@ -1235,9 +1156,9 @@ Most people apply a conglomeration of these three value systems to evaluate thei
 (NEXT SLIDE DOWN)
 
 .
-(time since start of answer 6:45)
+(time: multi: 5:10)
 .
-
+(elapsed: 35:55)
 .
 #+END_NOTES
 
@@ -1260,7 +1181,7 @@ How can I measure the value I place on learning?
 #+BEGIN_NOTES 
 Before I dive into how I answered this question, maybe you'd like to take a minute to think about the question for yourself:
 
-How can I measure how much value I place on learning?
+How would you go about measuring the value you place on learing?
 
 (WAIT 25 seconds)
 
@@ -1274,75 +1195,9 @@ How can I measure how much value I place on learning?
 #+END_NOTES
 
 ** My valuation method
-:PROPERTIES:
-# unset fullsize (before, in case of moving backwards)
-:reveal_extra_attr: video-size="normal"
-:END:
-#+ATTR_REVEAL: :frag t
-- Health
-- Family
-- Friends
-- Community
-- Romance / Art
-- Career / Business
-- Fun / Hobbies / Recreation
-- Philosophical / Spiritual
-- Personal Finance
-- Personal Development & Learning
 
-#+BEGIN_NOTES 
-How can I measure the value I place on learning?
-
-Before I reveal my method, I'd like to offer this disclaimer.
-
-This is my first stab at the problem and the method is far from perfect.
-
-There are simpler methods, but they would require more time, time I didn't have in preparing for this talk.
-
-The simplest method I could think of would be to measure how much time in a given month do I dedicate specifically to learning.
-
-Unfortunately, I don't have a month to spare, so please excuse the complexity of my next best solution. Drum roll please...
-
-The method I've chosen aims to quantify the role of learning in my life.
-
-My general strategy is to look back over my life, identify significant memories, and try to assign a quantifiable value to that memory somehow.
-
-How can I break this big problem up in to smaller pieces?
-
-Inspired by Maslow's hierarchical pyramid of needs, I've divided my life into 10 major categories.
-
-(NEXT FRAG)
-
-These are: Health, Family, Friends, Community, Romance / Art, Career / Business, Fun / Hobbies/ Recreation, Philosophical / Spiritual, Personal Finance, Personal Development & Learning.
-
-These categories serve a dual purpose.
-
-First, they serve as a way for me to look back on my life memories and recall stories that relate to a given category, which I will call the home category.
-
-Second, they serve as a way to quantify value, where each category will be worth 100 points.
-
-In fairness, I want to recall the same number of stories from each category.
-
-Each memory has the potential to impact between 1 and 10 life categories.
-
-If a memory affects multiple categories, the home category of that memory will score 100 points for each affected category, and each affected category will score 100 points for being "tagged" by that memory.
-
-For example, if a memory from the learning category about learning to ride my bike affects 3 categories, Fun, Family and Learning, then the home category of of learning will earn 300 points, and the other two categories Fun and Family will earn 100 points each.
-
-In this way, categories earn points for playing a role in my significant life memories. 
-
-The logic behind this strategy is that a memory which stands out in my mind is a valuable memory, otherwise I would have forgotten about it.
-
-The obvious exceptions are painful memories, like when I broke my arm, which will be filtered out, unless they have some obvious life value.
-
-As you can imagine, this process has the potential to bring up deeply personal memories, and lucky for you we don't have time for my entire life story.
-
-Instead I've curated a short list of memories which are relevant to this talk.
-
-I'll use 2 or 3 of the following stories as examples of how I scored memories according to described method.
-
-Where should we start? How about near the beginning?
-
+#+BEGIN_NOTES
+---Improvise here for 2 min about using time or my convoluted system based on custom heirarchiy---
 (NEXT SLIDE DOWN)
 
 (time estimated 25 minutes)
@@ -1352,16 +1207,32 @@ Where should we start? How about near the beginning?
 .
 
 .
-
-.
-
-.
-
-.
-
 #+END_NOTES
 
 ** TODO The Value of Learning
+
+*** _ Fullscreen image: Don Quixote charges his windmills.         :noexport:
+***  
+    :PROPERTIES:
+    :reveal_extra_attr: data-state="hide-video"
+    :reveal_background_size: 60%
+    :reveal_background: /resources/images/windmills/at-windmills-white.png
+    :END:
+ # Ole! Onward to La Mancha! 
+
+ #+BEGIN_NOTES
+ For those of you not familiar with this image, let me give some context.
+
+ This is a man charging a windmill on his horse. At least, that's what we see.
+
+ Don Quixote, the man on the horse, sees something very different.
+
+ .
+
+ .
+
+ .
+ #+END_NOTES
 
 ** TODO The Value of learning about learning
 
