@@ -173,7 +173,9 @@ file:resources/images/red-pill-github-white.png
 
    This project began its life as an open source github repository, and has evolved to include an open-data project, driven by your anonymous, interactive input.
 
-   (NEXT FRAG)
+   (NEXT FRAG - BLUE PILL - lastpageoftheinternet.com)
+
+   (NEXT FRAG - RED  PILL - this presentation's repo on Github)
 
    Scattered throughout the talk, you'll notice a red pill appear on the lower right corner of the screen. Each pill contains a QR code. The QR codes lead to mini-polls, links to kick-start your research, or pre-filled tweets that will serve to network like minds around the subject of learning.
 
@@ -491,7 +493,9 @@ Einstein described one of his aha moments about gravity as "the happiest moment 
 
 We can summarize the work of Betty Edward's by saying that her students progress so rapidly because they are learning the essential fundamental skills of seeing.
 
-(NEXT FRAG) 
+(NEXT FRAG - BLUE PILL - lastpageoftheinternet.com) 
+
+(NEXT FRAG - RED  PILL - prefilled Tweet for Betty Edwards) 
 
 If you'd like to give a shout-out to Betty Edwards, this QR code will link you to an oh-so-conveniently pre-filled tweet.
 #+END_NOTES
@@ -1192,7 +1196,9 @@ I feel like its helped relieve my cognitive dissonance about facilitating techno
 
 Although I'm still quite curious about how this line of reasoning will hold up against artificial intelligence.
 
-(NEXT FRAG)
+(NEXT FRAG - BLUE PILL - lastpageoftheinternet.com)
+
+(NEXT FRAG - RED  PILL - link to Piotr Woziak's article on supermemo.com)
 
 You can scan the red pill below which includes a link to the article, so you'll have it in your phone.
 
@@ -1490,7 +1496,16 @@ file:resources/images/blue-pill.svg.png
 file:resources/images/red-pill-link-white.png
 
 #+BEGIN_NOTES
- 
+
+(NEXT FRAG - BLUE PILL - lastpageoftheinternet.com)
+
+(NEXT FRAG - RED  PILL - discuss.thevalueoflearning.org)
+
+.
+
+.
+
+.
 #+END_NOTES
 
 *** University Study regression
@@ -1510,7 +1525,7 @@ file:resources/images/red-pill-github-white.png
 #+BEGIN_NOTES 
 Melody and freecodecamp.com
 
-(REDPILL LINK TO GITHUB/FREECODECAMP)
+(NEXT FRAG - RED  PILL - link to FreeCodeCamp's repo on Github)
 
 (NEXT SLIDE IS FULL SCREENSHOT OF FREECODECAMP CURRICULUM)
 
