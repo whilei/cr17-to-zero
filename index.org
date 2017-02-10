@@ -106,6 +106,11 @@ I propose we revisit this future scenario often, as a community, and ask ourselv
 
  #+END_NOTES
 ** Practice on Isaac
+   :PROPERTIES:
+   :reveal_extra_attr: data-state="hide-video" video-size="normal"
+   :reveal_background_size: 100%
+   :reveal_background: /resources/images/operator-fullscreen.png
+   :END:
 #+BEGIN_NOTES 
  You, my audience, are the heart and soul of today's conversation. You're also its right brain.
 
@@ -203,6 +208,11 @@ file:resources/images/red-pill-github-white.png
 .
 #+END_NOTES
 ** Launch into learning  
+   :PROPERTIES:
+   :reveal_extra_attr: data-state="hide-video" video-size="normal"
+   :reveal_background_size: 100%
+   :reveal_background: /resources/images/operator-fullscreen.png
+   :END:
  #+BEGIN_NOTES 
   Learning and teaching are skills. They too can be learned, practiced, and mastered, like any other skill. Learning about learning is a new way of thinking for me. And it's also really good news. You see, even after 19 years of education, from pre-school to a degree in engineering, I had little confidence in my ability to learn technical knowledge and skills, like programming. This life experience is the source of my firm conviction that there is a subtle, yet profoundly important difference between learning, and learning how to learn. 
 
@@ -215,6 +225,8 @@ file:resources/images/red-pill-github-white.png
   Being a part of the Clojure community has really inspired me to up my learning game. Rich Hickey's talk /Hammock Driven Development/, which is laden with learning wisdom, led me to the /Learning How to Learn/ online course, which we'll talk about in the third and final part of the talk.
 
   We'll get back to Clojure later but now I want to /draw you in/ to this whole learning thing. Check this out:
+
+  [Operator, please focus my screen share.]
 
   (NEXT SLIDE DOWN)
 
@@ -819,10 +831,17 @@ Eduard C. Lindeman
 #+ATTR_REVEAL: :frag t
  [[file:resources/images/history-of-salt/grand-canyon-filled with-fog-todd-diemer_2017-01-13_09-53-33.jpg]]
 
+#+BEGIN_SRC
  Isaac says: Hey, wait, but what about... Plato, Aristotle, Aquinas, Erasmus, Galileo, Luther, Descartes, Gutenberg, Newton, The Jesuit tradition, University of Bologna, Rousseau, Waldorf, Franklin's (and Jefferson's) public libraries, William James.
+#+END_SRC
 # it's okay that this doesn't fit. looks cool that way!
+
 #+BEGIN_NOTES 
 After the time of Socrates, humankind's progress in adult education experiences a small gap.
+
+... And yes, of course, Isaac certainly has some opinioned ideas about on the matter...
+
+But for now, let's... ignore him ;-). We've got some ground to cover.
 
 (NEXT FRAG canyon)
 
@@ -1204,7 +1223,7 @@ How would you go about measuring the value you place on learing?
 
 #+BEGIN_NOTES
 ---Improvise here for 2 min about using time or my convoluted system based on custom heirarchiy---
-(NEXT SLIDE DOWN)
+(NEXT SLIDE DOWN - DON QUIXOTE CHARGING WINDMILLS)
 
 (time estimated 25 minutes)
 
