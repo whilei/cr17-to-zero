@@ -1368,7 +1368,50 @@ Where should we start? How about near the beginning?
 
 ** TODO The Value of learning about learning
 
-** TODO The Value of Values 
+** TODO The Value of Values
+:PROPERTIES:
+:reveal_extra_attr: data-state="hide-video" video-size="normal"
+:reveal_background_size: 100%
+:reveal_background: /resources/images/andromeda.jpg
+:END:
+
+#+BEGIN_NOTES
+[Extrapolate and elaborate on the Value of Values...] #TODO ;-)
+
+
+(NEXT SLIDE DOWN - DISCUSS.THEVALUEOFLEARNING.ORG SCREENSHOT)
+.
+
+.
+
+.
+
+#+END_NOTES
+
+** _ Value of Discourse full screen screenshot Discourse site :noexport:
+**  
+:PROPERTIES:
+:reveal_extra_attr: data-state="hide-video" video-size="normal" redpill-img-src="/resources/images/red-pill-link-white.png" qr-data="http://discuss.thevalueoflearning.org"
+:reveal_background_size: 70%
+:reveal_background: /resources/images/discuss-vol-screenshot.jpg
+:END:
+
+#+ATTR_REVEAL: :frag t
+file:resources/images/red-pill-link-white.png
+
+#+BEGIN_NOTES
+[There is a website. I made it. I hope that we can make it *ours*.]
+
+(FRAG RED PILL - link to discuss.thevalueoflearning.org)
+
+.
+
+.
+
+.
+
+#+END_NOTES
+
 * The actions
 What actions are consistent with this value?
 
@@ -1479,21 +1522,10 @@ What actions are consistent with this value?
   #+END_NOTES
 
 ** TODO Learning How to Learn
-:PROPERTIES:
-:reveal_extra_attr: bluepill-img-src="/resources/images/blue-pill.svg.png" bluepill-qr-data="http://www.theverylastpageontheinternet.com/" redpill-img-src="/resources/images/red-pill-link-white.png" qr-data="http://discuss.thevalueoflearning.org"
-:END:
-
-
-
 There's a parallel between the drawings we saw at the start of this talk and the skill of learning, both are technical skills. I could poke around at drawing for years, or I could absorb the fundamentals from a master and use that framework to accelerate my progress.
 
 That framework, as it turns out, is vitally important to genuine understanding. TODO University Study.
 
-#+ATTR_REVEAL: :frag t
-file:resources/images/blue-pill.svg.png
-
-#+ATTR_REVEAL: :frag t
-file:resources/images/red-pill-link-white.png
 
 #+BEGIN_NOTES
 
