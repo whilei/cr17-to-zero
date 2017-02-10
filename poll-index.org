@@ -10,6 +10,8 @@
 | Audience Participation            | https://github.com/webappzero/the-value-of-learning                                                                                       |                       |
 | Is Learning Harmful?              | https://www.supermemo.com/articles/goodness.htm                                                                                           |                       |
 | The Actions/Learning How to Learn | http://discuss.thevalueoflearning.org                                                                                                     |                       |
+| Human Readable Curriculum         | https://github.com/freeCodeCamp/freeCodeCamp                                                                                              |                       |
+|                                   |                                                                                                                                           |                       |
 # | Culture of Concentration   | https://goo.gl/forms/Td2CKC2Xfpp5g1q13                                                                                                    |                       |
 
 http://discuss.thevalueoflearning.org

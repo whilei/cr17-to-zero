@@ -35,7 +35,7 @@ Title Slide
 
 * _ Greeting thru Edwards                                          :noexport:
 
-* 
+** 
 ** Operator: Full size please :noexport:
 *** 
 :PROPERTIES:
@@ -1500,10 +1500,43 @@ It's not just students that need to learn about learning!
 
 
 ** Human Readable Curriculum Paths
+:PROPERTIES:
+:reveal_extra_attr: redpill-img-src="/resources/images/red-pill-github-white.png" qr-data="https://github.com/freeCodeCamp/freeCodeCamp"
+:END:
+
+file:resources/images/fcc-welcome.png
+
+#+ATTR_REVEAL: :frag t
+file:resources/images/red-pill-github-white.png 
+
+#+BEGIN_NOTES 
 Melody and freecodecamp.com
+
+(REDPILL LINK TO GITHUB/FREECODECAMP)
+
+(NEXT SLIDE IS FULL SCREENSHOT OF FREECODECAMP CURRICULUM)
+
+.
+
+.
+
+.
+
+#+END_NOTES
+
+** _ Fullsize screenshot image of FCC curriculum steps :noexport:
+**  
+:PROPERTIES:
+:reveal_extra_attr: data-state="hide-video" video-size="normal"
+:reveal_background_size: 70%
+:reveal_background: /resources/images/fcc-curriculum-bigger.png
+:END:
+
+
 #+BEGIN_NOTES 
 
 #+END_NOTES
+
 ** Machine Readable Curriculum Paths
 Degreed, but not open format.
 
